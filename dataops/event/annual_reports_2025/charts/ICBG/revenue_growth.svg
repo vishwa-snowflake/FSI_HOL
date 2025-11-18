@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="icbgGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00BCD4" />
+      <stop offset="100%" style="stop-color:#006064" />
+    </linearGradient>
+    <linearGradient id="icbgArea" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00BCD4;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#00BCD4;stop-opacity:0.05" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="400" fill="#FAFAFA" rx="10"/>
+  
+  <!-- Iceberg watermark -->
+  <text x="700" y="350" font-size="150" opacity="0.05">🏔️</text>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#1a1a1a">
+    Revenue Growth: Open Lakehouse Momentum
+  </text>
+  <text x="400" y="55" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="14" fill="#666">
+    Powered by Apache Iceberg
+  </text>
+  
+  <!-- Grid -->
+  <line x1="100" y1="350" x2="700" y2="350" stroke="#DDD" stroke-width="2"/>
+  <line x1="100" y1="100" x2="100" y2="350" stroke="#DDD" stroke-width="2"/>
+  
+  <!-- Area fill -->
+  <path d="M 150,320 L 350,265 L 550,170 L 650,110 L 650,350 L 150,350 Z" fill="url(#icbgArea)"/>
+  
+  <!-- Line -->
+  <path d="M 150,320 L 350,265 L 550,170 L 650,110" stroke="url(#icbgGradient)" stroke-width="4" fill="none"/>
+  
+  <!-- Data points -->
+  <circle cx="150" cy="320" r="8" fill="#006064" stroke="white" stroke-width="3"/>
+  <circle cx="350" cy="265" r="8" fill="#006064" stroke="white" stroke-width="3"/>
+  <circle cx="550" cy="170" r="8" fill="#006064" stroke="white" stroke-width="3"/>
+  <circle cx="650" cy="110" r="10" fill="#00BCD4" stroke="white" stroke-width="3"/>
+  
+  <!-- Labels -->
+  <text x="150" y="375" text-anchor="middle" font-size="14" font-weight="600">FY2023</text>
+  <text x="350" y="375" text-anchor="middle" font-size="14" font-weight="600">FY2024</text>
+  <text x="550" y="375" text-anchor="middle" font-size="14" font-weight="600">FY2025</text>
+  
+  <!-- Values -->
+  <text x="150" y="310" text-anchor="middle" font-size="14" font-weight="700" fill="#006064">$68M</text>
+  <text x="350" y="255" text-anchor="middle" font-size="14" font-weight="700" fill="#006064">$152M</text>
+  <text x="550" y="160" text-anchor="middle" font-size="14" font-weight="700" fill="#006064">$389M</text>
+  
+  <!-- Growth rates -->
+  <text x="250" y="295" text-anchor="middle" font-size="12" fill="#4CAF50" font-weight="600">+124%</text>
+  <text x="450" y="220" text-anchor="middle" font-size="12" fill="#4CAF50" font-weight="600">+156%</text>
+  
+  <!-- Y-axis -->
+  <text x="85" y="108" text-anchor="end" font-size="12" fill="#666">$400M</text>
+  <text x="85" y="233" text-anchor="end" font-size="12" fill="#666">$200M</text>
+  <text x="85" y="355" text-anchor="end" font-size="12" fill="#666">$0</text>
+  
+  <!-- Watermark -->
+  <text x="750" y="390" text-anchor="end" font-size="10" fill="#999">NASDAQ: ICBG</text>
+</svg>
+
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum Metrics - Snowflake Inc. (SNOW)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <style> body { font-family: 'Roboto Condensed', sans-serif; } </style>
+</head>
+<body class="bg-gray-800 text-white p-4 sm:p-6">
+    <div class="max-w-4xl mx-auto bg-gray-900 p-6 rounded-xl shadow-lg border border-teal-500">
+        <header class="flex justify-between items-center pb-4 border-b border-gray-700 mb-6">
+            <div><h1 class="text-3xl font-bold text-teal-400">Momentum Metrics</h1><p class="text-gray-400">Technical Analysis Report</p></div>
+            <div class="text-right"><h2 class="text-2xl font-semibold">Snowflake Inc. (SNOW)</h2><p class="text-sm text-gray-500">Report for week ending: Nov 29, 2024</p></div>
+        </header>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="md:col-span-1 bg-gray-800 p-4 rounded-lg">
+                <div class="text-center mb-4"><span class="text-lg font-bold text-yellow-400">RATING</span><h3 class="text-4xl font-bold text-white my-2">HOLD</h3><p class="text-sm text-gray-400">Upgraded from SELL on 11/22/24</p></div>
+                <div class="text-center bg-gray-700 p-3 rounded-md"><p class="text-sm">Close Price</p><p class="text-2xl font-bold text-teal-300">$173.70</p></div>
+                 <div class="mt-4 space-y-2 text-sm">
+                    <div class="flex justify-between"><span>50-Day MA:</span> <span class="font-bold text-yellow-400">$168.50</span></div>
+                    <div class="flex justify-between"><span>200-Day MA:</span> <span class="font-bold text-red-400">$178.10</span></div>
+                    <div class="flex justify-between"><span>RSI (14):</span> <span class="font-bold text-yellow-400">55.8</span></div>
+                    <div class="flex justify-between"><span>Revenue Growth (YoY):</span> <span class="font-bold text-green-400">27%</span></div>
+                </div>
+            </div>
+            <div class="md:col-span-2 bg-gray-800 p-4 rounded-lg">
+                <h4 class="text-lg font-bold text-teal-400 mb-2">Technical Summary: The V-Bottom is Complete</h4>
+                <p class="text-gray-300 text-sm leading-relaxed">The technical damage from the September panic has been almost entirely repaired. The stock has completed a powerful V-shaped bottom, a pattern that indicates a sharp, emotional reversal and a return of committed buyers. The news of Neuro-Nectar's administration was the final catalyst, removing the headline risk and allowing the stock to reclaim its 50-day moving average. While the stock is still below its 200-day MA, which is acting as resistance, the momentum has clearly shifted back to the upside. The capitulation volume seen at the lows has been followed by steady accumulation. We are upgrading to HOLD as the chart is no longer bearish, but we need to see a decisive break above the $180 level to confirm a new uptrend and warrant a full BUY rating.</p>
+            </div>
+        </div>
+        <div class="mt-6 bg-gray-900 rounded-lg p-4">
+             <h4 class="text-lg font-bold text-teal-400 mb-2 text-center">Price Reversal and MA Recapture</h4>
+            <svg width="100%" height="250" viewBox="0 0 500 250" xmlns="http://www.w3.org/2000/svg">
+                <rect width="500" height="250" fill="#1f2937" />
+                <!-- 200-Day MA (Red) -->
+                <path d="M 50 80 C 150 75, 250 85, 350 95, 450 105" stroke="#f87171" stroke-width="1.5" fill="none" stroke-dasharray="4 2" />
+                <text x="440" y="115" font-size="9" fill="#f87171">200-Day MA</text>
+                <!-- 50-Day MA (Yellow) -->
+                <path d="M 50 100 C 150 120, 250 180, 280 170 C 350 150, 450 140" stroke="#facc15" stroke-width="1.5" fill="none" stroke-dasharray="4 2" />
+                 <text x="440" y="150" font-size="9" fill="#facc15">50-Day MA</text>
+                <!-- Price Path -->
+                <path d="M 50 110 C 150 130, 250 220, 280 210 C 350 180, 450 145" stroke="#2dd4bf" stroke-width="2.5" fill="none"/>
+                <!-- Event Annotation -->
+                <line x1="265" y1="220" x2="265" y2="180" stroke="#9ca3af" stroke-dasharray="2 2"/>
+                <circle cx="265" cy="220" r="3" fill="#ef4444"/>
+                <text x="265" y="175" text-anchor="middle" font-size="10" fill="white">Neuro-Nectar Collapse</text>
+            </svg>
+        </div>
+        <footer class="mt-8 pt-4 border-t border-gray-700 text-center text-xs text-gray-600"><p>&copy; 2024 Momentum Metrics. For informational purposes only.</p></footer>
+    </div>
+</body>
+</html>

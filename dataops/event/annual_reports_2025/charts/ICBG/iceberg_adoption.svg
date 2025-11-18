@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="iceberg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00BCD4" />
+      <stop offset="100%" style="stop-color:#006064" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="400" fill="#FAFAFA" rx="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#1a1a1a">
+    Apache Iceberg Ecosystem Growth
+  </text>
+  <text x="400" y="55" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="14" fill="#666">
+    ICBG customers vs. Total Iceberg deployments
+  </text>
+  
+  <!-- Grid -->
+  <line x1="100" y1="350" x2="700" y2="350" stroke="#DDD" stroke-width="2"/>
+  <line x1="100" y1="100" x2="100" y2="350" stroke="#DDD" stroke-width="2"/>
+  
+  <!-- Stacked area for ecosystem -->
+  <path d="M 150,230 L 350,180 L 550,130 L 650,100 L 650,350 L 150,350 Z" fill="#B2EBF2" opacity="0.5"/>
+  <path d="M 150,230 L 350,180 L 550,130 L 650,100" stroke="#00BCD4" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- ICBG customer area -->
+  <path d="M 150,305 L 350,265 L 550,195 L 650,145 L 650,350 L 150,350 Z" fill="url(#iceberg)" opacity="0.6"/>
+  <path d="M 150,305 L 350,265 L 550,195 L 650,145" stroke="#006064" stroke-width="4"/>
+  
+  <!-- Points -->
+  <circle cx="650" cy="145" r="10" fill="#00BCD4" stroke="white" stroke-width="3"/>
+  <circle cx="650" cy="100" r="6" fill="#80DEEA"/>
+  
+  <!-- X-axis -->
+  <text x="150" y="375" text-anchor="middle" font-size="14" font-weight="600">FY2023</text>
+  <text x="350" y="375" text-anchor="middle" font-size="14" font-weight="600">FY2024</text>
+  <text x="550" y="375" text-anchor="middle" font-size="14" font-weight="600">FY2025</text>
+  
+  <!-- Y-axis -->
+  <text x="85" y="108" text-anchor="end" font-size="12" fill="#666">5K</text>
+  <text x="85" y="233" text-anchor="end" font-size="12" fill="#666">2.5K</text>
+  <text x="85" y="355" text-anchor="end" font-size="12" fill="#666">0</text>
+  
+  <!-- Legend -->
+  <rect x="520" y="80" width="240" height="70" rx="8" fill="white" stroke="#00BCD4" stroke-width="2"/>
+  <rect x="535" y="95" width="20" height="20" rx="3" fill="#00BCD4"/>
+  <text x="565" y="110" font-size="12" font-weight="600">ICBG Customers: 1,124</text>
+  
+  <rect x="535" y="120" width="20" height="20" rx="3" fill="#B2EBF2"/>
+  <text x="565" y="135" font-size="12" font-weight="600">Total Iceberg Ecosystem: 4,300+</text>
+  
+  <!-- Market share label -->
+  <text x="650" y="170" text-anchor="middle" font-size="12" font-weight="700" fill="#006064">ICBG: 26% of Iceberg market</text>
+</svg>
+
+

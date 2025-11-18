@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quant-Vestor Detailed Stock Report - SNOW</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@400;600&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Open Sans', sans-serif; }
+        .header-font { font-family: 'Teko', sans-serif; }
+        .score-box { background-color: #fefce8; border: 1px solid #facc15; }
+        .score-value { color: #a16207; }
+        .component-bar { background: linear-gradient(to top, #ef4444, #f97316, #eab308, #84cc16, #22c55e); position: relative; }
+        .component-score { position: absolute; left: 100%; margin-left: 8px; transform: translateY(-50%); background-color: #0c4a6e; color: white; padding: 2px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; }
+        .component-score::before { content: ''; position: absolute; top: 50%; right: 100%; margin-top: -5px; border-width: 5px; border-style: solid; border-color: transparent #0c4a6e transparent transparent; }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto p-4">
+        <header class="flex justify-between items-center p-4 bg-white rounded-t-lg border-b-4 border-cyan-500">
+            <div><h1 class="header-font text-5xl text-cyan-700 tracking-wider">QUANT-VESTOR</h1><p class="text-gray-500">Detailed Stock Report</p></div>
+            <div class="text-right"><h2 class="text-2xl font-bold">SNOWFLAKE INC (SNOW-N)</h2><p class="text-sm text-gray-600">Report Date: 2024-Nov-28</p></div>
+        </header>
+        <div class="bg-white p-6 rounded-b-lg shadow-md">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+                <div class="md:col-span-1 score-box p-4 rounded-lg text-center"><p class="header-font text-2xl text-gray-700">RATING</p><p class="header-font text-8xl score-value">HOLD</p><p class="text-sm font-semibold text-gray-600">AVERAGE SCORE: 4</p><p class="text-xs text-gray-500 mt-1">SNOW's score has normalized as the extreme risk factor has been removed.</p></div>
+                <div class="md:col-span-2 bg-gray-50 p-4 rounded-lg"><table class="w-full text-sm text-right"><tbody>
+                    <tr><td class="text-left p-1 font-semibold">Close Price</td><td class="p-1 font-bold">$173.70 (USD)</td></tr>
+                    <tr><td class="text-left p-1 font-semibold">Target Price</td><td class="p-1 font-bold text-gray-800">N/A (Quant Model)</td></tr>
+                    <tr><td class="text-left p-1 font-semibold">Revenue Growth (YoY)</td><td class="p-1 font-bold">27%</td></tr>
+                    <tr><td class="text-left p-1 font-semibold">Market Cap</td><td class="p-1">58.1B</td></tr>
+                </tbody></table></div>
+            </div>
+            <div>
+                <h3 class="header-font text-3xl text-gray-800 border-b mb-4">FACTOR SCORE RECOVERY</h3>
+                <div class="flex justify-around items-center text-center p-4 bg-gray-50 rounded-lg">
+                    <svg width="100%" height="150" viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg">
+                        <title>Factor Score Recovery</title>
+                        <!-- Risk Score -->
+                        <text x="75" y="30" text-anchor="middle" font-weight="bold" font-size="12">Risk Score</text>
+                        <rect x="50" y="40" width="50" height="20" fill="#fca5a5"/>
+                        <text x="75" y="55" fill="white" font-size="12">1</text>
+                        <path d="M 75 65 L 75 95" stroke="#9ca3af" stroke-dasharray="2 2"/>
+                        <path d="M 65 90 L 75 100 L 85 90" fill="#16a34a"/>
+                        <rect x="50" y="100" width="50" height="20" fill="#fcd34d"/>
+                        <text x="75" y="115" fill="#b45309" font-size="12">5</text>
+                        <text x="75" y="135" text-anchor="middle" font-size="10">Sep -> Nov</text>
+                        <!-- Momentum Score -->
+                        <text x="200" y="30" text-anchor="middle" font-weight="bold" font-size="12">Momentum Score</text>
+                        <rect x="175" y="40" width="50" height="20" fill="#fca5a5"/>
+                        <text x="200" y="55" fill="white" font-size="12">1</text>
+                        <path d="M 200 65 L 200 95" stroke="#9ca3af" stroke-dasharray="2 2"/>
+                        <path d="M 190 90 L 200 100 L 210 90" fill="#16a34a"/>
+                        <rect x="175" y="100" width="50" height="20" fill="#fef08a"/>
+                        <text x="200" y="115" fill="#a16207" font-size="12">3</text>
+                        <text x="200" y="135" text-anchor="middle" font-size="10">Sep -> Nov</text>
+                        <!-- Overall Rating -->
+                        <text x="325" y="30" text-anchor="middle" font-weight="bold" font-size="12">Rating</text>
+                        <rect x="300" y="40" width="50" height="20" fill="#ef4444"/>
+                        <text x="325" y="55" fill="white" font-size="12">SELL</text>
+                        <path d="M 325 65 L 325 95" stroke="#9ca3af" stroke-dasharray="2 2"/>
+                        <path d="M 315 90 L 325 100 L 335 90" fill="#16a34a"/>
+                        <rect x="300" y="100" width="50" height="20" fill="#f59e0b"/>
+                        <text x="325" y="115" fill="white" font-size="12">HOLD</text>
+                        <text x="325" y="135" text-anchor="middle" font-size="10">Sep -> Nov</text>
+                    </svg>
+                </div>
+            </div>
+            <div class="mt-8">
+                <h3 class="header-font text-3xl text-gray-800 border-b mb-4">MODEL COMMENTARY</h3>
+                <p class="text-sm text-gray-700 leading-relaxed">The Quant-Vestor model has upgraded its rating on SNOW from SELL to HOLD. This is a direct consequence of the removal of the extreme tail-risk event associated with the now-defunct Neuro-Nectar. The model's <span class="font-bold">Risk</span> factor has improved from a crisis-level score of 1 to a neutral 5, and the <span class="font-bold">Momentum</span> score has begun to recover from 1 to 3 as the stock price rebounds. With the external shock removed, the model's output is once again being driven by the fundamental tension in the stock: strong <span class="font-bold">Earnings (8/10)</span> and <span class="font-bold">Fundamental (9/10)</span> scores are being offset by a weak <span class="font-bold">Relative Valuation (2/10)</span> score. This balanced conflict between quality/growth and price is characteristic of a HOLD rating.</p>
+            </div>
+        </div>
+        <footer class="text-center text-xs text-gray-500 mt-4"><p>&copy; 2024 Quant-Vestor. All rights reserved. For informational purposes only.</p></footer>
+    </div>
+</body>
+</html>

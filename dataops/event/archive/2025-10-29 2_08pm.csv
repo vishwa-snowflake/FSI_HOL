@@ -1,0 +1,317 @@
+OBJECT_TYPE,OBJECT_NAME,DDL_STATEMENT
+TABLE,INFOGRAPHICS_FOR_SEARCH,"create or replace TABLE INFOGRAPHICS_FOR_SEARCH (
+	COMPANY_TICKER VARCHAR(16777216),
+	RELATIVE_PATH VARCHAR(16777216),
+	TEXT VARCHAR(16777216),
+	COMPANY_NAME VARCHAR(16777216),
+	TICKER VARCHAR(16777216),
+	REPORT_PERIOD VARCHAR(16777216),
+	TOTAL_REVENUE VARCHAR(16777216),
+	YOY_GROWTH VARCHAR(16777216),
+	PRODUCT_REVENUE VARCHAR(16777216),
+	SERVICES_REVENUE VARCHAR(16777216),
+	TOTAL_CUSTOMERS VARCHAR(16777216),
+	CUSTOMERS_1M_PLUS VARCHAR(16777216),
+	NET_REVENUE_RETENTION VARCHAR(16777216),
+	GROSS_MARGIN VARCHAR(16777216),
+	OPERATING_MARGIN VARCHAR(16777216),
+	FREE_CASH_FLOW VARCHAR(16777216),
+	RPO VARCHAR(16777216),
+	RPO_GROWTH VARCHAR(16777216),
+	BRANDING VARCHAR(16777216),
+	URL VARCHAR(16777216)
+);"
+VIEW,SENTIMENT_WITH_TRANSCRIPTS_FOR_SEARCH,"create or replace view SENTIMENT_WITH_TRANSCRIPTS_FOR_SEARCH(
+	PRIMARY_TICKER,
+	SENTIMENT_REASON,
+	UNIQUE_ANALYST_COUNT,
+	SENTIMENT_SCORE,
+	EVENT_TIMESTAMP,
+	EVENT_TYPE,
+	CREATED_AT,
+	FULL_TRANSCRIPT_TEXT,
+	TRANSCRIPT_LENGTH
+) as
+
+WITH 
+parsed_transcripts AS (
+    SELECT
+        primary_ticker,
+        event_timestamp,
+        event_type,
+        created_at,
+        PARSE_JSON(transcript) AS transcript_json
+    FROM default_schema.unique_transcripts
+),
+speaker_lookup AS (
+    SELECT
+        primary_ticker,
+        event_timestamp,
+        OBJECT_AGG(
+            speaker_data.value:speaker::STRING,
+            OBJECT_CONSTRUCT(
+                'name', speaker_data.value:speaker_data.name::STRING,
+                'role', speaker_data.value:speaker_data.role::STRING,
+                'company', speaker_data.value:speaker_data.company::STRING
+            )
+        ) AS speakers
+    FROM parsed_transcripts,
+    LATERAL FLATTEN(input => transcript_json:speaker_mapping) speaker_data
+    GROUP BY primary_ticker, event_timestamp
+),
+formatted_transcripts AS (
+    SELECT
+        p.primary_ticker,
+        p.event_timestamp,
+        p.event_type,
+        p.created_at,
+        LISTAGG(
+            s.speakers[parsed_entry.value:speaker::STRING]:name::STRING ||
+            CASE 
+                WHEN s.speakers[parsed_entry.value:speaker::STRING]:role::STRING IS NOT NULL
+                THEN ' (' || s.speakers[parsed_entry.value:speaker::STRING]:role::STRING || '): '
+                ELSE ': '
+            END ||
+            parsed_entry.value:text::STRING,
+            '\n\n'
+        ) WITHIN GROUP (ORDER BY parsed_entry.index) AS full_transcript_text
+    FROM parsed_transcripts p
+    JOIN speaker_lookup s ON p.primary_ticker = s.primary_ticker AND p.event_timestamp = s.event_timestamp
+    CROSS JOIN LATERAL FLATTEN(input => p.transcript_json:parsed_transcript) parsed_entry
+    GROUP BY p.primary_ticker, p.event_timestamp, p.event_type, p.created_at
+)
+SELECT
+    
+    primary_ticker,
+    b. sentiment_reason,
+    b. unique_analyst_count,
+    b.sentiment_score,
+    b.event_timestamp,
+    event_type,
+    created_at,
+    full_transcript_text,
+    LENGTH(full_transcript_text) AS transcript_length
+FROM formatted_transcripts  
+
+natural join
+
+default_schema.ai_transcripts_analysts_sentiments b
+;"
+VIEW,VW_FINANCIAL_SUMMARY,"create or replace view VW_FINANCIAL_SUMMARY(
+	COMPANY,
+	TICKER,
+	PERIOD,
+	TOTAL_REVENUE_Q2_2025,
+	TOTAL_REVENUE_Q2_2024,
+	TOTAL_CUSTOMERS,
+	NRR,
+	YOY_GROWTH,
+	GROSS_MARGIN,
+	OPERATING_MARGIN,
+	FREE_CASH_FLOW,
+	RELATIVE_PATH
+) as
+SELECT 
+    EXTRACTED_DATA:response:company_name::text AS COMPANY,
+    EXTRACTED_DATA:response:ticker::text AS TICKER,
+    EXTRACTED_DATA:response:report_period::text AS PERIOD,
+    EXTRACTED_DATA:response:income_statement:q2_fy2025[2]::text AS TOTAL_REVENUE_Q2_2025,
+    EXTRACTED_DATA:response:income_statement:q2_fy2024[2]::text AS TOTAL_REVENUE_Q2_2024,
+    EXTRACTED_DATA:response:customer_metrics:q2_fy2025[0]::text AS TOTAL_CUSTOMERS,
+    EXTRACTED_DATA:response:customer_metrics:q2_fy2025[4]::text AS NRR,
+    EXTRACTED_DATA:response:kpi_metrics:value[0]::text AS YOY_GROWTH,
+    EXTRACTED_DATA:response:kpi_metrics:value[1]::text AS GROSS_MARGIN,
+    EXTRACTED_DATA:response:kpi_metrics:value[2]::text AS OPERATING_MARGIN,
+    EXTRACTED_DATA:response:kpi_metrics:value[3]::text AS FREE_CASH_FLOW,
+    RELATIVE_PATH
+FROM DOCUMENT_AI.FINANCIAL_REPORTS
+ORDER BY COMPANY;"
+VIEW,VW_INCOME_STATEMENT,"create or replace view VW_INCOME_STATEMENT(
+	COMPANY,
+	TICKER,
+	PERIOD,
+	LINE_ITEM,
+	Q2_FY2025,
+	Q2_FY2024,
+	ROW_NUM,
+	RELATIVE_PATH
+) as
+WITH income_data AS (
+    SELECT 
+        RELATIVE_PATH,
+        EXTRACTED_DATA:response:ticker::text AS TICKER,
+        EXTRACTED_DATA:response:company_name::text AS COMPANY,
+        EXTRACTED_DATA:response:report_period::text AS PERIOD,
+        EXTRACTED_DATA:response:income_statement:line_item AS LINE_ITEMS,
+        EXTRACTED_DATA:response:income_statement:q2_fy2025 AS Q2_2025,
+        EXTRACTED_DATA:response:income_statement:q2_fy2024 AS Q2_2024
+    FROM DOCUMENT_AI.FINANCIAL_REPORTS
+    WHERE EXTRACTED_DATA:response:income_statement IS NOT NULL
+)
+SELECT 
+    COMPANY,
+    TICKER,
+    PERIOD,
+    idx.VALUE::text AS LINE_ITEM,
+    Q2_2025[idx.INDEX]::text AS Q2_FY2025,
+    Q2_2024[idx.INDEX]::text AS Q2_FY2024,
+    idx.INDEX + 1 AS ROW_NUM,
+    RELATIVE_PATH
+FROM income_data,
+LATERAL FLATTEN(input => LINE_ITEMS) idx
+ORDER BY COMPANY, idx.INDEX;"
+VIEW,VW_KPI_METRICS,"create or replace view VW_KPI_METRICS(
+	RELATIVE_PATH,
+	COMPANY,
+	TICKER,
+	PERIOD,
+	KPI_NAME,
+	KPI_VALUE,
+	ROW_NUM
+) as
+WITH kpi_data AS (
+    SELECT 
+        RELATIVE_PATH,
+        EXTRACTED_DATA:response:company_name::text AS COMPANY,
+        EXTRACTED_DATA:response:ticker::text AS TICKER,
+        EXTRACTED_DATA:response:report_period::text AS PERIOD,
+        EXTRACTED_DATA:response:kpi_metrics:metric AS METRICS,
+        EXTRACTED_DATA:response:kpi_metrics:value AS KPI_VALUES
+    FROM DOCUMENT_AI.FINANCIAL_REPORTS
+    WHERE EXTRACTED_DATA:response:kpi_metrics IS NOT NULL
+)
+SELECT 
+    RELATIVE_PATH,
+    COMPANY,
+    TICKER,
+    PERIOD,
+    idx.VALUE::text AS KPI_NAME,
+    KPI_VALUES[idx.INDEX]::text AS KPI_VALUE,
+    idx.INDEX + 1 AS ROW_NUM
+FROM kpi_data,
+LATERAL FLATTEN(input => METRICS) idx
+ORDER BY COMPANY, idx.INDEX;"
+TABLE,TRANSCRIBED_EARNINGS_CALLS_WITH_SENTIMENT,"create or replace TABLE TRANSCRIBED_EARNINGS_CALLS_WITH_SENTIMENT (
+	RELATIVE_PATH VARCHAR(16777216),
+	SPEAKER VARCHAR(16777216),
+	SPEAKER_NAME VARCHAR(16777216),
+	AUDIO_DURATION_SECONDS FLOAT,
+	START_TIME FLOAT,
+	END_TIME FLOAT,
+	SEGMENT_TEXT VARCHAR(16777216),
+	SENTIMENT FLOAT
+);"
+TABLE,TRANSCRIPTS_BY_MINUTE,"create or replace TABLE TRANSCRIPTS_BY_MINUTE (
+	RELATIVE_PATH VARCHAR(16777216),
+	SPEAKER VARCHAR(16777216),
+	SPEAKER_NAME VARCHAR(16777216),
+	MINUTES NUMBER(38,0),
+	SENTIMENT FLOAT,
+	TEXT VARCHAR(16777216) NOT NULL
+);"
+TABLE,SENTIMENT_ANALYSIS,"create or replace TABLE SENTIMENT_ANALYSIS (
+	RELATIVE_PATH VARCHAR(16777216),
+	SENTIMENT VARCHAR(8),
+	OVERALL NUMBER(18,0),
+	COST NUMBER(18,0),
+	INNOVATION NUMBER(18,0),
+	PRODUCTIVITY NUMBER(18,0),
+	COMPETITIVENESS NUMBER(18,0),
+	CONSUMPTION NUMBER(18,0)
+);"
+VIEW,STOCK_PRICE_TIMESERIES,"create or replace view STOCK_PRICE_TIMESERIES(
+	TICKER,
+	ASSET_CLASS,
+	PRIMARY_EXCHANGE_CODE,
+	PRIMARY_EXCHANGE_NAME,
+	VARIABLE,
+	VARIABLE_NAME,
+	DATE,
+	VALUE
+) as SELECT * FROM ORGDATACLOUD$INTERNAL$TRANSCRIPTS_FROM_EARNINGS_CALLS.ACCELERATE_WITH_AI_DOC_AI.STOCK_PRICE_TIMESERIES;"
+TABLE,ANALYST_REPORTS,"create or replace TABLE ANALYST_REPORTS (
+	RELATIVE_PATH VARCHAR(16777216),
+	FILE_URL VARCHAR(16777216),
+	RATING VARCHAR(16777216),
+	DATE_REPORT VARCHAR(16777216),
+	CLOSE_PRICE FLOAT,
+	PRICE_TARGET FLOAT,
+	GROWTH NUMBER(38,0),
+	NAME_OF_REPORT_PROVIDER VARCHAR(16777216),
+	DOCUMENT_TYPE VARCHAR(15),
+	DOCUMENT VARCHAR(16777216),
+	SUMMARY VARCHAR(16777216),
+	FULL_TEXT VARCHAR(16777216),
+	URL VARCHAR(16777216)
+);"
+VIEW,VW_INFOGRAPHIC_METRICS,"create or replace view VW_INFOGRAPHIC_METRICS(
+	COMPANY_TICKER,
+	RELATIVE_PATH,
+	TEXT,
+	COMPANY_NAME,
+	TICKER,
+	REPORT_PERIOD,
+	TOTAL_REVENUE,
+	YOY_GROWTH,
+	PRODUCT_REVENUE,
+	SERVICES_REVENUE,
+	TOTAL_CUSTOMERS,
+	CUSTOMERS_1M_PLUS,
+	NET_REVENUE_RETENTION,
+	GROSS_MARGIN,
+	OPERATING_MARGIN,
+	FREE_CASH_FLOW,
+	RPO,
+	RPO_GROWTH,
+	BRANDING
+) as
+SELECT 
+    COMPANY_TICKER,
+    RELATIVE_PATH,
+    EXTRACTED_DATA:response:text::text AS TEXT,
+    EXTRACTED_DATA:response:company_name::text AS COMPANY_NAME,
+    EXTRACTED_DATA:response:ticker::text AS TICKER,
+    EXTRACTED_DATA:response:report_period::text AS REPORT_PERIOD,
+    EXTRACTED_DATA:response:total_revenue::text AS TOTAL_REVENUE,
+    EXTRACTED_DATA:response:yoy_growth::text AS YOY_GROWTH,
+    EXTRACTED_DATA:response:product_revenue::text AS PRODUCT_REVENUE,
+    EXTRACTED_DATA:response:services_revenue::text AS SERVICES_REVENUE,
+    EXTRACTED_DATA:response:total_customers::text AS TOTAL_CUSTOMERS,
+    EXTRACTED_DATA:response:customers_1m_plus::text AS CUSTOMERS_1M_PLUS,
+    EXTRACTED_DATA:response:nrr::text AS NET_REVENUE_RETENTION,
+    EXTRACTED_DATA:response:gross_margin::text AS GROSS_MARGIN,
+    EXTRACTED_DATA:response:operating_margin::text AS OPERATING_MARGIN,
+    EXTRACTED_DATA:response:free_cash_flow::text AS FREE_CASH_FLOW,
+    EXTRACTED_DATA:response:rpo::text AS RPO,
+    EXTRACTED_DATA:response:rpo_growth::text AS RPO_GROWTH,
+    BRANDING
+FROM DOCUMENT_AI.INFOGRAPHIC_METRICS_EXTRACTED;"
+TABLE,INFOGRAPHIC_METRICS_EXTRACTED,"create or replace TABLE INFOGRAPHIC_METRICS_EXTRACTED (
+	RELATIVE_PATH VARCHAR(16777216),
+	COMPANY_TICKER VARCHAR(16777216),
+	EXTRACTED_DATA OBJECT,
+	BRANDING VARCHAR(16777216)
+);"
+TABLE,ANALYST_REPORTS_ALL_DATA,"create or replace TABLE ANALYST_REPORTS_ALL_DATA (
+	RELATIVE_PATH VARCHAR(16777216),
+	FILE_URL VARCHAR(16777216),
+	RATING VARCHAR(16777216),
+	DATE_REPORT VARCHAR(16777216),
+	CLOSE_PRICE FLOAT,
+	PRICE_TARGET FLOAT,
+	GROWTH NUMBER(38,0),
+	NAME_OF_REPORT_PROVIDER VARCHAR(16777216),
+	DOCUMENT_TYPE VARCHAR(15),
+	DOCUMENT VARCHAR(16777216),
+	SUMMARY VARCHAR(16777216),
+	FULL_TEXT VARCHAR(16777216)
+);"
+TABLE,AI_TRANSCRIPTS_ANALYSTS_SENTIMENTS,"create or replace TABLE AI_TRANSCRIPTS_ANALYSTS_SENTIMENTS (
+	PRIMARY_TICKER VARCHAR(10),
+	EVENT_TIMESTAMP TIMESTAMP_NTZ(9),
+	EVENT_TYPE VARCHAR(50),
+	CREATED_AT TIMESTAMP_NTZ(9),
+	SENTIMENT_SCORE NUMBER(38,0),
+	UNIQUE_ANALYST_COUNT NUMBER(38,0),
+	SENTIMENT_REASON VARCHAR(16777216)
+);"

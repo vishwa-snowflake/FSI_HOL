@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Analytics - Snowflake Inc. Report</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .brand-color { color: #dc2626; }
+        .report-header { border-bottom: 4px solid #dc2626; }
+        .section-title { border-bottom: 2px solid #fee2e2; padding-bottom: 0.5rem; font-weight: 600; color: #991b1b; }
+    </style>
+</head>
+<body class="bg-gray-100 p-4 sm:p-8">
+    <div class="max-w-7xl mx-auto bg-white p-6 sm:p-8 rounded-lg shadow-2xl">
+        <header class="report-header pb-4 mb-8 flex justify-between items-center">
+            <div><h1 class="text-3xl font-bold text-gray-800">APEX ANALYTICS</h1><p class="text-md text-gray-500">Independent Equity Research</p></div>
+            <div class="text-right"><h2 class="text-2xl font-bold text-gray-900">Snowflake Inc. (SNOW)</h2><p class="text-sm text-gray-600">Report Date: September 19, 2024</p></div>
+        </header>
+        <main class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div class="lg:col-span-2">
+                <div class="mb-8"><h3 class="text-xl font-semibold text-gray-800 mb-2">Analyst's Summary</h3><p class="text-gray-600 bg-gray-50 p-4 rounded-md">Analysis by <span class="font-semibold brand-color">Eleanor Vance, CFA</span></p></div>
+                <div class="mb-8 p-4 border border-red-200 rounded-lg bg-red-50"><h4 class="text-lg font-bold text-red-700 mb-3">INVESTMENT RATING: SELL (DOWNGRADE FROM HOLD)</h4><ul class="list-disc list-inside space-y-2 text-gray-700">
+                    <li>Downgrading to SELL due to the emergence of a "black swan" competitive threat that fundamentally alters the risk profile for the entire data analytics sector.</li>
+                    <li>A new entrant, "Neuro-Nectar," has reportedly developed a consumer product—an "AI-powered ice cream"—that claims to enhance human cognitive abilities by orders of magnitude.</li>
+                    <li>While claims are unverified, the potential for a paradigm shift away from machine-led analytics to biologically-augmented human intuition presents an existential risk to SNOW's TAM.</li>
+                    <li>We are cutting our price target to $95, reflecting extreme uncertainty. Prudent risk management compels a negative stance until the nature of this threat is fully understood.</li>
+                </ul></div>
+                <div class="space-y-6">
+                    <div><h4 class="section-title mb-4">Investment Thesis: An Un-modelable Risk</h4><p class="text-gray-700 leading-relaxed">Our previous HOLD rating was predicated on a stable, albeit decelerating, core business navigating a transition toward AI. That thesis is now broken. The emergence of Neuro-Nectar's cognitive enhancement product, however fantastical it sounds, introduces a variable that conventional financial models cannot accommodate. If a consumer product can give individuals the analytical power of a supercomputer, the multi-billion-dollar market for enterprise data platforms could evaporate. Why would a company invest millions in a data cloud if its key executives can derive the same insights from simply eating dessert? This is no longer a question of competitive consumption credits or platform features. It is a potential extinction-level event for the entire industry. Until there is clarity on the efficacy and distribution of this product, we cannot in good conscience recommend owning SNOW shares. The risk/reward has skewed dramatically and negatively.</p></div>
+                </div>
+            </div>
+            <aside>
+                <div class="bg-gray-50 p-4 rounded-lg shadow-md mb-8">
+                    <h4 class="section-title mb-4">Risk Radar</h4>
+                    <p class="text-xs text-center text-gray-500 mb-2">Key risk factors facing Snowflake.</p>
+                    <svg width="100%" height="220" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="110" cy="110" r="100" fill="#fef2f2" stroke="#fecaca"/>
+                        <circle cx="110" cy="110" r="66" fill="#fee2e2" stroke="#fecaca"/>
+                        <circle cx="110" cy="110" r="33" fill="#fecaca" stroke="#fca5a5"/>
+                        <line x1="110" y1="10" x2="110" y2="210" stroke="#fca5a5" stroke-width="0.5"/>
+                        <line x1="10" y1="110" x2="210" y2="110" stroke="#fca5a5" stroke-width="0.5"/>
+                        <line x1="42" y1="42" x2="178" y2="178" stroke="#fca5a5" stroke-width="0.5"/>
+                        <line x1="42" y1="178" x2="178" y2="42" stroke="#fca5a5" stroke-width="0.5"/>
+                        <!-- Risk Points -->
+                        <circle cx="110" cy="60" r="5" fill="#ef4444" stroke="white" stroke-width="1"/>
+                        <text x="110" y="50" text-anchor="middle" font-size="9" fill="#b91c1c" font-weight="bold">Disruptive Tech</text>
+                        <circle cx="155" cy="155" r="4" fill="#fb923c" stroke="white" stroke-width="1"/>
+                        <text x="160" y="170" text-anchor="start" font-size="9" fill="#9a3412">Valuation</text>
+                        <circle cx="65" cy="155" r="4" fill="#fb923c" stroke="white" stroke-width="1"/>
+                        <text x="60" y="170" text-anchor="end" font-size="9" fill="#9a3412">Competition</text>
+                         <circle cx="170" y="80" r="4" fill="#facc15" stroke="white" stroke-width="1"/>
+                        <text x="170" y="75" text-anchor="middle" font-size="9" fill="#a16207">Macro</text>
+                    </svg>
+                </div>
+            </aside>
+        </main>
+        <footer class="mt-12 pt-6 border-t text-center text-xs text-gray-500"><p>&copy; 2024 Apex Analytics. All Rights Reserved. This is not an offer to buy or sell securities.</p></footer>
+    </div>
+</body>
+</html>

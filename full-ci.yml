@@ -1,0 +1,38 @@
+include:
+  - /pipelines/includes/bootstrap.yml
+
+  ## Build Event Instructions Homepage
+  - /pipelines/includes/local_includes/build_homepage.yml
+
+  ## Share Data to Attendee
+  ##- /pipelines/includes/local_includes/share_data_to_attendee.yml
+
+  ## Configure Attendee Account
+  - /pipelines/includes/local_includes/configure_attendee_account.yml
+
+  ## Deploy Example Notebook
+  - /pipelines/includes/local_includes/deploy_notebooks.yml
+
+  ## Configure AISQL Examples
+  - /pipelines/includes/local_includes/configure_aisql_examples.yml
+
+  ## Deploy Example Streamlit App
+  - /pipelines/includes/local_includes/deploy_streamlit.yml
+
+  ## Deploy Document AI
+  - /pipelines/includes/local_includes/deploy_documentai.yml
+
+  ## Deploy Cortex Analyst
+  - /pipelines/includes/local_includes/deploy_cortex_analyst.yml
+
+  ## Deploy Data Foundation (WEB_SEARCH, SEND_EMAIL, EMAIL_PREVIEWS)
+  - /pipelines/includes/local_includes/data_foundation.yml
+
+  ## Configure Hackathon Database
+  - /pipelines/includes/local_includes/configure_hackathon_database.yml
+
+  ## Deploy SnowMail Native App
+  - /pipelines/includes/local_includes/deploy_snow_mail.yml
+
+  ## Deploy ML Element
+  - /pipelines/includes/local_includes/deploy_ml_element.yml

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Analytics - Snowflake Inc. Report</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .brand-color { color: #2563eb; }
+        .report-header { border-bottom: 4px solid #2563eb; }
+        .section-title { border-bottom: 2px solid #dbeafe; padding-bottom: 0.5rem; font-weight: 600; color: #1e3a8a; }
+    </style>
+</head>
+<body class="bg-gray-100 p-4 sm:p-8">
+    <div class="max-w-7xl mx-auto bg-white p-6 sm:p-8 rounded-lg shadow-2xl">
+        <header class="report-header pb-4 mb-8 flex justify-between items-center">
+            <div><h1 class="text-3xl font-bold text-gray-800">APEX ANALYTICS</h1><p class="text-md text-gray-500">Independent Equity Research</p></div>
+            <div class="text-right"><h2 class="text-2xl font-bold text-gray-900">Snowflake Inc. (SNOW)</h2><p class="text-sm text-gray-600">Report Date: August 29, 2024</p></div>
+        </header>
+        <main class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div class="lg:col-span-2">
+                <div class="mb-8"><h3 class="text-xl font-semibold text-gray-800 mb-2">Analyst's Summary</h3><p class="text-gray-600 bg-gray-50 p-4 rounded-md">Analysis by <span class="font-semibold brand-color">Eleanor Vance, CFA</span></p></div>
+                <div class="mb-8 p-4 border border-yellow-200 rounded-lg bg-yellow-50"><h4 class="text-lg font-bold text-yellow-700 mb-3">INVESTMENT RATING: HOLD</h4><ul class="list-disc list-inside space-y-2 text-gray-700">
+                    <li>Q2 results showed continued growth deceleration, with product revenue growth at 30% YoY, meeting expectations but failing to inspire a more bullish outlook.</li>
+                    <li>Customer optimization headwinds appear to be stabilizing, but a clear inflection point for re-acceleration remains elusive.</li>
+                    <li>The company's AI strategy is a key part of the long-term thesis, but visibility into monetization is limited, keeping us on the sidelines.</li>
+                    <li>Valuation remains a key hurdle, as shares trade at a significant premium to peers like ICBG and QRYQ despite the slowing growth profile.</li>
+                </ul></div>
+                <div class="space-y-6">
+                    <div><h4 class="section-title mb-4">Investment Thesis: A Premium Price for a "Show-Me" Story</h4><p class="text-gray-700 leading-relaxed">We are maintaining our <span class="font-semibold">HOLD</span> rating on Snowflake. The company is in a transitional phase, moving from a period of hyper-growth to what it hopes will be a second act driven by new workloads like Snowpark and AI. While Q2 results were solid and demonstrated that the worst of customer optimization cycles may be past, they did not provide a catalyst for upside. The core issue remains unchanged: investors are being asked to pay a premium multiple for a growth story that is increasingly dependent on future products whose revenue contribution is still uncertain. Until we see tangible evidence of these new products driving a re-acceleration in consumption, we believe the risk/reward is balanced at current levels.</p></div>
+                </div>
+            </div>
+            <aside>
+                <div class="bg-gray-50 p-4 rounded-lg shadow-md mb-8">
+                    <h4 class="section-title mb-4">Quarterly Product Revenue Growth (YoY)</h4>
+                     <svg width="100%" height="220" viewBox="0 0 300 220" xmlns="http://www.w3.org/2000/svg">
+                        <title>Quarterly Revenue Growth Deceleration</title>
+                        <rect width="300" height="220" fill="#f9fafb"/>
+                        <line x1="40" y1="20" x2="40" y2="190" stroke="#d1d5db"/>
+                        <line x1="40" y1="190" x2="280" y2="190" stroke="#d1d5db"/>
+                        <text x="35" y="190" text-anchor="end" font-size="10">0%</text>
+                        <text x="35" y="140" text-anchor="end" font-size="10">25%</text>
+                        <text x="35" y="90" text-anchor="end" font-size="10">50%</text>
+                        <text x="35" y="40" text-anchor="end" font-size="10">75%</text>
+                        <!-- Bars -->
+                        <rect x="50" y="58" width="30" height="132" fill="#dbeafe"/>
+                        <rect x="100" y="90" width="30" height="100" fill="#bfdbfe"/>
+                        <rect x="150" y="120" width="30" height="70" fill="#93c5fd"/>
+                        <rect x="200" y="130" width="30" height="60" fill="#60a5fa"/>
+                        <!-- Labels -->
+                        <text x="65" y="205" text-anchor="middle" font-size="10">Q3'24</text>
+                        <text x="115" y="205" text-anchor="middle" font-size="10">Q4'24</text>
+                        <text x="165" y="205" text-anchor="middle" font-size="10">Q1'25</text>
+                        <text x="215" y="205" text-anchor="middle" font-size="10">Q2'25</text>
+                    </svg>
+                </div>
+            </aside>
+        </main>
+        <footer class="mt-12 pt-6 border-t text-center text-xs text-gray-500"><p>&copy; 2024 Apex Analytics. All Rights Reserved.</p></footer>
+    </div>
+</body>
+</html>

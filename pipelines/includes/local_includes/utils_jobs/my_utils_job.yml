@@ -1,0 +1,20 @@
+"My Utils Job":
+  extends:
+    - .should_run_ingestion
+    - .agent_tag
+  stage: "Additional Configuration"
+  image: $DATAOPS_UTILS_RUNNER_IMAGE
+  script:
+    - . ${CI_PROJECT_DIR}/dataops/setup/01_snow_setup.sh
+    - . ${CI_PROJECT_DIR}/dataops/setup/02_create_objects.sh
+  icon: ${UTIL_ICON}
+  artifacts:
+    reports:
+      dotenv: ${CI_PROJECT_DIR}/build.env
+    name: "dotenv-exports"
+
+.build_with_kaniko:
+  before_script:
+    - |
+      # Create auth config file for Kaniko
+      echo "{\"auths\":{\"$PRIVATE_REGISTRY\":{\"auth\":\"$(echo -n $PRIVATE_REGISTRY_USER:$PRIVATE_REGISTRY_TOKEN | base64 -w0)\"}}}" > /kaniko/.docker/config.json

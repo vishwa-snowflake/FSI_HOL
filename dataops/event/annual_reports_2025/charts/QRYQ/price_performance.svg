@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" width="700" height="400">
+  <defs>
+    <linearGradient id="qryq" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF5722" />
+      <stop offset="100%" style="stop-color:#D84315" />
+    </linearGradient>
+    <linearGradient id="snow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2962FF" />
+      <stop offset="100%" style="stop-color:#0D47A1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="700" height="400" fill="#FFF" rx="10"/>
+  
+  <!-- Title -->
+  <text x="350" y="35" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#1a1a1a">
+    Price-Performance Benchmark: QRYQ vs. SNOW
+  </text>
+  <text x="350" y="55" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="14" fill="#666">
+    TPC-DS 1TB Benchmark Results
+  </text>
+  
+  <!-- Grid -->
+  <line x1="100" y1="330" x2="600" y2="330" stroke="#DDD" stroke-width="2"/>
+  <line x1="100" y1="100" x2="100" y2="330" stroke="#DDD" stroke-width="2"/>
+  
+  <!-- Bars -->
+  <!-- QRYQ (better performance, lower cost) -->
+  <rect x="200" y="140" width="120" height="190" rx="8" fill="url(#qryq)" filter="drop-shadow(0 4px 10px rgba(255,87,34,0.4))"/>
+  <text x="260" y="120" text-anchor="middle" font-size="18" font-weight="900" fill="#D84315">⚡ 2.1x</text>
+  <text x="260" y="270" text-anchor="middle" font-size="16" font-weight="700" fill="white">Better</text>
+  <text x="260" y="355" text-anchor="middle" font-size="14" font-weight="700">QRYQ</text>
+  
+  <!-- Baseline (1.0x) -->
+  <rect x="380" y="240" width="120" height="90" rx="8" fill="url(#snow)"/>
+  <text x="440" y="220" text-anchor="middle" font-size="16" font-weight="700" fill="#0D47A1">1.0x</text>
+  <text x="440" y="295" text-anchor="middle" font-size="14" fill="white">Baseline</text>
+  <text x="440" y="355" text-anchor="middle" font-size="14" font-weight="700">SNOW</text>
+  
+  <!-- Y-axis -->
+  <text x="85" y="108" text-anchor="end" font-size="12" fill="#666">3x</text>
+  <text x="85" y="195" text-anchor="end" font-size="12" fill="#666">2x</text>
+  <text x="85" y="278" text-anchor="end" font-size="12" fill="#666">1x</text>
+  <text x="85" y="335" text-anchor="end" font-size="12" fill="#666">0x</text>
+  
+  <!-- Winner indicator -->
+  <rect x="170" y="85" width="180" height="30" rx="15" fill="#4CAF50"/>
+  <text x="260" y="106" text-anchor="middle" font-size="14" font-weight="900" fill="white">🏆 WINNER</text>
+  
+  <!-- Metrics breakdown -->
+  <rect x="50" y="250" width="130" height="70" rx="8" fill="#FFF3E0" stroke="#FF5722" stroke-width="2"/>
+  <text x="115" y="270" text-anchor="middle" font-size="11" font-weight="700" fill="#D84315">QRYQ Advantages:</text>
+  <text x="115" y="288" text-anchor="middle" font-size="10" fill="#666">40-60% cheaper</text>
+  <text x="115" y="303" text-anchor="middle" font-size="10" fill="#666">2.1x faster queries</text>
+</svg>
+
+

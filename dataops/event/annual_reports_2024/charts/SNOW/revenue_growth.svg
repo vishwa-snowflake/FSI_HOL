@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 350" width="700" height="350">
+  <defs>
+    <linearGradient id="snowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2962FF" />
+      <stop offset="100%" style="stop-color:#0D47A1" />
+    </linearGradient>
+    <linearGradient id="area" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2962FF;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#2962FF;stop-opacity:0.05" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="700" height="350" fill="#FAFAFA" rx="10"/>
+  
+  <text x="350" y="30" text-anchor="middle" font-size="20" font-weight="700" fill="#0D47A1">Revenue Growth - FY2024</text>
+  
+  <line x1="80" y1="300" x2="620" y2="300" stroke="#DDD" stroke-width="2"/>
+  <line x1="80" y1="100" x2="80" y2="300" stroke="#DDD" stroke-width="2"/>
+  
+  <path d="M 140,260 L 320,215 L 500,145 L 580,120 L 580,300 L 140,300 Z" fill="url(#area)"/>
+  <path d="M 140,260 L 320,215 L 500,145" stroke="url(#snowGrad)" stroke-width="4" fill="none"/>
+  
+  <circle cx="140" cy="260" r="7" fill="#0D47A1" stroke="white" stroke-width="2"/>
+  <circle cx="320" cy="215" r="7" fill="#0D47A1" stroke="white" stroke-width="2"/>
+  <circle cx="500" cy="145" r="8" fill="#2962FF" stroke="white" stroke-width="2"/>
+  
+  <text x="140" y="325" text-anchor="middle" font-size="13" font-weight="600">FY2022</text>
+  <text x="320" y="325" text-anchor="middle" font-size="13" font-weight="600">FY2023</text>
+  <text x="500" y="325" text-anchor="middle" font-size="13" font-weight="600">FY2024</text>
+  
+  <text x="140" y="250" text-anchor="middle" font-size="13" font-weight="700" fill="#0D47A1">$1.22B</text>
+  <text x="320" y="205" text-anchor="middle" font-size="13" font-weight="700" fill="#0D47A1">$1.68B</text>
+  <text x="500" y="135" text-anchor="middle" font-size="13" font-weight="700" fill="#0D47A1">$2.32B</text>
+  
+  <text x="230" y="240" text-anchor="middle" font-size="11" fill="#4CAF50" font-weight="600">+38%</text>
+  <text x="410" y="185" text-anchor="middle" font-size="11" fill="#4CAF50" font-weight="600">+38%</text>
+  
+  <text x="650" y="340" text-anchor="end" font-size="9" fill="#999">NASDAQ: SNOW</text>
+</svg>
+
+

@@ -1,0 +1,238 @@
+COMPANY_TICKER,RELATIVE_PATH,TEXT,COMPANY_NAME,TICKER,REPORT_PERIOD,TOTAL_REVENUE,YOY_GROWTH,PRODUCT_REVENUE,SERVICES_REVENUE,TOTAL_CUSTOMERS,CUSTOMERS_1M_PLUS,NET_REVENUE_RETENTION,GROSS_MARGIN,OPERATING_MARGIN,FREE_CASH_FLOW,RPO,RPO_GROWTH,BRANDING,URL
+CTLG,CTLG_Earnings_Infographic_FY25-Q2.png,"deliver comprehensive metadata management, lineage tracking, and access control that spans multiple platforms and tools",CatalogX,CTLG,Q2 FY2023,$48M,174%,$42.5M,$5.5M,1124,185,132%,70%,-35%,-$22M,$156M,+180%,"# CatalogX (CTLG) Branding Analysis
+
+## **Color Scheme**
+- **Dark slate blue/charcoal background**: Conveys professionalism, enterprise-grade reliability, and technical sophistication
+- **White text**: Ensures clarity and readability, suggesting transparency in data governance
+- **Accent colors**: Blue (trust, stability), Gold/Yellow (premium value, success), Orange shield logo (security, protection)
+
+## **Visual Identity**
+- **Shield logo**: Represents data protection, security, and governance
+- **Clean, grid-based layout**: Reflects systematic organization and structured data management
+- **Minimalist iconography**: Suggests streamlined, efficient processes
+
+## **Mission Statement**
+*""CatalogX provides the unified governance layer for the modern data stack, making data governance no longer optional but systematically manageable across heterogeneous environments.""*
+
+## **Key Business Overview**
+- **Cross-Platform Governance** solution
+- **$48M total revenue** (174% YoY growth)
+- **Enterprise focus**: Addresses GDPR, CCPA, AI regulations compliance
+- **Multi-platform integration**: SNOW, QRVQ, ICBG, STRM, VLTA, DFLX
+- **Value proposition**: 30-40% cost savings, real-time lineage tracking, ML governance
+- **Target market**: Enterprise data teams requiring systematic governance across heterogeneous data environments
+
+## **Brand Positioning**
+- **Enterprise-grade data governance platform**
+- **Compliance-first approach** for modern regulatory requirements
+- **Unified solution** for fragmented data stack governance
+- **Performance-driven** with strong financial metrics and customer growth",https://sfc-prod3-ds1-136-customer-stage.s3.us-west-2.amazonaws.com/maq91000-s/stages/968461c9-4a8d-4407-bb7b-07eae7b96fd8/CTLG_Earnings_Infographic_FY25-Q2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYEZ7BKG4CR7RYQRR%2F20251029%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251029T021213Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=aabc78ed391a63c6b3b911c66cb87f7b9b89ad184e7dc903509bb8143fc9063b
+DFLX,DFLX_Earnings_Infographic_FY25-Q2.png,"DataFlex Analytics is a data-source-agnostic business intelligence and visualization platform that operates as the Switzerland of the BI ecosystem. Our mission is to help organizations extract actionable insights from wherever their data lives, without forcing them into proprietary storage solutions. We explicitly position ourselves as not competing in data storage--instead, we provide a single pane of glass across SNOW, QRYQ, ICBG, and other platforms seamlessly.",DataFlex Analytics,DFLX,Q2 FY2025,$67M,24%,$62M,$5M,1847,248,78%,75%,-9%,$8.5M,$185M,+28%,"# DataFlex Analytics (DFLX) Branding Analysis
+
+## Color Scheme Meaning
+- **Dominant Green Palette**: Conveys growth, prosperity, financial success, and stability
+- **Monochromatic Green Design**: Suggests consistency, reliability, and professional focus
+- **White Text/Accents**: Represents clarity, transparency, and clean data presentation
+- **Subtle Gradient Effects**: Implies sophistication and modern technology approach
+
+## Mission Statement
+**""Switzerland of the BI ecosystem""** - Positioning as neutral, reliable, and premium solution provider
+
+**Core Mission**: Help organizations extract actionable insights from data across multiple platforms without proprietary storage lock-in
+
+## Key Business Overview
+- **Platform-Agnostic BI Solution** for Q2 FY2025
+- **$67M Total Revenue** (24% YoY growth)
+- **Strong Financial Metrics**: 78% NRR, 75% Gross Margin
+- **Customer Base**: 1,847 total customers, 248 $1M+ customers
+- **Revenue Split**: $62M Product, $5M Services
+- **Operational Challenge**: -9% Operating Margin indicates scaling investments
+
+## Strategic Positioning
+- **Integration-Focused**: Seamless connectivity across SNOW, QRVD, ICBG platforms
+- **Partnership Model**: Collaborative approach with STRM, VLTA, CTLG
+- **Multiplicative Business Model**: Win-win partnerships rather than zero-sum competition
+- **Universal BI Integration**: Best-of-breed solution strategy",https://sfc-prod3-ds1-136-customer-stage.s3.us-west-2.amazonaws.com/maq91000-s/stages/968461c9-4a8d-4407-bb7b-07eae7b96fd8/DFLX_Earnings_Infographic_FY25-Q2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYEZ7BKG4CR7RYQRR%2F20251029%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251029T021213Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=68b32344e1f61477073ac3b552d3ed69b046009a53342122d41ef6310f41341e
+ICBG,ICBG_Earnings_Infographic_FY25-Q2.png,democratize data infrastructure through open table formats that give customers full ownership and control of their data,ICBG Data Systems,ICBG,Q2 FY2025,$87M,156%,$79M,$8M,847,267,138%,70%,-24%,-$45M,$245M,178%,"# ICBG Branding Analysis
+
+## Color Scheme
+- **Primary**: Turquoise/Teal gradient
+- **Meaning**: Trust, innovation, technology, reliability, growth, and digital transformation
+- **Psychology**: Conveys stability and forward-thinking approach in data technology
+
+## Mission Statement
+**""Democratize data infrastructure through open table formats""**
+- Eliminate vendor lock-in
+- Give customers full ownership and control of their data
+- Champion openness and interoperability
+
+## Key Brand Positioning
+- **""Switzerland of data platforms""** - Neutral, reliable, trustworthy
+- **Open Lakehouse Platform** - Transparency, accessibility, modern architecture
+- **Anti-proprietary stance** - Differentiation from SNOW and QRYQ's closed ecosystems
+
+## Strategic Focus
+- Enterprise customers seeking future-proof architectures
+- Vendor independence and flexibility
+- Best-of-breed ecosystem partnerships (DFIX, SPRM, VILA, CILG)
+- Architectural flexibility and customer choice
+
+## Performance Indicators
+- Strong growth metrics (156% YoY, 178% RPO growth)
+- High gross margins (70%)
+- Premium customer base (267 Tier1 customers)
+- Significant market traction ($87M total revenue)",https://sfc-prod3-ds1-136-customer-stage.s3.us-west-2.amazonaws.com/maq91000-s/stages/968461c9-4a8d-4407-bb7b-07eae7b96fd8/ICBG_Earnings_Infographic_FY25-Q2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYEZ7BKG4CR7RYQRR%2F20251029%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251029T021213Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=9264e8f0b3421ce3bb5b1cf39cdeb2ac9ffd630d7908ccf97de4e8adbcd9ba90
+NRNT,NRNT_Earnings_Infographic_FY25-Q2.png,to unlock human cognitive potential through innovative food science combined with AI optimization,Neuro-Nectar Corporation,NRNT,Q2 FY2025,$142M,487%,$138M,$4M,1842,425,135%,66%,None,-$125M,$420M,+625%,"# NRNT - Neuro-Nectar Corporation Branding Analysis
+
+## **Color Scheme Meaning**
+- **Pink-to-Purple Gradient**: Represents innovation, creativity, and futuristic technology
+- **Brain Iconography**: Reinforces cognitive enhancement focus
+- **Vibrant Accent Colors**: Suggests energy, vitality, and mental stimulation
+- **Dark Purple Footer**: Conveys professionalism and premium positioning
+
+## **Mission Statement**
+Neuro-Nectar Corporation is a cognitive enhancement company developing revolutionary AI-powered ice cream products claimed to enhance cognitive abilities through proprietary neurological formulations. Mission is to unlock human cognitive potential through innovative food science combined with AI optimization.
+
+## **Key Business Overview**
+- **Industry**: Cognitive Enhancement Technology
+- **Product Focus**: AI-powered neurological ice cream formulations
+- **Target Market**: Cognitive performance enhancement sector
+- **Business Model**: Disruptive food science + AI optimization
+- **Market Position**: Premium cognitive enhancement solutions
+- **Growth Strategy**: Rapid market expansion with innovative product offerings
+
+## **Performance Highlights**
+- **Revenue**: $142M (554% growth)
+- **Customer Base**: 1,842 total customers (425 $1M+ customers)
+- **Market Metrics**: 135% NRR, 66% gross margin
+- **Challenges**: Product quality issues, regulatory scrutiny, unproven technology claims",https://sfc-prod3-ds1-136-customer-stage.s3.us-west-2.amazonaws.com/maq91000-s/stages/968461c9-4a8d-4407-bb7b-07eae7b96fd8/NRNT_Earnings_Infographic_FY25-Q2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYEZ7BKG4CR7RYQRR%2F20251029%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251029T021213Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b36d929fc41a84359930c093af20002265728d54d9de15b2585d676ccb33478a
+QRYQ,QRYQ_Earnings_Infographic_FY25-Q2.png,deliver the best-of-breed data ecosystem that combines openness with operational simplicity,Querybase Technologies,QRYQ,Q2 FY2025,$94M,287%,$312M,$312M,1456,187,142%,70%,142%,$312M,$312M,295%,"# QRYQ - Querybase Technologies Branding Analysis
+
+## **Color Scheme Meaning**
+- **Orange/Red Gradient**: Energy, innovation, urgency, and aggressive market positioning
+- **Dark Brown/Maroon**: Stability, reliability, and enterprise-grade trustworthiness
+- **White Text**: Clarity, transparency, and premium positioning
+- **Overall Palette**: Suggests dynamic growth with solid foundation
+
+## **Mission Statement**
+Aggressive cloud data warehouse competitor delivering superior price-performance with 2x better efficiency than market leaders through best-of-breed data ecosystem combining openness with operational simplicity.
+
+## **Key Brand Overview**
+
+### **Value Proposition**
+- Enterprise-grade capabilities without vendor lock-in
+- 30-40% cost reduction through strategic partnerships
+- Open architecture with managed service convenience
+
+### **Competitive Positioning**
+- Direct challenger to SNOW and price-performance leaders
+- Focus on operational simplicity vs. DIY complexity
+- Strategic partnership approach (DFLX, STRM, VLTA, CTLG)
+
+### **Performance Metrics Highlighted**
+- **Revenue Growth**: $94M (287% YoY) - explosive expansion
+- **Customer Base**: 1,456 customers - substantial market penetration
+- **Profitability**: 70% gross margin, $312M RPO - strong unit economics
+- **Efficiency**: 142% NRR, 295% RPO growth - exceptional retention and expansion
+
+### **Brand Personality**
+Disruptive, performance-focused, partnership-driven technology company positioned as the efficient alternative to established players in the cloud data warehouse space.",https://sfc-prod3-ds1-136-customer-stage.s3.us-west-2.amazonaws.com/maq91000-s/stages/968461c9-4a8d-4407-bb7b-07eae7b96fd8/QRYQ_Earnings_Infographic_FY25-Q2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYEZ7BKG4CR7RYQRR%2F20251029%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251029T021213Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=2a536de587387ccd87b2ef1cb692eea83cb7be1e3996b960c9c3e8b28998d6e4
+SNOW,SNOW_Earnings_Infographic_FY25-Q2.png,enable every organization to be data-driven by mobilizing the world's data,Snowflake Inc.,SNOW,Q2 FY2025,$900M,29%,$868M,None,"10,000",542,84%,75%,11%,$544M,$5700M,+38%,"# Snowflake Inc. (SNOW) Branding Analysis
+
+## Color Scheme Meaning
+
+**Blue Gradient Palette**
+- **Trust & Reliability**: Deep blues convey enterprise-grade dependability
+- **Technology & Innovation**: Modern blue tones suggest cutting-edge cloud solutions
+- **Professionalism**: Corporate blue establishes B2B credibility
+- **Stability**: Consistent blue theme reinforces platform reliability
+- **Cloud Association**: Blue naturally evokes sky/cloud imagery
+
+**Accent Colors**
+- **Gold ($)**: Premium value proposition and financial success
+- **White Text**: Clean, accessible information hierarchy
+
+## Mission Statement
+
+**Core Purpose**: Enable every organization to be data-driven by mobilizing the world's data
+
+**Strategic Focus**:
+- Market leader in cloud data warehousing
+- Unified platform for data warehousing, sharing, and analytics
+- Enterprise infrastructure reliability
+- Comprehensive data platform capabilities
+- Proprietary technology and integrated solutions
+- Simplifying complex data challenges at scale
+
+## Key Business Overview
+
+**Market Position**: Cloud Data Platform Leader
+
+**Competitive Landscape**: 
+- Primary competition with Iceberg's open lakehouse platform
+- QRYO's price-performance offerings
+- Strategic partnerships with DFLX, STRM, VLTA, CTLG
+
+**Financial Highlights**:
+- $900M total revenue (29% YoY growth)
+- 84% net revenue retention
+- 75% gross margin
+- 10,000 total customers with 542 $1M+ customers
+- Strong cash flow generation ($544M free cash flow)
+
+**Value Proposition**: Enterprise-grade data platform combining reliability, performance, and comprehensive capabilities for modern data stack requirements",https://sfc-prod3-ds1-136-customer-stage.s3.us-west-2.amazonaws.com/maq91000-s/stages/968461c9-4a8d-4407-bb7b-07eae7b96fd8/SNOW_Earnings_Infographic_FY25-Q2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYEZ7BKG4CR7RYQRR%2F20251029%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251029T021213Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=45a3045995268281f5e52bc402efbe1b428a21cd04a4dba174f7915ec7ca8217
+STRM,STRM_Earnings_Infographic_FY25-Q2.png,"enable real-time data movement at scale, empowering organizations to shift from batch to streaming architectures",StreamPipe Systems,STRM,Q2 FY2025,$51M,200%,$48M,$3M,723,145,135%,71%,71%,-$42M,$168M,+20%,"# STRM StreamPipe Systems Branding Analysis
+
+## Color Scheme Meaning
+- **Purple/Violet Gradient**: Conveys innovation, technology sophistication, and premium positioning
+- **Electric Blue Accents**: Suggests reliability, trust, and data flow/connectivity
+- **Yellow/Gold Icons**: Represents value, success, and financial growth
+- **Overall Tech Aesthetic**: Modern, digital-first, enterprise-grade solutions
+
+## Mission Statement
+StreamPipe Systems positions itself as the **""circulatory system of the modern data stack""** - providing real-time streaming data integration with 300+ source and destination connectors.
+
+## Key Brand Overview
+
+### Core Value Proposition
+- **Real-time data movement at scale**
+- **Source-agnostic and multi-destination capabilities**
+- **Seamless integration** across platforms (SNOW, QRYD, ICBG, S3)
+- **Land-and-expand business model**
+
+### Strategic Positioning
+- **Alternative to proprietary solutions** (SNOW's Snowpipe)
+- **Mission-critical infrastructure** for fraud detection, supply chain optimization, real-time personalization
+- **Enterprise-focused** with partnerships across DFLX, VLTA, CTLG platforms
+
+### Performance Metrics Highlight
+- **$51M Total Revenue** (200% YoY growth)
+- **723 Customers** with **135% NRR**
+- **Strong margins** (71%) and growth trajectory
+- **Diversified revenue streams** (Product: $48M, Services: $3M)",https://sfc-prod3-ds1-136-customer-stage.s3.us-west-2.amazonaws.com/maq91000-s/stages/968461c9-4a8d-4407-bb7b-07eae7b96fd8/STRM_Earnings_Infographic_FY25-Q2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYEZ7BKG4CR7RYQRR%2F20251029%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251029T021213Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=2b060ca66880e40b5b0fca85f3733a7d1f11941bb3c74cb716f173c3810a6290
+VLTA,VLTA_Earnings_Infographic_FY25-Q2.png,"to provide the infrastructure layer that enables enterprises to build, train, deploy, and manage AI models at Netflix-scale and Uber-scale complexity",Voltaic AI,VLTA,Q2 FY2025,$73M,217%,$69M,$4M,287,125,145%,68%,-60%,-$98M,$235M,225%,"# VLTA (Voltaic AI) Brand Analysis
+
+## **Color Scheme Meaning**
+- **Dark Brown/Black Background**: Premium, sophisticated, enterprise-grade reliability
+- **Bright Orange/Gold Accents**: Energy, innovation, high-performance, premium positioning
+- **Lightning Bolt Icons**: Speed, power, electrical energy - reinforcing ""Voltaic"" brand name
+- **Overall Palette**: Conveys cutting-edge technology with enterprise stability
+
+## **Brand Identity**
+- **Name**: VLTA (Voltaic AI) - suggests electrical power and AI volatility/dynamism
+- **Tagline**: ""AI-Powered Metrics"" - positions as data-driven AI solution
+- **Visual Style**: High-tech dashboard aesthetic targeting enterprise clients
+
+## **Mission & Strategy**
+AI-first data platform for production-scale machine learning and AI workloads. Provides infrastructure layer enabling enterprises to build, train, deploy, and manage AI models at Netflix-scale and Uber-scale complexity.
+
+## **Key Value Propositions**
+- **Comprehensive MLOps capabilities**: Feature stores, model training, serving, monitoring
+- **Strategic positioning**: Bridges simple data warehouse ML with complex production AI requirements
+- **Partnership ecosystem**: SNOW, QRVO, ICBG (data foundation), STRM (real-time features), DFLX (monitoring), CTLG (ML governance)
+- **R&D investment**: $34M quarterly investment in AI landscape advancement
+
+## **Performance Indicators**
+- **Strong growth metrics**: 217% YoY revenue growth, 225% RPO growth
+- **Premium customer base**: 287 customers, 125 in $1M+ tier
+- **High-value positioning**: $235M RPO, 68% gross margins despite -60% operating margins (growth investment phase)",https://sfc-prod3-ds1-136-customer-stage.s3.us-west-2.amazonaws.com/maq91000-s/stages/968461c9-4a8d-4407-bb7b-07eae7b96fd8/VLTA_Earnings_Infographic_FY25-Q2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYEZ7BKG4CR7RYQRR%2F20251029%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251029T021213Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e9b5ee82771b1f4768d90ee7a4db86cabf83911ad069152c096e5522d316a758

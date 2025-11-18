@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" width="700" height="300">
+  <defs><linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#4CAF50"/><stop offset="100%" stop-color="#2E7D32"/></linearGradient></defs>
+  <rect width="700" height="300" fill="#E8F5E9" rx="10"/>
+  <text x="350" y="25" text-anchor="middle" font-size="18" font-weight="700" fill="#2E7D32">📊 Revenue - FY2024 | 🇨🇭 Switzerland of BI</text>
+  <line x1="80" y1="250" x2="620" y2="250" stroke="#DDD" stroke-width="2"/>
+  <path d="M 180,235 L 380,200 L 540,155" stroke="url(#g)" stroke-width="4" fill="none"/>
+  <circle cx="180" cy="235" r="7" fill="#2E7D32" stroke="white" stroke-width="2"/>
+  <circle cx="380" cy="200" r="7" fill="#2E7D32" stroke="white" stroke-width="2"/>
+  <circle cx="540" cy="155" r="8" fill="#4CAF50" stroke="white" stroke-width="2"/>
+  <text x="180" y="275" text-anchor="middle" font-size="12" font-weight="600">FY2023</text>
+  <text x="380" y="275" text-anchor="middle" font-size="12" font-weight="600">FY2024</text>
+  <text x="180" y="225" text-anchor="middle" font-size="13" font-weight="700" fill="#2E7D32">$64M</text>
+  <text x="380" y="190" text-anchor="middle" font-size="13" font-weight="700" fill="#2E7D32">$119M</text>
+  <text x="280" y="223" text-anchor="middle" font-size="11" fill="#4CAF50" font-weight="600">+87%</text>
+  <rect x="470" y="170" width="120" height="30" rx="15" fill="#4CAF50"/>
+  <text x="530" y="191" text-anchor="middle" font-size="12" font-weight="900" fill="white">✅ First CF+ Q4</text>
+</svg>
+
+

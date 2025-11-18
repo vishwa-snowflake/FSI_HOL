@@ -1,0 +1,407 @@
+RELATIVE_PATH,COMPANY_TICKER,EXTRACTED_DATA,BRANDING
+CTLG_Earnings_Infographic_FY25-Q2.png,CTLG,"{
+  ""error"": null,
+  ""response"": {
+    ""company_name"": ""CatalogX"",
+    ""customers_1m_plus"": ""185"",
+    ""free_cash_flow"": ""-$22M"",
+    ""gross_margin"": ""70%"",
+    ""nrr"": ""132%"",
+    ""operating_margin"": ""-35%"",
+    ""product_revenue"": ""$42.5M"",
+    ""report_period"": ""Q2 FY2023"",
+    ""rpo"": ""$156M"",
+    ""rpo_growth"": ""+180%"",
+    ""services_revenue"": ""$5.5M"",
+    ""text"": ""deliver comprehensive metadata management, lineage tracking, and access control that spans multiple platforms and tools"",
+    ""ticker"": ""CTLG"",
+    ""total_customers"": ""1124"",
+    ""total_revenue"": ""$48M"",
+    ""yoy_growth"": ""174%""
+  }
+}","# CatalogX (CTLG) Branding Analysis
+
+## **Color Scheme**
+- **Dark slate blue/charcoal background**: Conveys professionalism, enterprise-grade reliability, and technical sophistication
+- **White text**: Ensures clarity and readability, suggesting transparency and precision
+- **Accent colors**: Blue (trust, stability), gold/yellow (premium value, success), orange shield logo (security, protection)
+
+## **Visual Identity**
+- **Shield logo**: Represents data protection, security, and governance
+- **Clean, grid-based layout**: Communicates systematic organization and structured approach
+- **Minimalist iconography**: Suggests efficiency and modern technology solutions
+
+## **Mission & Strategy**
+**Core Mission**: Unified governance layer for modern data stack across heterogeneous environments
+
+**Key Value Propositions**:
+- Cross-platform data governance solution
+- Comprehensive metadata management and lineage tracking
+- Multi-platform access control (SNOW, QRVQ, ICBG, STRM, VLTA, DFLX)
+- Enterprise compliance (GDPR, CCPA, AI regulations)
+- Cost optimization (30-40% savings vs proprietary warehouses)
+
+## **Brand Positioning**
+- **Enterprise-focused**: Targets large organizations with complex data environments
+- **Innovation leader**: Addresses critical gap in cross-platform governance
+- **Performance-driven**: Strong financial metrics (174% YoY growth, 70% gross margin)
+- **Scalability emphasis**: Serves both growing companies (1124 total customers) and enterprise clients (185 $1M+ customers)
+
+## **Strategic Differentiation**
+- **Unified governance**: Single plane across multiple data platforms
+- **Real-time capabilities**: Live lineage integration and tracking
+- **Security-first approach**: Low-level security for DFLX dashboards
+- **Cost efficiency**: Significant savings while maintaining enterprise-grade functionality"
+DFLX_Earnings_Infographic_FY25-Q2.png,DFLX,"{
+  ""error"": null,
+  ""response"": {
+    ""company_name"": ""DataFlex Analytics"",
+    ""customers_1m_plus"": ""248"",
+    ""free_cash_flow"": ""$8.5M"",
+    ""gross_margin"": ""75%"",
+    ""nrr"": ""78%"",
+    ""operating_margin"": ""-9%"",
+    ""product_revenue"": ""$62M"",
+    ""report_period"": ""Q2 FY2025"",
+    ""rpo"": ""$185M"",
+    ""rpo_growth"": ""+28%"",
+    ""services_revenue"": ""$5M"",
+    ""text"": ""DataFlex Analytics is a data-source-agnostic business intelligence and visualization platform that operates as the Switzerland of the BI ecosystem. Our mission is to help organizations extract actionable insights from wherever their data lives, without forcing them into proprietary storage solutions. We explicitly position ourselves as not competing in data storage--instead, we provide a single pane of glass across SNOW, QRYQ, ICBG, and other platforms seamlessly."",
+    ""ticker"": ""DFLX"",
+    ""total_customers"": ""1847"",
+    ""total_revenue"": ""$67M"",
+    ""yoy_growth"": ""24%""
+  }
+}","# DataFlex Analytics (DFLX) Branding Analysis
+
+## Color Scheme Meaning
+- **Dominant Green Palette**: Conveys growth, prosperity, financial success, and stability
+- **Monochromatic Green Design**: Suggests consistency, reliability, and professional focus
+- **White Text/Accents**: Represents clarity, transparency, and clean data presentation
+- **Subtle Gradient Effects**: Implies sophistication and modern technology approach
+
+## Mission Statement
+**""Switzerland of the BI ecosystem""** - Positioning as neutral, reliable, and premium solution provider
+
+**Core Mission**: Help organizations extract actionable insights from data across multiple platforms without proprietary storage lock-in
+
+## Key Business Overview
+- **Platform-Agnostic BI Solution** for Q2 FY2025
+- **$67M Total Revenue** (24% YoY growth)
+- **Strong Financial Metrics**: 78% NRR, 75% Gross Margin
+- **Customer Base**: 1,847 total customers, 248 $1M+ customers
+- **Revenue Split**: $62M Product, $5M Services
+- **Operational Challenge**: -9% Operating Margin indicates scaling investments
+
+## Strategic Positioning
+- **Integration-Focused**: Seamless connectivity across SNOW, QRVD, ICBG platforms
+- **Partnership Model**: Collaborative approach with STRM, VLTA, CTLG
+- **Multiplicative Business Model**: Win-win partnerships rather than zero-sum competition
+- **Universal BI Integration**: Best-of-breed solution strategy"
+ICBG_Earnings_Infographic_FY25-Q2.png,ICBG,"{
+  ""error"": null,
+  ""response"": {
+    ""company_name"": ""ICBG Data Systems"",
+    ""customers_1m_plus"": ""267"",
+    ""free_cash_flow"": ""-$45M"",
+    ""gross_margin"": ""70%"",
+    ""nrr"": ""138%"",
+    ""operating_margin"": ""-24%"",
+    ""product_revenue"": ""$79M"",
+    ""report_period"": ""Q2 FY2025"",
+    ""rpo"": ""$245M"",
+    ""rpo_growth"": ""178%"",
+    ""services_revenue"": ""$8M"",
+    ""text"": ""democratize data infrastructure through open table formats that give customers full ownership and control of their data"",
+    ""ticker"": ""ICBG"",
+    ""total_customers"": ""847"",
+    ""total_revenue"": ""$87M"",
+    ""yoy_growth"": ""156%""
+  }
+}","# ICBG Branding Analysis
+
+## **Color Scheme**
+- **Primary**: Turquoise/Teal gradient
+- **Accent**: White text with gold/yellow icons
+- **Meaning**: 
+  - Turquoise conveys trust, innovation, and technological sophistication
+  - Gradient suggests depth and data layers
+  - Gold accents imply premium value and success
+  - Clean white text represents transparency and clarity
+
+## **Visual Identity**
+- Modern dashboard aesthetic with card-based layout
+- Minimalist iconography (diamond, star, charts, gears)
+- Professional data visualization approach
+- Emphasis on metrics and performance indicators
+
+## **Mission Statement**
+""Democratize data infrastructure through open table formats that give customers full ownership and control of their data""
+
+## **Key Business Overview**
+- **Platform**: Open Data Lakehouse built on Apache Iceberg
+- **Positioning**: ""Switzerland of data platforms"" - neutral, interoperable alternative
+- **Strategy**: Anti-vendor lock-in, promoting openness and customer choice
+- **Target**: Enterprise customers seeking architectural flexibility
+- **Partnerships**: DFIX, SPKM, VuTA, CILO for comprehensive data ecosystem
+
+## **Brand Personality**
+- Transparent and trustworthy
+- Innovation-focused
+- Customer-centric
+- Technology leadership
+- Open-source advocacy"
+NRNT_Earnings_Infographic_FY25-Q2.png,NRNT,"{
+  ""error"": null,
+  ""response"": {
+    ""company_name"": ""Neuro-Nectar Corporation"",
+    ""customers_1m_plus"": ""425"",
+    ""free_cash_flow"": ""-$125M"",
+    ""gross_margin"": ""66%"",
+    ""nrr"": ""135%"",
+    ""operating_margin"": ""None"",
+    ""product_revenue"": ""$138M"",
+    ""report_period"": ""Q2 FY2025"",
+    ""rpo"": ""$420M"",
+    ""rpo_growth"": ""+625%"",
+    ""services_revenue"": ""$4M"",
+    ""text"": ""to unlock human cognitive potential through innovative food science combined with AI optimization"",
+    ""ticker"": ""NRNT"",
+    ""total_customers"": ""1842"",
+    ""total_revenue"": ""$142M"",
+    ""yoy_growth"": ""487%""
+  }
+}","# NRNT - Neuro-Nectar Corporation Branding Analysis
+
+## **Color Scheme Meaning**
+- **Pink-to-Purple Gradient**: Represents innovation, creativity, and futuristic technology
+- **Brain Iconography**: Reinforces cognitive enhancement focus
+- **Vibrant Accent Colors**: Suggests energy, vitality, and mental stimulation
+- **Dark Purple Footer**: Conveys professionalism and premium positioning
+
+## **Mission Statement**
+Neuro-Nectar Corporation is a cognitive enhancement company developing revolutionary AI-powered ice cream products claimed to enhance cognitive abilities through proprietary neurological formulations. Mission is to unlock human cognitive potential through innovative food science combined with AI optimization.
+
+## **Key Business Overview**
+- **Industry**: Cognitive Enhancement Technology + Food Science
+- **Product**: AI-powered ice cream for cognitive enhancement
+- **Target Market**: Q2 FY2025 focus with 28.4M units shipped
+- **Business Model**: Disruptive food-tech hybrid positioning as ""black swan"" market threat
+- **Growth Strategy**: Rapid market expansion with 487% year-over-year growth
+- **Challenges**: Product quality issues, regulatory scrutiny, unproven technology claims
+
+## **Financial Highlights**
+- **Revenue**: $142M (554% growth)
+- **Customer Base**: 1,842 total customers (425 $1M+ customers)
+- **Gross Margin**: 66%
+- **Net Revenue Retention**: 135%
+- **Free Cash Flow**: -$125M (investment phase)"
+QRYQ_Earnings_Infographic_FY25-Q2.png,QRYQ,"{
+  ""error"": null,
+  ""response"": {
+    ""company_name"": ""Querybase Technologies"",
+    ""customers_1m_plus"": ""187"",
+    ""free_cash_flow"": ""$312M"",
+    ""gross_margin"": ""70%"",
+    ""nrr"": ""142%"",
+    ""operating_margin"": ""142%"",
+    ""product_revenue"": ""$312M"",
+    ""report_period"": ""Q2 FY2025"",
+    ""rpo"": ""$312M"",
+    ""rpo_growth"": ""295%"",
+    ""services_revenue"": ""$312M"",
+    ""text"": ""deliver the best-of-breed data ecosystem that combines openness with operational simplicity"",
+    ""ticker"": ""QRYQ"",
+    ""total_customers"": ""1456"",
+    ""total_revenue"": ""$94M"",
+    ""yoy_growth"": ""287%""
+  }
+}","# QRYQ (Querybase Technologies) Brand Analysis
+
+## **Color Scheme Meaning**
+- **Orange/Red Gradient**: Conveys energy, innovation, urgency, and aggressive growth
+- **Dark Brown/Maroon Accents**: Suggests stability, reliability, and premium positioning
+- **White Text**: Ensures clarity and professional contrast
+- **Overall Warmth**: Communicates approachability while maintaining corporate authority
+
+## **Mission Statement**
+Aggressive cloud data warehouse competitor delivering superior price-performance with 2x better efficiency than market leaders through best-of-breed data ecosystem combining openness with operational simplicity.
+
+## **Key Brand Overview**
+
+### **Positioning**
+- Price-Performance Leader in cloud data warehousing
+- Direct competitor to Snowflake with enterprise-grade capabilities
+- Anti-vendor lock-in philosophy
+
+### **Value Proposition**
+- 30-40% cost reduction through strategic partnerships
+- Open architecture supporting iceberg table formats
+- Fully managed service without DIY complexity
+- 37% growth rate targeting fast-growing companies
+
+### **Performance Metrics**
+- **Revenue**: $94M (287% YoY growth)
+- **Customer Base**: 1,456 customers
+- **Tier Status**: $1M+ tier with 187 customers
+- **Financial Health**: 142% NRR, 70% Gross Margin, 295% RPO Growth
+- **Valuation**: $312M RPO
+
+### **Brand Personality**
+Disruptive, performance-focused, partnership-driven, and operationally efficient with emphasis on flexibility and enterprise scalability."
+SNOW_Earnings_Infographic_FY25-Q2.png,SNOW,"{
+  ""error"": null,
+  ""response"": {
+    ""company_name"": ""Snowflake Inc."",
+    ""customers_1m_plus"": ""542"",
+    ""free_cash_flow"": ""$544M"",
+    ""gross_margin"": ""75%"",
+    ""nrr"": ""84%"",
+    ""operating_margin"": ""11%"",
+    ""product_revenue"": ""$868M"",
+    ""report_period"": ""Q2 FY2025"",
+    ""rpo"": ""$5700M"",
+    ""rpo_growth"": ""+38%"",
+    ""services_revenue"": ""None"",
+    ""text"": ""enable every organization to be data-driven by mobilizing the world's data"",
+    ""ticker"": ""SNOW"",
+    ""total_customers"": ""10,000"",
+    ""total_revenue"": ""$900M"",
+    ""yoy_growth"": ""29%""
+  }
+}","# Snowflake Inc. (SNOW) Branding Analysis
+
+## Color Scheme Meaning
+
+**Blue Gradient Palette**
+- Deep ocean blue to lighter sky blue creates visual depth
+- Conveys **trust, reliability, and technological sophistication**
+- Reflects the ""cloud"" nature of their platform
+- Suggests **stability and enterprise-grade security**
+- Blue tones evoke **innovation and forward-thinking**
+
+**Accent Colors**
+- **Gold/Yellow ($)**: Represents financial success and premium value
+- **White Text**: Ensures clarity and professional presentation
+- **Star Icon**: Symbolizes excellence and premium customer tier
+
+## Mission & Business Strategy
+
+**Core Mission**: Enable every organization to be data-driven by mobilizing the world's data
+
+**Strategic Focus**:
+- Market leader in cloud data warehousing
+- Unified platform for data warehousing, sharing, and analytics
+- Enterprise infrastructure reliability
+- Comprehensive data platform capabilities
+- Proprietary technology and integrated solutions
+- Simplifying complex data challenges at scale
+
+## Key Brand Overview
+
+**Market Position**: Cloud Data Platform Leader
+
+**Brand Attributes**:
+- **Performance-driven** (strong financial metrics displayed)
+- **Customer-centric** (high retention rates emphasized)
+- **Growth-oriented** (29% YoY revenue growth highlighted)
+- **Enterprise-focused** (premium customer segment showcased)
+- **Innovation leader** (competing with established players like ORCL, IBM)
+
+**Visual Identity**: Clean, modern dashboard design that reflects their data platform expertise and technological sophistication"
+STRM_Earnings_Infographic_FY25-Q2.png,STRM,"{
+  ""error"": null,
+  ""response"": {
+    ""company_name"": ""StreamPipe Systems"",
+    ""customers_1m_plus"": ""145"",
+    ""free_cash_flow"": ""-$42M"",
+    ""gross_margin"": ""71%"",
+    ""nrr"": ""135%"",
+    ""operating_margin"": ""71%"",
+    ""product_revenue"": ""$48M"",
+    ""report_period"": ""Q2 FY2025"",
+    ""rpo"": ""$168M"",
+    ""rpo_growth"": ""+20%"",
+    ""services_revenue"": ""$3M"",
+    ""text"": ""enable real-time data movement at scale, empowering organizations to shift from batch to streaming architectures"",
+    ""ticker"": ""STRM"",
+    ""total_customers"": ""723"",
+    ""total_revenue"": ""$51M"",
+    ""yoy_growth"": ""200%""
+  }
+}","# STRM StreamPipe Systems Branding Analysis
+
+## Color Scheme Meaning
+- **Purple/Violet Gradient**: Conveys innovation, technology sophistication, and premium positioning
+- **Electric Blue Accents**: Suggests reliability, trust, and data flow/connectivity
+- **Yellow/Gold Icons**: Represents value, success, and financial growth
+- **Overall Tech Aesthetic**: Modern, digital-first, enterprise-grade solutions
+
+## Mission Statement
+StreamPipe Systems positions itself as the **""circulatory system of the modern data stack""** - providing real-time streaming data integration with 300+ source and destination connectors.
+
+## Key Brand Overview
+
+### Core Value Proposition
+- **Real-time data movement at scale**
+- **Source-agnostic and multi-destination capabilities**
+- **Seamless integration** across platforms (SNOW, QRYU, ICBG, S3)
+- **Land-and-expand business model**
+
+### Strategic Positioning
+- **Alternative to proprietary solutions** (SNOW's Snowpipe)
+- **Mission-critical infrastructure** for fraud detection, supply chain optimization, real-time personalization
+- **Enterprise-focused** with partnerships across DFLX, VTA, CTLG platforms
+
+### Performance Metrics Highlight
+- **$51M Total Revenue** (200% YoY growth)
+- **723 Customers** with **135% NRR**
+- **Strong margins** (71%) and growth trajectory
+- **Diversified revenue streams** (Product: $48M, Services: $3M)"
+VLTA_Earnings_Infographic_FY25-Q2.png,VLTA,"{
+  ""error"": null,
+  ""response"": {
+    ""company_name"": ""Voltaic AI"",
+    ""customers_1m_plus"": ""125"",
+    ""free_cash_flow"": ""-$98M"",
+    ""gross_margin"": ""68%"",
+    ""nrr"": ""145%"",
+    ""operating_margin"": ""-60%"",
+    ""product_revenue"": ""$69M"",
+    ""report_period"": ""Q2 FY2025"",
+    ""rpo"": ""$235M"",
+    ""rpo_growth"": ""225%"",
+    ""services_revenue"": ""$4M"",
+    ""text"": ""to provide the infrastructure layer that enables enterprises to build, train, deploy, and manage AI models at Netflix-scale and Uber-scale complexity"",
+    ""ticker"": ""VLTA"",
+    ""total_customers"": ""287"",
+    ""total_revenue"": ""$73M"",
+    ""yoy_growth"": ""217%""
+  }
+}","# VLTA (Voltaic AI) Brand Analysis
+
+## **Color Scheme Meaning**
+- **Dark Brown/Black Background**: Premium, sophisticated, enterprise-grade positioning
+- **Bright Orange/Gold Accents**: Energy, innovation, high-performance technology
+- **Lightning Bolt Iconography**: Speed, power, electrical energy - reinforcing ""Voltaic"" brand name
+- **Contrast Combination**: Creates urgency and attention-grabbing visual hierarchy
+
+## **Brand Identity**
+- **Name**: VLTA (Voltaic AI) - suggests electrical power and AI volatility/dynamism
+- **Tagline**: ""AI-Powered Metrics"" - positions as data-driven AI solution
+- **Visual Style**: High-tech dashboard aesthetic with gaming/esports influence
+
+## **Mission & Strategy**
+AI-first data platform for production-scale machine learning and AI workloads. Provides infrastructure layer enabling enterprises to build, train, deploy, and manage AI models at Netflix-scale and Uber-scale complexity.
+
+## **Key Value Propositions**
+- **MLOps Capabilities**: Feature stores, model training, model serving, lifecycle management
+- **Strategic Positioning**: Bridges simple data warehouse ML with complex production AI requirements
+- **Partnership Ecosystem**: SNOW, QRVO, ICBG (data foundation), STRM (real-time features), DFLX (monitoring), CTLG (governance)
+- **R&D Investment**: $34M quarterly investment in AI landscape advancement
+
+## **Performance Metrics**
+- **Revenue Growth**: $73M total revenue (217% YoY growth)
+- **Customer Base**: 287 customers, 125 in $1M+ tier
+- **Business Model**: $69M product revenue, $4M services revenue
+- **Profitability**: 68% gross margin, -60% operating margin (growth investment phase)"

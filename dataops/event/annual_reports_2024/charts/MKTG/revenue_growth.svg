@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 280" width="600" height="280">
+  <defs><linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#F97316"/><stop offset="100%" stop-color="#EA580C"/></linearGradient></defs>
+  <rect width="600" height="280" fill="#FFF7ED" rx="10"/>
+  <text x="300" y="25" text-anchor="middle" font-size="17" font-weight="700" fill="#EA580C">📈 Revenue - FY2024</text>
+  <line x1="70" y1="230" x2="530" y2="230" stroke="#DDD" stroke-width="2"/>
+  <path d="M 150,218 L 350,160 L 480,110" stroke="url(#g)" stroke-width="3" fill="none"/>
+  <circle cx="150" cy="218" r="6" fill="#EA580C" stroke="white" stroke-width="2"/>
+  <circle cx="350" cy="160" r="7" fill="#F97316" stroke="white" stroke-width="2"/>
+  <text x="150" y="255" text-anchor="middle" font-size="12" font-weight="600">FY2024</text>
+  <text x="150" y="208" text-anchor="middle" font-size="12" font-weight="700" fill="#EA580C">$86M</text>
+  <rect x="400" y="125" width="120" height="75" rx="8" fill="#FEE2E2" stroke="#DC2626" stroke-width="2"/>
+  <text x="460" y="148" text-anchor="middle" font-size="10" font-weight="700" fill="#DC2626">⚠️ Challenges:</text>
+  <text x="460" y="167" text-anchor="middle" font-size="9" fill="#666">-78% margin</text>
+  <text x="460" y="182" text-anchor="middle" font-size="9" fill="#666">102% NRR (weak)</text>
+  <text x="460" y="195" text-anchor="middle" font-size="9" fill="#7F1D1D" font-weight="600">Most challenged</text>
+</svg>
+

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 350" width="700" height="350">
+  <defs>
+    <linearGradient id="c1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2962FF" />
+      <stop offset="100%" style="stop-color:#1976D2" />
+    </linearGradient>
+    <linearGradient id="c2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1976D2" />
+      <stop offset="100%" style="stop-color:#1565C0" />
+    </linearGradient>
+    <linearGradient id="c3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1565C0" />
+      <stop offset="100%" style="stop-color:#0D47A1" />
+    </linearGradient>
+    <linearGradient id="c4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E88E5" />
+      <stop offset="100%" style="stop-color:#1565C0" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="700" height="350" fill="#E3F2FD" rx="10"/>
+  
+  <text x="350" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#0D47A1">Key Metrics - FY2024</text>
+  
+  <rect x="35" y="50" width="150" height="120" rx="8" fill="url(#c1)"/>
+  <text x="110" y="75" text-anchor="middle" font-size="10" fill="white">REVENUE</text>
+  <text x="110" y="115" text-anchor="middle" font-size="36" font-weight="900" fill="white">$2.32B</text>
+  <text x="110" y="150" text-anchor="middle" font-size="15" font-weight="700" fill="#A5D6A7">+38%</text>
+  
+  <rect x="200" y="50" width="150" height="120" rx="8" fill="url(#c2)"/>
+  <text x="275" y="75" text-anchor="middle" font-size="10" fill="white">CUSTOMERS</text>
+  <text x="275" y="115" text-anchor="middle" font-size="36" font-weight="900" fill="white">9,437</text>
+  
+  <rect x="365" y="50" width="150" height="120" rx="8" fill="url(#c3)"/>
+  <text x="440" y="75" text-anchor="middle" font-size="10" fill="white">NRR</text>
+  <text x="440" y="115" text-anchor="middle" font-size="36" font-weight="900" fill="white">127%</text>
+  
+  <rect x="530" y="50" width="135" height="120" rx="8" fill="url(#c4)"/>
+  <text x="597" y="75" text-anchor="middle" font-size="10" fill="white">FCF</text>
+  <text x="597" y="110" text-anchor="middle" font-size="32" font-weight="900" fill="white">$568M</text>
+  
+  <rect x="50" y="200" width="600" height="120" rx="8" fill="white" stroke="#2962FF" stroke-width="2"/>
+  <text x="350" y="230" text-anchor="middle" font-size="14" font-weight="700" fill="#0D47A1">FY2024 Highlights:</text>
+  <text x="350" y="255" text-anchor="middle" font-size="11" fill="#666">333 customers >$1M ARR (+47%) • Cortex AI preview launched Q4</text>
+  <text x="350" y="275" text-anchor="middle" font-size="11" fill="#666">Approaching profitability • Competing with ICBG (open) and QRYQ (price)</text>
+  <text x="350" y="295" text-anchor="middle" font-size="11" fill="#4CAF50" font-weight="600">Market leader defending position successfully</text>
+</svg>
+
+

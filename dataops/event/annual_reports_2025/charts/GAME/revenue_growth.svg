@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 350" width="700" height="350">
+  <defs>
+    <linearGradient id="gameGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#A855F7" />
+      <stop offset="100%" style="stop-color:#7C3AED" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="700" height="350" fill="#FAF5FF" rx="10"/>
+  
+  <!-- Pixelated decorative border -->
+  <rect x="0" y="0" width="700" height="5" fill="repeating-linear-gradient(90deg, #F9A8D4 0px, #F9A8D4 10px, #C084FC 10px, #C084FC 20px, #A855F7 20px, #A855F7 30px)"/>
+  <rect x="0" y="345" width="700" height="5" fill="repeating-linear-gradient(90deg, #F9A8D4 0px, #F9A8D4 10px, #C084FC 10px, #C084FC 20px, #A855F7 20px, #A855F7 30px)"/>
+  
+  <!-- Title -->
+  <text x="350" y="30" text-anchor="middle" font-size="20" font-weight="700" fill="#7C3AED">
+    🎮 Revenue Growth - Gaming Analytics Leader
+  </text>
+  
+  <!-- Grid -->
+  <line x1="100" y1="300" x2="600" y2="300" stroke="#A855F7" stroke-width="2"/>
+  <line x1="100" y1="100" x2="100" y2="300" stroke="#A855F7" stroke-width="2"/>
+  
+  <!-- Line -->
+  <path d="M 150,275 L 350,210 L 550,110" stroke="url(#gameGradient)" stroke-width="4" fill="none"/>
+  
+  <!-- Points -->
+  <circle cx="150" cy="275" r="7" fill="#7C3AED" stroke="white" stroke-width="2"/>
+  <circle cx="350" cy="210" r="7" fill="#7C3AED" stroke="white" stroke-width="2"/>
+  <circle cx="550" cy="110" r="9" fill="#A855F7" stroke="white" stroke-width="2"/>
+  
+  <!-- Labels -->
+  <text x="150" y="325" text-anchor="middle" font-size="13" font-weight="600">FY2024</text>
+  <text x="350" y="325" text-anchor="middle" font-size="13" font-weight="600">FY2025</text>
+  
+  <!-- Values -->
+  <text x="150" y="265" text-anchor="middle" font-size="14" font-weight="700" fill="#7C3AED">$190M</text>
+  <text x="350" y="200" text-anchor="middle" font-size="14" font-weight="700" fill="#7C3AED">$734M</text>
+  
+  <!-- Growth -->
+  <text x="250" y="248" text-anchor="middle" font-size="13" fill="#4CAF50" font-weight="700">+287%</text>
+  
+  <!-- Best of bottom 3 badge -->
+  <rect x="450" y="150" width="180" height="85" rx="8" fill="#DDD6FE" stroke="#A855F7" stroke-width="2"/>
+  <text x="540" y="175" text-anchor="middle" font-size="12" font-weight="700" fill="#7C3AED">🏆 Best of Bottom 3</text>
+  <text x="540" y="196" text-anchor="middle" font-size="10" fill="#666">Approaching profitability</text>
+  <text x="540" y="214" text-anchor="middle" font-size="10" fill="#666">Operating margin: -10%</text>
+  <text x="540" y="230" text-anchor="middle" font-size="10" fill="#4CAF50" font-weight="600">Strong fundamentals</text>
+  
+  <text x="650" y="340" text-anchor="end" font-size="10" fill="#666">NASDAQ: GAME</text>
+</svg>
+
+

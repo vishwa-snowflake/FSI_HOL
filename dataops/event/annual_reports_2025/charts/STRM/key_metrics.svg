@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="c1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3F51B5" />
+      <stop offset="100%" style="stop-color:#303F9F" />
+    </linearGradient>
+    <linearGradient id="c2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5E35B1" />
+      <stop offset="100%" style="stop-color:#4527A0" />
+    </linearGradient>
+    <linearGradient id="c3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7C4DFF" />
+      <stop offset="100%" style="stop-color:#651FFF" />
+    </linearGradient>
+    <linearGradient id="c4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#673AB7" />
+      <stop offset="100%" style="stop-color:#512DA8" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="400" fill="#E8EAF6" rx="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-size="20" font-weight="700" fill="#3F51B5">
+    Key Metrics - FY2025 | 〰️ The Circulatory System
+  </text>
+  
+  <!-- Cards in 2x2 grid -->
+  <!-- Card 1 -->
+  <rect x="50" y="60" width="180" height="150" rx="10" fill="url(#c1)" filter="drop-shadow(0 4px 8px rgba(63,81,181,0.3))"/>
+  <text x="140" y="90" text-anchor="middle" font-size="11" fill="white">REVENUE</text>
+  <text x="140" y="135" text-anchor="middle" font-size="40" font-weight="900" fill="white">$224M</text>
+  <text x="140" y="180" text-anchor="middle" font-size="16" font-weight="700" fill="#FFEB3B">+198%</text>
+  
+  <!-- Card 2 -->
+  <rect x="250" y="60" width="180" height="150" rx="10" fill="url(#c2)"/>
+  <text x="340" y="90" text-anchor="middle" font-size="11" fill="white">CONNECTORS</text>
+  <text x="340" y="135" text-anchor="middle" font-size="40" font-weight="900" fill="white">342</text>
+  <text x="340" y="180" text-anchor="middle" font-size="14" fill="white">Sources</text>
+  
+  <!-- Card 3 -->
+  <rect x="450" y="60" width="140" height="150" rx="10" fill="url(#c3)"/>
+  <text x="520" y="90" text-anchor="middle" font-size="11" fill="white">NRR</text>
+  <text x="520" y="135" text-anchor="middle" font-size="40" font-weight="900" fill="white">135%</text>
+  <text x="520" y="180" text-anchor="middle" font-size="12" fill="white">Excellent</text>
+  
+  <!-- Card 4 -->
+  <rect x="610" y="60" width="140" height="150" rx="10" fill="url(#c4)"/>
+  <text x="680" y="90" text-anchor="middle" font-size="10" fill="white">EVENTS/MO</text>
+  <text x="680" y="130" text-anchor="middle" font-size="32" font-weight="900" fill="white">847B</text>
+  <text x="680" y="180" text-anchor="middle" font-size="11" fill="white">Billion/month</text>
+  
+  <!-- Flow diagram -->
+  <rect x="50" y="240" width="700" height="140" rx="10" fill="white" stroke="#3F51B5" stroke-width="3"/>
+  <text x="400" y="270" text-anchor="middle" font-size="14" font-weight="700" fill="#3F51B5">Real-Time Data Flow:</text>
+  
+  <g transform="translate(100, 290)">
+    <rect x="0" y="0" width="130" height="55" rx="8" fill="#E0F7FA" stroke="#00BCD4" stroke-width="2"/>
+    <text x="65" y="20" text-anchor="middle" font-size="11" font-weight="600">Sources</text>
+    <text x="65" y="38" text-anchor="middle" font-size="9" fill="#666">342 connectors</text>
+    
+    <text x="145" y="32" font-size="24">〰️</text>
+    
+    <rect x="170" y="0" width="130" height="55" rx="8" fill="#E8EAF6" stroke="#3F51B5" stroke-width="2"/>
+    <text x="235" y="20" text-anchor="middle" font-size="11" font-weight="600">StreamPipe</text>
+    <text x="235" y="38" text-anchor="middle" font-size="9" fill="#666">Real-time</text>
+    
+    <text x="315" y="32" font-size="24">〰️</text>
+    
+    <rect x="340" y="0" width="130" height="55" rx="8" fill="#FFF3E0" stroke="#FF5722" stroke-width="2"/>
+    <text x="405" y="20" text-anchor="middle" font-size="11" font-weight="600">Destinations</text>
+    <text x="405" y="38" text-anchor="middle" font-size="9" fill="#666">SNOW, QRYQ, ICBG...</text>
+  </g>
+</svg>
+
+

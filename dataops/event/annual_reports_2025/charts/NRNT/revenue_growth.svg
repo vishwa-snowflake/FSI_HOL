@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="nrntGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#9C27B0" />
+      <stop offset="100%" style="stop-color:#E91E63" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="400" fill="#FFF" rx="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#DC2626">
+    Revenue Growth: Explosive Rise, Sudden End
+  </text>
+  <text x="400" y="55" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="14" fill="#666">
+    Partial FY2025 (May - November 2024 only)
+  </text>
+  
+  <!-- Grid -->
+  <line x1="150" y1="350" x2="650" y2="350" stroke="#333" stroke-width="2"/>
+  <line x1="150" y1="120" x2="150" y2="350" stroke="#333" stroke-width="2"/>
+  
+  <!-- Bars with crash indicator -->
+  <rect x="180" y="260" width="80" height="90" rx="6" fill="url(#nrntGradient)"/>
+  <text x="220" y="245" text-anchor="middle" font-size="14" font-weight="700">$107.7M</text>
+  <text x="220" y="370" text-anchor="middle" font-size="12" font-weight="600">Q1 FY25</text>
+  
+  <rect x="300" y="180" width="80" height="170" rx="6" fill="url(#nrntGradient)"/>
+  <text x="340" y="165" text-anchor="middle" font-size="14" font-weight="700">$142.3M</text>
+  <text x="340" y="370" text-anchor="middle" font-size="12" font-weight="600">Q2 FY25</text>
+  <text x="340" y="388" text-anchor="middle" font-size="10" fill="#9C27B0" font-weight="700">(Peak)</text>
+  
+  <rect x="420" y="340" width="80" height="10" rx="6" fill="#DC2626"/>
+  <text x="460" y="330" text-anchor="middle" font-size="14" font-weight="700" fill="#DC2626">$12.4M</text>
+  <text x="460" y="370" text-anchor="middle" font-size="12" font-weight="600">Q3 FY25</text>
+  <text x="460" y="388" text-anchor="middle" font-size="10" fill="#DC2626" font-weight="900">(Partial)</text>
+  
+  <!-- X mark on final bar -->
+  <line x1="440" y1="330" x2="480" y2="350" stroke="#DC2626" stroke-width="4"/>
+  <line x1="480" y1="330" x2="440" y2="350" stroke="#DC2626" stroke-width="4"/>
+  
+  <!-- Bankruptcy label -->
+  <rect x="520" y="305" width="110" height="50" rx="8" fill="#FEE2E2" stroke="#DC2626" stroke-width="3"/>
+  <text x="575" y="325" text-anchor="middle" font-size="12" font-weight="900" fill="#DC2626">BANKRUPTCY</text>
+  <text x="575" y="342" text-anchor="middle" font-size="10" fill="#7F1D1D">Nov 20, 2024</text>
+  <line x1="520" y1="330" x2="500" y2="345" stroke="#DC2626" stroke-width="2"/>
+  
+  <!-- Y-axis -->
+  <text x="135" y="128" text-anchor="end" font-size="12" fill="#666">$150M</text>
+  <text x="135" y="238" text-anchor="end" font-size="12" fill="#666">$100M</text>
+  <text x="135" y="355" text-anchor="end" font-size="12" fill="#666">$0</text>
+  
+  <!-- Warning -->
+  <rect x="200" y="95" width="400" height="20" rx="10" fill="#DC2626"/>
+  <text x="400" y="109" text-anchor="middle" font-size="12" font-weight="900" fill="white">
+    ⚠️ Company entered liquidation - All equity worthless
+  </text>
+</svg>
+
+

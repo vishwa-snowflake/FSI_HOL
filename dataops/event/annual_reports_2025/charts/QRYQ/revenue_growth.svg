@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="qryqGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF5722" />
+      <stop offset="100%" style="stop-color:#D84315" />
+    </linearGradient>
+    <linearGradient id="qryqArea" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF5722;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#FF5722;stop-opacity:0.05" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="400" fill="#FFF3E0" rx="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#1a1a1a">
+    ⚡ Hyper-Growth: 287% YoY Revenue Surge
+  </text>
+  <text x="400" y="55" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="14" fill="#D84315" font-weight="600">
+    Aggressive challenger taking market share
+  </text>
+  
+  <!-- Grid -->
+  <line x1="100" y1="350" x2="700" y2="350" stroke="#FF5722" stroke-width="2"/>
+  <line x1="100" y1="100" x2="100" y2="350" stroke="#FF5722" stroke-width="2"/>
+  
+  <!-- Area fill -->
+  <path d="M 150,340 L 350,300 L 550,160 L 650,105 L 650,350 L 150,350 Z" fill="url(#qryqArea)"/>
+  
+  <!-- Line (aggressive angle) -->
+  <path d="M 150,340 L 350,300 L 550,160 L 650,105" stroke="url(#qryqGradient)" stroke-width="5" fill="none"/>
+  
+  <!-- Data points with lightning effect -->
+  <circle cx="150" cy="340" r="8" fill="#D84315" stroke="white" stroke-width="3"/>
+  <circle cx="350" cy="300" r="8" fill="#D84315" stroke="white" stroke-width="3"/>
+  <circle cx="550" cy="160" r="8" fill="#D84315" stroke="white" stroke-width="3"/>
+  <circle cx="650" cy="105" r="12" fill="#FF5722" stroke="#FFD54F" stroke-width="4"/>
+  
+  <!-- Lightning bolts at peak -->
+  <text x="665" y="100" font-size="20">⚡</text>
+  <text x="635" y="120" font-size="16">⚡</text>
+  
+  <!-- Labels -->
+  <text x="150" y="375" text-anchor="middle" font-size="14" font-weight="700">FY2023</text>
+  <text x="350" y="375" text-anchor="middle" font-size="14" font-weight="700">FY2024</text>
+  <text x="550" y="375" text-anchor="middle" font-size="14" font-weight="700">FY2025</text>
+  
+  <!-- Values -->
+  <text x="150" y="330" text-anchor="middle" font-size="14" font-weight="700" fill="#D84315">$36M</text>
+  <text x="350" y="290" text-anchor="middle" font-size="14" font-weight="700" fill="#D84315">$107M</text>
+  <text x="550" y="150" text-anchor="middle" font-size="14" font-weight="700" fill="#D84315">$412M</text>
+  
+  <!-- Growth rates (emphasized) -->
+  <rect x="225" y="315" width="90" height="25" rx="12" fill="#4CAF50"/>
+  <text x="270" y="332" text-anchor="middle" font-size="13" font-weight="900" fill="white">+198%</text>
+  
+  <rect x="425" y="225" width="90" height="25" rx="12" fill="#4CAF50"/>
+  <text x="470" y="242" text-anchor="middle" font-size="13" font-weight="900" fill="white">+287%</text>
+  
+  <!-- Y-axis -->
+  <text x="85" y="108" text-anchor="end" font-size="12" fill="#666">$500M</text>
+  <text x="85" y="233" text-anchor="end" font-size="12" fill="#666">$250M</text>
+  <text x="85" y="355" text-anchor="end" font-size="12" fill="#666">$0</text>
+</svg>
+
+

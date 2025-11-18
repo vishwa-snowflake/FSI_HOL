@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="card1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2962FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0D47A1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="card2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D47A1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1565C0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="card3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1976D2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2962FF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="card4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E88E5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1976D2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="500" fill="#FAFAFA" rx="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#1a1a1a">
+    Key Financial Metrics - FY2025
+  </text>
+  
+  <!-- Card 1: Revenue -->
+  <rect x="40" y="70" width="360" height="180" rx="12" fill="url(#card1)" filter="drop-shadow(0 4px 10px rgba(41,98,255,0.3))"/>
+  <text x="220" y="110" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="14" fill="white" opacity="0.9">TOTAL REVENUE</text>
+  <text x="220" y="155" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="56" font-weight="900" fill="white">$3.21B</text>
+  <text x="220" y="185" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="18" fill="white" opacity="0.95">━━━━━</text>
+  <text x="220" y="220" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="24" font-weight="700" fill="#A5D6A7">+38% YoY</text>
+  
+  <!-- Card 2: Customers -->
+  <rect x="420" y="70" width="360" height="180" rx="12" fill="url(#card2)" filter="drop-shadow(0 4px 10px rgba(13,71,161,0.3))"/>
+  <text x="600" y="110" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="14" fill="white" opacity="0.9">TOTAL CUSTOMERS</text>
+  <text x="600" y="155" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="56" font-weight="900" fill="white">10,234</text>
+  <text x="600" y="185" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="18" fill="white" opacity="0.95">━━━━━</text>
+  <text x="600" y="220" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="20" font-weight="600" fill="#A5D6A7">510 with >$1M ARR</text>
+  
+  <!-- Card 3: Net Revenue Retention -->
+  <rect x="40" y="270" width="360" height="180" rx="12" fill="url(#card3)" filter="drop-shadow(0 4px 10px rgba(25,118,210,0.3))"/>
+  <text x="220" y="310" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="14" fill="white" opacity="0.9">NET REVENUE RETENTION</text>
+  <text x="220" y="355" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="56" font-weight="900" fill="white">127%</text>
+  <text x="220" y="385" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="18" fill="white" opacity="0.95">━━━━━</text>
+  <text x="220" y="420" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="18" font-weight="600" fill="#FFEB3B">Industry Leading</text>
+  
+  <!-- Card 4: Free Cash Flow -->
+  <rect x="420" y="270" width="360" height="180" rx="12" fill="url(#card4)" filter="drop-shadow(0 4px 10px rgba(30,136,229,0.3))"/>
+  <text x="600" y="310" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="14" fill="white" opacity="0.9">FREE CASH FLOW</text>
+  <text x="600" y="355" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="56" font-weight="900" fill="white">$931M</text>
+  <text x="600" y="385" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="18" fill="white" opacity="0.95">━━━━━</text>
+  <text x="600" y="420" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="20" font-weight="600" fill="#A5D6A7">29% Margin</text>
+  
+  <!-- Snowflake watermark -->
+  <text x="750" y="490" text-anchor="end" font-family="-apple-system, sans-serif" font-size="10" fill="#999">❄️ Snowflake Inc. | NASDAQ: SNOW</text>
+</svg>
+
+

@@ -1,0 +1,140 @@
+----agent tools
+
+ALTER SESSION SET QUERY_TAG = '''{"origin":"sf_sit-is", "name":"Build an AI Assistant for FSI using AISQL and Snowflake Intelligence", "version":{"major":1, "minor":0},"attributes":{"is_quickstart":0, "source":"sql"}}''';
+
+-- Setup for AI_TRANSCRIBE - Earnings Call Audio
+USE ROLE ACCOUNTADMIN;
+USE WAREHOUSE {{ env.EVENT_WAREHOUSE }};
+USE DATABASE {{ env.EVENT_DATABASE }};
+USE SCHEMA {{ env.DOCUMENT_AI_SCHEMA }};
+
+-- Grant CORTEX_USER role for AI_TRANSCRIBE access
+GRANT DATABASE ROLE SNOWFLAKE.CORTEX_USER TO ROLE ACCOUNTADMIN;
+
+-- Stage should already exist from upload step - just verify and refresh
+-- Show stage information
+SHOW STAGES LIKE 'EARNINGS_CALLS_AUDIO';
+
+-- List any existing files in the stage
+LIST @{{ env.EVENT_DATABASE }}.{{ env.DOCUMENT_AI_SCHEMA }}.EARNINGS_CALLS_AUDIO;
+
+-- Refresh the directory table to see newly uploaded files
+ALTER STAGE {{ env.EVENT_DATABASE }}.{{ env.DOCUMENT_AI_SCHEMA }}.EARNINGS_CALLS_AUDIO REFRESH;
+
+-- Note: Files will be uploaded using PUT command (see upload instructions below)
+-- PUT file:///Users/boconnor/fsi-cortex-assistant/dataops/event/sound_files/*.mp3 
+--     @{{ env.EVENT_DATABASE }}.{{ env.DOCUMENT_AI_SCHEMA }}.EARNINGS_CALLS_AUDIO 
+--     AUTO_COMPRESS=FALSE;
+
+-- Create table to store transcribed earnings calls with speaker labels and timestamps
+CREATE OR REPLACE TABLE {{ env.EVENT_DATABASE }}.{{ env.DOCUMENT_AI_SCHEMA }}.TRANSCRIBED_EARNINGS_CALLS (
+    FILE_NAME VARCHAR(500),
+    RELATIVE_PATH VARCHAR(500),
+    FILE_SIZE NUMBER,
+    LAST_MODIFIED TIMESTAMP_TZ,
+    AUDIO_DURATION_SECONDS FLOAT,
+    TRANSCRIPTION_TEXT TEXT,
+    TRANSCRIPTION_JSON VARIANT,
+    TRANSCRIBED_AT TIMESTAMP_LTZ DEFAULT CURRENT_TIMESTAMP(),
+    CONSTRAINT pk_transcribed_earnings PRIMARY KEY (FILE_NAME)
+) 
+COMMENT = 'Earnings call audio files transcribed using AI_TRANSCRIBE with full text and metadata';
+
+-- Create table for segment-level analysis (speaker turns)
+CREATE OR REPLACE TABLE {{ env.EVENT_DATABASE }}.{{ env.DOCUMENT_AI_SCHEMA }}.EARNINGS_CALL_SEGMENTS (
+    FILE_NAME VARCHAR(500),
+    SEGMENT_INDEX INTEGER,
+    SPEAKER_LABEL VARCHAR(50),
+    START_TIME_SECONDS FLOAT,
+    END_TIME_SECONDS FLOAT,
+    DURATION_SECONDS FLOAT,
+    SEGMENT_TEXT TEXT,
+    TRANSCRIBED_AT TIMESTAMP_LTZ DEFAULT CURRENT_TIMESTAMP(),
+    CONSTRAINT pk_earnings_segments PRIMARY KEY (FILE_NAME, SEGMENT_INDEX)
+)
+COMMENT = 'Individual speaker segments from earnings calls with timestamps and speaker labels';
+
+-- Process audio files and transcribe with speaker labels
+INSERT INTO {{ env.EVENT_DATABASE }}.{{ env.DOCUMENT_AI_SCHEMA }}.TRANSCRIBED_EARNINGS_CALLS 
+    (FILE_NAME, RELATIVE_PATH, FILE_SIZE, LAST_MODIFIED, AUDIO_DURATION_SECONDS, TRANSCRIPTION_TEXT, TRANSCRIPTION_JSON)
+SELECT 
+    RELATIVE_PATH AS FILE_NAME,
+    RELATIVE_PATH,
+    SIZE AS FILE_SIZE,
+    LAST_MODIFIED,
+    transcription:audio_duration::FLOAT AS AUDIO_DURATION_SECONDS,
+    transcription:text::TEXT AS TRANSCRIPTION_TEXT,
+    transcription AS TRANSCRIPTION_JSON
+FROM (
+    SELECT 
+        RELATIVE_PATH,
+        SIZE,
+        LAST_MODIFIED,
+        AI_TRANSCRIBE(
+            TO_FILE('@{{ env.EVENT_DATABASE }}.{{ env.DOCUMENT_AI_SCHEMA }}.EARNINGS_CALLS_AUDIO', RELATIVE_PATH),
+            {'timestamp_granularity': 'speaker'}
+        ) AS transcription
+    FROM DIRECTORY('@{{ env.EVENT_DATABASE }}.{{ env.DOCUMENT_AI_SCHEMA }}.EARNINGS_CALLS_AUDIO')
+    WHERE RELATIVE_PATH LIKE '%.mp3'
+);
+
+-- Extract individual speaker segments for detailed analysis
+INSERT INTO {{ env.EVENT_DATABASE }}.{{ env.DOCUMENT_AI_SCHEMA }}.EARNINGS_CALL_SEGMENTS
+    (FILE_NAME, SEGMENT_INDEX, SPEAKER_LABEL, START_TIME_SECONDS, END_TIME_SECONDS, DURATION_SECONDS, SEGMENT_TEXT)
+SELECT 
+    FILE_NAME,
+    segment.index::INTEGER AS segment_index,
+    segment.value:speaker_label::VARCHAR AS SPEAKER_LABEL,
+    segment.value:start::FLOAT AS START_TIME_SECONDS,
+    segment.value:end::FLOAT AS END_TIME_SECONDS,
+    segment.value:end::FLOAT - segment.value:start::FLOAT AS DURATION_SECONDS,
+    segment.value:text::TEXT AS SEGMENT_TEXT
+FROM 
+    {{ env.EVENT_DATABASE }}.{{ env.DOCUMENT_AI_SCHEMA }}.TRANSCRIBED_EARNINGS_CALLS,
+    LATERAL FLATTEN(input => TRANSCRIPTION_JSON:segments) segment
+WHERE TRANSCRIPTION_JSON:segments IS NOT NULL;
+
+-- Grant access to attendee role
+GRANT READ ON STAGE {{ env.EVENT_DATABASE }}.{{ env.DOCUMENT_AI_SCHEMA }}.EARNINGS_CALLS_AUDIO 
+    TO ROLE {{ env.EVENT_ATTENDEE_ROLE }};
+
+GRANT SELECT ON TABLE {{ env.EVENT_DATABASE }}.{{ env.DOCUMENT_AI_SCHEMA }}.TRANSCRIBED_EARNINGS_CALLS 
+    TO ROLE {{ env.EVENT_ATTENDEE_ROLE }};
+
+GRANT SELECT ON TABLE {{ env.EVENT_DATABASE }}.{{ env.DOCUMENT_AI_SCHEMA }}.EARNINGS_CALL_SEGMENTS 
+    TO ROLE {{ env.EVENT_ATTENDEE_ROLE }};
+
+-- Verify the transcription results
+SELECT 
+    FILE_NAME,
+    ROUND(AUDIO_DURATION_SECONDS, 2) AS DURATION_SEC,
+    ROUND(AUDIO_DURATION_SECONDS / 60, 2) AS DURATION_MIN,
+    LENGTH(TRANSCRIPTION_TEXT) AS TRANSCRIPT_LENGTH,
+    LEFT(TRANSCRIPTION_TEXT, 200) || '...' AS TRANSCRIPT_PREVIEW,
+    TRANSCRIBED_AT
+FROM {{ env.EVENT_DATABASE }}.{{ env.DOCUMENT_AI_SCHEMA }}.TRANSCRIBED_EARNINGS_CALLS
+ORDER BY FILE_NAME;
+
+-- Verify speaker segments
+SELECT 
+    FILE_NAME,
+    SPEAKER_LABEL,
+    COUNT(*) AS SEGMENT_COUNT,
+    ROUND(SUM(DURATION_SECONDS), 2) AS TOTAL_SPEAKING_TIME_SEC,
+    ROUND(AVG(DURATION_SECONDS), 2) AS AVG_SEGMENT_LENGTH_SEC
+FROM {{ env.EVENT_DATABASE }}.{{ env.DOCUMENT_AI_SCHEMA }}.EARNINGS_CALL_SEGMENTS
+GROUP BY FILE_NAME, SPEAKER_LABEL
+ORDER BY FILE_NAME, SPEAKER_LABEL;
+
+-- Example: View first 5 segments from each earnings call
+SELECT 
+    FILE_NAME,
+    SEGMENT_INDEX,
+    SPEAKER_LABEL,
+    ROUND(START_TIME_SECONDS, 2) AS START_SEC,
+    ROUND(END_TIME_SECONDS, 2) AS END_SEC,
+    LEFT(SEGMENT_TEXT, 150) || '...' AS SEGMENT_PREVIEW
+FROM {{ env.EVENT_DATABASE }}.{{ env.DOCUMENT_AI_SCHEMA }}.EARNINGS_CALL_SEGMENTS
+WHERE SEGMENT_INDEX < 5
+ORDER BY FILE_NAME, SEGMENT_INDEX;
+

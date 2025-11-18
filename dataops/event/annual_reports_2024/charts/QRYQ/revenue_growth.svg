@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" width="700" height="300">
+  <defs><linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#FF5722"/><stop offset="100%" stop-color="#D84315"/></linearGradient></defs>
+  <rect width="700" height="300" fill="#FFF3E0" rx="10"/>
+  <text x="350" y="25" text-anchor="middle" font-size="18" font-weight="700" fill="#D84315">⚡ Revenue Growth - FY2024</text>
+  <line x1="80" y1="250" x2="620" y2="250" stroke="#DDD" stroke-width="2"/>
+  <line x1="80" y1="80" x2="80" y2="250" stroke="#DDD" stroke-width="2"/>
+  <path d="M 180,240 L 380,195 L 540,110" stroke="url(#g)" stroke-width="4" fill="none"/>
+  <circle cx="180" cy="240" r="7" fill="#D84315" stroke="white" stroke-width="2"/>
+  <circle cx="380" cy="195" r="7" fill="#D84315" stroke="white" stroke-width="2"/>
+  <circle cx="540" cy="110" r="9" fill="#FF5722" stroke="#FFD54F" stroke-width="2"/>
+  <text x="180" y="275" text-anchor="middle" font-size="12" font-weight="600">FY2023</text>
+  <text x="380" y="275" text-anchor="middle" font-size="12" font-weight="600">FY2024</text>
+  <text x="180" y="230" text-anchor="middle" font-size="13" font-weight="700" fill="#D84315">$36M</text>
+  <text x="380" y="185" text-anchor="middle" font-size="13" font-weight="700" fill="#D84315">$107M</text>
+  <rect x="265" y="213" width="70" height="22" rx="11" fill="#4CAF50"/>
+  <text x="300" y="228" text-anchor="middle" font-size="12" font-weight="900" fill="white">+198%</text>
+</svg>
+
+

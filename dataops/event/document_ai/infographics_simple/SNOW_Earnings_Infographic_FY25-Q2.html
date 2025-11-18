@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><title>Snowflake Inc.</title>
+<style>
+html, body { margin: 0; padding: 0; width: 100%; height: 1900px; overflow: hidden; }
+body { background: linear-gradient(135deg, #29B5E8 0%, #1E3A8A 100%); color: white; font-family: Arial, sans-serif; }
+.grid { display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: auto repeat(3, 1fr) auto; gap: 20px; padding: 30px; height: 100%; box-sizing: border-box; }
+.header { grid-column: span 4; text-align: center; background: rgba(0,0,0,0.3); padding: 25px; border-radius: 15px; }
+.header h1 { font-size: 42px; margin: 0; }
+.header h2 { font-size: 20px; margin: 5px 0; opacity: 0.9; }
+.kpi { background: rgba(255,255,255,0.15); border-radius: 15px; padding: 20px; text-align: center; backdrop-filter: blur(10px); border: 2px solid rgba(255,255,255,0.3); display: flex; flex-direction: column; justify-content: center; }
+.kpi-icon { font-size: 52px; margin-bottom: 15px; }
+.kpi-label { font-size: 15px; text-transform: uppercase; opacity: 0.85; margin-bottom: 15px; letter-spacing: 1px; }
+.kpi-value { font-size: 56px; font-weight: bold; margin: 10px 0; line-height: 1; }
+.kpi-sub { font-size: 20px; opacity: 0.9; margin-top: 12px; font-weight: 600; }
+</style></head><body>
+<div class="grid">
+<div class="header"><h1>Snowflake Inc. (SNOW)</h1><h2>Cloud Data Platform Leader</h2><p>Q2 FY2025 | August 2024</p></div>
+<div class="kpi" style="grid-column: span 2; grid-row: span 2;"><div class="kpi-icon">💰</div><div class="kpi-label">Total Revenue</div><div class="kpi-value">$900M</div><div class="kpi-sub">▲ 29% YoY</div></div>
+<div class="kpi">
+    <svg width="200" height="200" viewBox="0 0 160 160" style="margin: 10px auto;">
+        <circle cx="80" cy="80" r="70" fill="none" stroke="white" stroke-width="18" opacity="0.3"/>
+        <path d="M 80 10 A 70 70 0 1 1 22.519555360640723 40.05005026208977" 
+              fill="none" stroke="#60A5FA" stroke-width="18" 
+              stroke-linecap="round"/>
+        <text x="80" y="90" text-anchor="middle" font-size="42" font-weight="bold" fill="white">84%</text>
+    </svg>
+    <div class="kpi-label" style="margin-top: 0;">Net Revenue Retention</div></div>
+<div class="kpi">
+    <svg width="200" height="200" viewBox="0 0 160 160" style="margin: 10px auto;">
+        <circle cx="80" cy="80" r="70" fill="none" stroke="white" stroke-width="18" opacity="0.3"/>
+        <path d="M 80 10 A 70 70 0 1 1 10.0 80.00000000000001" 
+              fill="none" stroke="#60A5FA" stroke-width="18" 
+              stroke-linecap="round"/>
+        <text x="80" y="90" text-anchor="middle" font-size="42" font-weight="bold" fill="white">75%</text>
+    </svg>
+    <div class="kpi-label" style="margin-top: 0;">Gross Margin</div></div>
+<div class="kpi"><div class="kpi-icon">👥</div><div class="kpi-label">Total Customers</div><div class="kpi-value">10,000</div></div>
+<div class="kpi"><div class="kpi-icon">⭐</div><div class="kpi-label">$1M+ Customers</div><div class="kpi-value">542</div></div>
+<div class="kpi"><div class="kpi-icon">💵</div><div class="kpi-label">Free Cash Flow</div><div class="kpi-value">$544M</div></div>
+<div class="kpi"><div class="kpi-icon">📋</div><div class="kpi-label">RPO</div><div class="kpi-value">$5700M</div><div class="kpi-sub">+38%</div></div>
+<div class="kpi"><div class="kpi-icon">💎</div><div class="kpi-label">Product Revenue</div><div class="kpi-value">$868M</div></div>
+<div class="kpi"><div class="kpi-icon">📊</div><div class="kpi-label">Operating Margin</div><div class="kpi-value">11%</div></div>
+<div class="header" style="grid-column: span 4; padding: 45px 35px;"><h2 style="font-size: 24px; margin-bottom: 20px; font-weight: bold;">Company Mission & Business Strategy</h2><p style="font-size: 18px; text-align: left; line-height: 1.9; opacity: 0.95;">Snowflake is the market leader in cloud data warehousing, providing a unified platform for data warehousing, data sharing, and analytics services. Our mission is to enable every organization to be data-driven by mobilizing the world's data. We compete primarily with ICBG's open lakehouse platform and QRYQ's price-performance offerings, while maintaining strong partnerships with DFLX, STRM, VLTA, and CTLG across the modern data stack. Our strategic focus centers on enterprise infrastructure reliability and comprehensive data platform capabilities, differentiating through proprietary technology and integrated solutions that simplify complex data challenges at scale.</p></div>
+</div></body></html>

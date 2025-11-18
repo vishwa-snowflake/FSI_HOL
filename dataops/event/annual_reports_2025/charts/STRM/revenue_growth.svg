@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="strmGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3F51B5" />
+      <stop offset="50%" style="stop-color:#7C4DFF" />
+      <stop offset="100%" style="stop-color:#3F51B5" />
+    </linearGradient>
+    <linearGradient id="strmArea" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#7C4DFF;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#7C4DFF;stop-opacity:0.05" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="400" fill="#E8EAF6" rx="10"/>
+  
+  <!-- Flowing waves background -->
+  <path d="M0,300 Q100,280 200,300 T400,300 T600,300 T800,300" fill="none" stroke="#C5CAE9" stroke-width="2" opacity="0.3"/>
+  <path d="M0,320 Q100,300 200,320 T400,320 T600,320 T800,320" fill="none" stroke="#C5CAE9" stroke-width="2" opacity="0.2"/>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#1a1a1a">
+    〰️ Revenue Growth: Real-Time Data Integration
+  </text>
+  
+  <!-- Grid -->
+  <line x1="100" y1="350" x2="700" y2="350" stroke="#3F51B5" stroke-width="2"/>
+  <line x1="100" y1="100" x2="100" y2="350" stroke="#3F51B5" stroke-width="2"/>
+  
+  <!-- Area -->
+  <path d="M 150,335 L 350,295 L 550,195 L 650,140 L 650,350 L 150,350 Z" fill="url(#strmArea)"/>
+  
+  <!-- Line with flowing effect -->
+  <path d="M 150,335 L 350,295 L 550,195 L 650,140" stroke="url(#strmGradient)" stroke-width="4" fill="none"/>
+  
+  <!-- Points -->
+  <circle cx="150" cy="335" r="8" fill="#3F51B5" stroke="white" stroke-width="3"/>
+  <circle cx="350" cy="295" r="8" fill="#5E35B1" stroke="white" stroke-width="3"/>
+  <circle cx="550" cy="195" r="8" fill="#7C4DFF" stroke="white" stroke-width="3"/>
+  <circle cx="650" cy="140" r="10" fill="#7C4DFF" stroke="white" stroke-width="3"/>
+  
+  <!-- Labels -->
+  <text x="150" y="375" text-anchor="middle" font-size="14" font-weight="600">FY2023</text>
+  <text x="350" y="375" text-anchor="middle" font-size="14" font-weight="600">FY2024</text>
+  <text x="550" y="375" text-anchor="middle" font-size="14" font-weight="600">FY2025</text>
+  
+  <!-- Values -->
+  <text x="150" y="325" text-anchor="middle" font-size="14" font-weight="700" fill="#3F51B5">$26M</text>
+  <text x="350" y="285" text-anchor="middle" font-size="14" font-weight="700" fill="#3F51B5">$75M</text>
+  <text x="550" y="185" text-anchor="middle" font-size="14" font-weight="700" fill="#7C4DFF">$224M</text>
+  
+  <!-- Growth -->
+  <text x="250" y="318" text-anchor="middle" font-size="12" fill="#4CAF50" font-weight="600">+187%</text>
+  <text x="450" y="248" text-anchor="middle" font-size="12" fill="#4CAF50" font-weight="600">+198%</text>
+  
+  <!-- Y-axis -->
+  <text x="85" y="145" text-anchor="end" font-size="12" fill="#666">$250M</text>
+  <text x="85" y="270" text-anchor="end" font-size="12" fill="#666">$100M</text>
+  <text x="85" y="355" text-anchor="end" font-size="12" fill="#666">$0</text>
+  
+  <text x="750" y="390" text-anchor="end" font-size="10" fill="#666">〰️ StreamPipe Systems | NYSE: STRM</text>
+</svg>
+
+

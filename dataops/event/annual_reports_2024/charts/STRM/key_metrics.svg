@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 250" width="700" height="250">
+  <rect width="700" height="250" fill="#E8EAF6" rx="10"/>
+  <text x="350" y="25" text-anchor="middle" font-size="16" font-weight="700" fill="#3F51B5">Key Metrics - FY2024</text>
+  <rect x="40" y="45" width="150" height="90" rx="8" fill="#3F51B5"/>
+  <text x="115" y="68" text-anchor="middle" font-size="10" fill="white">REVENUE</text>
+  <text x="115" y="102" text-anchor="middle" font-size="30" font-weight="900" fill="white">$75M</text>
+  <rect x="205" y="45" width="140" height="90" rx="8" fill="#5E35B1"/>
+  <text x="275" y="68" text-anchor="middle" font-size="10" fill="white">CONNECTORS</text>
+  <text x="275" y="102" text-anchor="middle" font-size="30" font-weight="900" fill="white">203</text>
+  <rect x="360" y="45" width="140" height="90" rx="8" fill="#7C4DFF"/>
+  <text x="430" y="68" text-anchor="middle" font-size="10" fill="white">NRR</text>
+  <text x="430" y="102" text-anchor="middle" font-size="30" font-weight="900" fill="white">128%</text>
+  <rect x="515" y="45" width="150" height="90" rx="8" fill="#673AB7"/>
+  <text x="590" y="68" text-anchor="middle" font-size="9" fill="white">EVENTS/MO</text>
+  <text x="590" y="98" text-anchor="middle" font-size="26" font-weight="900" fill="white">234B</text>
+  <rect x="50" y="160" width="600" height="70" rx="8" fill="white" stroke="#3F51B5" stroke-width="2"/>
+  <text x="350" y="188" text-anchor="middle" font-size="11" fill="#3F51B5" font-weight="700">Real-time integration • 387 customers • Circulatory system of data stack</text>
+  <text x="350" y="210" text-anchor="middle" font-size="10" fill="#666">Partners with SNOW, QRYQ, ICBG, DFLX, VLTA, CTLG</text>
+</svg>
+

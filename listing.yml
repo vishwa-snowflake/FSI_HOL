@@ -1,0 +1,22 @@
+listing_kind: event_solution
+name: "Snowflake AISQL and Snowflake Intelligence Hackathon"
+version: "v1"
+tier: 1
+description: "This hackathon template contains both the AISQL notebook pack and the build an AI Assistant with AISQL and Snowflake intelligence to form the foundation for a hackathon.  There is an additional 'Hackathon' database complete with sample content which can be used for teams to use for their hackathon projects "
+creator: "Innovation Showcase Team"
+use_case:
+  - "Financial Services - Quantitative Research & Investment Analytics"
+vertical_applicability:
+  - "Financial Services"
+  - "Product Hands on Labs"
+snowflake_feature:
+  - "Cortex"
+  - "Cortex Search"
+  - "Cortex Analyst"
+  - "Cortex LLM Functions"
+  - "Cortex Agents"
+  - "Document AI"
+  - "Snowpark"
+  - "Snowflake Intelligence"
+  - "AISQL"
+  - "Document Parsing"

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="card1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF5722" />
+      <stop offset="100%" style="stop-color:#F4511E" />
+    </linearGradient>
+    <linearGradient id="card2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F4511E" />
+      <stop offset="100%" style="stop-color:#E64A19" />
+    </linearGradient>
+    <linearGradient id="card3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E64A19" />
+      <stop offset="100%" style="stop-color:#D84315" />
+    </linearGradient>
+    <linearGradient id="card4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#BF360C" />
+      <stop offset="100%" style="stop-color:#D84315" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="500" fill="#FFF" rx="10"/>
+  
+  <!-- Lightning decoration -->
+  <text x="750" y="70" font-size="60" opacity="0.1">⚡</text>
+  <text x="50" y="450" font-size="60" opacity="0.1">⚡</text>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#1a1a1a">
+    Key Metrics - FY2025 | ⚡ The Challenger
+  </text>
+  
+  <!-- Card 1: Revenue -->
+  <rect x="40" y="70" width="360" height="180" rx="12" fill="url(#card1)" filter="drop-shadow(0 4px 10px rgba(255,87,34,0.4))"/>
+  <text x="220" y="110" text-anchor="middle" font-size="14" fill="white" opacity="0.9">TOTAL REVENUE</text>
+  <text x="220" y="155" text-anchor="middle" font-size="56" font-weight="900" fill="white">$412M</text>
+  <text x="220" y="220" text-anchor="middle" font-size="24" font-weight="700" fill="#FFEB3B">⚡ +287% YoY</text>
+  
+  <!-- Card 2: Win Rate -->
+  <rect x="420" y="70" width="360" height="180" rx="12" fill="url(#card2)" filter="drop-shadow(0 4px 10px rgba(244,81,30,0.4))"/>
+  <text x="600" y="110" text-anchor="middle" font-size="14" fill="white" opacity="0.9">WIN RATE VS. SNOWFLAKE</text>
+  <text x="600" y="155" text-anchor="middle" font-size="56" font-weight="900" fill="white">37%</text>
+  <text x="600" y="220" text-anchor="middle" font-size="20" font-weight="600" fill="#FFD54F">↗ Up from 23%</text>
+  
+  <!-- Card 3: NRR -->
+  <rect x="40" y="270" width="360" height="180" rx="12" fill="url(#card3)" filter="drop-shadow(0 4px 10px rgba(230,74,25,0.4))"/>
+  <text x="220" y="310" text-anchor="middle" font-size="14" fill="white" opacity="0.9">NET REVENUE RETENTION</text>
+  <text x="220" y="355" text-anchor="middle" font-size="56" font-weight="900" fill="white">142%</text>
+  <text x="220" y="420" text-anchor="middle" font-size="18" font-weight="600" fill="#A5D6A7">Excellent Expansion</text>
+  
+  <!-- Card 4: Price Advantage -->
+  <rect x="420" y="270" width="360" height="180" rx="12" fill="url(#card4)" filter="drop-shadow(0 4px 10px rgba(216,67,21,0.4))"/>
+  <text x="600" y="310" text-anchor="middle" font-size="14" fill="white" opacity="0.9">PRICE-PERFORMANCE</text>
+  <text x="600" y="355" text-anchor="middle" font-size="56" font-weight="900" fill="white">2.1x</text>
+  <text x="600" y="420" text-anchor="middle" font-size="20" font-weight="600" fill="#FFD54F">Better than SNOW</text>
+  
+  <!-- Footer -->
+  <text x="750" y="490" text-anchor="end" font-size="10" fill="#666">⚡ Querybase Technologies | NYSE: QRYQ</text>
+</svg>
+
+

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" width="700" height="300">
+  <defs>
+    <linearGradient id="c1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14B8A6" />
+      <stop offset="100%" style="stop-color:#0D9488" />
+    </linearGradient>
+    <linearGradient id="c2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D9488" />
+      <stop offset="100%" style="stop-color:#0F766E" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="700" height="300" fill="#F0FDFA" rx="10"/>
+  
+  <!-- Title -->
+  <text x="350" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#0D9488">
+    Key Metrics - FY2025
+  </text>
+  
+  <!-- Cards -->
+  <rect x="40" y="50" width="200" height="120" rx="10" fill="url(#c1)"/>
+  <text x="140" y="80" text-anchor="middle" font-size="11" fill="white">REVENUE</text>
+  <text x="140" y="120" text-anchor="middle" font-size="36" font-weight="900" fill="white">$289M</text>
+  <text x="140" y="150" text-anchor="middle" font-size="15" font-weight="700" fill="#FFEB3B">+234%</text>
+  
+  <rect x="260" y="50" width="180" height="120" rx="10" fill="url(#c2)"/>
+  <text x="350" y="80" text-anchor="middle" font-size="11" fill="white">PROPERTIES</text>
+  <text x="350" y="120" text-anchor="middle" font-size="36" font-weight="900" fill="white">2.4M</text>
+  <text x="350" y="150" text-anchor="middle" font-size="13" fill="white">Analyzed</text>
+  
+  <rect x="460" y="50" width="200" height="120" rx="10" fill="#FEE2E2" stroke="#DC2626" stroke-width="2"/>
+  <text x="560" y="80" text-anchor="middle" font-size="11" fill="#7F1D1D">FREE CASH FLOW</text>
+  <text x="560" y="120" text-anchor="middle" font-size="36" font-weight="900" fill="#DC2626">($78M)</text>
+  <text x="560" y="150" text-anchor="middle" font-size="13" fill="#DC2626" font-weight="700">⚠️ Heavy burn</text>
+  
+  <!-- Warning -->
+  <rect x="100" y="195" width="500" height="80" rx="8" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2"/>
+  <text x="350" y="220" text-anchor="middle" font-size="14" font-weight="700" fill="#F59E0B">Growth Stage Challenges:</text>
+  <text x="350" y="242" text-anchor="middle" font-size="12" fill="#666">Limited enterprise traction (18 customers >$100K) • LTV/CAC ratio 1.5x (weak)</text>
+  <text x="350" y="262" text-anchor="middle" font-size="12" fill="#666">May require Series C funding in FY2026 to extend runway</text>
+</svg>
+
+

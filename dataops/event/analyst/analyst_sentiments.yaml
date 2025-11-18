@@ -1,0 +1,102 @@
+name: ANALYST_SENTIMENTS
+tables:
+  - name: AI_TRANSCRIPTS_ANALYSTS_SENTIMENTS
+    base_table:
+      database: ACCELERATE_AI_IN_FSI
+      schema: DEFAULT_SCHEMA
+      table: AI_TRANSCRIPTS_ANALYSTS_SENTIMENTS
+    dimensions:
+      - name: EVENT_TYPE
+        synonyms:
+          - event_category
+          - event_classification
+          - event_label
+          - event_name
+          - event_tag
+          - incident_type
+          - occurrence_type
+        description: The type of event that triggered the analyst's sentiment, such as an earnings call, product launch, or merger announcement.
+        expr: EVENT_TYPE
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - Earnings Call
+      - name: PRIMARY_TICKER
+        synonyms:
+          - main_security_ticker
+          - main_stock_symbol
+          - main_ticker
+          - primary_security_id
+          - primary_stock
+          - stock_symbol
+        description: The primary ticker symbol of the company being discussed in the transcript, representing the stock exchange listing of the company.
+        expr: PRIMARY_TICKER
+        data_type: VARCHAR(16777216)
+    time_dimensions:
+      - name: CREATED_AT
+        synonyms:
+          - created_date
+          - creation_time
+          - date_created
+          - entry_time
+          - insertion_time
+          - posted_at
+          - published_at
+          - record_date
+          - timestamp
+          - updated_at
+        description: Date and time when the analyst sentiment was created.
+        expr: CREATED_AT
+        data_type: TIMESTAMP_NTZ(9)
+        sample_values:
+          - 2025-08-27T22:40:12.000+0000
+          - 2025-05-28T22:50:08.000+0000
+          - 2025-06-05T11:38:40.000+0000
+      - name: EVENT_TIMESTAMP
+        synonyms:
+          - entry_time
+          - event_date
+          - event_datetime
+          - event_occurrence
+          - event_time
+          - log_time
+          - occurrence_time
+          - record_time
+          - timestamp
+        description: The date and time when the analyst sentiment was recorded, in ISO 8601 format.
+        expr: EVENT_TIMESTAMP
+        data_type: TIMESTAMP_NTZ(9)
+        sample_values:
+          - 2025-02-26T22:00:00.000+0000
+          - 2025-05-28T21:00:00.000+0000
+          - 2025-08-27T21:00:00.000+0000
+    facts:
+      - name: SENTIMENT_SCORE
+        synonyms:
+          - attitude_rating
+          - emotional_rating
+          - emotional_score
+          - opinion_score
+          - sentiment_rating
+          - sentiment_value
+          - tone_score
+        description: A score indicating the sentiment of an analyst's transcript, ranging from 1 (very negative) to 10 (very positive), with higher scores representing more positive sentiment.
+        expr: SENTIMENT_SCORE
+        data_type: NUMBER(38,0)
+        sample_values:
+          - '7'
+          - '6'
+          - '8'
+      - name: UNIQUE_ANALYST_COUNT
+        synonyms:
+          - analyst_uniqueness
+          - count_of_unique_analysts
+          - distinct_analyst_count
+          - number_of_unique_experts
+          - unique_expert_count
+        description: The number of unique analysts who have provided sentiment scores for a particular transcript.
+        expr: UNIQUE_ANALYST_COUNT
+        data_type: NUMBER(38,0)
+        sample_values:
+          - '15'
+          - '19'
+          - '16'

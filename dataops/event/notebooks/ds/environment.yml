@@ -1,0 +1,10 @@
+name: notebook_environment
+channels:
+  - snowflake
+dependencies:
+  - lightgbm
+  - matplotlib
+  - scikit-learn
+  - seaborn
+  - snowflake-ml-python
+  - statsmodels

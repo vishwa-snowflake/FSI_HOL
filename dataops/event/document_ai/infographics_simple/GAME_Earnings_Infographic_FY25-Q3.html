@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><title>GameMetrics</title>
+<style>
+html, body { margin: 0; padding: 0; width: 100%; height: 1900px; overflow: hidden; }
+body { background: linear-gradient(180deg, #581C87 0%, #9333EA 100%); color: white; font-family: 'Georgia', serif; }
+.structure { padding: 35px; height: 100%; box-sizing: border-box; display: flex; flex-direction: column; gap: 20px; }
+.title-bar { background: rgba(0,0,0,0.4); padding: 28px; border-left: 8px solid #D8B4FE; }
+.title-bar h1 { font-size: 46px; margin: 0; }
+.title-bar h2 { font-size: 20px; margin: 8px 0; opacity: 0.9; }
+.title-bar .warning { background: rgba(216,180,254,0.2); padding: 10px 15px; margin-top: 10px; border-left: 4px solid #E9D5FF; font-size: 14px; }
+.hierarchy { display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(3, 1fr); gap: 18px; flex: 1; }
+.tier-card { background: rgba(255,255,255,0.12); padding: 20px; border-radius: 8px; border-top: 5px solid #D8B4FE; backdrop-filter: blur(8px); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
+.tier-icon { font-size: 52px; margin-bottom: 15px; }
+.tier-label { font-size: 16px; opacity: 0.9; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 1px; }
+.tier-value { font-size: 56px; font-weight: bold; line-height: 1; }
+.tier-sub { font-size: 22px; opacity: 0.95; margin-top: 12px; font-weight: 600; }
+.big-stat { grid-column: span 2; grid-row: span 2; background: rgba(0,0,0,0.3); padding: 30px; border-radius: 8px; }
+.big-stat-value { font-size: 88px; font-weight: bold; line-height: 1; }
+.negative { color: #FCA5A5; }
+</style></head><body>
+<div class="structure">
+<div class="title-bar"><h1>🎮 GameMetrics (GAME)</h1><h2>Gaming Analytics Platform</h2><p style="font-size: 16px; margin: 5px 0;">Q3 FY2025 Gaming Metrics | September 2024</p><div class="warning">📊 GROWTH LEADER: Exceptional revenue growth but still operating at loss (-$8M FCF)</div></div>
+<div class="hierarchy">
+<div class="big-stat"><div class="tier-icon" style="font-size: 68px;">💰</div><div style="font-size: 22px; margin-bottom: 15px; opacity: 0.95; font-weight: bold;">TOTAL REVENUE</div><div class="big-stat-value">$167M</div><div style="font-size: 28px; margin-top: 15px; font-weight: 600;">▲ 287% YoY</div></div>
+<div class="tier-card"><div class="tier-icon">💎</div><div class="tier-label">Product Revenue</div><div class="tier-value">$148M</div></div>
+<div class="tier-card"><div class="tier-icon">🔧</div><div class="tier-label">Services Revenue</div><div class="tier-value">$19M</div></div>
+<div class="tier-card"><div class="tier-icon">👥</div><div class="tier-label">Total Customers</div><div class="tier-value">890</div></div>
+<div class="tier-card"><div class="tier-icon">⭐</div><div class="tier-label">$1M+ Customers</div><div class="tier-value">34</div></div>
+<div class="tier-card"><div class="tier-icon">🔄</div><div class="tier-label">NRR</div><div class="tier-value">125%</div></div>
+<div class="tier-card"><div class="tier-icon">📊</div><div class="tier-label">Gross Margin</div><div class="tier-value">67%</div></div>
+<div class="tier-card"><div class="tier-icon">⚙️</div><div class="tier-label">Operating Margin</div><div class="tier-value negative">-10%</div></div>
+<div class="tier-card"><div class="tier-icon">💵</div><div class="tier-label">Free Cash Flow</div><div class="tier-value negative">-$8M</div></div>
+<div class="tier-card"><div class="tier-icon">🚀</div><div class="tier-label">Growth Trajectory</div><div class="tier-value">287%</div><div class="tier-sub">Triple Digit</div></div>
+</div>
+<div style="grid-column: span 4; background: rgba(0,0,0,0.5); padding: 45px 35px; border-radius: 8px; border-left: 8px solid #D8B4FE;"><div style="font-size: 24px; font-weight: bold; margin-bottom: 25px;">Company Mission & Market Position</div><p style="font-size: 18px; line-height: 1.9; opacity: 0.95;">GameMetrics provides gaming analytics infrastructure for game developers and publishers. Our platform uses Querybase for player behavior data, StreamPipe for real-time game telemetry, and DataFlex for game studio dashboards. We serve 890+ customers including major game studios and mobile gaming companies, focusing on free-to-play and live service games where real-time analytics drive revenue optimization. With exceptional 287% year-over-year growth, we're the clear leader in gaming vertical analytics. However, we continue operating at a loss (-10% operating margin) as we invest heavily in product development and customer acquisition. Our 125% NRR demonstrates strong customer expansion, and we're approaching profitability with improving unit economics. The gaming industry's massive shift toward data-driven development and live operations creates significant tailwinds for our platform. Our modular architecture integrating best-in-class tools resonates with technically sophisticated game development teams.</p></div>
+</div>
+</div></body></html>

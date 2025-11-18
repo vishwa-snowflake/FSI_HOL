@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quant-Vestor Detailed Stock Report - SNOW</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@400;600&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Open Sans', sans-serif; }
+        .header-font { font-family: 'Teko', sans-serif; }
+        .score-box { background-color: #fef2f2; border: 1px solid #fca5a5; }
+        .score-value { color: #b91c1c; }
+        .component-bar { background: linear-gradient(to top, #ef4444, #f97316, #eab308, #84cc16, #22c55e); position: relative; }
+        .component-score { position: absolute; left: 100%; margin-left: 8px; transform: translateY(-50%); background-color: #0c4a6e; color: white; padding: 2px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; }
+        .component-score::before { content: ''; position: absolute; top: 50%; right: 100%; margin-top: -5px; border-width: 5px; border-style: solid; border-color: transparent #0c4a6e transparent transparent; }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto p-4">
+        <header class="flex justify-between items-center p-4 bg-white rounded-t-lg border-b-4 border-cyan-500">
+            <div><h1 class="header-font text-5xl text-cyan-700 tracking-wider">QUANT-VESTOR</h1><p class="text-gray-500">Detailed Stock Report</p></div>
+            <div class="text-right"><h2 class="text-2xl font-bold">SNOWFLAKE INC (SNOW-N)</h2><p class="text-sm text-gray-600">Report Date: 2024-Sep-23</p></div>
+        </header>
+        <div class="bg-white p-6 rounded-b-lg shadow-md">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+                <div class="md:col-span-1 score-box p-4 rounded-lg text-center"><p class="header-font text-2xl text-gray-700">RATING</p><p class="header-font text-8xl score-value">SELL</p><p class="text-sm font-semibold text-gray-600">AVERAGE SCORE: 2</p><p class="text-xs text-gray-500 mt-1">SNOW's score has collapsed due to a catastrophic increase in perceived risk.</p></div>
+                <div class="md:col-span-2 bg-gray-50 p-4 rounded-lg"><table class="w-full text-sm text-right"><tbody>
+                    <tr><td class="text-left p-1 font-semibold">Close Price</td><td class="p-1 font-bold">$130.15 (USD)</td></tr>
+                    <tr><td class="text-left p-1 font-semibold">Target Price</td><td class="p-1 font-bold text-red-600">N/A (Quant Model)</td></tr>
+                    <tr><td class="text-left p-1 font-semibold">Revenue Growth (YoY)</td><td class="p-1 font-bold">30%</td></tr>
+                    <tr><td class="text-left p-1 font-semibold">Market Cap</td><td class="p-1">43.2B</td></tr>
+                </tbody></table></div>
+            </div>
+            <div>
+                <h3 class="header-font text-3xl text-gray-800 border-b mb-4">INDICATOR COMPONENTS</h3>
+                <div class="flex justify-around items-center text-center p-4 bg-gray-50 rounded-lg">
+                    <div class="w-full grid grid-cols-6 gap-4">
+                        <div class="text-center"><p class="font-semibold text-xs mb-2">Earnings</p><div class="h-40 w-8 mx-auto component-bar rounded"><div class="component-score" style="top: 33%;">7</div></div></div>
+                        <div class="text-center"><p class="font-semibold text-xs mb-2">Fundamental</p><div class="h-40 w-8 mx-auto component-bar rounded"><div class="component-score" style="top: 22%;">8</div></div></div>
+                        <div class="text-center"><p class="font-semibold text-xs mb-2">Rel. Val.</p><div class="h-40 w-8 mx-auto component-bar rounded"><div class="component-score" style="top: 77%;">3</div></div></div>
+                        <div class="text-center"><p class="font-semibold text-xs mb-2">Risk</p><div class="h-40 w-8 mx-auto component-bar rounded"><div class="component-score" style="top: 100%;">1</div></div></div>
+                        <div class="text-center"><p class="font-semibold text-xs mb-2">Momentum</p><div class="h-40 w-8 mx-auto component-bar rounded"><div class="component-score" style="top: 100%;">1</div></div></div>
+                        <div class="text-center"><p class="font-semibold text-xs mb-2">Insider</p><div class="h-40 w-8 mx-auto component-bar rounded"><div class="component-score" style="top: 66%;">4</div></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div><h3 class="header-font text-3xl text-gray-800 border-b mb-4">QUANTITATIVE DEEP DIVE</h3><ul class="list-disc list-inside space-y-2 text-sm">
+                    <li>The model's overall rating has been downgraded from HOLD to <span class="font-bold">SELL</span>. This is a rare event, triggered by a severe shock to our risk indicators.</li>
+                    <li>The <span class="font-bold">Risk (1/10)</span> score has collapsed from 5 to 1. The emergence of a potential market-destroying technology has introduced a level of uncertainty that the model penalizes severely, overriding all other factors.</li>
+                    <li>The <span class="font-bold">Momentum (1/10)</span> score has plummeted from 3 to 1, reflecting the sharp negative price reaction to the Neuro-Nectar news, a breakdown of key technical support levels, and a spike in negative social media sentiment velocity.</li>
+                    <li>While <span class="font-bold">Fundamental (8/10)</span> and <span class="font-bold">Earnings (7/10)</span> scores remain respectable based on historical data, the model's forward-looking risk assessment now dominates the calculation, rendering past performance irrelevant to the current rating.</li>
+                </ul></div>
+                <div><h3 class="header-font text-3xl text-gray-800 border-b mb-4">MODEL COMMENTARY</h3><p class="text-sm text-gray-700 leading-relaxed">The Quant-Vestor model is designed to be objective and data-driven. The inputs related to the "Neuro-Nectar" competitor, sourced from news sentiment analysis, options market volatility, and social media velocity, have triggered a maximum risk alert. The system interprets this as a high-impact, uncertain event that invalidates traditional valuation metrics. The model's SELL rating will persist until the risk indicators subside, which would require either a comprehensive debunking of the competitive threat or a market stabilization over an extended period. Historical quality metrics are currently insufficient to offset the perceived forward risk.</p></div>
+            </div>
+        </div>
+        <footer class="text-center text-xs text-gray-500 mt-4"><p>&copy; 2024 Quant-Vestor. All rights reserved. For informational purposes only.</p></footer>
+    </div>
+</body>
+</html>

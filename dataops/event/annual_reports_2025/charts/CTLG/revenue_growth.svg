@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="ctlgGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#37474F" />
+      <stop offset="100%" style="stop-color:#607D8B" />
+    </linearGradient>
+    <linearGradient id="ctlgArea" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#607D8B;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#607D8B;stop-opacity:0.05" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="400" fill="#ECEFF1" rx="10"/>
+  
+  <!-- Shield watermark -->
+  <text x="700" y="350" font-size="120" opacity="0.05">🛡️</text>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#1a1a1a">
+    🛡️ Revenue Growth: Cross-Platform Governance
+  </text>
+  
+  <!-- Grid -->
+  <line x1="100" y1="350" x2="700" y2="350" stroke="#607D8B" stroke-width="2"/>
+  <line x1="100" y1="100" x2="100" y2="350" stroke="#607D8B" stroke-width="2"/>
+  
+  <!-- Area -->
+  <path d="M 150,330 L 350,280 L 550,185 L 650,135 L 650,350 L 150,350 Z" fill="url(#ctlgArea)"/>
+  
+  <!-- Line -->
+  <path d="M 150,330 L 350,280 L 550,185 L 650,135" stroke="url(#ctlgGradient)" stroke-width="4" fill="none"/>
+  
+  <!-- Points -->
+  <circle cx="150" cy="330" r="8" fill="#37474F" stroke="white" stroke-width="3"/>
+  <circle cx="350" cy="280" r="8" fill="#455A64" stroke="white" stroke-width="3"/>
+  <circle cx="550" cy="185" r="8" fill="#546E7A" stroke="white" stroke-width="3"/>
+  <circle cx="650" cy="135" r="10" fill="#607D8B" stroke="white" stroke-width="3"/>
+  
+  <!-- Labels -->
+  <text x="150" y="375" text-anchor="middle" font-size="14" font-weight="600">FY2023</text>
+  <text x="350" y="375" text-anchor="middle" font-size="14" font-weight="600">FY2024</text>
+  <text x="550" y="375" text-anchor="middle" font-size="14" font-weight="600">FY2025</text>
+  
+  <!-- Values -->
+  <text x="150" y="320" text-anchor="middle" font-size="14" font-weight="700" fill="#37474F">$29M</text>
+  <text x="350" y="270" text-anchor="middle" font-size="14" font-weight="700" fill="#37474F">$77M</text>
+  <text x="550" y="175" text-anchor="middle" font-size="14" font-weight="700" fill="#37474F">$214M</text>
+  
+  <!-- Growth -->
+  <text x="250" y="308" text-anchor="middle" font-size="12" fill="#4CAF50" font-weight="600">+162%</text>
+  <text x="450" y="238" text-anchor="middle" font-size="12" fill="#4CAF50" font-weight="600">+176%</text>
+  
+  <!-- Profitability badge -->
+  <rect x="600" y="90" width="95" height="35" rx="17.5" fill="#4CAF50"/>
+  <text x="647" y="113" text-anchor="middle" font-size="14" font-weight="900" fill="white">✅ Profitable</text>
+  
+  <!-- Y-axis -->
+  <text x="85" y="140" text-anchor="end" font-size="12" fill="#666">$250M</text>
+  <text x="85" y="245" text-anchor="end" font-size="12" fill="#666">$125M</text>
+  <text x="85" y="355" text-anchor="end" font-size="12" fill="#666">$0</text>
+  
+  <text x="750" y="390" text-anchor="end" font-size="10" fill="#666">NYSE: CTLG</text>
+</svg>
+
+

@@ -1,0 +1,625 @@
+RELATIVE_PATH,EXTRACTED_DATA
+CTLG_Q2_FY2025_SIMPLE.pdf,"{
+  ""error"": null,
+  ""response"": {
+    ""company_name"": ""CatalogX"",
+    ""customer_metrics"": {
+      ""metric"": [
+        ""Total Customers"",
+        ""Customers with $1M+ Revenue"",
+        ""Customers with $5M+ Revenue"",
+        ""Customers with $10M+ Revenue"",
+        ""Net Revenue Retention"",
+        ""Gross Revenue Retention""
+      ],
+      ""q2_fy2025"": [
+        ""1124"",
+        ""185"",
+        ""48"",
+        ""6"",
+        ""132%"",
+        ""93%""
+      ]
+    },
+    ""income_statement"": {
+      ""line_item"": [
+        ""Product Revenue"",
+        ""Professional Services Revenue"",
+        ""Total Revenue"",
+        ""Cost of Revenue"",
+        ""Gross Profit"",
+        ""Research and Development"",
+        ""Sales and Marketing"",
+        ""General and Administrative"",
+        ""Operating Income (Loss)"",
+        ""Net Income (Loss)""
+      ],
+      ""q2_fy2024"": [
+        ""$15.5"",
+        ""$2"",
+        ""$17.5"",
+        ""$6.2"",
+        ""$11.3"",
+        ""$10.5"",
+        ""$15"",
+        ""$4.5"",
+        ""-$18.7"",
+        ""-$17.8""
+      ],
+      ""q2_fy2025"": [
+        ""$42.5"",
+        ""$5.5"",
+        ""$48"",
+        ""$14.5"",
+        ""$33.5"",
+        ""$18.2"",
+        ""$25.2"",
+        ""$6.8"",
+        ""-$16.7"",
+        ""-$15.2""
+      ]
+    },
+    ""kpi_metrics"": {
+      ""metric"": [
+        ""Year-over-Year Growth"",
+        ""Gross Margin"",
+        ""Operating Margin (Non-GAAP)"",
+        ""Free Cash Flow""
+      ],
+      ""value"": [
+        ""174%"",
+        ""70%"",
+        ""-35%"",
+        ""-$22M""
+      ]
+    },
+    ""report_period"": ""Q2 FY2025"",
+    ""ticker"": ""CTLG""
+  }
+}"
+DFLX_Q2_FY2025_SIMPLE.pdf,"{
+  ""error"": null,
+  ""response"": {
+    ""company_name"": ""DataFlex Analytics (DFLX)"",
+    ""customer_metrics"": {
+      ""metric"": [
+        ""Total Customers"",
+        ""Customers with $1M+ Revenue"",
+        ""Customers with $5M+ Revenue"",
+        ""Customers with $10M+ Revenue"",
+        ""Net Revenue Retention"",
+        ""Gross Revenue Retention""
+      ],
+      ""q2_fy2025"": [
+        ""1847"",
+        ""248"",
+        ""42"",
+        ""5"",
+        ""118%"",
+        ""94%""
+      ]
+    },
+    ""income_statement"": {
+      ""line_item"": [
+        ""Product Revenue"",
+        ""Professional Services Revenue"",
+        ""Total Revenue"",
+        ""Cost of Revenue"",
+        ""Gross Profit"",
+        ""Research and Development"",
+        ""Sales and Marketing"",
+        ""General and Administrative"",
+        ""Operating Income (Loss)"",
+        ""Net Income (Loss)""
+      ],
+      ""q2_fy2024"": [
+        ""$50"",
+        ""$4"",
+        ""$54"",
+        ""$15"",
+        ""$39"",
+        ""$19"",
+        ""$23"",
+        ""$6.5"",
+        ""-$9.5"",
+        ""-$8.8""
+      ],
+      ""q2_fy2025"": [
+        ""$62"",
+        ""$5"",
+        ""$67"",
+        ""$17"",
+        ""$50"",
+        ""$22"",
+        ""$26.5"",
+        ""$7.2"",
+        ""-$5.7"",
+        ""-$4.2""
+      ]
+    },
+    ""kpi_metrics"": {
+      ""metric"": [
+        ""Year-over-Year Growth"",
+        ""Gross Margin"",
+        ""Operating Margin (Non-GAAP)"",
+        ""Free Cash Flow""
+      ],
+      ""value"": [
+        ""24%"",
+        ""75%"",
+        ""-9%"",
+        ""$8.5M""
+      ]
+    },
+    ""report_period"": ""Q2 FY2025"",
+    ""ticker"": ""DFLX""
+  }
+}"
+ICBG_Q2_FY2025_SIMPLE.pdf,"{
+  ""error"": null,
+  ""response"": {
+    ""company_name"": ""ICBG Data Systems (ICBG)"",
+    ""customer_metrics"": {
+      ""metric"": [
+        ""Total Customers"",
+        ""Customers with $1M+ Revenue"",
+        ""Customers with $5M+ Revenue"",
+        ""Customers with $10M+ Revenue"",
+        ""Net Revenue Retention"",
+        ""Gross Revenue Retention""
+      ],
+      ""q2_fy2025"": [
+        ""847"",
+        ""267"",
+        ""87"",
+        ""12"",
+        ""138%"",
+        ""93%""
+      ]
+    },
+    ""income_statement"": {
+      ""line_item"": [
+        ""Product Revenue"",
+        ""Professional Services Revenue"",
+        ""Total Revenue"",
+        ""Cost of Revenue"",
+        ""Gross Profit"",
+        ""Research and Development"",
+        ""Sales and Marketing"",
+        ""General and Administrative"",
+        ""Operating Income (Loss)"",
+        ""Net Income (Loss)""
+      ],
+      ""q2_fy2024"": [
+        ""$31"",
+        ""$3"",
+        ""$34"",
+        ""$12"",
+        ""$22"",
+        ""$18"",
+        ""$22"",
+        ""$8"",
+        ""-$26"",
+        ""-$24""
+      ],
+      ""q2_fy2025"": [
+        ""$79"",
+        ""$8"",
+        ""$87"",
+        ""$26"",
+        ""$61"",
+        ""$32"",
+        ""$38"",
+        ""$12"",
+        ""-$21"",
+        ""-$18""
+      ]
+    },
+    ""kpi_metrics"": {
+      ""metric"": [
+        ""Year-over-Year Growth"",
+        ""Gross Margin"",
+        ""Operating Margin (Non-GAAP)"",
+        ""Free Cash Flow""
+      ],
+      ""value"": [
+        ""156%"",
+        ""70%"",
+        ""-24%"",
+        ""-$45M""
+      ]
+    },
+    ""report_period"": ""Q2 FY2025"",
+    ""ticker"": ""ICBG""
+  }
+}"
+NRNT_Q2_FY2025_SIMPLE.pdf,"{
+  ""error"": null,
+  ""response"": {
+    ""company_name"": ""Neuro-Nectar Corporation (NRNT)"",
+    ""customer_metrics"": {
+      ""metric"": [
+        ""Total Customers"",
+        ""Customers with $1M+ Revenue"",
+        ""Customers with $5M+ Revenue"",
+        ""Customers with $10M+ Revenue"",
+        ""Net Revenue Retention"",
+        ""Gross Revenue Retention""
+      ],
+      ""q2_fy2025"": [
+        ""1842"",
+        ""425"",
+        ""87"",
+        ""12"",
+        ""135%"",
+        ""88%""
+      ]
+    },
+    ""income_statement"": {
+      ""line_item"": [
+        ""Product Revenue"",
+        ""Professional Services Revenue"",
+        ""Total Revenue"",
+        ""Cost of Revenue"",
+        ""Gross Profit"",
+        ""Research and Development"",
+        ""Sales and Marketing"",
+        ""General and Administrative"",
+        ""Operating Income (Loss)"",
+        ""Net Income (Loss)""
+      ],
+      ""q2_fy2024"": [
+        ""$21"",
+        ""$0.7"",
+        ""$21.7"",
+        ""$12"",
+        ""$9.7"",
+        ""$28"",
+        ""$35"",
+        ""$12"",
+        ""-$65.3"",
+        ""-$63""
+      ],
+      ""q2_fy2025"": [
+        ""$138"",
+        ""$4"",
+        ""$142"",
+        ""$48"",
+        ""$94"",
+        ""$65"",
+        ""$85"",
+        ""$22"",
+        ""-$78"",
+        ""-$75""
+      ]
+    },
+    ""kpi_metrics"": {
+      ""metric"": [
+        ""Year-over-Year Growth"",
+        ""Gross Margin"",
+        ""Operating Margin (Non-GAAP)"",
+        ""Free Cash Flow""
+      ],
+      ""value"": [
+        ""554%"",
+        ""66%"",
+        ""-55%"",
+        ""-$125M""
+      ]
+    },
+    ""report_period"": ""Q2 FY2025"",
+    ""ticker"": ""NRNT""
+  }
+}"
+QRYQ_Q2_FY2025_SIMPLE.pdf,"{
+  ""error"": null,
+  ""response"": {
+    ""company_name"": ""Querybase Technologies"",
+    ""customer_metrics"": {
+      ""metric"": [
+        ""Total Customers"",
+        ""Customers with $1M+ Revenue"",
+        ""Customers with $5M+ Revenue"",
+        ""Customers with $10M+ Revenue"",
+        ""Net Revenue Retention"",
+        ""Gross Revenue Retention""
+      ],
+      ""q2_fy2025"": [
+        ""1456"",
+        ""187"",
+        ""98"",
+        ""15"",
+        ""142%"",
+        ""91%""
+      ]
+    },
+    ""income_statement"": {
+      ""line_item"": [
+        ""Product Revenue"",
+        ""Professional Services Revenue"",
+        ""Total Revenue"",
+        ""Cost of Revenue"",
+        ""Gross Profit"",
+        ""Research and Development"",
+        ""Sales and Marketing"",
+        ""General and Administrative"",
+        ""Operating Income (Loss)"",
+        ""Net Income (Loss)""
+      ],
+      ""q2_fy2024"": [
+        ""$23"",
+        ""$1.3"",
+        ""$24.3"",
+        ""$9"",
+        ""$15.3"",
+        ""$18"",
+        ""$24"",
+        ""$8"",
+        ""-$34.7"",
+        ""-$32.5""
+      ],
+      ""q2_fy2025"": [
+        ""$88"",
+        ""$6"",
+        ""$94"",
+        ""$28"",
+        ""$66"",
+        ""$35"",
+        ""$52"",
+        ""$14"",
+        ""-$35"",
+        ""-$32""
+      ]
+    },
+    ""kpi_metrics"": {
+      ""metric"": [
+        ""Year-over-Year Growth"",
+        ""Gross Margin"",
+        ""Operating Margin (Non-GAAP)"",
+        ""Free Cash Flow""
+      ],
+      ""value"": [
+        ""287%"",
+        ""70%"",
+        ""-37%"",
+        ""-$78M""
+      ]
+    },
+    ""report_period"": ""Q2 FY2025"",
+    ""ticker"": ""QRYQ""
+  }
+}"
+SNOW_Q2_FY2025_SIMPLE.pdf,"{
+  ""error"": null,
+  ""response"": {
+    ""company_name"": ""Snowflake Inc. (SNOW)"",
+    ""customer_metrics"": {
+      ""metric"": [
+        ""Total Customers"",
+        ""Customers with $1M+ Revenue"",
+        ""Customers with $5M+ Revenue"",
+        ""Customers with $10M+ Revenue"",
+        ""Net Revenue Retention"",
+        ""Gross Revenue Retention""
+      ],
+      ""q2_fy2025"": [
+        ""10,000+"",
+        ""542"",
+        ""113"",
+        ""28"",
+        ""127%"",
+        ""95%""
+      ]
+    },
+    ""income_statement"": {
+      ""line_item"": [
+        ""Product Revenue"",
+        ""Professional Services Revenue"",
+        ""Total Revenue"",
+        ""Cost of Revenue"",
+        ""Gross Profit"",
+        ""Research and Development"",
+        ""Sales and Marketing"",
+        ""General and Administrative"",
+        ""Operating Income (Loss)"",
+        ""Net Income (Loss)""
+      ],
+      ""q2_fy2024"": [
+        ""$674"",
+        ""$27"",
+        ""$701"",
+        ""$191"",
+        ""$510"",
+        ""$218"",
+        ""$285"",
+        ""$78"",
+        ""-$71"",
+        ""-$47""
+      ],
+      ""q2_fy2025"": [
+        ""$868"",
+        ""$32"",
+        ""$900"",
+        ""$225"",
+        ""$675"",
+        ""$252"",
+        ""$311"",
+        ""$87"",
+        ""$25"",
+        ""$48""
+      ]
+    },
+    ""kpi_metrics"": {
+      ""metric"": [
+        ""Year-over-Year Growth"",
+        ""Gross Margin"",
+        ""Operating Margin (Non-GAAP)"",
+        ""Free Cash Flow""
+      ],
+      ""value"": [
+        ""29%"",
+        ""75%"",
+        ""11%"",
+        ""$544M""
+      ]
+    },
+    ""report_period"": ""Q2 FY2025"",
+    ""ticker"": ""SNOW""
+  }
+}"
+STRM_Q2_FY2025_SIMPLE.pdf,"{
+  ""error"": null,
+  ""response"": {
+    ""company_name"": ""StreamPipe Systems (STRM)"",
+    ""customer_metrics"": {
+      ""metric"": [
+        ""Total Customers"",
+        ""Customers with $1M+ Revenue"",
+        ""Customers with $5M+ Revenue"",
+        ""Customers with $10M+ Revenue"",
+        ""Net Revenue Retention"",
+        ""Gross Revenue Retention""
+      ],
+      ""q2_fy2025"": [
+        ""723"",
+        ""145"",
+        ""38"",
+        ""4"",
+        ""135%"",
+        ""92%""
+      ]
+    },
+    ""income_statement"": {
+      ""line_item"": [
+        ""Product Revenue"",
+        ""Professional Services Revenue"",
+        ""Total Revenue"",
+        ""Cost of Revenue"",
+        ""Gross Profit"",
+        ""Research and Development"",
+        ""Sales and Marketing"",
+        ""General and Administrative"",
+        ""Operating Income (Loss)"",
+        ""Net Income (Loss)""
+      ],
+      ""q2_fy2024"": [
+        ""$16"",
+        ""$1"",
+        ""$17"",
+        ""$6"",
+        ""$11"",
+        ""$10"",
+        ""$15"",
+        ""$5"",
+        ""-$19"",
+        ""-$18""
+      ],
+      ""q2_fy2025"": [
+        ""$48"",
+        ""$3"",
+        ""$51"",
+        ""$15"",
+        ""$36"",
+        ""$18"",
+        ""$28"",
+        ""$8"",
+        ""-$18"",
+        ""-$16""
+      ]
+    },
+    ""kpi_metrics"": {
+      ""metric"": [
+        ""Year-over-Year Growth"",
+        ""Gross Margin"",
+        ""Operating Margin (Non-GAAP)"",
+        ""Free Cash Flow""
+      ],
+      ""value"": [
+        ""200%"",
+        ""71%"",
+        ""-35%"",
+        ""-$42M""
+      ]
+    },
+    ""report_period"": ""Q2 FY2025"",
+    ""ticker"": ""STRM""
+  }
+}"
+VLTA_Q2_FY2025_SIMPLE.pdf,"{
+  ""error"": null,
+  ""response"": {
+    ""company_name"": ""Voltaic AI"",
+    ""customer_metrics"": {
+      ""metric"": [
+        ""Total Customers"",
+        ""Customers with $1M+ Revenue"",
+        ""Customers with $5M+ Revenue"",
+        ""Customers with $10M+ Revenue"",
+        ""Net Revenue Retention"",
+        ""Gross Revenue Retention""
+      ],
+      ""q2_fy2025"": [
+        ""287"",
+        ""125"",
+        ""52"",
+        ""8"",
+        ""145%"",
+        ""89%""
+      ]
+    },
+    ""income_statement"": {
+      ""line_item"": [
+        ""Product Revenue"",
+        ""Professional Services Revenue"",
+        ""Total Revenue"",
+        ""Cost of Revenue"",
+        ""Research and Development"",
+        ""Sales and Marketing"",
+        ""General and Administrative"",
+        ""Operating Income (Loss)"",
+        ""Net Income (Loss)""
+      ],
+      ""q2_fy2024"": [
+        ""$22"",
+        ""$1"",
+        ""$23"",
+        ""$9.5"",
+        ""$18"",
+        ""$24"",
+        ""$7"",
+        ""-$35.5"",
+        ""-$34""
+      ],
+      ""q2_fy2025"": [
+        ""$69"",
+        ""$4"",
+        ""$73"",
+        ""$23.5"",
+        ""$34"",
+        ""$47.5"",
+        ""$12"",
+        ""-$44"",
+        ""-$42""
+      ]
+    },
+    ""kpi_metrics"": {
+      ""metric"": [
+        ""Year-over-Year Growth"",
+        ""Gross Margin"",
+        ""Operating Margin (Non-GAAP)"",
+        ""Free Cash Flow""
+      ],
+      ""value"": [
+        ""217%"",
+        ""68%"",
+        ""-60%"",
+        ""-$98M""
+      ]
+    },
+    ""report_period"": ""Q2 FY2025"",
+    ""ticker"": ""VLTA""
+  }
+}"
+PROP_Q1_FY2025_SIMPLE.pdf,"{""error"": null, ""response"": {""company_name"": ""PropTech Analytics (PROP)"", ""ticker"": ""PROP"", ""report_period"": ""Q1 FY2025"", ""income_statement"": {""line_item"": [""Product Revenue"", ""Professional Services Revenue"", ""Total Revenue"", ""Cost of Revenue"", ""Gross Profit"", ""Research and Development"", ""Sales and Marketing"", ""General and Administrative"", ""Operating Income (Loss)"", ""Net Income (Loss)""], ""q1_fy2025"": [""$58M"", ""$9M"", ""$67M"", ""$20M"", ""$47M"", ""$22M"", ""$35M"", ""$12M"", ""-$22M"", ""-$24M""], ""q1_fy2024"": [""$17M"", ""$3M"", ""$20M"", ""$6M"", ""$14M"", ""$8M"", ""$12M"", ""$4M"", ""-$10M"", ""-$11M""]}, ""customer_metrics"": {""metric"": [""Total Customers"", ""Fortune 500 Customers"", ""Customers with $100K+ ARR"", ""Customers with $1M+ Revenue"", ""Net Revenue Retention Rate""], ""q1_fy2025"": [""450"", ""12"", ""85"", ""18"", ""110%""]}, ""kpi_metrics"": {""metric"": [""Year-over-Year Growth"", ""Gross Margin"", ""Operating Margin (Non-GAAP)"", ""Free Cash Flow""], ""value"": [""234%"", ""70%"", ""-33%"", ""-$18M""]}}}"
+GAME_Q3_FY2025_SIMPLE.pdf,"{""error"": null, ""response"": {""company_name"": ""GameMetrics (GAME)"", ""ticker"": ""GAME"", ""report_period"": ""Q3 FY2025"", ""income_statement"": {""line_item"": [""Product Revenue"", ""Professional Services Revenue"", ""Total Revenue"", ""Cost of Revenue"", ""Gross Profit"", ""Research and Development"", ""Sales and Marketing"", ""General and Administrative"", ""Operating Income (Loss)"", ""Net Income (Loss)""], ""q3_fy2025"": [""$148M"", ""$19M"", ""$167M"", ""$55M"", ""$112M"", ""$42M"", ""$68M"", ""$18M"", ""-$16M"", ""-$18M""], ""q3_fy2024"": [""$38M"", ""$5M"", ""$43M"", ""$14M"", ""$29M"", ""$15M"", ""$22M"", ""$6M"", ""-$14M"", ""-$15M""]}, ""customer_metrics"": {""metric"": [""Total Customers"", ""Enterprise Customers"", ""Customers with $100K+ ARR"", ""Customers with $1M+ Revenue"", ""Net Revenue Retention Rate""], ""q3_fy2025"": [""890"", ""67"", ""215"", ""34"", ""125%""]}, ""kpi_metrics"": {""metric"": [""Year-over-Year Growth"", ""Gross Margin"", ""Operating Margin (Non-GAAP)"", ""Free Cash Flow""], ""value"": [""287%"", ""67%"", ""-10%"", ""-$8M""]}}}"
+MKTG_Q3_FY2025_SIMPLE.pdf,"{""error"": null, ""response"": {""company_name"": ""Marketing Analytics (MKTG)"", ""ticker"": ""MKTG"", ""report_period"": ""Q3 FY2025"", ""income_statement"": {""line_item"": [""Product Revenue"", ""Professional Services Revenue"", ""Total Revenue"", ""Cost of Revenue"", ""Gross Profit"", ""Research and Development"", ""Sales and Marketing"", ""General and Administrative"", ""Operating Income (Loss)"", ""Net Income (Loss)""], ""q3_fy2025"": [""$42M"", ""$8M"", ""$50M"", ""$18M"", ""$32M"", ""$15M"", ""$28M"", ""$9M"", ""-$20M"", ""-$21M""], ""q3_fy2024"": [""$16M"", ""$3.5M"", ""$19.5M"", ""$7M"", ""$12.5M"", ""$6M"", ""$11M"", ""$3.5M"", ""-$8M"", ""-$8.5M""]}, ""customer_metrics"": {""metric"": [""Total Customers"", ""Enterprise Customers"", ""Customers with $50K+ ARR"", ""Customers with $500K+ Revenue"", ""Net Revenue Retention Rate""], ""q3_fy2025"": [""620"", ""38"", ""142"", ""22"", ""105%""]}, ""kpi_metrics"": {""metric"": [""Year-over-Year Growth"", ""Gross Margin"", ""Operating Margin (Non-GAAP)"", ""Free Cash Flow""], ""value"": [""156%"", ""64%"", ""-40%"", ""-$16M""]}}}"

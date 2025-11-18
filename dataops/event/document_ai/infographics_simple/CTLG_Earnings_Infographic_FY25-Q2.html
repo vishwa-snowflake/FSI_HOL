@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><title>CatalogX</title>
+<style>
+html, body { margin: 0; padding: 0; width: 100%; height: 1900px; overflow: hidden; }
+body { background: linear-gradient(180deg, #37474F 0%, #607D8B 100%); color: white; font-family: 'Georgia', serif; }
+.structure { padding: 35px; height: 100%; box-sizing: border-box; display: flex; flex-direction: column; gap: 20px; }
+.title-bar { background: rgba(0,0,0,0.4); padding: 28px; border-left: 8px solid white; }
+.title-bar h1 { font-size: 46px; margin: 0; }
+.title-bar h2 { font-size: 20px; margin: 8px 0; opacity: 0.9; }
+.hierarchy { display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(3, 1fr); gap: 18px; flex: 1; }
+.tier-card { background: rgba(255,255,255,0.12); padding: 20px; border-radius: 8px; border-top: 5px solid white; backdrop-filter: blur(8px); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
+.tier-icon { font-size: 52px; margin-bottom: 15px; }
+.tier-label { font-size: 16px; opacity: 0.9; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 1px; }
+.tier-value { font-size: 56px; font-weight: bold; line-height: 1; }
+.tier-sub { font-size: 22px; opacity: 0.95; margin-top: 12px; font-weight: 600; }
+.big-stat { grid-column: span 2; grid-row: span 2; background: rgba(0,0,0,0.3); padding: 30px; border-radius: 8px; }
+.big-stat-value { font-size: 88px; font-weight: bold; line-height: 1; }
+</style></head><body>
+<div class="structure">
+<div class="title-bar"><h1>🛡️ CatalogX (CTLG)</h1><h2>Cross-Platform Governance</h2><p style="font-size: 16px; margin: 5px 0;">Q2 FY2025 Governance Metrics | August 2024</p></div>
+<div class="hierarchy">
+<div class="big-stat"><div class="tier-icon" style="font-size: 68px;">💰</div><div style="font-size: 22px; margin-bottom: 15px; opacity: 0.95; font-weight: bold;">TOTAL REVENUE</div><div class="big-stat-value">$48M</div><div style="font-size: 28px; margin-top: 15px; font-weight: 600;">▲ 174% YoY</div></div>
+<div class="tier-card"><div class="tier-icon">💎</div><div class="tier-label">Product Revenue</div><div class="tier-value">$42.5M</div></div>
+<div class="tier-card"><div class="tier-icon">🔧</div><div class="tier-label">Services Revenue</div><div class="tier-value">$5.5M</div></div>
+<div class="tier-card"><div class="tier-icon">👥</div><div class="tier-label">Total Customers</div><div class="tier-value">1124</div></div>
+<div class="tier-card"><div class="tier-icon">⭐</div><div class="tier-label">$1M+ Customers</div><div class="tier-value">185</div></div>
+<div class="tier-card"><div class="tier-icon">🔄</div><div class="tier-label">NRR</div><div class="tier-value">132%</div></div>
+<div class="tier-card"><div class="tier-icon">📊</div><div class="tier-label">Gross Margin</div><div class="tier-value">70%</div></div>
+<div class="tier-card"><div class="tier-icon">⚙️</div><div class="tier-label">Operating Margin</div><div class="tier-value">-35%</div></div>
+<div class="tier-card"><div class="tier-icon">💵</div><div class="tier-label">Free Cash Flow</div><div class="tier-value">$-22M</div></div>
+<div class="tier-card"><div class="tier-icon">📋</div><div class="tier-label">RPO</div><div class="tier-value">$156M</div><div class="tier-sub">+180%</div></div>
+</div>
+<div style="grid-column: span 4; background: rgba(0,0,0,0.4); padding: 45px 35px; border-radius: 8px; border-left: 8px solid white;"><div style="font-size: 24px; font-weight: bold; margin-bottom: 25px;">Company Mission & Business Strategy</div><p style="font-size: 18px; line-height: 1.9; opacity: 0.95;">CatalogX provides the unified governance layer for the modern data stack, making data governance no longer optional but systematically manageable across heterogeneous environments. Our mission is to deliver comprehensive metadata management, lineage tracking, and access control that spans multiple platforms and tools. We differentiate by recognizing that while SNOW has governance for SNOW data, enterprises operate heterogeneous environments across SNOW, QRYQ, ICBG, STRM, VLTA, and DFLX—requiring a single governance plane. Our strategic focus addresses critical compliance needs for GDPR, CCPA, and emerging AI regulations. We provide real-time lineage integration with STRM pipelines, ML governance tracking for VLTA models, and row-level security for DFLX dashboards. Our value proposition delivers 30-40% cost savings compared to bundled governance in proprietary warehouses while making composable data stacks enterprise-ready.</p></div>
+</div>
+</div></body></html>

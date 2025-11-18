@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://service.force.com/embeddedservice/ https://cdn.content.aws-dev2-uswest2.aws.sfdc.cl/ https://cdn.content.aws-prod1-useast1.aws.sfdc.cl/ https://payments.salesforce.com/ https://js.stripe.com/ https://www.paypal.com/sdk/js https://checkoutshopper-live.adyen.com/ https://checkoutshopper-test.adyen.com/ https://pal-test.adyen.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://pay.google.com import: blob: https://uip.canary.lwc.dev https://*.googletagmanager.com https://www.googletagmanager.com https://www.google-analytics.com https://www.facebook.com https://connect.facebook.net https://*.usercentrics.eu https://*.userway.org https://www.googletagmanager.com/gtm.js https://www.googletagmanager.com/gtag/js https://*.hotjar.com https://*.licdn.com https://*.linkedin.com https://px.ads.linkedin.com https://*.googleapis.com; object-src 'self' www.google.com; style-src 'self' 'unsafe-inline' https://service.force.com/embeddedservice/ https://fonts.googleapis.com/css2 https://fonts.googleapis.com/css https://checkoutshopper-live.adyen.com/ https://checkoutshopper-test.adyen.com/ blob: https://stats.g.doubleclick.net https://region1.analytics.google.com https://www.google.lv https://px.ads.linkedin.com wss://ws.hotjar.com https://content.hotjar.io https://vc.hotjar.io https://region1.google-analytics.com https://www.googletagmanager.com https://api.usercentrics.eu https://pagead2.googlesyndication.com https://*.doubleclick.net https://*.gstatic.com https://*.googlesyndication.com https://www.google-analytics.com https://www.gstatic.com https://tagmanager.google.com https://script.hotjar.com https://static.hotjar.com https://td.doubleclick.net https://consent-api.service.consent.usercentrics.eu https://aggregator.service.usercentrics.eu https://app.usercentrics.eu https://consent.service.usercentrics.eu https://consent-api.service.usercentrics.eu https://uct.service.usercentrics.eu https://*.google.co.uk https://googleads.g.doubleclick.net https://www.google.com https://dwtyzx6upklss.cloudfront.net https://*.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com https://*.g.doubleclick.net https://*.google.com https://*.facebook.net https://*.googleapis.com https://*.hotjar.io https://*.hotjar.com https://*.licdn.com https://*.usercentrics.eu https://*.userway.org https://*.facebook.com; img-src 'self' data: blob: https://unpri.my.salesforce.com https://unpri.file.force.com https://img.youtube.com https://i.ytimg.com https://i.vimeocdn.com https://login.salesforce.com/icons/ https://payments.salesforce.com/icons/ https://cdn.content.aws-prod1-useast1.aws.sfdc.cl/icons/ https://cdn.content.aws-dev2-uswest2.aws.sfdc.cl/icons/ https://*.adyen.com https://www.sandbox.paypal.com https://www.paypal.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://www.gstatic.com https://usa294.sfdc-lywfpd.salesforce.com/icons/ https://stats.g.doubleclick.net https://region1.analytics.google.com https://www.google.lv https://px.ads.linkedin.com wss://ws.hotjar.com https://content.hotjar.io https://vc.hotjar.io https://region1.google-analytics.com https://www.googletagmanager.com https://api.usercentrics.eu https://pagead2.googlesyndication.com https://*.doubleclick.net https://*.gstatic.com https://*.googlesyndication.com https://www.google-analytics.com https://tagmanager.google.com https://script.hotjar.com https://static.hotjar.com https://td.doubleclick.net https://consent-api.service.consent.usercentrics.eu https://aggregator.service.usercentrics.eu https://app.usercentrics.eu https://consent.service.usercentrics.eu https://consent-api.service.usercentrics.eu https://uct.service.usercentrics.eu https://*.google.co.uk https://googleads.g.doubleclick.net https://www.google.com https://dwtyzx6upklss.cloudfront.net https://*.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com https://*.g.doubleclick.net https://*.google.com https://*.facebook.net https://*.googleapis.com https://*.hotjar.io https://*.hotjar.com https://*.licdn.com https://*.usercentrics.eu https://*.cloudfront.net https://*.userway.org https://*.facebook.com; media-src 'self' blob: https://stats.g.doubleclick.net https://region1.analytics.google.com https://www.google.lv https://px.ads.linkedin.com wss://ws.hotjar.com https://content.hotjar.io https://vc.hotjar.io https://region1.google-analytics.com https://www.googletagmanager.com https://api.usercentrics.eu https://pagead2.googlesyndication.com https://*.doubleclick.net https://*.gstatic.com https://*.googlesyndication.com https://www.google-analytics.com https://www.gstatic.com https://tagmanager.google.com https://script.hotjar.com https://static.hotjar.com https://td.doubleclick.net https://consent-api.service.consent.usercentrics.eu https://aggregator.service.usercentrics.eu https://app.usercentrics.eu https://consent.service.usercentrics.eu https://consent-api.service.usercentrics.eu https://uct.service.usercentrics.eu https://*.google.co.uk https://googleads.g.doubleclick.net https://www.google.com https://dwtyzx6upklss.cloudfront.net https://*.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com https://*.g.doubleclick.net https://*.google.com https://*.facebook.net https://*.googleapis.com https://*.hotjar.io https://*.hotjar.com https://*.licdn.com https://*.usercentrics.eu https://*.userway.org https://*.facebook.com;  frame-src 'self' https://service.force.com/embeddedservice/ https://usa294.sfdc-lywfpd.salesforce.com https://sfdc-link-preview-staging.sfdc.sh https://sfdc-link-preview.hk.salesforce.com https://cdn.embedly.com https://www.youtube.com https://player.vimeo.com https://play.vidyard.com https://player.cloudinary.com https://fast.wistia.net https://players.brightcove.net https://s1.adis.ws https://scormanywhere.secure.force.com https://appiniummastertrial.secure.force.com https://js.stripe.com/ https://www.paypal.com https://www.sandbox.paypal.com https://checkoutshopper-live.adyen.com/ https://checkoutshopper-test.adyen.com/ https://pal-test.adyen.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://pay.google.com https://*.a.forceusercontent.com/lightningmaps/ https://*.a.forceusercontent.com https://location.force.com https://unpri.file.force.com https://stats.g.doubleclick.net https://region1.analytics.google.com https://www.google.lv https://px.ads.linkedin.com wss://ws.hotjar.com https://content.hotjar.io https://vc.hotjar.io https://region1.google-analytics.com https://www.googletagmanager.com https://api.usercentrics.eu https://pagead2.googlesyndication.com https://*.doubleclick.net https://*.gstatic.com https://*.googlesyndication.com https://www.google-analytics.com https://www.gstatic.com https://tagmanager.google.com https://script.hotjar.com https://static.hotjar.com https://td.doubleclick.net https://consent-api.service.consent.usercentrics.eu https://aggregator.service.usercentrics.eu https://app.usercentrics.eu https://consent.service.usercentrics.eu https://consent-api.service.usercentrics.eu https://uct.service.usercentrics.eu https://*.google.co.uk https://googleads.g.doubleclick.net https://www.google.com https://dwtyzx6upklss.cloudfront.net https://*.brighttalk.com https://*.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com https://*.g.doubleclick.net https://*.google.com https://html5-player.libsyn.com https://player.captivate.fm https://*.soundcloud.com https://*.spotify.com https://*.facebook.net https://*.googleapis.com https://*.hotjar.io https://*.hotjar.com https://*.licdn.com https://*.usercentrics.eu https://*.userway.org https://*.facebook.com; font-src 'self' data: https://fonts.gstatic.com/ https://stats.g.doubleclick.net https://region1.analytics.google.com https://www.google.lv https://px.ads.linkedin.com wss://ws.hotjar.com https://content.hotjar.io https://vc.hotjar.io https://region1.google-analytics.com https://www.googletagmanager.com https://api.usercentrics.eu https://pagead2.googlesyndication.com https://*.doubleclick.net https://*.gstatic.com https://*.googlesyndication.com https://www.google-analytics.com https://www.gstatic.com https://tagmanager.google.com https://script.hotjar.com https://static.hotjar.com https://td.doubleclick.net https://consent-api.service.consent.usercentrics.eu https://aggregator.service.usercentrics.eu https://app.usercentrics.eu https://consent.service.usercentrics.eu https://consent-api.service.usercentrics.eu https://uct.service.usercentrics.eu https://*.google.co.uk https://googleads.g.doubleclick.net https://www.google.com https://dwtyzx6upklss.cloudfront.net https://*.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com https://*.g.doubleclick.net https://*.google.com https://*.facebook.net https://*.googleapis.com https://*.hotjar.io https://*.hotjar.com https://*.licdn.com https://*.usercentrics.eu https://*.facebook.com; connect-src 'self' https://www.paypal.com https://www.sandbox.paypal.com https://unpri.my.salesforce-scrt.com https://fonts.googleapis.com/css2 https://payments.salesforce.com/ https://cdn.content.aws-dev2-uswest2.aws.sfdc.cl/ https://checkoutshopper-live.adyen.com/ https://checkoutshopper-test.adyen.com/ https://js.stripe.com/ https://www.google.com/recaptcha/ https://*.api.salesforce.com https://o11y.sfproxy-core1.sfdc-lywfpd.svc.sfdcfc.net/ui-telemetry https://stats.g.doubleclick.net https://region1.analytics.google.com https://www.google.lv https://px.ads.linkedin.com wss://ws.hotjar.com https://content.hotjar.io https://vc.hotjar.io https://region1.google-analytics.com https://www.googletagmanager.com https://api.usercentrics.eu https://pagead2.googlesyndication.com https://*.doubleclick.net https://*.gstatic.com https://*.googlesyndication.com https://www.google-analytics.com https://www.gstatic.com https://tagmanager.google.com https://script.hotjar.com https://static.hotjar.com https://td.doubleclick.net https://consent-api.service.consent.usercentrics.eu https://aggregator.service.usercentrics.eu https://app.usercentrics.eu https://consent.service.usercentrics.eu https://consent-api.service.usercentrics.eu https://uct.service.usercentrics.eu https://*.google.co.uk https://googleads.g.doubleclick.net https://www.google.com https://dwtyzx6upklss.cloudfront.net https://*.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com https://*.g.doubleclick.net https://*.google.com https://*.facebook.net https://*.googleapis.com https://*.hotjar.io https://*.hotjar.com https://*.licdn.com https://*.linkedin.com https://*.usercentrics.eu https://v1.api.service.cmp.usercentrics.eu https://*.userway.org https://*.facebook.com; ">
+        <meta name='basePath' content='' />
+        <meta name='deployTarget' content='CORE' />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="lwr-revised" content="236.0" />
+        <script type="text/javascript">
+            function launchModal(_ref){var id=_ref.id,titleLabel=_ref.titleLabel,contentLabel=_ref.contentLabel,buttonLabel=_ref.buttonLabel,callback=_ref.callback;var modalTemplate="<div id=\"".concat(id,"\">\n          <section\n          role=\"alertdialog\"\n          tabindex=\"-1\"\n          aria-labelledby=\"prompt-heading-id\"\n          aria-describedby=\"prompt-message-wrapper\"\n          class=\"slds-modal slds-fade-in-open slds-modal_prompt\"\n          aria-modal=\"true\"\n          style=\"color: rgb(62, 62, 60)\"\n          >\n              <div class=\"slds-modal__container\">\n                  <header class=\"slds-modal__header slds-theme_info slds-theme_alert-texture\">\n                      <h2 class=\"slds-text-heading_medium\">").concat(titleLabel,"</h2>\n                  </header>\n                  <div class=\"slds-modal__content slds-p-around_medium\">\n                      <p id=\"prompt-message-id\">").concat(contentLabel,"</p>\n                  </div>\n                  <footer class=\"slds-modal__footer slds-theme_default\">\n                      <button class=\"slds-button slds-button_neutral js-button\">").concat(buttonLabel,"</button>\n                  </footer>\n              </div>\n          </section>\n          <div class=\"slds-backdrop slds-backdrop_open\"></div>\n      </div>");var div=document.createElement("div");div.innerHTML=modalTemplate;div.querySelector(".js-button").addEventListener("click",callback);if(!document.body){document.body=document.createElement("body")}document.body.appendChild(div.querySelector("#".concat(id)))}window.onload=function(){if(!window.isBrowserSupportedByWebruntime){var WEBRUNTIME_UNSUPPORTED_BROWSER_MODAL_ID="webruntime-browser-not-supported-message";launchModal({id:WEBRUNTIME_UNSUPPORTED_BROWSER_MODAL_ID,titleLabel:"Your browser isn't supported",contentLabel:"Your browser doesn\u2019t support some features on this site. For the best experience, update your browser to the latest version, or switch to another browser.",buttonLabel:"Got It",callback:function callback(){var modal=document.querySelector("#".concat(WEBRUNTIME_UNSUPPORTED_BROWSER_MODAL_ID));document.body.removeChild(modal)}})}};window.document.addEventListener("client-error",function(error){if(error.detail.type==="FAILED_TO_LOAD_RESOURCE"){launchModal({id:"webruntime-client-error-failed-to-load-resource",titleLabel:"Oops!",contentLabel:"Something went wrong. Please try refreshing the app",buttonLabel:"Refresh",callback:function callback(){var url=new URL(window.location);url.searchParams.set("lwr.cachebust",new Date().getTime());window.location=url.href}})}else if(error.detail.type==="TOO_MANY_REQUESTS"){window.document.cookie="TooManyRequests=true;max-age=30;";window.location.reload()}});
+        </script>
+        
+        <script type="text/javascript">!function(){"use strict";const e=`/webruntime${"/log/errors"}`;const n="UNKNOWN_ERROR";function t(){return e="basePath",document?.querySelector(`meta[name="${e}"]`)?.getAttribute("content")||"";var e}const{window:o}=globalThis;function r({subject:r,error:s={},extra:a}){let i,c,d;s?(i=s.message,c=s.stack,d=s.wcstack):a&&(i=a.message);const{pathname:u,hostname:l}=o.location,m={subject:r,message:i,stack:c,wcstack:d,extra:a,location:{pathname:u,hostname:l}},v=t();!function(e){document.dispatchEvent(new CustomEvent("client-error",{detail:{error:e,type:n}}))}(m),function(e,n){const t=JSON.stringify(n);if(!(window&&window.navigator&&window.navigator.sendBeacon&&window.navigator.sendBeacon(e,t))){const n=new XMLHttpRequest;n.open("POST",e,!0),n.setRequestHeader("Content-Type","text/plain;charset=UTF-8"),n.send(t)}}(globalThis.location.origin+v+e,m)}const s=(e={})=>{const{reason:n={}}=e;r({subject:"unhandledrejection",error:n})};function a(e={},n={}){const{message:t,filename:o,lineno:s,colno:a,error:i}=e;r({subject:"window error",error:i,extra:{message:t,filename:o,lineno:s,colno:a},...n})}o?.addEventListener("error",a),o?.addEventListener("unhandledrejection",s),o?.addEventListener("removeErrorReporting",function(){o?.removeEventListener("unhandledrejection",s),o?.removeEventListener("error",a),o?.removeEventListener("removeErrorReporting",this)})}();
+</script>
+        <script type="text/javascript">!function(){"use strict";const e="webruntime";function t(t){return`/${e}${t}`}const o=t("/log/metrics"),n=t("/log/errors");function r(e,t){const o=JSON.stringify(t);if(!(window&&window.navigator&&window.navigator.sendBeacon&&window.navigator.sendBeacon(e,o))){const t=new XMLHttpRequest;t.open("POST",e,!0),t.setRequestHeader("Content-Type","text/plain;charset=UTF-8"),t.send(o)}}function a(e){return document?.querySelector(`meta[name="${e}"]`)?.getAttribute("content")||""}function s(){return a("basePath")}function i(){return a("deployTarget")||"CORE"}const c=`${e}-app-bootstrap`;function l(e){!function(e){const t=e?.detail||{};t.name=t.name||"",t.duration=t.duration||"",c===t.name&&(t.deployTarget=i(),r(s()+o,{webruntimeBootstrap:t,info:"lwr.bootstrap.end"}))}(e),globalThis?.removeEventListener("bootstrapLoaded",this)}globalThis?.addEventListener("bootstrapLoaded",l),globalThis.LWR=globalThis.LWR||{},globalThis.LWR&&Object.isExtensible(globalThis.LWR)&&(globalThis.LWR.onError=e=>{!function(e){const{message:t,stack:o,wcstack:a}=e,{pathname:c,hostname:l}=globalThis.location;let d=[];try{globalThis.performance&&globalThis.performance.getEntriesByType&&(d=globalThis.performance.getEntriesByType("resource").map(e=>({name:e.name,entryType:e.entryType,startTime:e.startTime,duration:e.duration,fetchStart:e.fetchStart,domainLookupStart:e.domainLookupStart,domainLookupEnd:e.domainLookupEnd,connectStart:e.connectStart,connectEnd:e.connectEnd,requestStart:e.requestStart,responseStart:e.responseStart,responseEnd:e.responseEnd,responseStatus:e.responseStatus,transferSize:e.transferSize,encodedBodySize:e.encodedBodySize,decodedBodySize:e.decodedBodySize,initiatorType:e.initiatorType,nextHopProtocol:e.nextHopProtocol,failed:e.failed||!1})))}catch(e){globalThis.console&&globalThis.console.error&&globalThis.console.error("Error collecting resource performance data",e)}r(s()+n,{subject:"bootstrap error",webruntimeBootstrap:{deployTarget:i(),resources:d,resourceCount:d.length},message:t,stack:o,wcstack:a,location:{pathname:c,hostname:l}})}(e),globalThis.launchModal&&launchModal({id:"webruntime-client-bootstrap-error-failed-to-load-lwr",titleLabel:"Oops!",contentLabel:"Something went wrong. Please try refreshing the app",buttonLabel:"Refresh",callback:function(){var e=new URL(window.location);e.searchParams.set("lwr.cachebust",(new Date).getTime()),window.location=e.href}}),globalThis?.removeEventListener("bootstrapLoaded",l),globalThis?.dispatchEvent(new CustomEvent("removeErrorReporting")),delete globalThis.LWR.onError})}();
+</script>
+        <script type="text/javascript">({})?.a?.a;window.supportsOptionalChaining=true;
+</script>
+        <script type="text/javascript">!function(){const e={documentCreateElement:Document.prototype.createElement,elementSetAttribute:Element.prototype.setAttribute,elementAttachShadow:Element.prototype.attachShadow,elementAppendChild:Element.prototype.appendChild,htmlelementAddEventListener:Element.prototype.addEventListener,iframeContentDocumentGet:Object.getOwnPropertyDescriptor(HTMLIFrameElement.prototype,"contentDocument").get,iframeContentWindowGet:Object.getOwnPropertyDescriptor(HTMLIFrameElement.prototype,"contentWindow").get};Object.freeze(e),Object.defineProperty(window,"originalDomApis",{writable:!1,value:e});const t=window.frames;Object.defineProperty(window,"frames",{get:function(){const e=[];for(let n=0;n<t.length;n++)try{t[n].frameElement.getRootNode().nodeType===Node.DOCUMENT_FRAGMENT_NODE||e.push(t[n])}catch(o){e.push(t[n])}return e.length===t.length?t:e}})}();</script>
+        <script type="text/javascript">!function(){"use strict";window.isBrowserSupportedByWebruntime=function(){const n="performance"in window&&"mark"in window.performance,i="customElements"in window;return n&&i&&void 0!==window.supportsOptionalChaining}()}();
+</script>
+        <script type="text/javascript">globalThis.lwcRuntimeFlags = globalThis.lwcRuntimeFlags || {};
+globalThis.lwcRuntimeFlags = { ...globalThis.lwcRuntimeFlags, ...{"ENABLE_LEGACY_SCOPE_TOKENS":false,"ENABLE_FORCE_SHADOW_MIGRATE_MODE":false,"ENABLE_MIXED_SHADOW_MODE":false,"LEGACY_LOCKER_ENABLED":true,"ENABLE_LEGACY_SIGNAL_CONTEXT_VALIDATION":false,"DISABLE_LEGACY_VALIDATION":false,"ENABLE_EXPERIMENTAL_SIGNALS":false,"DISABLE_SYNTHETIC_SHADOW":false,"DISABLE_SCOPE_TOKEN_VALIDATION":false,"DISABLE_LIGHT_DOM_UNSCOPED_CSS":false,"ENABLE_SLOT_FORWARDING_FIX":true,"DISABLE_NATIVE_CUSTOM_ELEMENT_LIFECYCLE":true,"DISABLE_TEMPORARY_V5_COMPILER_SUPPORT":true} };
+globalThis.LWR = globalThis.LWR || {};
+globalThis.LWR.initDeferDOM = true;
+globalThis.LWR.customInit = (lwr) => {
+
+        LWR.define('@app/apexApiBasePath', [], function() { return "/webruntime/api"; });
+        LWR.define('@app/apiBasePath', [], function() { return ""; });
+        LWR.define('@app/basePath', [], function() { return ""; });
+        LWR.define('@app/deployTarget', [], function() { return "CORE"; });
+        LWR.define('@app/guestUuidCookieName', [], function() { return null; });
+        LWR.define('@app/isDesignMode', [], function() { return false; });
+        LWR.define('@app/isPreviewMode', [], function() { return false; });
+        LWR.define('@app/isSsrCodeTypeEnabled', [], function() { return false; });
+        LWR.define('@app/routes', [], function() { return [{"devName":"Blog__c","label":"Blog","createdOnVersion":null,"isPublic":true,"viewId":"7fe0bced-e372-40a1-ab23-eeddb7fdbdb6","hasVanityURL":false,"patternMap":{},"id":"fb4522ae-40b3-4be3-a9a1-990365471b5a","path":"/newsroom/blog","view":"blog","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Blog__c"}}},{"devName":"Careers__c","label":"Careers","createdOnVersion":null,"isPublic":true,"viewId":"5835452f-1513-4417-8c9b-d796c2b41c76","hasVanityURL":false,"patternMap":{},"id":"0e4f1ffa-4f21-4529-8867-c5d5053d3d37","path":"/careers","view":"careers","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Careers__c"}}},{"devName":"Taskforce_on_Net_Zero_Policy__c","label":"Taskforce on Net Zero Policy","createdOnVersion":null,"isPublic":true,"viewId":"319dfe09-507e-40f4-9c15-8fcb8d023fda","hasVanityURL":false,"patternMap":{},"id":"8be8de80-667f-467d-aebd-e44cc80baa9d","path":"/our-policy-approach/taskforce-on-net-zero-policy","view":"taskforce_on_Net_Zero_Policy","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Taskforce_on_Net_Zero_Policy__c"}}},{"devName":"CEC__c","label":"Climate Engagement Canada (CEC)","createdOnVersion":null,"isPublic":true,"viewId":"02a81653-fb9b-4594-9c2e-f673984d812c","hasVanityURL":false,"patternMap":{},"id":"02c0948b-a99e-4c88-a157-0a7e96f0718a","path":"/initiatives/climate-engagement-canada-cec","view":"climate_Engagement_Canada_CEC","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"CEC__c"}}},{"devName":"Cookie_policy__c","label":"Cookie policy","createdOnVersion":null,"isPublic":true,"viewId":"7223c735-6e1a-4d71-b38d-6ecc8bdc1bba","hasVanityURL":false,"patternMap":{},"id":"170486c3-d71c-499a-a067-9fb4247ecde2","path":"/cookie-policy","view":"cookie_policy","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Cookie_policy__c"}}},{"devName":"Academy__c","label":"Academy","createdOnVersion":null,"isPublic":true,"viewId":"a6b50ec4-3190-4623-910b-b5f1f04269c0","hasVanityURL":false,"patternMap":{},"id":"9ccbfb83-89a4-45cf-9c0d-a80ca8b22e9e","path":"/academy","view":"academy","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Academy__c"}}},{"devName":"Events__c","label":"Events","createdOnVersion":null,"isPublic":true,"viewId":"83662554-6508-450d-b133-3f5f484c4655","hasVanityURL":false,"patternMap":{},"id":"e23a2327-78fd-4775-bc03-8f1c9e40edc5","path":"/events","view":"events","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Events__c"}}},{"devName":"Test__c","label":"Tom testing","createdOnVersion":null,"isPublic":true,"viewId":"7364264d-00f8-4136-b1d4-be032e361aca","hasVanityURL":false,"patternMap":{},"id":"2612fa60-ebcc-415e-8d7a-306ed9d53731","path":"/test","view":"test","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Test__c"}}},{"devName":"Advisory_committees_and_working_groups__c","label":"Advisory committees and working groups","createdOnVersion":null,"isPublic":true,"viewId":"2944d8f9-849b-483e-bced-8276ff4c742f","hasVanityURL":false,"patternMap":{},"id":"7b0e847a-b7cf-40f4-b5af-3a6bf3bd3f25","path":"/about-PRI/advisory-committees-groups","view":"advisory_committees_and_working_groups","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Advisory_committees_and_working_groups__c"}}},{"devName":"The_Board__c","label":"How we are governed","createdOnVersion":null,"isPublic":true,"viewId":"7e67f77d-8b69-4410-9382-406e7126b0ae","hasVanityURL":false,"patternMap":{},"id":"03b77576-bc30-41ac-bf03-01df2b831e16","path":"/about-PRI/how-we-are-governed","view":"the_Board","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"The_Board__c"}}},{"devName":"Service_providers__c","label":"Service providers","createdOnVersion":null,"isPublic":true,"viewId":"0c5059ce-ffd9-4507-9604-490ee59cf493","hasVanityURL":false,"patternMap":{},"id":"615973c5-8824-4a3f-995d-f381cff4b4b8","path":"/join-the-pri/become-a-signatory/service-providers","view":"service_providers","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Service_providers__c"}}},{"devName":"Explore__c","label":"Explore","createdOnVersion":null,"isPublic":true,"viewId":"7ec7dc2d-3f6d-4e81-8fbc-f6368c7b9ae5","hasVanityURL":false,"patternMap":{},"id":"3c43ee2e-03d9-4b80-b155-ce8e13f08508","path":"/explore","view":"explore","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Explore__c"}}},{"devName":"DDQ_Page_Template__c","label":"DDQ","createdOnVersion":null,"isPublic":true,"viewId":"fae4e744-b95f-4893-a08e-907e9b7b6c43","hasVanityURL":false,"patternMap":{},"id":"58ef6cc1-21e4-48c1-bae2-814f7b4a00f0","path":"/ddq","view":"dDQ_Page_Template","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"DDQ_Page_Template__c"}}},{"devName":"pri_award_winners__c","label":"PRI award winners","createdOnVersion":null,"isPublic":true,"viewId":"a4a2416e-27e2-4dbc-ac89-541ebc04ecec","hasVanityURL":false,"patternMap":{},"id":"eb99ccc7-8fb4-45e2-a9db-9bb4ddd8b9a3","path":"/responsible-investment/pri-awards/winners","view":"pRI_award_winners","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"pri_award_winners__c"}}},{"devName":"News_Detail__c","label":"News Detail","createdOnVersion":null,"isPublic":true,"viewId":"e48e83ff-6c99-4a73-9059-d490c177c462","hasVanityURL":true,"patternMap":{"urlAlias":"([^\\/\\s]+)"},"id":"3eb252ea-c521-4557-87f2-89882a9e51d7","path":"/news/:urlAlias","view":"newsDetail","isRoot":false,"isDefault":false,"page":{"type":"standard__managedContentPage","attributes":{"contentTypeName":"sfdc_cms__news"}}},{"devName":"Governance__c","label":"TO DELETE, DUPLICATE Governance","createdOnVersion":null,"isPublic":true,"viewId":"7252c522-6e7f-4072-a556-5def7e50ca60","hasVanityURL":false,"patternMap":{},"id":"bb49bdc7-2c2a-4799-9def-058ad5113954","path":"/about-PRI/governance","view":"governance","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Governance__c"}}},{"devName":"Meet_the_team__c","label":"Meet the team","createdOnVersion":null,"isPublic":true,"viewId":"56cb093e-b4c7-4e10-8683-a083784dfc4b","hasVanityURL":false,"patternMap":{},"id":"325855d6-01a3-48cf-a4b6-cbb8e78cd97e","path":"/about-PRI/meet-the-team","view":"meet_the_team","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Meet_the_team__c"}}},{"devName":"Newsroom__c","label":"Newsroom","createdOnVersion":null,"isPublic":true,"viewId":"9d111e35-0332-4956-8a40-b6025e6aaa12","hasVanityURL":false,"patternMap":{},"id":"9e32bfae-4893-4696-aa02-2054206dedbd","path":"/newsroom","view":"newsroom","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Newsroom__c"}}},{"devName":"About_us__c","label":"About us","createdOnVersion":null,"isPublic":true,"viewId":"d7faf3df-5d10-4556-928e-3747364943c8","hasVanityURL":false,"patternMap":{},"id":"743737af-13f1-40ed-8c9b-c5e1bcc3151d","path":"/about-PRI","view":"about_us","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"About_us__c"}}},{"devName":"Our_policy_approach__c","label":"Our policy approach","createdOnVersion":null,"isPublic":true,"viewId":"50330202-9985-48a7-a395-b1c823ff3517","hasVanityURL":false,"patternMap":{},"id":"91acc3ec-d986-4686-8df8-748e57911186","path":"/our-policy-approach","view":"our_policy_approach","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Our_policy_approach__c"}}},{"devName":"About_stewardship__c","label":"About stewardship","createdOnVersion":null,"isPublic":true,"viewId":"e41318e0-47d5-4d6b-8682-ee69d7656e90","hasVanityURL":false,"patternMap":{},"id":"44137144-e7ee-46b1-bac9-71d46ca38f97","path":"/responsible-investment/about-stewardship","view":"about_stewardship","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"About_stewardship__c"}}},{"devName":"Responsible_investment__c","label":"Sustainability issues","createdOnVersion":null,"isPublic":true,"viewId":"3a00a335-6944-4a17-aabe-2f6ad68aee4f","hasVanityURL":false,"patternMap":{},"id":"904f4b20-f1ac-4c30-acef-22e6f1d14b09","path":"/responsible-investment/sustainability-issues","view":"responsible_investment","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Responsible_investment__c"}}},{"devName":"User_Components__c","label":"User Components","createdOnVersion":null,"isPublic":true,"viewId":"f081483d-93a8-47f7-8701-dec3f38cf9f4","hasVanityURL":false,"patternMap":{},"id":"1a26ff71-d8bd-42c7-909c-e98ea1e89ff4","path":"/user-components","view":"user_Components","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"User_Components__c"}}},{"devName":"join_pri__c","label":"Join the PRI","createdOnVersion":null,"isPublic":true,"viewId":"20fb229d-20c6-4721-b7cf-f5311dcbf03a","hasVanityURL":false,"patternMap":{},"id":"6f138fe9-2e37-4944-84f6-5f8ec5503787","path":"/join-the-pri","view":"join_the_PRI","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"join_pri__c"}}},{"devName":"NZEG__c","label":"Net zero exchange group","createdOnVersion":null,"isPublic":true,"viewId":"d48ad5d2-72ed-4a06-a9ee-78fd0d96efb4","hasVanityURL":false,"patternMap":{},"id":"5c51d83e-3f81-41fc-95bb-ac3f7c62d4dc","path":"/initiatives/net-zero-exchange-group","view":"net_zero_exchange_group","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"NZEG__c"}}},{"devName":"O2026_reporting__c","label":"2026 reporting","createdOnVersion":null,"isPublic":true,"viewId":"9e2cbb62-52ed-4b3b-aed2-c94ee6d65a66","hasVanityURL":false,"patternMap":{},"id":"3b9451a0-908a-48cb-ba48-65771f3bbf5a","path":"/reporting-and-pathways/reporting-2026","view":"x2026_reporting","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"O2026_reporting__c"}}},{"devName":"PRI_Board_elections__c","label":"Board elections","createdOnVersion":null,"isPublic":true,"viewId":"d8565b50-9f89-4c3c-a94a-1468b36865a9","hasVanityURL":false,"patternMap":{},"id":"6e37a971-6c15-4d22-ad3c-264349fcd3df","path":"/about-PRI/how-we-are-governed/board-elections","view":"x2025_PRI_Board_elections","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"PRI_Board_elections__c"}}},{"devName":"PRI_in_person_highlights__c","label":"PRI in Person highlights","createdOnVersion":null,"isPublic":true,"viewId":"1d9eb702-8ccd-480f-98ae-14bc2de3c475","hasVanityURL":false,"patternMap":{},"id":"b5ef7993-526b-4f5c-9b17-afc5d565cfd1","path":"/events/pri-in-person-highlights","view":"pRI_in_Person_highlights","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"PRI_in_person_highlights__c"}}},{"devName":"Philanthropic_funding__c","label":"Philanthropic funding","createdOnVersion":null,"isPublic":true,"viewId":"97e30588-b7dc-4aed-b784-d50654022844","hasVanityURL":false,"patternMap":{},"id":"7bfda4a3-f997-4d14-a62a-3e2b76a6fc48","path":"/about-PRI/philanthropic-funding","view":"philanthropic_funding","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Philanthropic_funding__c"}}},{"devName":"content__c","label":"Content","createdOnVersion":null,"isPublic":true,"viewId":"9ae9c8e7-272d-411f-a2d8-2ef86fa19089","hasVanityURL":false,"patternMap":{},"id":"72bea681-08a2-4253-a583-725d90ec02ce","path":"/content","view":"content","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"content__c"}}},{"devName":"Consultations_and_letters__c","label":"Consultations and letters","createdOnVersion":null,"isPublic":true,"viewId":"b27e6f0a-d2a9-4480-9f51-43bbf09a50e5","hasVanityURL":false,"patternMap":{},"id":"e2220d83-3a02-41e1-9ef6-fad09e45d314","path":"/our-policy-approach/consultations-and-letters","view":"consultations_and_letters","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Consultations_and_letters__c"}}},{"devName":"Climate_Action_100__c","label":"Climate Action 100+","createdOnVersion":null,"isPublic":true,"viewId":"b8980b8b-cc59-432b-9668-678c52f1f034","hasVanityURL":false,"patternMap":{},"id":"36b819c6-033e-471c-b66e-a9627af6c49d","path":"/initiatives/climate-action-100","view":"climate_Action_100","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Climate_Action_100__c"}}},{"devName":"Get_involved__c","label":"Initiatives","createdOnVersion":null,"isPublic":true,"viewId":"760286ee-7238-4871-b0a3-c7aa9aac5607","hasVanityURL":false,"patternMap":{},"id":"aae09d32-917a-463e-8f23-588f5c015a06","path":"/initiatives","view":"get_involved","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Get_involved__c"}}},{"devName":"Contact__c","label":"Contact","createdOnVersion":null,"isPublic":true,"viewId":"1344d8e1-1f19-4e26-a614-d17b1eb96956","hasVanityURL":false,"patternMap":{},"id":"ec26f95a-60d9-4e47-927a-92fcb19220b6","path":"/contact","view":"contact","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Contact__c"}}},{"devName":"PRI_strategy__c","label":"Our strategy","createdOnVersion":null,"isPublic":true,"viewId":"b72956be-00d9-494f-857c-7322cb5e19f9","hasVanityURL":false,"patternMap":{},"id":"e93a89f0-58c2-4dde-bc7b-a30afbce2428","path":"/about-PRI/how-we-are-governed/our-strategy","view":"pRI_2024_27_strategy","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"PRI_strategy__c"}}},{"devName":"Card_Detail__c","label":"Card Detail","createdOnVersion":null,"isPublic":true,"viewId":"56133b35-f807-472b-95e9-3aa705441a63","hasVanityURL":true,"patternMap":{"urlAlias":"([^\\/\\s]+)"},"id":"b546453c-ee7b-49f0-a5c1-be14a452e537","path":"/cms-card/:urlAlias","view":"cardDetail","isRoot":false,"isDefault":false,"page":{"type":"standard__managedContentPage","attributes":{"contentTypeName":"cms_card"}}},{"devName":"PRI_awards__c","label":"PRI awards","createdOnVersion":null,"isPublic":true,"viewId":"cab60edb-ac62-4274-aace-20a9794f57b7","hasVanityURL":false,"patternMap":{},"id":"c57a2fa1-f0a0-4934-8e4f-d93da2d727ae","path":"/responsible-investment/pri-awards","view":"pRI_awards","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"PRI_awards__c"}}},{"devName":"Policy_research__c","label":"Policy research","createdOnVersion":null,"isPublic":true,"viewId":"9fc6f0dc-56a8-4a09-b265-4d89ffcafcbb","hasVanityURL":false,"patternMap":{},"id":"696a8e43-502a-4d27-bf50-0bbc075253df","path":"/our-policy-approach/policy-research","view":"policy_research","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Policy_research__c"}}},{"devName":"What_is_ri__c","label":"What is responsible investment?","createdOnVersion":null,"isPublic":true,"viewId":"5c634faa-5feb-4a41-8b83-6c9daeabcb4b","hasVanityURL":false,"patternMap":{},"id":"1935ce77-ca46-4b00-a3e4-5abcc1fe4ce4","path":"/responsible-investment/intro-guides/what-is-responsible-investment","view":"what_is_responsible_investment","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"What_is_ri__c"}}},{"devName":"Login","label":"Login","createdOnVersion":null,"isPublic":true,"viewId":"e122b4b7-b960-4dbe-849f-74d339ab770b","hasVanityURL":false,"patternMap":{},"id":"38cb2f7b-844b-4dba-a418-7d0f68fbbceb","path":"/login","view":"login","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Login"}}},{"devName":"Register","label":"Register","createdOnVersion":null,"isPublic":true,"viewId":"b3920897-27cd-4154-864a-797c8d7b7c35","hasVanityURL":false,"patternMap":{},"id":"7f4e78a4-2a96-486b-8d5c-bbe79d5664b2","path":"/SelfRegister","view":"register","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Register"}}},{"devName":"ICI__c","label":"Initiative Climat International (iCI)","createdOnVersion":null,"isPublic":true,"viewId":"d61a0920-fd1b-48c0-a48d-e1afcfcb4ed6","hasVanityURL":false,"patternMap":{},"id":"a7420f27-202f-4c9d-ac1c-3521591fd5be","path":"/initiatives/initiative-climat-international-ici","view":"initiative_Climat_International_iCI","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"ICI__c"}}},{"devName":"Network_supporters__c","label":"Network supporters","createdOnVersion":null,"isPublic":true,"viewId":"9a136572-4da4-409a-9ab2-2d811f07d8b3","hasVanityURL":false,"patternMap":{},"id":"4a59762c-0822-4052-8def-bc8eb8086427","path":"/join-the-pri/become-a-network-supporter","view":"network_supporters","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Network_supporters__c"}}},{"devName":"What_are_the_Principles__c","label":"What are the Principles","createdOnVersion":null,"isPublic":true,"viewId":"562ec003-1fdb-439e-b8a9-6232d44ef06e","hasVanityURL":false,"patternMap":{},"id":"566c7fdd-c06b-415b-8f1c-70b2fcc78da4","path":"/about-PRI/what-principles-for-responsible-investment","view":"what_are_the_Principles","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"What_are_the_Principles__c"}}},{"devName":"Global_policy__c","label":"Global policy","createdOnVersion":null,"isPublic":true,"viewId":"3dc3823d-5c59-4db9-b816-1dd1b856185e","hasVanityURL":false,"patternMap":{},"id":"92005f00-3e37-4861-8784-9a355bf61b5c","path":"/our-policy-approach/global-policy","view":"global_policy","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Global_policy__c"}}},{"devName":"BlankPage__c","label":"BlankPage","createdOnVersion":null,"isPublic":true,"viewId":"339be240-9533-4467-9c21-da5fc6151732","hasVanityURL":false,"patternMap":{},"id":"eaa003c2-9678-4c10-9473-95b752ec596f","path":"/blankpage","view":"blankPage","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"BlankPage__c"}}},{"devName":"responsible_investment_menu__c","label":"Responsible investment","createdOnVersion":null,"isPublic":true,"viewId":"3b53a3ac-f6d2-4a01-bdd7-6deeb10d2faf","hasVanityURL":false,"patternMap":{},"id":"6e31cb14-a842-421f-82d2-e2454c1520b4","path":"/responsible-investment","view":"responsible_investment_1","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"responsible_investment_menu__c"}}},{"devName":"Press_Release_Template__c","label":"Press Release Template","createdOnVersion":null,"isPublic":true,"viewId":"746ea833-6ec9-47a4-98cb-398d3ed1ce49","hasVanityURL":false,"patternMap":{},"id":"8650b49e-fc8e-4a0e-9cfd-7dc7b9edc8c8","path":"/press-release-template","view":"press_Release_Template","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Press_Release_Template__c"}}},{"devName":"Asset_owners__c","label":"Asset owners","createdOnVersion":null,"isPublic":true,"viewId":"682845e6-9380-4fed-b284-70de35e5d081","hasVanityURL":false,"patternMap":{},"id":"bb731593-31f6-4af3-94e9-3ec87060d2f7","path":"/join-the-pri/become-a-signatory/asset-owners","view":"asset_owners","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Asset_owners__c"}}},{"devName":"Regional_policy__c","label":"Regional policy","createdOnVersion":null,"isPublic":true,"viewId":"1ee776d8-d9d7-4560-9da3-348076b5ad45","hasVanityURL":false,"patternMap":{},"id":"9df0a357-a53d-4723-bda4-474b15b9babc","path":"/our-policy-approach/regional-policy","view":"regional_policy","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Regional_policy__c"}}},{"devName":"PRI_at_UN_human_rights_forum__c","label":"PRI at UN human rights forum","createdOnVersion":null,"isPublic":true,"viewId":"9139b5c0-617a-4e4e-8663-6cdbe996b06a","hasVanityURL":false,"patternMap":{},"id":"83abb498-30ff-4841-993d-e7ff2458824a","path":"/responsible-investment/human-rights-forum","view":"pRI_at_UN_human_rights_forum","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"PRI_at_UN_human_rights_forum__c"}}},{"devName":"content880__c","label":"Content 880","createdOnVersion":null,"isPublic":true,"viewId":"cfff4c22-d0e1-4708-b5ed-ba360f002d49","hasVanityURL":false,"patternMap":{},"id":"a7608901-9734-422a-bc5d-ad7f8fcf30f4","path":"/content-880","view":"content_880","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"content880__c"}}},{"devName":"Collaboration_platform__c","label":"The PRI Collaboration Platform","createdOnVersion":null,"isPublic":true,"viewId":"b3479723-9b02-4767-8a39-28f8ae53acff","hasVanityURL":false,"patternMap":{},"id":"ef28900a-d9f5-4c9e-8db4-84d7eccc948f","path":"/initiatives/the-pri-collaboration-platform","view":"the_PRI_Collaboration_Platform","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Collaboration_platform__c"}}},{"devName":"Error","label":"Error","createdOnVersion":null,"isPublic":true,"viewId":"e420fcc9-7556-4af9-8eb1-d83e51c9c55a","hasVanityURL":false,"patternMap":{},"id":"3e5e105c-5015-49a0-8be8-e0e5d3444b8e","path":"/error","view":"error","isRoot":false,"isDefault":true,"page":{"type":"comm__namedPage","attributes":{"name":"Error"}}},{"devName":"Policies__c","label":"Policies","createdOnVersion":null,"isPublic":true,"viewId":"fb2b720c-4f52-424d-8321-ca4a0b6a9802","hasVanityURL":false,"patternMap":{},"id":"b232cab7-9d97-4c70-ae22-498e82afac15","path":"/organisational-policies","view":"policies","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Policies__c"}}},{"devName":"The_PRI_Academic_Network__c","label":"The PRI Academic Network","createdOnVersion":null,"isPublic":true,"viewId":"8a51e8ed-9cda-4d38-a0ce-19352077b1af","hasVanityURL":false,"patternMap":{},"id":"c6ef649e-95f9-4ef9-9aae-67a85bb174bf","path":"/about-PRI/academic-network","view":"the_PRI_Academic_Network","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"The_PRI_Academic_Network__c"}}},{"devName":"Pathway_insights__c","label":"Pathways (OLD)","createdOnVersion":null,"isPublic":true,"viewId":"67cd4371-9a98-47ec-a0e0-7aeee2e12210","hasVanityURL":false,"patternMap":{},"id":"f1fbcde6-9cf0-43b6-aeda-03df0c33d114","path":"/reporting-and-pathways/pathways","view":"pathway_insights","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Pathway_insights__c"}}},{"devName":"NZ_Investment_Consultants_Initiative__c","label":"NZ Investment Consultants Initiative","createdOnVersion":null,"isPublic":true,"viewId":"a4ca205e-26c4-4bfb-a1b8-131bb5ffbfc1","hasVanityURL":false,"patternMap":{},"id":"0ee8c60a-339f-43d8-907c-da5b518bad73","path":"/initiatives/nz-investment-consultants-initiative","view":"nZ_Investment_Consultants_Initiative","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"NZ_Investment_Consultants_Initiative__c"}}},{"devName":"X2024_27_Strategy__c","label":"TO DELETE 2024-27 Strategy","createdOnVersion":null,"isPublic":true,"viewId":"ac9f3c79-201a-498f-bb69-0f4b895f2286","hasVanityURL":false,"patternMap":{},"id":"e1c15d2b-b049-4b24-9a84-fc0241aaf7d7","path":"/about-PRI/2024-27-strategy","view":"x2024_27_Strategy","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"X2024_27_Strategy__c"}}},{"devName":"CompanyCardTest__c","label":"CompanyCardTest","createdOnVersion":null,"isPublic":true,"viewId":"c5bbc4ed-1142-431e-8a2d-2e1506284989","hasVanityURL":false,"patternMap":{},"id":"5afa08b5-9b7b-4a26-b2f8-7840b117b23c","path":"/companycardtest","view":"companyCardTest","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"CompanyCardTest__c"}}},{"devName":"Policy_report__c","label":"Policy report","createdOnVersion":null,"isPublic":true,"viewId":"6b97882d-b8b8-4d6c-9597-48e49984f346","hasVanityURL":false,"patternMap":{},"id":"d2f81e74-eba9-4687-8934-3aa7917efcc7","path":"/our-policy-approach/policy-report","view":"policy_report","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Policy_report__c"}}},{"devName":"Forgot_Password","label":"Forgot Password","createdOnVersion":null,"isPublic":true,"viewId":"496f8f93-b083-495d-b7f7-6892437c1607","hasVanityURL":false,"patternMap":{},"id":"d08036a1-1330-4d7b-b972-12291e6e14cd","path":"/ForgotPassword","view":"forgotPassword","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Forgot_Password"}}},{"devName":"Board_members__c","label":"Board members","createdOnVersion":null,"isPublic":true,"viewId":"73b021e7-7966-4083-ae81-4142e301ced1","hasVanityURL":false,"patternMap":{},"id":"df41e45c-d6c4-4bf9-820e-a4dd3edbe7bc","path":"/about-PRI/how-we-are-governed/board-members","view":"board_members","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Board_members__c"}}},{"devName":"Press_releases__c","label":"Press releases","createdOnVersion":null,"isPublic":true,"viewId":"be56feee-b415-452e-8211-9e7ba1f46af0","hasVanityURL":false,"patternMap":{},"id":"76ab0b80-bfef-4f5e-ac12-5f2a39fa6ac0","path":"/newsroom/press-releases","view":"press_releases","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Press_releases__c"}}},{"devName":"What_is_Pathways__c","label":"What is Pathways?","createdOnVersion":null,"isPublic":true,"viewId":"ef3ca30e-cd67-4697-bccc-bca18b55eae8","hasVanityURL":false,"patternMap":{},"id":"4e3cc910-8ee9-4a4a-b781-3cec90bb85c3","path":"/reporting-and-pathways/what-is-pathways","view":"what_is_Pathways","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"What_is_Pathways__c"}}},{"devName":"Member_Management__c","label":"Member Management","createdOnVersion":null,"isPublic":true,"viewId":"426cec4f-78a1-498d-9130-399d9d6380a3","hasVanityURL":false,"patternMap":{},"id":"c914dd43-a4ae-4a4e-ac91-22acbd58ac49","path":"/member-management","view":"member_Management","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Member_Management__c"}}},{"devName":"template__c","label":"Template","createdOnVersion":null,"isPublic":true,"viewId":"fd415709-272d-4408-8af4-4c49ec77054c","hasVanityURL":false,"patternMap":{},"id":"643f47fe-14e8-4d4f-91e0-50eb064c7c84","path":"/template","view":"template","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"template__c"}}},{"devName":"my_pri__c","label":"My PRI","createdOnVersion":null,"isPublic":true,"viewId":"5fdda337-67c2-4d72-b050-4fcad4202591","hasVanityURL":false,"patternMap":{},"id":"b0e68c3a-be5a-4e91-832c-9a6e3ca9f450","path":"/my-pri","view":"my_PRI","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"my_pri__c"}}},{"devName":"O2025_reporting__c","label":"2025 reporting","createdOnVersion":null,"isPublic":true,"viewId":"124ab6e9-f4b6-485d-9f0c-8b4333d7fb64","hasVanityURL":false,"patternMap":{},"id":"c691e0bb-ea58-44f0-a9ad-6d200cdfb67f","path":"/reporting-and-pathways/reporting-2025","view":"x2025_reporting","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"O2025_reporting__c"}}},{"devName":"Grant_funding__c","label":"Philanthropic support","createdOnVersion":null,"isPublic":true,"viewId":"f08810c0-5d2b-4d4d-9f56-9cf7a95b05fb","hasVanityURL":false,"patternMap":{},"id":"096f4d5b-c28f-459a-a76d-85012834c8c9","path":"/about-PRI/philanthropic-support","view":"grant_funding","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Grant_funding__c"}}},{"devName":"Investor_minimum_requirements__c","label":"Investor minimum requirements","createdOnVersion":null,"isPublic":true,"viewId":"ad8763c0-c128-4a4c-9753-fdf257ac6a7d","hasVanityURL":false,"patternMap":{},"id":"e55e1aee-e597-4aa5-b07f-8d72e8e343dc","path":"/join-the-pri/become-a-signatory/investor-minimum-requirements","view":"investor_minimum_requirements","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Investor_minimum_requirements__c"}}},{"devName":"comms_starter_kit__c","label":"Communications starter kit","createdOnVersion":null,"isPublic":true,"viewId":"f61c789e-4c36-43ad-a6c1-a15f82c42daa","hasVanityURL":false,"patternMap":{},"id":"9082d05f-ef84-43b2-b513-21c5d2c52948","path":"/my-pri/comms-starter-kit","view":"communications_starter_kit","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"comms_starter_kit__c"}}},{"devName":"Privacy_policy__c","label":"Privacy policy","createdOnVersion":null,"isPublic":true,"viewId":"96852e67-465d-4090-b575-8f463f2c45b8","hasVanityURL":false,"patternMap":{},"id":"fc364cd5-8f9d-4d68-9e58-a20ae8b30240","path":"/privacy-policy","view":"privacy_policy","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Privacy_policy__c"}}},{"devName":"X410_Page_gone__c","label":"410 - Page gone","createdOnVersion":null,"isPublic":true,"viewId":"885ca679-dd71-4d3a-ac86-571f4b13a98c","hasVanityURL":false,"patternMap":{},"id":"a37d5c88-905c-4a29-b78c-d7f79287a4cb","path":"/410-page-gone","view":"x410_Page_gone","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"X410_Page_gone__c"}}},{"devName":"Login_Flow__c","label":"Login Flow","createdOnVersion":null,"isPublic":true,"viewId":"fb431b11-4629-49c9-921c-4a1db37a2d2e","hasVanityURL":false,"patternMap":{},"id":"f0fa3a4a-ad30-473b-bf0e-9756d0d0ef8a","path":"/login-flow","view":"login_Flow","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Login_Flow__c"}}},{"devName":"Website_tors__c","label":"Website terms of use","createdOnVersion":null,"isPublic":true,"viewId":"4d478f8f-af03-4b37-90a5-795c2cc73bb4","hasVanityURL":false,"patternMap":{},"id":"e8f14eff-9450-4f94-8a40-6d57c334aa50","path":"/terms-of-use","view":"website_terms_of_use","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Website_tors__c"}}},{"devName":"PRI_sustainability__c","label":"PRI-sustainability","createdOnVersion":null,"isPublic":true,"viewId":"818c0824-1daf-4169-b8ab-8d43198ec3ff","hasVanityURL":false,"patternMap":{},"id":"adbd060d-d821-43e3-bcc8-76558ab6e3e2","path":"/pri-sustainability","view":"pRI_sustainability","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"PRI_sustainability__c"}}},{"devName":"Check_Password","label":"Check Password","createdOnVersion":null,"isPublic":true,"viewId":"73ac6d19-a9ac-41aa-b8f2-711469591d6c","hasVanityURL":false,"patternMap":{},"id":"9087c80a-385e-464b-8b9a-f6586b0cbfeb","path":"/CheckPasswordResetEmail","view":"checkPasswordResetEmail","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Check_Password"}}},{"devName":"articlepage__c","label":"Article Page","createdOnVersion":null,"isPublic":true,"viewId":"22dd86e5-9ba8-453c-a4f8-7181209cb909","hasVanityURL":false,"patternMap":{},"id":"4f46aed1-90c6-451f-a4e7-ede5533204c3","path":"/article-page","view":"article_Page","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"articlepage__c"}}},{"devName":"Home","label":"Home","createdOnVersion":null,"isPublic":true,"viewId":"4aec8cb1-a055-48a2-bbe5-71c000807ffd","hasVanityURL":false,"patternMap":{},"id":"ea4f67d1-f0f3-4b6c-acb3-a086bfc5834f","path":"/","view":"home","isRoot":true,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Home"}}},{"devName":"Sustainable_financial_system__c","label":"A sustainable financial system","createdOnVersion":null,"isPublic":true,"viewId":"c97e8d3f-d707-4d9a-8de2-c95dc56002cb","hasVanityURL":false,"patternMap":{},"id":"5459ad0c-6106-42c2-a596-ea56e84d2ddd","path":"/responsible-investment/sustainability-issues/sustainable-financial-system","view":"a_sustainable_financial_system","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Sustainable_financial_system__c"}}},{"devName":"Investment_managers__c","label":"Investment managers","createdOnVersion":null,"isPublic":true,"viewId":"56e08fd6-e427-440f-86b5-1ffa8a98c111","hasVanityURL":false,"patternMap":{},"id":"38f0aae5-953a-4409-b243-da2d8ec2a145","path":"/join-the-pri/become-a-signatory/investment-managers","view":"investment_managers","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Investment_managers__c"}}},{"devName":"logo_usage__c","label":"Signatory logo usage","createdOnVersion":null,"isPublic":true,"viewId":"bd971e81-0b34-47d5-9e72-17a435baa4f3","hasVanityURL":false,"patternMap":{},"id":"cd78511e-bdff-4002-823c-6cb21ca02465","path":"/my-pri/logo-usage","view":"signatory_logo_usage","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"logo_usage__c"}}},{"devName":"Become_a_signatory__c","label":"Become a signatory","createdOnVersion":null,"isPublic":true,"viewId":"812611b1-30fc-4293-977f-3d0c811259e6","hasVanityURL":false,"patternMap":{},"id":"a933fa59-8bb8-48ad-acbc-81c8a0c2f318","path":"/join-the-pri/become-a-signatory","view":"become_a_signatory","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Become_a_signatory__c"}}},{"devName":"Podcasts__c","label":"Podcasts","createdOnVersion":null,"isPublic":true,"viewId":"f6b7cdac-1ea9-43a5-ab8d-b9ff6aa820d3","hasVanityURL":false,"patternMap":{},"id":"8ce08f24-8c4e-4862-8f6b-388d405f808b","path":"/newsroom/podcasts","view":"podcasts","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Podcasts__c"}}},{"devName":"intro_guides__c","label":"Introductory guides","createdOnVersion":null,"isPublic":true,"viewId":"b719f39f-1413-4155-9ba7-ead8b152a3f4","hasVanityURL":false,"patternMap":{},"id":"e3742a00-ebf7-4b32-901f-b0c96ff47149","path":"/responsible-investment/intro-guides","view":"introductory_guides","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"intro_guides__c"}}},{"devName":"getting_started_signatories__c","label":"Getting started as a signatory","createdOnVersion":null,"isPublic":true,"viewId":"6515c72b-7d9e-4dac-bd8e-d7620cb27366","hasVanityURL":false,"patternMap":{},"id":"537c61d6-9ece-43d2-af48-875fa733344f","path":"/my-pri/getting-started-signatories","view":"getting_started_as_a_signatory","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"getting_started_signatories__c"}}},{"devName":"annual_report__c","label":"Annual report","createdOnVersion":null,"isPublic":true,"viewId":"e9f081f4-89ec-469b-acbe-979fa0ae2edc","hasVanityURL":false,"patternMap":{},"id":"425f1649-c5b7-4804-b221-19606f1daa24","path":"/about-PRI/annual-report","view":"annual_report","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"annual_report__c"}}},{"devName":"pri_awards_terms_conditions__c","label":"PRI Awards terms and conditions","createdOnVersion":null,"isPublic":true,"viewId":"599093ee-444e-487e-9c94-2893e189e74f","hasVanityURL":false,"patternMap":{},"id":"08619e4b-29c0-45a1-9df5-31d2026040d3","path":"/responsible-investment/pri-awards/tandcs","view":"pRI_Awards_terms_and_conditions","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"pri_awards_terms_conditions__c"}}},{"devName":"Call_Out_Template_Page__c","label":"Call Out Template Page","createdOnVersion":null,"isPublic":true,"viewId":"fca0a8b9-4100-4994-8cdb-52bd285e53ff","hasVanityURL":false,"patternMap":{},"id":"768f66b0-e710-429f-acc6-f3faf4f99297","path":"/call-out-template-page","view":"call_Out_Template_Page","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Call_Out_Template_Page__c"}}},{"devName":"Glossary_of_terms__c","label":"Glossary of terms","createdOnVersion":null,"isPublic":true,"viewId":"90af71d7-8f5e-42e5-976a-74bf85cb9bd5","hasVanityURL":false,"patternMap":{},"id":"01abf19f-4174-41be-bfd3-f72b497a6999","path":"/help-and-support/glossary-of-terms","view":"glossary_of_terms","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Glossary_of_terms__c"}}},{"devName":"Signatory_minimum_requirements__c","label":"Signatory minimum requirements","createdOnVersion":null,"isPublic":true,"viewId":"454c1b6b-7477-4fc8-8fae-37cc5d8649e4","hasVanityURL":false,"patternMap":{},"id":"4e6ca499-cd10-4eff-960e-6fb62a3cf475","path":"/join-the-pri/minimum-requirements","view":"signatory_minimum_requirements","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Signatory_minimum_requirements__c"}}},{"devName":"Supporters__c","label":"Supporters","createdOnVersion":null,"isPublic":true,"viewId":"f88390ec-10f0-4437-a6b6-3273ab1894ef","hasVanityURL":false,"patternMap":{},"id":"8ebfde82-fb6f-44c9-b006-8018b38815e2","path":"/supporters","view":"supporters","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Supporters__c"}}},{"devName":"Procurement__c","label":"Procurement","createdOnVersion":null,"isPublic":true,"viewId":"7b554029-b94c-47eb-bb78-5570efe12094","hasVanityURL":false,"patternMap":{},"id":"f772baa1-b861-4e81-9de6-a6eb4cfb0337","path":"/procurement","view":"procurement","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Procurement__c"}}},{"devName":"Modern_slavery_statement__c","label":"Modern slavery statement","createdOnVersion":null,"isPublic":true,"viewId":"707c9541-322a-44af-b37d-ba30efdc0329","hasVanityURL":false,"patternMap":{},"id":"87d21d1f-904b-4e8f-92ac-3a696903d63d","path":"/modern-slavery-statement","view":"modern_slavery_statement","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Modern_slavery_statement__c"}}},{"devName":"Signatory_general_meeting_SGM__c","label":"Signatory general meeting (SGM)","createdOnVersion":null,"isPublic":true,"viewId":"3d52ff45-3924-4e77-b011-7449d5c9e112","hasVanityURL":false,"patternMap":{},"id":"7e375624-1162-47bd-bc8c-92158308aba8","path":"/about-PRI/how-we-are-governed/signatory-general-meeting","view":"signatory_general_meeting_SGM","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Signatory_general_meeting_SGM__c"}}},{"devName":"The_road_to_cop30__c","label":"The road to COP30","createdOnVersion":null,"isPublic":true,"viewId":"9600d5be-365a-47b6-93b9-2f02a672683e","hasVanityURL":false,"patternMap":{},"id":"ed41dda6-dcf4-4f4d-a7d4-5c09ef7c1e0a","path":"/responsible-investment/road-to-cop30","view":"the_Road_to_COP30","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"The_road_to_cop30__c"}}},{"devName":"Page_not_found__c","label":"Page Not Found | PRI","createdOnVersion":null,"isPublic":true,"viewId":"d57f8785-9766-4f5e-9f99-9dd5615fe5ce","hasVanityURL":false,"patternMap":{},"id":"289af6ad-9abc-496f-a4d0-70088b7f92bb","path":"/page-not-found","view":"page_not_found","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Page_not_found__c"}}},{"devName":"Pathway_insights_1__c","label":"Insights (DELETE)","createdOnVersion":null,"isPublic":true,"viewId":"b247eee8-00f6-4d3a-9e71-850d84d3c62d","hasVanityURL":false,"patternMap":{},"id":"df8d47aa-9ac6-4ca9-8fc3-63d1423af599","path":"/reporting-and-pathways/insights","view":"pathway_insights_1","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Pathway_insights_1__c"}}},{"devName":"Reporting_and_pathways__c","label":"Reporting and pathways","createdOnVersion":null,"isPublic":true,"viewId":"58c97e7f-366b-499d-88e7-862ea3604655","hasVanityURL":false,"patternMap":{},"id":"fc0acbcf-4db8-48ae-a092-aeb175f33af9","path":"/reporting-and-pathways","view":"reporting_and_pathways","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Reporting_and_pathways__c"}}},{"devName":"Commentary__c","label":"Commentary","createdOnVersion":null,"isPublic":true,"viewId":"d1eb0918-9d52-44f8-8119-1fb4b9ad3ca7","hasVanityURL":false,"patternMap":{},"id":"3c72bc0a-cdb4-4355-95ab-c9aff2815ce3","path":"/newsroom/commentary","view":"commentary","isRoot":false,"isDefault":false,"page":{"type":"comm__namedPage","attributes":{"name":"Commentary__c"}}}]; });
+        LWR.define('@app/templateDevName', [], function() { return "microsite-template-marketing"; });
+        LWR.define('@app/uiBasePath', [], function() { return ""; });
+        LWR.define('@app/versionKey', [], function() { return "d70d8a3f5e"; });
+        LWR.define('@app/viewToThemeLayoutMap', [], function() { return {"about_stewardship":"headerAndFooter","introductory_guides":"headerAndFooter","climate_Action_100":"headerAndFooter","taskforce_on_Net_Zero_Policy":"headerAndFooter","x2025_reporting":"headerAndFooter","nZ_Investment_Consultants_Initiative":"headerAndFooter","about_us":"headerAndFooter","x410_Page_gone":"headerAndFooter","getting_started_as_a_signatory":"headerAndFooter","events":"headerAndFooter","newsroom":"headerAndFooter","regional_policy":"headerAndFooter","reporting_and_pathways":"headerAndFooter","become_a_signatory":"headerAndFooter","companyCardTest":"headerAndFooter","blankPage":"headerAndFooter","checkPasswordResetEmail":"headerAndFooter","pRI_Awards_terms_and_conditions":"headerAndFooter","article_Page":"headerAndFooter","the_Board":"headerAndFooter","network_supporters":"headerAndFooter","cookie_policy":"headerAndFooter","commentary":"headerAndFooter","pRI_in_Person_highlights":"headerAndFooter","signatory_minimum_requirements":"headerAndFooter","template":"headerAndFooter","meet_the_team":"headerAndFooter","get_involved":"headerAndFooter","the_PRI_Academic_Network":"headerAndFooter","login":"headerAndFooter","pathway_insights_1":"headerAndFooter","member_Management":"headerAndFooter","forgotPassword":"headerAndFooter","pathway_insights":"headerAndFooter","what_is_Pathways":"headerAndFooter","initiative_Climat_International_iCI":"headerAndFooter","x2024_27_Strategy":"headerAndFooter","academy":"headerAndFooter","supporters":"headerAndFooter","explore":"explore_Page_Header","the_Road_to_COP30":"headerAndFooter","newsDetail":"headerAndFooter","press_releases":"headerAndFooter","podcasts":"headerAndFooter","policy_report":"headerAndFooter","pRI_sustainability":"headerAndFooter","x2026_reporting":"headerAndFooter","pRI_at_UN_human_rights_forum":"headerAndFooter","a_sustainable_financial_system":"headerAndFooter","governance":"headerAndFooter","register":"headerAndFooter","signatory_logo_usage":"headerAndFooter","the_PRI_Collaboration_Platform":"headerAndFooter","net_zero_exchange_group":"headerAndFooter","what_is_responsible_investment":"headerAndFooter","page_not_found":"headerAndFooter","blog":"headerAndFooter","service_providers":"headerAndFooter","user_Components":"headerAndFooter","modern_slavery_statement":"headerAndFooter","contact":"headerAndFooter","investor_minimum_requirements":"headerAndFooter","my_PRI":"headerAndFooter","test":"headerAndFooter","login_Flow":"headerAndFooter","board_members":"headerAndFooter","pRI_award_winners":"headerAndFooter","website_terms_of_use":"headerAndFooter","careers":"headerAndFooter","philanthropic_funding":"headerAndFooter","advisory_committees_and_working_groups":"headerAndFooter","procurement":"headerAndFooter","responsible_investment":"headerAndFooter","content_880":"headerAndFooter","pRI_awards":"headerAndFooter","communications_starter_kit":"headerAndFooter","policies":"headerAndFooter","error":"headerAndFooter","content":"headerAndFooter","x2025_PRI_Board_elections":"headerAndFooter","press_Release_Template":"headerAndFooter","what_are_the_Principles":"headerAndFooter","dDQ_Page_Template":"headerAndFooter","call_Out_Template_Page":"headerAndFooter","cardDetail":"headerAndFooter","signatory_general_meeting_SGM":"headerAndFooter","pRI_2024_27_strategy":"headerAndFooter","grant_funding":"headerAndFooter","asset_owners":"headerAndFooter","climate_Engagement_Canada_CEC":"headerAndFooter","policy_research":"headerAndFooter","annual_report":"headerAndFooter","home":"headerAndFooter","consultations_and_letters":"headerAndFooter","join_the_PRI":"headerAndFooter","glossary_of_terms":"headerAndFooter","our_policy_approach":"headerAndFooter","global_policy":"headerAndFooter","responsible_investment_1":"headerAndFooter","investment_managers":"headerAndFooter","privacy_policy":"headerAndFooter"}; });
+        LWR.define('@app/webruntimeFrameworkVersion', [], function() { return "258.89"; });
+        LWR.define('@salesforce/community/Id', [], function() { return "0DBPL0000000Gsn4AE"; });
+        LWR.define('@salesforce/community/basePath', [], function() { return ""; });
+        LWR.define('@salesforce/i18n/lang', [], function() { return "en-US"; });
+        LWR.define('@salesforce/site/Id', [], function() { return "0DMPL0000001byQ4AQ"; });
+        LWR.define('@salesforce/site/activeLanguages', [], function() { return [{"label":"English (US)","code":"en-US","default":true}]; });
+        LWR.define('@salesforce/webstore/Id', [], function() { return null; });
+lwr.define("webruntime/dispatcher", [], function(){ return function o11yDipatcherInit(dispatcher) { typeof lwr !== 'undefined' && lwr.attachDispatcher(dispatcher); };});
+LWR.define('@salesforce/user/Id', ['@app/user'], function(m) { return (m && typeof m === 'object' && 'default' in m ? m.default : m)['id'] });
+LWR.define('@salesforce/user/isGuest', ['@app/user'], function(m) { return (m && typeof m === 'object' && 'default' in m ? m.default : m)['isGuest'] });
+lwr.initializeApp();
+globalThis.process = { env: { NODE_ENV: "dev" } };};</script>
+        <script type="text/javascript">globalThis.CLWR = globalThis.CLWR || {};
+globalThis.CLWR.gates = {"enableLwrRouteValidation":false};
+</script>
+        <script type="text/javascript">globalThis.LWR = globalThis.LWR || {};
+Object.assign(globalThis.LWR, {
+  "bootstrapModule": "@lwrjs/app-service/communities_app/module/amd/v/0_19_7",
+  "autoBoot": false,
+  "rootComponents": [
+    "webruntime/app/v/1_66_1080-258_0"
+  ],
+  "requiredModules": [
+    "lwc/v/8_20_5",
+    "@lwrjs/app-service/communities_app/module/amd/v/0_19_7"
+  ],
+  "importMappings": {
+    "default": "/webruntime/component/latest/prod/en-US/",
+    "imports": {
+      "/webruntime/component/latest/prod/en-US/lwc": "/webruntime/framework/b8d68ec341/prod/lwr_lwc",
+      "@app/csrfToken": "/webruntime/module/@app/csrfToken",
+      "@app/loginPath": "/webruntime/module/@app/loginPath",
+      "@app/user": "/webruntime/module/@app/user",
+      "@perm/": "/webruntime/perm/",
+      "@salesforce/client/formFactor": "/webruntime/module/@salesforce/client/formFactor",
+      "@salesforce/customPermission/": "/webruntime/perm/custom/",
+      "@salesforce/featureFlag/": "/webruntime/module/@salesforce/featureFlag/",
+      "@salesforce/user/Id": "/webruntime/module/@salesforce/user/Id",
+      "@salesforce/user/isGuest": "/webruntime/module/@salesforce/user/isGuest",
+      "@salesforce/userPermission/": "/webruntime/perm/",
+      "@udd/": "/webruntime/module/@udd/",
+      "@view/a_sustainable_financial_system": "/webruntime/view/520e73548cbfed67f22a269553a6337f/prod/en-US/a_sustainable_financial_system_view",
+      "@view/about_stewardship": "/webruntime/view/cf46f1fbe938d0246e5b43518b43e9a3/prod/en-US/about_stewardship_view",
+      "@view/about_us": "/webruntime/view/695da1bd5ce98f44606d6e4a3db6062a/prod/en-US/about_us_view",
+      "@view/academy": "/webruntime/view/8e37e0d26fd8dacce6260ddc69571c7a/prod/en-US/academy_view",
+      "@view/advisory_committees_and_working_groups": "/webruntime/view/6f23eb42e869231c3a8d10a5f93db784/prod/en-US/advisory_committees_and_working_groups_view",
+      "@view/annual_report": "/webruntime/view/627e5327585fd5a4c98b5a9b3481af9e/prod/en-US/annual_report_view",
+      "@view/article_Page": "/webruntime/view/f62f918891e784704d34c742b6f9f176/prod/en-US/article_Page_view",
+      "@view/asset_owners": "/webruntime/view/38a46bddd2667a2ae11fe95b44c5dfca/prod/en-US/asset_owners_view",
+      "@view/become_a_signatory": "/webruntime/view/08aba5960a46e439a9f4732dce840dd9/prod/en-US/become_a_signatory_view",
+      "@view/blankPage": "/webruntime/view/fccf290a54e7f0bdae6cde2d172d3ab3/prod/en-US/blankPage_view",
+      "@view/blog": "/webruntime/view/d4591378926568a600345aea12eedc6a/prod/en-US/blog_view",
+      "@view/board_members": "/webruntime/view/94912f392d48824548d5098ac077c8a7/prod/en-US/board_members_view",
+      "@view/call_Out_Template_Page": "/webruntime/view/502b472c756b16217d9dfbcc5b39d628/prod/en-US/call_Out_Template_Page_view",
+      "@view/cardDetail": "/webruntime/view/45f89614bf960778b1df0396773d3b67/prod/en-US/cardDetail_view",
+      "@view/careers": "/webruntime/view/07eec826042a2f8fec0f96b656eb2efa/prod/en-US/careers_view",
+      "@view/checkPasswordResetEmail": "/webruntime/view/ac8b0d36ac3cb17c3f1639febcfbeead/prod/en-US/checkPasswordResetEmail_view",
+      "@view/climate_Action_100": "/webruntime/view/7c56119da62800d9a722ec91f5845064/prod/en-US/climate_Action_100_view",
+      "@view/climate_Engagement_Canada_CEC": "/webruntime/view/d366e027903817c93a8186887951acfc/prod/en-US/climate_Engagement_Canada_CEC_view",
+      "@view/commentary": "/webruntime/view/b34ce5fefb3bbb24d4be198507c27bdf/prod/en-US/commentary_view",
+      "@view/communications_starter_kit": "/webruntime/view/1dd229fd03b2164379b3f4a4efeac9b3/prod/en-US/communications_starter_kit_view",
+      "@view/companyCardTest": "/webruntime/view/c5e22c3ffb84ba2e06ab0446f7e0f76f/prod/en-US/companyCardTest_view",
+      "@view/consultations_and_letters": "/webruntime/view/1f4479f1a22941d44150b70cf1008ca9/prod/en-US/consultations_and_letters_view",
+      "@view/contact": "/webruntime/view/0f9860a8c38a58be7d0dca86510aad7a/prod/en-US/contact_view",
+      "@view/content": "/webruntime/view/01ed36beaf09c1dbdcb30fea129b0911/prod/en-US/content_view",
+      "@view/content_880": "/webruntime/view/a89ca3b6b69a3d2b474c4ee20d46733e/prod/en-US/content_880_view",
+      "@view/cookie_policy": "/webruntime/view/8549597a07d0229d3c8df6b983af3601/prod/en-US/cookie_policy_view",
+      "@view/dDQ_Page_Template": "/webruntime/view/9ed6b29a8c181c81e02d58559c487f6f/prod/en-US/dDQ_Page_Template_view",
+      "@view/error": "/webruntime/view/4d322737d54cb682e05ee07b03efe2a4/prod/en-US/error_view",
+      "@view/events": "/webruntime/view/d4296587791b446bd8285f678300b87a/prod/en-US/events_view",
+      "@view/explore": "/webruntime/view/42e7b4835ee67320189e7196f6a7da09/prod/en-US/explore_view",
+      "@view/explore_Page_Header": "/webruntime/view/73ab956826a65fbdabfe5d9aafc5b19f/prod/en-US/explore_Page_Header_view",
+      "@view/forgotPassword": "/webruntime/view/bbaa6e036356751dea11652ca8977705/prod/en-US/forgotPassword_view",
+      "@view/get_involved": "/webruntime/view/0fb5b99a94017255d309cf532524fe35/prod/en-US/get_involved_view",
+      "@view/getting_started_as_a_signatory": "/webruntime/view/38af98ee2393f826d6c4726a6b7ec4ba/prod/en-US/getting_started_as_a_signatory_view",
+      "@view/global_policy": "/webruntime/view/1323c91d9464f63a06b3b0ffa8e320e8/prod/en-US/global_policy_view",
+      "@view/glossary_of_terms": "/webruntime/view/98f679bb0d29dfc98195e2f0a884ca39/prod/en-US/glossary_of_terms_view",
+      "@view/governance": "/webruntime/view/0bd4f7dc6085dffb626d21ee1e15acb5/prod/en-US/governance_view",
+      "@view/grant_funding": "/webruntime/view/83b218c514fc6800919260b04c89ed31/prod/en-US/grant_funding_view",
+      "@view/headerAndFooter": "/webruntime/view/2cae7715f5789110e432f15b10eba3d9/prod/en-US/headerAndFooter_view",
+      "@view/home": "/webruntime/view/3eb02a10caf23e799c6554b9e4991cce/prod/en-US/home_view",
+      "@view/initiative_Climat_International_iCI": "/webruntime/view/7359d8c65ddc256eac3cd2c854b25d44/prod/en-US/initiative_Climat_International_iCI_view",
+      "@view/introductory_guides": "/webruntime/view/fcd7f2500c8eaaf8339a38693d550497/prod/en-US/introductory_guides_view",
+      "@view/investment_managers": "/webruntime/view/e01f90920d5af645d63c40b6fdaa5eff/prod/en-US/investment_managers_view",
+      "@view/investor_minimum_requirements": "/webruntime/view/4475b6777f111ac5dd2b84eb828921b4/prod/en-US/investor_minimum_requirements_view",
+      "@view/join_the_PRI": "/webruntime/view/974d7a28ec1bd082285d68292012a009/prod/en-US/join_the_PRI_view",
+      "@view/login": "/webruntime/view/0394ebbf3a9818e74f7e624432754162/prod/en-US/login_view",
+      "@view/login_Flow": "/webruntime/view/7fdc5cd2eb32d7f4299d93d9466d38e8/prod/en-US/login_Flow_view",
+      "@view/meet_the_team": "/webruntime/view/68f67b2e79ef0e43e9d1e0cc97a19515/prod/en-US/meet_the_team_view",
+      "@view/member_Management": "/webruntime/view/2dde5a63490dc2f05a202f292231f489/prod/en-US/member_Management_view",
+      "@view/modern_slavery_statement": "/webruntime/view/8432be9917415922fd965ee7da9ff75b/prod/en-US/modern_slavery_statement_view",
+      "@view/my_PRI": "/webruntime/view/9a042650d6557e71062d0963e27f4fb6/prod/en-US/my_PRI_view",
+      "@view/nZ_Investment_Consultants_Initiative": "/webruntime/view/95d38da28014c57af47d70f63c4a1163/prod/en-US/nZ_Investment_Consultants_Initiative_view",
+      "@view/net_zero_exchange_group": "/webruntime/view/dee53166cf1de6cd50604e191ae8782a/prod/en-US/net_zero_exchange_group_view",
+      "@view/network_supporters": "/webruntime/view/008548b86245a07177452264f6e7fa7d/prod/en-US/network_supporters_view",
+      "@view/newsDetail": "/webruntime/view/b006664a8e709b005803c8e41b5019ae/prod/en-US/newsDetail_view",
+      "@view/newsroom": "/webruntime/view/9be733d28b400463cc3a419dbce8deee/prod/en-US/newsroom_view",
+      "@view/our_policy_approach": "/webruntime/view/402726e2529d9c1be26068aaa9bad8f8/prod/en-US/our_policy_approach_view",
+      "@view/pRI_2024_27_strategy": "/webruntime/view/e42366361eb54c63d94f0122dbd699a2/prod/en-US/pRI_2024_27_strategy_view",
+      "@view/pRI_Awards_terms_and_conditions": "/webruntime/view/39f9040374b5c3684f2632cfd9a6aa17/prod/en-US/pRI_Awards_terms_and_conditions_view",
+      "@view/pRI_at_UN_human_rights_forum": "/webruntime/view/28651e85f5e81e9265716044c40f4f11/prod/en-US/pRI_at_UN_human_rights_forum_view",
+      "@view/pRI_award_winners": "/webruntime/view/32219eadd4a20aa7cd5f3e47ea4e8d8b/prod/en-US/pRI_award_winners_view",
+      "@view/pRI_awards": "/webruntime/view/93c6e6777c4d63aaf28795de2af502a9/prod/en-US/pRI_awards_view",
+      "@view/pRI_in_Person_highlights": "/webruntime/view/eb64449e62bfd10dd19379aaabbd53cf/prod/en-US/pRI_in_Person_highlights_view",
+      "@view/pRI_sustainability": "/webruntime/view/cc90283030cedb89388215dd2086e31d/prod/en-US/pRI_sustainability_view",
+      "@view/page_not_found": "/webruntime/view/08fce7021c27face8af03771e9b3cce2/prod/en-US/page_not_found_view",
+      "@view/pathway_insights": "/webruntime/view/53e372a15ba81f47976a3305271f6a8c/prod/en-US/pathway_insights_view",
+      "@view/pathway_insights_1": "/webruntime/view/cf0271e05c7a6ad08d3da087e1a5c525/prod/en-US/pathway_insights_1_view",
+      "@view/philanthropic_funding": "/webruntime/view/25aa07b12fcc4a135a2a78683b206da6/prod/en-US/philanthropic_funding_view",
+      "@view/podcasts": "/webruntime/view/88c0897e121763b944db563ce481f952/prod/en-US/podcasts_view",
+      "@view/policies": "/webruntime/view/4bdfb60c0bfc64d42cfcfc258993e24f/prod/en-US/policies_view",
+      "@view/policy_report": "/webruntime/view/b89ed32b962cb9ae491a33eaa9591f4a/prod/en-US/policy_report_view",
+      "@view/policy_research": "/webruntime/view/c9c24e539dedb05c6b667ce92e158844/prod/en-US/policy_research_view",
+      "@view/press_Release_Template": "/webruntime/view/ca092421989dde7c179f086f3c44a71f/prod/en-US/press_Release_Template_view",
+      "@view/press_releases": "/webruntime/view/2b30103329dfdcc3e74f0a245e2cf094/prod/en-US/press_releases_view",
+      "@view/privacy_policy": "/webruntime/view/811f8710e9361decc050bf068513f162/prod/en-US/privacy_policy_view",
+      "@view/procurement": "/webruntime/view/e3c22fd1364c85af07989386f1814046/prod/en-US/procurement_view",
+      "@view/regional_policy": "/webruntime/view/f01fd2f90dcea939944d4716f1ad394b/prod/en-US/regional_policy_view",
+      "@view/register": "/webruntime/view/718e507ae59783060f138ce5c5b680ed/prod/en-US/register_view",
+      "@view/reporting_and_pathways": "/webruntime/view/84ec9009da6e370192dc2dfc98bd16b6/prod/en-US/reporting_and_pathways_view",
+      "@view/responsible_investment": "/webruntime/view/e4264faadd8cbf57d517f928430e388f/prod/en-US/responsible_investment_view",
+      "@view/responsible_investment_1": "/webruntime/view/ebf4978a679eb63011754b5216440b01/prod/en-US/responsible_investment_1_view",
+      "@view/service_providers": "/webruntime/view/6362bd7a7c480ed70b90b2c01573b425/prod/en-US/service_providers_view",
+      "@view/signatory_general_meeting_SGM": "/webruntime/view/a2731d4117a6fcd7f017e6ea8c74988c/prod/en-US/signatory_general_meeting_SGM_view",
+      "@view/signatory_logo_usage": "/webruntime/view/231780a9e079806c8fceb0ef7a2108cb/prod/en-US/signatory_logo_usage_view",
+      "@view/signatory_minimum_requirements": "/webruntime/view/6fe232777533ae0f2027184dbf78d15d/prod/en-US/signatory_minimum_requirements_view",
+      "@view/supporters": "/webruntime/view/4bd0c8457f8617a5295c0603fcc7c174/prod/en-US/supporters_view",
+      "@view/taskforce_on_Net_Zero_Policy": "/webruntime/view/d424fca86625e8730602314a2c366fd6/prod/en-US/taskforce_on_Net_Zero_Policy_view",
+      "@view/template": "/webruntime/view/a06b707d4a88f4e61388e6084db6a4db/prod/en-US/template_view",
+      "@view/test": "/webruntime/view/0ddf10128d12aff38277f9aee9b66055/prod/en-US/test_view",
+      "@view/the_Board": "/webruntime/view/668a5c13c86d02fe0c836ed754605f92/prod/en-US/the_Board_view",
+      "@view/the_PRI_Academic_Network": "/webruntime/view/a4bb5b9543be04edab86749c92e5ff60/prod/en-US/the_PRI_Academic_Network_view",
+      "@view/the_PRI_Collaboration_Platform": "/webruntime/view/76b83aac9b79a743283a5e6fbb829d22/prod/en-US/the_PRI_Collaboration_Platform_view",
+      "@view/the_Road_to_COP30": "/webruntime/view/59074cfcd0e0dfba995c09e84f5860a6/prod/en-US/the_Road_to_COP30_view",
+      "@view/user_Components": "/webruntime/view/520cad3580cf41a3e148a78a9a87b77b/prod/en-US/user_Components_view",
+      "@view/website_terms_of_use": "/webruntime/view/977b379eb2d083325457927d28ff9421/prod/en-US/website_terms_of_use_view",
+      "@view/what_are_the_Principles": "/webruntime/view/a418feaab36cbc86b42bf7f3997701f8/prod/en-US/what_are_the_Principles_view",
+      "@view/what_is_Pathways": "/webruntime/view/aa91613eba4201cb1809b7edcfe08833/prod/en-US/what_is_Pathways_view",
+      "@view/what_is_responsible_investment": "/webruntime/view/f19e8358f4b17c4e10280c05ba302fed/prod/en-US/what_is_responsible_investment_view",
+      "@view/x2024_27_Strategy": "/webruntime/view/397493846e1f54e9d0508fc7f1f2576b/prod/en-US/x2024_27_Strategy_view",
+      "@view/x2025_PRI_Board_elections": "/webruntime/view/9ff40c7b2ef341b617c5dc114b8a6638/prod/en-US/x2025_PRI_Board_elections_view",
+      "@view/x2025_reporting": "/webruntime/view/b2bbcffcda8b8343485da3f960a3900c/prod/en-US/x2025_reporting_view",
+      "@view/x2026_reporting": "/webruntime/view/5237ee2b8cacab112156e0fb0a0dfc5c/prod/en-US/x2026_reporting_view",
+      "@view/x410_Page_gone": "/webruntime/view/1cea1821368a200ad0624da8268ca9e2/prod/en-US/x410_Page_gone_view",
+      "dxp_content_layout/paginatorShowMore": "/webruntime/component/8a955c1a2faaaddfea84f443818e4637/prod/en-US/dxp_content_layout/paginatorShowMore_cmp",
+      "dxp_content_layout/paginatorStandard": "/webruntime/component/86702f05b55b217d7c462d38a45faeaf/prod/en-US/dxp_content_layout/paginatorStandard_cmp",
+      "force/ldsEngineWebruntime": "/webruntime/component/68f2db0260fa3eac818e7f589ab0cc98/prod/en-US/force/ldsEngineWebruntime_cmp",
+      "force/ldsWebruntimeOneStoreInit": "/webruntime/component/fcb497b9df494e367e74764aa3935a24/prod/en-US/force/ldsWebruntimeOneStoreInit_cmp",
+      "force/luvioLwcBindings": "/webruntime/component/259a789b5905e4a3e65c0942cc97421d/prod/en-US/force/luvioLwcBindings_cmp",
+      "force/luvioRuntimeWebruntime": "/webruntime/component/da6467b90bc1eda0c5728f07f2d9928c/prod/en-US/force/luvioRuntimeWebruntime_cmp",
+      "komaci/resolver": "/webruntime/component/be5e79356f0ad3459836f5bd5d6d06d4/prod/en-US/komaci/resolver_cmp",
+      "lightning/auraDynamic": "/webruntime/component/f2955555e0a68e9a0806e1fb4ad01992/prod/en-US/lightning/auraDynamic_cmp",
+      "lightning/iconSvgTemplatesAction": "/webruntime/component/2983e924bf96da943baa561dd1680be6/prod/en-US/lightning/iconSvgTemplatesAction_cmp",
+      "lightning/iconSvgTemplatesActionRtl": "/webruntime/component/3e6351c53d862e7436c422914f3f6ea8/prod/en-US/lightning/iconSvgTemplatesActionRtl_cmp",
+      "lightning/iconSvgTemplatesCustom": "/webruntime/component/cc7b2dbb18ff06b65c5c16b72a3d1004/prod/en-US/lightning/iconSvgTemplatesCustom_cmp",
+      "lightning/iconSvgTemplatesCustomRtl": "/webruntime/component/c23bf7b16d651f1e0edaa6638a6fd6a3/prod/en-US/lightning/iconSvgTemplatesCustomRtl_cmp",
+      "lightning/iconSvgTemplatesDoctype": "/webruntime/component/72c1436b91043ae320e3341eaa1a915e/prod/en-US/lightning/iconSvgTemplatesDoctype_cmp",
+      "lightning/iconSvgTemplatesDoctypeRtl": "/webruntime/component/50158de45d23301703009993d6c6db29/prod/en-US/lightning/iconSvgTemplatesDoctypeRtl_cmp",
+      "lightning/iconSvgTemplatesStandard": "/webruntime/component/1dd95bd0a0a01a0f726a0f7a8738a00c/prod/en-US/lightning/iconSvgTemplatesStandard_cmp",
+      "lightning/iconSvgTemplatesStandardRtl": "/webruntime/component/00a065ff7d99a2171709068d06b55796/prod/en-US/lightning/iconSvgTemplatesStandardRtl_cmp",
+      "lightning/iconSvgTemplatesUtility": "/webruntime/component/e215f20523714d8492da4d3a0e2bb218/prod/en-US/lightning/iconSvgTemplatesUtility_cmp",
+      "lightning/iconSvgTemplatesUtilityRtl": "/webruntime/component/3ab05e3bf671b493e2f19e6c5610ef1c/prod/en-US/lightning/iconSvgTemplatesUtilityRtl_cmp",
+      "lst/bundle_act_clwrRecordListManager": "/webruntime/component/0d458015f9b2a18405c37fe75d47eda9/prod/en-US/lst/bundle_act_clwrRecordListManager_cmp",
+      "lst/bundle_act_clwrRecordListManager_generatedTemplates": "/webruntime/component/d8c181db71408845c4ecabe4fe48bc3c/prod/en-US/lst/bundle_act_clwrRecordListManager_generatedTemplates_cmp",
+      "lst/commonListFooter": "/webruntime/component/a5c40b9aa3bbe827ee95875123ff69a2/prod/en-US/lst/commonListFooter_cmp",
+      "lst/mobileColumnSort": "/webruntime/component/543a1c85e81a34d4818f57e936865ee5/prod/en-US/lst/mobileColumnSort_cmp",
+      "lst/mobileListViewPicker": "/webruntime/component/6853fe97d46963d6672f955c31df65b9/prod/en-US/lst/mobileListViewPicker_cmp",
+      "mobileruntime/hybridAppManager": "/webruntime/framework/b2b8893023/prod/lwr_mobile",
+      "o11y/collectors": "/webruntime/component/41d6697a2d1c1bcec25962da1d57ab0b/prod/en-US/o11y/collectors_cmp",
+      "o11y/simple_collector": "/webruntime/component/d2d3dad50024cc791370280919f1c897/prod/en-US/o11y/simple_collector_cmp",
+      "runtime_platform_actions/executorCopilot": "/webruntime/component/fe5e0c685a7e553ee90371c4946b3282/prod/en-US/runtime_platform_actions/executorCopilot_cmp"
+    }
+  }
+});</script>
+        <script src="/webruntime/framework/f005680334/prod/lwr_loader"></script>
+        <script type="text/javascript">/**
+* Copyright (c) 2021, salesforce.com, inc.
+* All rights reserved.
+* SPDX-License-Identifier: MIT
+* For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/MIT
+*/
+/* LWR Error Shim v0.19.7 */
+!function(){"use strict";const o=globalThis;if(!(o.LWR&&o.LWR.define)){const r=new Error("The LWR application failed to bootstrap");if(!o.LWR||!o.LWR.onError)throw r;o.LWR.onError(r)}}();
+</script>
+        <script src="/webruntime/framework/20cb15ab7b/prod/lwr_bootstrap_locker"></script>
+        <script type="text/javascript">LWR.define('webruntime/handlebarsEngine/v/1_66_1080-258_0', [], function() { return 
+; });LWR.define('webruntime/handlebarsEngine', ['exports', 'webruntime/handlebarsEngine/v/1_66_1080-258_0'], function(e, m) {
+   if (m && typeof m === 'object' && 'default' in m) {
+      Object.keys(m).forEach((key) => {
+         e[key] = m[key];
+      });
+   } else {
+      return m;
+   }
+});</script>
+        <script src="/webruntime/framework/ac5c5b6662/prod/lwr_app_bootstrap_hook"></script>
+        <script src="/webruntime/framework/b8d68ec341/prod/lwr_lwc"></script>
+        <script src="/webruntime/framework/8f6c4be7e6/prod/lwr_app"></script>
+        <script type="text/javascript">LWR.define('lwc', ['lwc/v/8_20_5'], function(m) { return m && typeof m === 'object' && 'default' in m ? m.default : m; });</script>
+        <script type="text/javascript">
+        LWR.define('@app/authenticationCookieName', [], function() { return "__Secure-has-sid"; });
+        LWR.define('@app/extraRouteParams', [], function() { return {}; });
+        LWR.define('@app/imageOpt', [], function() { return "Cloudflare"; });
+        LWR.define('@app/isMobileAppMode', [], function() { return false; });
+        LWR.define('@udd/00NPL00000CWB6L', [], function() { return "Role__c"; });
+        LWR.define('@udd/00NPL00000DG3Fs', [], function() { return "MyPRI_Role__c"; });
+        LWR.define('@udd/00NPL00000DG3Ft', [], function() { return "Markets__c"; });
+        LWR.define('@udd/00NPL00000DG3Fv', [], function() { return "Regions__c"; });
+        LWR.define('@udd/00NPL00000DG3Fw', [], function() { return "Role__c"; });
+        LWR.define('@udd/00NPL00000DG3Fy', [], function() { return "Values__c"; });
+        LWR.define('@udd/01IPL000000UvyX', [], function() { return "Invitation__c"; });
+        LWR.define('@udd/01IPL000000XdfL', [], function() { return "UserPreferences__c"; });</script>
+        <script type="text/javascript">LWR.define('@app/apexApiBasePath/v/1', ['@app/apexApiBasePath'], function(m) { return m && typeof m === 'object' && 'default' in m ? m.default : m; });</script>
+        <script type="text/javascript">LWR.define('@app/apiBasePath/v/1', ['@app/apiBasePath'], function(m) { return m && typeof m === 'object' && 'default' in m ? m.default : m; });</script>
+        <script type="text/javascript">LWR.define('@app/authenticationCookieName/v/1', ['@app/authenticationCookieName'], function(m) { return m && typeof m === 'object' && 'default' in m ? m.default : m; });</script>
+        <script type="text/javascript">LWR.define('@app/basePath/v/1', ['@app/basePath'], function(m) { return m && typeof m === 'object' && 'default' in m ? m.default : m; });</script>
+        <script type="text/javascript">LWR.define('@app/csrfToken/v/1', ['@app/csrfToken'], function(m) { return m && typeof m === 'object' && 'default' in m ? m.default : m; });</script>
+        <script type="text/javascript">LWR.define('@app/deployTarget/v/1', ['@app/deployTarget'], function(m) { return m && typeof m === 'object' && 'default' in m ? m.default : m; });</script>
+        <script type="text/javascript">LWR.define('@app/extraRouteParams/v/1', ['@app/extraRouteParams'], function(m) { return m && typeof m === 'object' && 'default' in m ? m.default : m; });</script>
+        <script type="text/javascript">LWR.define('@app/guestUuidCookieName/v/1', ['@app/guestUuidCookieName'], function(m) { return m && typeof m === 'object' && 'default' in m ? m.default : m; });</script>
+        <script type="text/javascript">LWR.define('@app/imageOpt/v/1', ['@app/imageOpt'], function(m) { return m && typeof m === 'object' && 'default' in m ? m.default : m; });</script>
+        <script type="text/javascript">LWR.define('@app/isDesignMode/v/1', ['@app/isDesignMode'], function(m) { return m && typeof m === 'object' && 'default' in m ? m.default : m; });</script>
+        <script type="text/javascript">LWR.define('@app/isMobileAppMode/v/1', ['@app/isMobileAppMode'], function(m) { return m && typeof m === 'object' && 'default' in m ? m.default : m; });</script>
+        <script type="text/javascript">LWR.define('@app/isPreviewMode/v/1', ['@app/isPreviewMode'], function(m) { return m && typeof m === 'object' && 'default' in m ? m.default : m; });</script>
+        <script type="text/javascript">LWR.define('@app/isSsrCodeTypeEnabled/v/1', ['@app/isSsrCodeTypeEnabled'], function(m) { return m && typeof m === 'object' && 'default' in m ? m.default : m; });</script>
+        <script type="text/javascript">LWR.define('@app/o11yApiEndpoint/v/1', ['@app/o11yApiEndpoint'], function(m) { return m && typeof m === 'object' && 'default' in m ? m.default : m; });</script>
+        <script type="text/javascript">LWR.define('@app/o11yConfiguration/v/1', ['@app/o11yConfiguration'], function(m) { return m && typeof m === 'object' && 'default' in m ? m.default : m; });</script>
+        <script type="text/javascript">LWR.define('@app/o11yFalconEnabled/v/1', ['@app/o11yFalconEnabled'], function(m) { return m && typeof m === 'object' && 'default' in m ? m.default : m; });</script>
+        <script type="text/javascript">LWR.define('@app/o11yGuestToken/v/1', ['@app/o11yGuestToken'], function(m) { return m && typeof m === 'object' && 'default' in m ? m.default : m; });</script>
+        <script type="text/javascript">LWR.define('@app/o11ySamplingRate/v/1', ['@app/o11ySamplingRate'], function(m) { return m && typeof m === 'object' && 'default' in m ? m.default : m; });</script>
+        <script type="text/javascript">LWR.define('@app/routes/v/1', ['@app/routes'], function(m) { return m && typeof m === 'object' && 'default' in m ? m.default : m; });</script>
+        <script type="text/javascript">LWR.define('@app/templateDevName/v/1', ['@app/templateDevName'], function(m) { return m && typeof m === 'object' && 'default' in m ? m.default : m; });</script>
+        <script type="text/javascript">LWR.define('@app/uiBasePath/v/1', ['@app/uiBasePath'], function(m) { return m && typeof m === 'object' && 'default' in m ? m.default : m; });</script>
+        <script type="text/javascript">LWR.define('@app/user/v/1', ['@app/user'], function(m) { return m && typeof m === 'object' && 'default' in m ? m.default : m; });</script>
+        <script type="text/javascript">LWR.define('@app/versionKey/v/1', ['@app/versionKey'], function(m) { return m && typeof m === 'object' && 'default' in m ? m.default : m; });</script>
+        <script type="text/javascript">LWR.define('@app/viewToThemeLayoutMap/v/1', ['@app/viewToThemeLayoutMap'], function(m) { return m && typeof m === 'object' && 'default' in m ? m.default : m; });</script>
+        <script type="text/javascript">LWR.define('@app/webruntimeFrameworkVersion/v/1', ['@app/webruntimeFrameworkVersion'], function(m) { return m && typeof m === 'object' && 'default' in m ? m.default : m; });</script>
+        <script type="text/javascript">LWR.define('@salesforce/community/Id/v/1', ['@salesforce/community/Id'], function(m) { return m && typeof m === 'object' && 'default' in m ? m.default : m; });</script>
+        <script type="text/javascript">LWR.define('@salesforce/i18n/lang/v/1', ['@salesforce/i18n/lang'], function(m) { return m && typeof m === 'object' && 'default' in m ? m.default : m; });</script>
+        <script type="text/javascript">LWR.define('@salesforce/site/activeLanguages/v/1', ['@salesforce/site/activeLanguages'], function(m) { return m && typeof m === 'object' && 'default' in m ? m.default : m; });</script>
+        <script type="text/javascript">LWR.define('@salesforce/site/Id/v/1', ['@salesforce/site/Id'], function(m) { return m && typeof m === 'object' && 'default' in m ? m.default : m; });</script>
+        <script type="text/javascript">LWR.define('@salesforce/webstore/Id/v/1', ['@salesforce/webstore/Id'], function(m) { return m && typeof m === 'object' && 'default' in m ? m.default : m; });</script>
+        <script type="text/javascript">LWR.define('webruntime/dispatcher/v/1', ['webruntime/dispatcher'], function(m) { return m && typeof m === 'object' && 'default' in m ? m.default : m; });</script>
+        <link rel="preload" href="/webruntime/view/4d322737d54cb682e05ee07b03efe2a4/prod/en-US/error_view" as="script" crossorigin>
+        <link rel="preload" href="/webruntime/component/259a789b5905e4a3e65c0942cc97421d/prod/en-US/force/luvioLwcBindings_cmp" as="script" crossorigin>
+        <link rel="preload" href="/webruntime/component/da6467b90bc1eda0c5728f07f2d9928c/prod/en-US/force/luvioRuntimeWebruntime_cmp" as="script" crossorigin>
+        <link rel="preload" href="/webruntime/view/2cae7715f5789110e432f15b10eba3d9/prod/en-US/headerAndFooter_view" as="script" crossorigin>
+        <link rel="preload" href="/webruntime/component/68f2db0260fa3eac818e7f589ab0cc98/prod/en-US/force/ldsEngineWebruntime_cmp" as="script" crossorigin><style type="text/css" id="webruntime-branding">:root{--dxp-g-brand:#232564;--dxp-s-text-heading-medium-letter-spacing:0em;--dxp-s-form-element-text-font-family:var(--dxp-s-html-font-family);--dxp-s-form-element-spacing-horizontal-start:12px;--dxp-s-text-heading-small-text-decoration:none;--dxp-s-dropdown-text-color:var(--dxp-g-root-contrast);--dxp-s-tertiary-button-text-color:var(--dxp-s-button-color);--dxp-s-form-element-caption-text-font-family:var(--dxp-s-html-font-family);--dxp-s-form-element-spacing-block-start:0px;--dxp-g-neutral-contrast-3:#ffffff;--dxp-s-text-heading-medium-text-transform:none;--dxp-g-neutral-contrast-2:#000000;--dxp-g-neutral-contrast-1:#000000;--dxp-s-button-color-focus-contrast:rgb(12, 2, 85);--dxp-s-tertiary-button-border-color-1:rgba(0,0,0,0);--dxp-s-button-border-color-active:var(--dxp-s-button-border-color-focus);--dxp-s-link-text-color-1:rgb(24, 26, 70);--dxp-s-form-element-label-font-style:normal;--dxp-g-info:#16325c;--dxp-g-root:#ffffff;--dxp-s-tertiary-button-text-color-focus:var(--dxp-s-tertiary-button-text-color-1);--dxp-s-form-element-text-text-decoration:none;--dxp-s-form-element-caption-text-font-weight:400;--dxp-s-body-line-height:1.65;--dxp-s-text-heading-extra-small-font-style:normal;--dxp-s-button-large-padding-block-end:0rem;--dxp-s-body-text-decoration:none;--dxp-s-section-content-spacing-inline-end-mobile:0.75rem;--dxp-s-form-element-text-font-weight:400;--dxp-s-tertiary-button-color-1:rgba(0,0,0,0);--dxp-s-text-heading-medium-font-style:normal;--dxp-s-form-checkbox-color-background-checked:var(--dxp-s-form-checkbox-color-background);--dxp-s-secondary-button-color-focus:var(--dxp-s-secondary-button-color-1);--dxp-s-text-heading-extra-extra-small-line-height:1;--dxp-g-warning-2:#e27d00;--dxp-g-warning-3:#673900;--dxp-s-form-element-color-border:var(--dxp-g-neutral-3);--dxp-g-warning-1:#ffa534;--dxp-s-header-content-max-width-mobile:none;--dxp-s-secondary-button-color-hover:var(--dxp-s-secondary-button-color-1);--dxp-s-text-heading-large-letter-spacing:0em;--dxp-s-button-padding-inline-end:1rem;--dxp-s-tertiary-button-border-color-hover:var(--dxp-s-tertiary-button-border-color-1);--dxp-s-tertiary-button-border-color-focus:var(--dxp-s-tertiary-button-border-color-1);--dxp-s-body-font-style:normal;--dxp-g-warning-contrast:#000000;--dxp-s-form-element-text-text-transform:none;--dxp-s-button-large-padding-inline-start:1.25rem;--dxp-s-text-heading-medium-line-height:1;--dxp-s-column-spacer-size:1rem;--dxp-s-text-heading-large-text-transform:none;--dxp-s-secondary-button-border-color:var(--dxp-s-button-color);--dxp-s-text-heading-extra-large-letter-spacing:0em;--dxp-s-text-heading-large-font-size:3.75rem;--dxp-s-secondary-button-text-color:var(--dxp-s-button-color);--dxp-s-form-element-text-font-style:normal;--dxp-s-button-font-family:"DMSans";--dxp-s-form-element-placeholder-text-color:var(--dxp-g-neutral-3);--dxp-s-form-element-color-background:rgba(255, 255, 255, 0);--dxp-s-tertiary-button-border-color-active:var(--dxp-s-tertiary-button-border-color-focus);--dxp-s-button-padding-block-start:0rem;--dxp-s-text-heading-extra-extra-small-font-style:normal;--dxp-s-button-font-weight:500;--dxp-s-body-font-weight:300;--dxp-s-body-small-line-height:1;--dxp-s-html-font-family:"DMSans";--dxp-g-offline:#444444;--dxp-s-button-small-font-size:0.75rem;--dxp-s-button-radius-border:10px;--dxp-s-button-small-padding-block-end:0rem;--dxp-s-component-wrapper-spacer-size-mobile:1.5rem;--dxp-s-form-element-label-font-size:1rem;--dxp-s-text-heading-extra-small-line-height:1;--dxp-s-text-heading-small-line-height:1;--dxp-s-section-content-spacing-block-end:1rem;--dxp-s-secondary-button-text-color-focus:var(--dxp-s-secondary-button-text-color-1);--dxp-g-success-3:#07190f;--dxp-g-warning:#ffb75d;--dxp-g-success-2:#237747;--dxp-g-success-1:#36b66c;--dxp-s-button-small-padding-inline-end:0.75rem;--dxp-s-column-spacer-size-mobile:0.75rem;--dxp-s-text-heading-small-font-family:"PPRightGrotesk";--dxp-s-text-heading-large-font-style:normal;--dxp-g-info-contrast-3:#ffffff;--dxp-s-form-checkbox-color-border-checked:var(--dxp-s-form-checkbox-color-border);--dxp-s-button-color-active:var(--dxp-s-button-color-focus);--dxp-s-section-content-spacing-inline-start-mobile:0.75rem;--dxp-s-section-content-spacing-block-end-mobile:0.75rem;--dxp-s-html-font-size:1rem;--dxp-s-body-font-family:"DMSans";--dxp-s-link-text-decoration-focus:underline;--dxp-g-info-contrast-1:#ffffff;--dxp-s-dropdown-text-color-hover:var(--dxp-g-neutral-contrast);--dxp-g-info-contrast-2:#ffffff;--dxp-s-text-heading-extra-large-font-family:"PPRightGrotesk";--dxp-s-text-heading-medium-text-decoration:none;--dxp-s-secondary-button-color-active:var(--dxp-s-secondary-button-color-focus);--dxp-s-form-element-label-line-height:1.5;--dxp-s-text-heading-extra-extra-small-font-family:"PPRightGrotesk";--dxp-s-text-heading-small-font-weight:500;--dxp-s-text-heading-large-font-weight:500;--dxp-s-form-element-text-color:var(--dxp-g-root-contrast);--dxp-g-destructive-contrast:#ffffff;--dxp-s-form-checkbox-radius-border:4px;--dxp-g-destructive-contrast-1:#ffffff;--dxp-g-destructive-contrast-2:#ffffff;--dxp-g-root-1:#ebebeb;--dxp-g-destructive-contrast-3:#ffffff;--dxp-g-root-2:#c2c2c2;--dxp-s-section-content-spacing-inline-start:1rem;--dxp-g-root-3:#858585;--dxp-s-button-color-1:rgb(238, 89, 220);--dxp-s-form-element-color-background-active:var(--dxp-s-form-element-color-background);--dxp-s-body-text-color:rgb(12, 2, 85);--dxp-s-footer-content-max-width-mobile:none;--dxp-g-brand-contrast:#ffffff;--dxp-s-button-border-color-hover:rgb(254, 79, 225);--dxp-s-text-heading-extra-small-letter-spacing:0em;--dxp-s-form-element-width-border:1px;--dxp-s-body-small-text-color:rgb(12, 2, 85);--dxp-s-form-checkbox-width-border:1px;--dxp-s-button-color-active-contrast:var(--dxp-s-button-color-focus-contrast);--dxp-s-button-line-height:2;--dxp-s-button-small-padding-inline-start:0.75rem;--dxp-s-text-heading-extra-extra-small-text-transform:none;--dxp-s-form-element-color-border-focus:var(--dxp-g-brand);--dxp-s-button-large-radius-border:4px;--dxp-s-text-heading-extra-extra-small-font-weight:500;--dxp-s-button-border-color:rgb(242, 126, 228);--dxp-s-secondary-button-color:var(--dxp-g-root);--dxp-s-text-heading-extra-small-text-decoration:none;--dxp-s-text-heading-extra-extra-small-color:rgb(12, 2, 85);--dxp-s-form-element-radius-border:4px;--dxp-s-form-element-text-color-focus:var(--dxp-s-form-element-text-color);--dxp-s-tertiary-button-border-color:rgba(0,0,0,0);--dxp-g-destructive:#c23934;--dxp-s-tertiary-button-color-active:var(--dxp-s-tertiary-button-color-focus);--dxp-s-dropdown-color-border:var(--dxp-g-neutral);--dxp-g-offline-contrast:#ffffff;--dxp-s-text-heading-large-color:rgb(12, 2, 85);--dxp-s-button-large-padding-block-start:0rem;--dxp-s-link-text-decoration-hover:underline;--dxp-s-button-color-focus:rgb(242, 126, 228);--dxp-s-form-element-text-line-height:1.5;--dxp-s-form-element-caption-text-line-height:1.5;--dxp-s-body-small-font-family:"DMSans";--dxp-s-body-small-letter-spacing:0em;--dxp-s-text-heading-extra-large-text-transform:none;--dxp-s-form-element-label-text-transform:none;--dxp-g-success:#4bca81;--dxp-s-form-checkbox-color-background:var(--dxp-s-form-element-color-background);--dxp-s-form-element-label-letter-spacing:0;--dxp-s-form-element-label-font-weight:400;--dxp-s-button-text-decoration:none;--dxp-s-text-heading-extra-large-line-height:1;--dxp-s-button-border-color-focus:rgb(242, 126, 228);--dxp-g-warning-contrast-3:#ffffff;--dxp-s-button-large-font-size:1.25rem;--dxp-s-button-small-radius-border:4px;--dxp-s-body-font-size:1rem;--dxp-s-dropdown-color-background:rgba(255, 255, 255, 0);--dxp-s-body-small-text-decoration:none;--dxp-s-secondary-button-text-color-active:var(--dxp-s-secondary-button-text-color-focus);--dxp-s-text-heading-large-line-height:1;--dxp-s-button-color-hover:rgb(254, 79, 225);--dxp-s-button-font-size:0.875rem;--dxp-s-button-letter-spacing:0em;--dxp-g-warning-contrast-2:#000000;--dxp-g-warning-contrast-1:#000000;--dxp-s-button-padding-inline-start:1rem;--dxp-g-root-contrast-1:rgb(82, 82, 82);--dxp-g-root-contrast:rgb(102, 102, 102);--dxp-g-root-contrast-2:rgb(41, 41, 41);--dxp-g-root-contrast-3:rgb(0, 0, 0);--dxp-s-header-content-max-width:1800px;--dxp-s-section-columns-max-width:1800px;--dxp-s-form-element-spacing-block-end:0px;--dxp-s-button-text-transform:none;--dxp-s-body-text-transform:none;--dxp-s-form-element-label-font-family:var(--dxp-s-html-font-family);--dxp-s-form-checkbox-color-border:var(--dxp-s-form-element-color-border);--dxp-s-form-element-caption-text-text-transform:none;--dxp-s-body-letter-spacing:0em;--dxp-s-form-element-caption-text-letter-spacing:0;--dxp-s-tertiary-button-color:rgba(0,0,0,0);--dxp-s-body-small-font-style:normal;--dxp-s-text-heading-small-font-style:normal;--dxp-s-text-heading-extra-extra-small-font-size:0.625rem;--dxp-s-text-heading-small-color:rgb(12, 2, 85);--dxp-s-section-content-spacing-block-start:1rem;--dxp-s-html-font-size-mobile:1rem;--dxp-s-section-content-spacing-inline-end:1rem;--dxp-s-body-small-font-weight:400;--dxp-g-offline-3:#000000;--dxp-g-offline-2:#070707;--dxp-g-offline-1:#303030;--dxp-s-button-color-contrast-1:rgb(6, 1, 45);--dxp-s-secondary-button-border-color-active:var(--dxp-s-secondary-button-border-color-focus);--dxp-s-text-heading-extra-extra-small-letter-spacing:0em;--dxp-s-text-heading-extra-large-text-decoration:none;--dxp-g-success-contrast:#000000;--dxp-s-text-heading-small-font-size:2.625rem;--dxp-s-button-font-style:normal;--dxp-s-body-small-text-transform:none;--dxp-g-brand-contrast-1:rgb(255, 255, 255);--dxp-g-brand-contrast-3:rgb(255, 255, 255);--dxp-s-button-color-hover-contrast:rgb(12, 2, 85);--dxp-g-brand-contrast-2:rgb(255, 255, 255);--dxp-g-brand-1:#181A46;--dxp-g-brand-2:#030309;--dxp-g-brand-3:#000000;--dxp-s-secondary-button-text-color-1:rgb(238, 89, 220);--dxp-s-link-text-color-hover:rgb(35, 37, 100);--dxp-g-offline-contrast-3:#ffffff;--dxp-g-offline-contrast-2:#ffffff;--dxp-s-button-small-padding-block-start:0rem;--dxp-s-tertiary-button-color-hover:var(--dxp-s-tertiary-button-color-1);--dxp-s-text-heading-extra-small-font-family:"PPRightGrotesk";--dxp-s-form-element-caption-text-text-decoration:none;--dxp-s-body-small-font-size:1rem;--dxp-g-destructive-1:#a2302b;--dxp-g-offline-contrast-1:#ffffff;--dxp-s-text-heading-small-text-transform:none;--dxp-s-tertiary-button-text-color-1:rgb(238, 89, 220);--dxp-g-info-contrast:#ffffff;--dxp-s-link-text-color:rgb(35, 37, 100);--dxp-s-text-heading-extra-extra-small-text-decoration:none;--dxp-g-neutral:#ecebea;--dxp-g-destructive-2:#611d1a;--dxp-g-destructive-3:#010000;--dxp-s-form-element-label-color:var(--dxp-g-root-contrast);--dxp-s-text-heading-extra-large-font-weight:500;--dxp-s-text-heading-large-font-family:"PPRightGrotesk";--dxp-s-text-heading-extra-large-font-style:normal;--dxp-s-tertiary-button-text-color-active:var(--dxp-s-tertiary-button-text-color-focus);--dxp-s-text-heading-extra-small-text-transform:none;--dxp-s-text-heading-extra-small-font-weight:500;--dxp-s-form-element-text-font-size:1rem;--dxp-s-secondary-button-border-color-hover:var(--dxp-s-secondary-button-border-color-1);--dxp-s-button-large-padding:1.25rem;--dxp-g-info-2:#000000;--dxp-g-info-3:#000000;--dxp-s-secondary-button-border-color-focus:var(--dxp-s-secondary-button-border-color-1);--dxp-s-text-heading-medium-font-weight:500;--dxp-g-info-1:#0e203b;--dxp-g-neutral-contrast:#000000;--dxp-s-dropdown-color-background-hover:var(--dxp-g-neutral);--dxp-s-button-color:rgb(242, 126, 228);--dxp-g-neutral-3:#76716b;--dxp-g-neutral-2:#b2aeaa;--dxp-s-text-heading-extra-large-color:rgb(12, 2, 85);--dxp-g-neutral-1:#d9d7d5;--dxp-s-secondary-button-color-1:var(--dxp-g-root-1);--dxp-g-success-contrast-3:#ffffff;--dxp-g-success-contrast-2:#ffffff;--dxp-s-text-heading-extra-large-font-size:5rem;--dxp-s-secondary-button-border-color-1:rgb(238, 89, 220);--dxp-s-tertiary-button-color-focus:var(--dxp-s-tertiary-button-color-1);--dxp-s-form-element-caption-text-font-size:0.75rem;--dxp-s-form-element-spacing-horizontal-end:16px;--dxp-g-success-contrast-1:#000000;--dxp-s-component-wrapper-spacer-size:1.5rem;--dxp-s-button-large-padding-inline-end:1.25rem;--dxp-s-text-heading-extra-small-color:rgb(12, 2, 85);--dxp-s-tertiary-button-text-color-hover:var(--dxp-s-tertiary-button-text-color-1);--dxp-s-link-text-decoration:none;--dxp-s-text-heading-medium-font-size:3.375rem;--dxp-s-form-element-label-text-decoration:none;--dxp-s-text-heading-extra-small-font-size:2.25rem;--dxp-s-button-color-contrast:rgb(12, 2, 85);--dxp-s-button-padding-block-end:0rem;--dxp-s-section-columns-max-width-mobile:none;--dxp-s-text-heading-medium-color:rgb(12, 2, 85);--dxp-s-button-small-padding:0.75rem;--dxp-s-text-heading-large-text-decoration:none;--dxp-s-form-element-caption-text-font-style:normal;--dxp-s-button-padding:1rem;--dxp-s-secondary-button-text-color-hover:var(--dxp-s-secondary-button-text-color-1);--dxp-s-text-heading-medium-font-family:"PPRightGrotesk";--dxp-s-footer-content-max-width:1800px;--dxp-s-text-heading-small-letter-spacing:0em;--dxp-s-form-element-text-letter-spacing:0em;--dxp-s-section-content-spacing-block-start-mobile:0.75rem;--dxp-g-brand-h:238;--dxp-g-brand-s:48%;--dxp-g-brand-l:26%;--dxp-g-brand-a:1.0;--dxp-s-button-color-focus-contrast-h:247;--dxp-s-button-color-focus-contrast-s:95%;--dxp-s-button-color-focus-contrast-l:17%;--dxp-s-button-color-focus-contrast-a:1.0;--dxp-g-info-h:216;--dxp-g-info-s:61%;--dxp-g-info-l:22%;--dxp-g-info-a:1.0;--dxp-g-root-h:0;--dxp-g-root-s:0%;--dxp-g-root-l:100%;--dxp-g-root-a:1.0;--dxp-g-warning-contrast-h:0;--dxp-g-warning-contrast-s:0%;--dxp-g-warning-contrast-l:0%;--dxp-g-warning-contrast-a:1.0;--dxp-s-form-element-color-background-h:0;--dxp-s-form-element-color-background-s:0%;--dxp-s-form-element-color-background-l:100%;--dxp-s-form-element-color-background-a:0.0;--dxp-g-offline-h:0;--dxp-g-offline-s:0%;--dxp-g-offline-l:27%;--dxp-g-offline-a:1.0;--dxp-g-warning-h:33;--dxp-g-warning-s:100%;--dxp-g-warning-l:68%;--dxp-g-warning-a:1.0;--dxp-g-destructive-contrast-h:0;--dxp-g-destructive-contrast-s:0%;--dxp-g-destructive-contrast-l:100%;--dxp-g-destructive-contrast-a:1.0;--dxp-s-body-text-color-h:247;--dxp-s-body-text-color-s:95%;--dxp-s-body-text-color-l:17%;--dxp-s-body-text-color-a:1.0;--dxp-g-brand-contrast-h:0;--dxp-g-brand-contrast-s:0%;--dxp-g-brand-contrast-l:100%;--dxp-g-brand-contrast-a:1.0;--dxp-s-button-border-color-hover-h:310;--dxp-s-button-border-color-hover-s:99%;--dxp-s-button-border-color-hover-l:65%;--dxp-s-button-border-color-hover-a:1.0;--dxp-s-body-small-text-color-h:247;--dxp-s-body-small-text-color-s:95%;--dxp-s-body-small-text-color-l:17%;--dxp-s-body-small-text-color-a:1.0;--dxp-s-button-border-color-h:307;--dxp-s-button-border-color-s:82%;--dxp-s-button-border-color-l:72%;--dxp-s-button-border-color-a:1.0;--dxp-s-text-heading-extra-extra-small-color-h:247;--dxp-s-text-heading-extra-extra-small-color-s:95%;--dxp-s-text-heading-extra-extra-small-color-l:17%;--dxp-s-text-heading-extra-extra-small-color-a:1.0;--dxp-s-tertiary-button-border-color-h:0;--dxp-s-tertiary-button-border-color-s:0%;--dxp-s-tertiary-button-border-color-l:0%;--dxp-s-tertiary-button-border-color-a:0.0;--dxp-g-destructive-h:2;--dxp-g-destructive-s:58%;--dxp-g-destructive-l:48%;--dxp-g-destructive-a:1.0;--dxp-g-offline-contrast-h:0;--dxp-g-offline-contrast-s:0%;--dxp-g-offline-contrast-l:100%;--dxp-g-offline-contrast-a:1.0;--dxp-s-text-heading-large-color-h:247;--dxp-s-text-heading-large-color-s:95%;--dxp-s-text-heading-large-color-l:17%;--dxp-s-text-heading-large-color-a:1.0;--dxp-s-button-color-focus-h:307;--dxp-s-button-color-focus-s:82%;--dxp-s-button-color-focus-l:72%;--dxp-s-button-color-focus-a:1.0;--dxp-g-success-h:146;--dxp-g-success-s:55%;--dxp-g-success-l:54%;--dxp-g-success-a:1.0;--dxp-s-button-border-color-focus-h:307;--dxp-s-button-border-color-focus-s:82%;--dxp-s-button-border-color-focus-l:72%;--dxp-s-button-border-color-focus-a:1.0;--dxp-s-dropdown-color-background-h:0;--dxp-s-dropdown-color-background-s:0%;--dxp-s-dropdown-color-background-l:100%;--dxp-s-dropdown-color-background-a:0.0;--dxp-s-button-color-hover-h:310;--dxp-s-button-color-hover-s:99%;--dxp-s-button-color-hover-l:65%;--dxp-s-button-color-hover-a:1.0;--dxp-g-root-contrast-h:0;--dxp-g-root-contrast-s:0%;--dxp-g-root-contrast-l:40%;--dxp-g-root-contrast-a:1.0;--dxp-s-tertiary-button-color-h:0;--dxp-s-tertiary-button-color-s:0%;--dxp-s-tertiary-button-color-l:0%;--dxp-s-tertiary-button-color-a:0.0;--dxp-s-text-heading-small-color-h:247;--dxp-s-text-heading-small-color-s:95%;--dxp-s-text-heading-small-color-l:17%;--dxp-s-text-heading-small-color-a:1.0;--dxp-g-success-contrast-h:0;--dxp-g-success-contrast-s:0%;--dxp-g-success-contrast-l:0%;--dxp-g-success-contrast-a:1.0;--dxp-s-button-color-hover-contrast-h:247;--dxp-s-button-color-hover-contrast-s:95%;--dxp-s-button-color-hover-contrast-l:17%;--dxp-s-button-color-hover-contrast-a:1.0;--dxp-s-link-text-color-hover-h:238;--dxp-s-link-text-color-hover-s:48%;--dxp-s-link-text-color-hover-l:26%;--dxp-s-link-text-color-hover-a:1.0;--dxp-g-info-contrast-h:0;--dxp-g-info-contrast-s:0%;--dxp-g-info-contrast-l:100%;--dxp-g-info-contrast-a:1.0;--dxp-s-link-text-color-h:238;--dxp-s-link-text-color-s:48%;--dxp-s-link-text-color-l:26%;--dxp-s-link-text-color-a:1.0;--dxp-g-neutral-h:30;--dxp-g-neutral-s:5%;--dxp-g-neutral-l:92%;--dxp-g-neutral-a:1.0;--dxp-g-neutral-contrast-h:0;--dxp-g-neutral-contrast-s:0%;--dxp-g-neutral-contrast-l:0%;--dxp-g-neutral-contrast-a:1.0;--dxp-s-button-color-h:307;--dxp-s-button-color-s:82%;--dxp-s-button-color-l:72%;--dxp-s-button-color-a:1.0;--dxp-s-text-heading-extra-large-color-h:247;--dxp-s-text-heading-extra-large-color-s:95%;--dxp-s-text-heading-extra-large-color-l:17%;--dxp-s-text-heading-extra-large-color-a:1.0;--dxp-s-text-heading-extra-small-color-h:247;--dxp-s-text-heading-extra-small-color-s:95%;--dxp-s-text-heading-extra-small-color-l:17%;--dxp-s-text-heading-extra-small-color-a:1.0;--dxp-s-button-color-contrast-h:247;--dxp-s-button-color-contrast-s:95%;--dxp-s-button-color-contrast-l:17%;--dxp-s-button-color-contrast-a:1.0;--dxp-s-text-heading-medium-color-h:247;--dxp-s-text-heading-medium-color-s:95%;--dxp-s-text-heading-medium-color-l:17%;--dxp-s-text-heading-medium-color-a:1.0;}</style>
+        <script>var DataLayerEvents=function(){"use strict";return class{constructor(){this.resetEvents(),this._subscribers=[]}resetEvents(){this._events=new Proxy([],{set:(s,t,e)=>{const r=s[t],i=Reflect.set(s,t,e);return"length"!==t&&r!==e&&this.emitEvents(),i}})}subscribe(s){this._subscribers.find((t=>t.constructor.toString()===s.constructor.toString()))||this._subscribers.push(s)}unsubscribe(s){this._subscribers=this._subscribers.filter((t=>t!==s))}push(s){this._events.push(s)}emitEvents(){if(this._subscribers.length){const s=[...this._events];this.resetEvents(),this._subscribers.forEach((t=>{try{"function"==typeof t.next&&t.next(s)}catch(s){"function"==typeof t.error&&t.error(s)}}))}}size(){return this._events.length}}}();
+</script><script>window.dataLayerEvents = new DataLayerEvents();
+window.document.addEventListener('experience_interaction', (event) => {
+window.dataLayerEvents.push(event);
+});
+window.document.addEventListener('click', (event) => {
+window.dataLayerEvents.push(event);
+});
+window.ECEngmtEvtDispatchers = [];
+window.expTagMgrConfig = {};
+</script><script async src="/webruntime/framework/24c5ce6126/prod/experience-web-sdk"></script><script>window.expTagMgrConfig.dispatcherCount = 0;
+</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-0762EZRW9Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0762EZRW9Q');
+  gtag('set', 'developer_id.dMTFhYj', true);
+</script><title>Welcome to LWC Communities!</title>
+
+<!-- favicon -->
+<link rel="shortcut icon" href="/sfsites/c/resource/PRI_Logo_Favicon" />
+
+<!-- branding stylesheets -->
+<link rel="stylesheet" href="/assets/styles/salesforce-lightning-design-system.min.css?d70d8a3f5e"/><link rel="stylesheet" href="/assets/styles/dxp-site-spacing-styling-hooks.min.css?d70d8a3f5e" />
+<link rel="stylesheet" href="/assets/styles/dxp-styling-hooks.min.css?d70d8a3f5e" />
+<link rel="stylesheet" href="/assets/styles/dxp-slds-extensions.min.css?d70d8a3f5e" />
+
+<!-- branding stylesheets -->
+<link rel="stylesheet" href="/assets/styles/styles.css?d70d8a3f5e" />
+
+<!-- override stylesheets -->
+<link rel="stylesheet" href="/sfsites/c/resource/PRI_Headmarkup_Overrides?d70d8a3f5e" />
+
+<style>
+    @font-face {
+        font-family: 'DMSans';
+        font-weight: 300;
+        font-style: normal;
+        src: url('/sfsites/c/resource/Custom_Fonts_DM_Sans_Right_Grotesk/fonts/DM_Sans/static/DMSans-Light.woff2') format('woff2');
+    }
+
+    @font-face {
+        font-family: 'DMSans';
+        font-weight: 400;
+        font-style: normal;
+        src: url('/sfsites/c/resource/Custom_Fonts_DM_Sans_Right_Grotesk/fonts/DM_Sans/static/DMSans-Regular.woff2') format('woff2');
+    }
+
+    @font-face {
+        font-family: 'DMSans';
+        font-weight: 500;
+        font-style: normal;
+        src: url('/sfsites/c/resource/Custom_Fonts_DM_Sans_Right_Grotesk/fonts/DM_Sans/static/DMSans-Medium.woff2') format('woff2');
+    }
+
+    @font-face {
+        font-family: 'DMSans';
+        font-weight: 600;
+        font-style: normal;
+        src: url('/sfsites/c/resource/Custom_Fonts_DM_Sans_Right_Grotesk/fonts/DM_Sans/static/DMSans-SemiBold.woff2') format('woff2');
+    }
+
+    @font-face {
+        font-family: 'DMSans';
+        font-weight: 700;
+        font-style: normal;
+        src: url('/sfsites/c/resource/Custom_Fonts_DM_Sans_Right_Grotesk/fonts/DM_Sans/static/DMSans-Bold.woff2') format('woff2');
+    }
+
+    @font-face {
+        font-family: 'PPRightGrotesk';
+        font-weight: 500;
+        font-style: normal;
+        src: url('/sfsites/c/resource/Custom_Fonts_DM_Sans_Right_Grotesk/fonts/Right_Grotesk_Compact_Medium/PPRightGrotesk-CompactMedium.woff2') format('woff2');
+    }
+
+    @font-face {
+        font-family: 'PPRightGroteskNarrow';
+        font-weight: 500;
+        font-style: normal;
+        src: url('/sfsites/c/resource/Custom_Fonts_DM_Sans_Right_Grotesk/fonts/Right_Grotesk_Narrow_Bold/PPRightGrotesk-NarrowBold.woff2') format('woff2');
+    }
+
+    body {
+        font-family: 'DMSans', sans-serif;
+    }
+
+    /* Required for lightning component buttons */
+    .mypri-button > button {
+        all: unset !important;
+        height: inherit !important;
+    }
+
+    .mypri-button > button::after {
+        all: unset !important;
+        content: "";
+        position: absolute;
+        left: -4px;
+        top: -4px;
+        height: 52px;
+        min-width: calc(100% + 4px);
+        cursor: pointer;
+        background-color: transparent;
+        border-radius: 12px;
+        border: 2px solid var(--pink);
+        box-sizing: content-box;
+        opacity: 0;
+        transition: 0.3s;
+    }
+
+    .mypri-button > button:hover {
+        all: unset !important;
+        background: var(--pink-hover);
+    }
+
+    .mypri-button > button:focus {
+        all: unset !important;
+        background: var(--pink);
+        height: 48px;
+        min-width: 170px;
+        border: 0;
+    }
+
+    .mypri-button > button[disabled],
+    .mypri-button > button[disabled] {
+        all: unset !important;
+        color: #0c0255b3;
+        background: #fe74e780;
+    }
+    
+    .mypri-button:has(button:focus)::after {
+        opacity: 1;
+    }
+    
+    /* Component default link styling */
+    .content-container a:not([class]),
+    .pri-page-content-wrapper a:not([class]) {
+        font-weight: 500;
+        position: relative;
+        color: #0C0255 !important;
+        text-decoration: none !important;
+    }
+    
+    .content-container a:not([class])::after,
+    .pri-page-content-wrapper a:not([class])::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        width: 100%;
+        height: 2px;
+        background-color: #FE74E7;
+        border-radius: 1px;
+    }
+    
+    .content-container .custom-breadcrumbs a:not([class]) {
+        font-weight: inherit;
+    }
+    
+    .content-container .custom-breadcrumbs a:not([class])::after {
+        content: none;
+    }
+    
+    /* The following cannot be targeted in CSS because of the DOM */
+    #main-content {
+        overflow: hidden;
+    }
+    
+    c-ec_-pri-user-settings-preferences[data-key="Regions__c"] .slds-grey-border,
+    .slds-input__icon-group_right {
+        display: none;
+    }
+    
+    .login-checkbox-item .custom-link {
+        color: var(--login-base-color);
+    }
+    
+    .custom-profile-wrapper .slds-form-element__label {
+        color: var(--login-base-color);
+        font-size: 0.875rem;
+        font-weight: 500;
+    }
+    
+    .blue-link button {
+        color: var(--dark-blue) !important;
+        font-weight: 300;
+    }
+
+    .blue-link button:after {
+        content: none;
+    }
+    
+    .dropdown-small-font * {
+        font-size: 0.875rem;
+    }
+    
+    .pri-content-text div:has(+h1),
+    .pri-content-text ul:has(+h1),
+    .pri-content-text ol:has(+h1) {
+        margin-bottom: 2.5rem;
+    }
+    
+    .pri-content-text div:has(+h2),
+    .pri-content-text ul:has(+h2),
+    .pri-content-text ol:has(+h2),
+    .pri-content-text div:has(+h3),
+    .pri-content-text ul:has(+h3),
+    .pri-content-text ol:has(+h3),
+    .pri-content-text div:has(+h4),
+    .pri-content-text ul:has(+h4),
+    .pri-content-text ol:has(+h4) {
+        margin-bottom: 2rem;
+    }
+    
+    .pri-content-text div:has(+div),
+    .pri-content-text ul:has(+div),
+    .pri-content-text ol:has(+div) {
+        margin-bottom: 1rem;
+    }
+    
+    .pri-content-text h4 {
+        font-size: 1.375rem;
+    }
+    
+    /* Card styling */
+    .comm-forgot-password {
+      background: #fff !important;
+      border-radius: 1.25rem;
+      box-shadow: 0px 1px 2px 0px #0A0D120D;
+      padding: 1rem !important;
+      margin: 1rem auto;
+      max-width: 41rem;
+	  min-width: 18rem;
+    }
+    
+    [class*="comm-forgot-password__container"] {
+        min-width: 18rem !important;
+        max-width: 34rem !important;
+        background: #fff !important;
+        border: none;
+        box-shadow: none;
+    }
+    
+    /* Title styling */
+    .comm-forgot-password__title {
+      font-family: 'PPRightGrotesk';
+      font-size: 2.625rem;
+      font-weight: 500;
+      color: #0C0255 !important;
+	  text-align: center;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+    
+    .comm-forgot-password .slds-form-element.slds-m-top_large.slds-m-bottom_large {
+      display: flex;
+      flex-direction: column-reverse !important; /* Reset Password on top */
+      align-items: center !important;
+    }
+    
+    [class*="comm-forgot-password"] .slds-form-element__control input,
+    [class*="comm-forgot-password"] .slds-form-element.slds-m-top_large.slds-m-bottom_large button {
+        color: #0C0255 !important;
+        margin: 0.5rem auto !important;
+        display: block !important;
+        height: 2.5rem !important;
+        font-size: 0.875rem; !important
+      font-weight: 500;!important
+      text-align: center;!important
+      border: none;!important
+      font-family: 'DMSans';!important
+    }
+
+    /* Cancel button */
+    .comm-forgot-password__cancel-button {
+      background-color: #fff !important;
+         border: none;!important
+
+    }
+
+    /* Submit button */
+    .comm-forgot-password__submit-button {
+      background-color: #FE74E7 !important;
+      margin-top: 0.75rem;
+    }
+
+    /* Subtitle text */
+    .comm-forgot-password__container lightning-formatted-text {
+    display: block;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #0C0255;
+    font-family: 'DMSans' !important;
+    width: 100%;
+    text-align:justify;
+    text-align-last :center;
+}
+    .comm-forgot-password
+    .slds-form-element__control input,
+    .slds-form-element.slds-m-top_large.slds-m-bottom_large button {
+      width: 100% !important;
+      margin: 0.5rem auto;
+      display: block;
+      height: 2.5rem;
+    }
+    
+    html body .slds-form-element__label:not(.slds-form-element__legend),
+    html body lightning-combobox::part(label) {
+    font-family: 'DMSans'!important;
+    font-weight: 500!important;
+    font-size: 0.875rem!important;
+    color: #0C0255!important;
+    }
+    
+    /* Input field background */
+    .comm-forgot-password__container .slds-input {
+      --input-color-background: #fff !important;
+    }
+
+}
+</style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZF3YR36HHN"></script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M3TFXGXP');</script>
+<!-- End Google Tag Manager -->
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+ 
+gtag('config', 'G-ZF3YR36HHN');
+</script>
+    </head>
+    <body>
+        <webruntime-app></webruntime-app>
+    </body>
+</html>

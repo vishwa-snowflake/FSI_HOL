@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 350" width="700" height="350">
+  <defs>
+    <linearGradient id="propGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14B8A6" />
+      <stop offset="100%" style="stop-color:#0D9488" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="700" height="350" fill="#CCFBF1" rx="10"/>
+  
+  <!-- Title -->
+  <text x="350" y="30" text-anchor="middle" font-size="20" font-weight="700" fill="#0D9488">
+    🏢 Revenue Growth - PropTech Analytics
+  </text>
+  
+  <!-- Grid -->
+  <line x1="100" y1="300" x2="600" y2="300" stroke="#14B8A6" stroke-width="2"/>
+  <line x1="100" y1="100" x2="100" y2="300" stroke="#14B8A6" stroke-width="2"/>
+  
+  <!-- Line -->
+  <path d="M 150,285 L 350,230 L 550,130" stroke="url(#propGradient)" stroke-width="4" fill="none"/>
+  
+  <!-- Points -->
+  <circle cx="150" cy="285" r="7" fill="#0D9488" stroke="white" stroke-width="2"/>
+  <circle cx="350" cy="230" r="7" fill="#0D9488" stroke="white" stroke-width="2"/>
+  <circle cx="550" cy="130" r="9" fill="#14B8A6" stroke="white" stroke-width="2"/>
+  
+  <!-- Labels -->
+  <text x="150" y="325" text-anchor="middle" font-size="13" font-weight="600">FY2024</text>
+  <text x="350" y="325" text-anchor="middle" font-size="13" font-weight="600">FY2025</text>
+  
+  <!-- Values -->
+  <text x="150" y="275" text-anchor="middle" font-size="14" font-weight="700" fill="#0D9488">$87M</text>
+  <text x="350" y="220" text-anchor="middle" font-size="14" font-weight="700" fill="#0D9488">$289M</text>
+  
+  <!-- Growth -->
+  <text x="250" y="260" text-anchor="middle" font-size="13" fill="#4CAF50" font-weight="700">+234%</text>
+  
+  <!-- Warning box -->
+  <rect x="450" y="180" width="180" height="100" rx="8" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2"/>
+  <text x="540" y="205" text-anchor="middle" font-size="12" font-weight="700" fill="#F59E0B">⚠️ Challenges:</text>
+  <text x="540" y="230" text-anchor="middle" font-size="10" fill="#666">Heavy cash burn</text>
+  <text x="540" y="248" text-anchor="middle" font-size="10" fill="#666">$78M negative FCF</text>
+  <text x="540" y="266" text-anchor="middle" font-size="10" fill="#666">Only 18 >$100K customers</text>
+  
+  <text x="650" y="340" text-anchor="end" font-size="10" fill="#666">NASDAQ: PROP</text>
+</svg>
+
+

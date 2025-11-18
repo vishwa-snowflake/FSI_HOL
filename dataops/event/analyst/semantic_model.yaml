@@ -1,0 +1,924 @@
+name: SEMANTIC_MODEL
+description: Sementic Model to ask questions about your data
+tables:
+  - name: EARNINGS_INFOGRAPHIC_PARSED
+    synonyms:
+      - Earnings Infographic Parsed
+      - Earnings Data
+      - Financial Report
+      - Quarterly Earnings
+      - Revenue Insights
+      - Earnings Summary
+      - Financial Summary
+      - Quarterly Report
+      - Earnings Overview
+    description: This table stores historical earnings data for a company, including revenue and customer metrics, parsed from infographic reports.
+    base_table:
+      database: ACCELERATE_AI_IN_FSI
+      schema: DOCUMENT_AI
+      table: EARNINGS_INFOGRAPHIC_PARSED
+    dimensions:
+      - name: IMAGE
+        synonyms:
+          - picture
+          - photo
+          - graphic
+          - icon
+          - logo
+          - visual
+          - illustration
+          - artwork
+          - image_file
+        description: URLs of quarterly earnings infographic files stored on Amazon S3.
+        expr: IMAGE
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - https://sfc-prod3-ds1-88-customer-stage.s3.us-west-2.amazonaws.com/9t101000-s/stages/00f8ca4a-15dc-4223-b2dc-508fd63b5e15/FY21_Q4-Infographic.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2UJ6RXYNBLHYVMZG%2F20250508%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250508T094003Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8b21302d613d3b1bd61cd2926d2ba396992405b7ddf8511c7a18c38dd9f32883
+          - https://sfc-prod3-ds1-88-customer-stage.s3.us-west-2.amazonaws.com/9t101000-s/stages/00f8ca4a-15dc-4223-b2dc-508fd63b5e15/SNOW-Q1-22-Infographic.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2UJ6RXYNBLHYVMZG%2F20250508%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250508T094003Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f557a8a8778cbb5d02f2325f1b47ca078afef35afafbfd1cbe29261e65d9e0c7
+          - https://sfc-prod3-ds1-88-customer-stage.s3.us-west-2.amazonaws.com/9t101000-s/stages/00f8ca4a-15dc-4223-b2dc-508fd63b5e15/Snowflake-Investor-Infographics_FY23-Q1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2UJ6RXYNBLHYVMZG%2F20250508%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250508T094003Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7dedde5cb67d7d619225e00eb4ebcede95eef6b483545d1270bd1728724ebee9
+      - name: QUARTER
+        synonyms:
+          - quarterly_period
+          - financial_quarter
+          - fiscal_quarter
+          - quarterly_term
+          - period_of_year
+        description: The quarter of the fiscal year in which the earnings were reported.
+        expr: QUARTER
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - Q4
+          - Q1
+          - Q3
+      - name: RELATIVE_PATH
+        synonyms:
+          - path
+          - directory
+          - file_location
+          - url
+          - file_path
+          - folder_path
+          - location
+          - file_directory
+        description: The file name of the infographic used to display earnings information for a specific quarter.
+        expr: RELATIVE_PATH
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - FY21_Q4-Infographic.pdf
+          - SNOW-Q1-22-Infographic.pdf
+          - Snowflake-Investor-Infographics_FY23-Q1.png
+    facts:
+      - name: GLOBAL_2000_CUSTOMERS
+        synonyms:
+          - top_customers
+          - key_customers
+          - major_customers
+          - large_customers
+          - strategic_customers
+          - important_customers
+          - priority_customers
+          - high_value_customers
+        description: The number of customers that are part of the Fortune Global 2000 list, a ranking of the world's largest companies by revenue.
+        expr: GLOBAL_2000_CUSTOMERS
+        data_type: NUMBER(38,0)
+        sample_values:
+          - '506'
+          - '639'
+      - name: MARKETPLACE_LISTINGS
+        synonyms:
+          - listings
+          - marketplace_items
+          - product_listings
+          - online_listings
+          - catalog_items
+          - inventory_listings
+          - product_offers
+        description: The total number of active listings on the marketplace.
+        expr: MARKETPLACE_LISTINGS
+        data_type: NUMBER(38,0)
+        sample_values:
+          - '380'
+          - '498'
+          - '1358'
+      - name: NET_REVENUE_RETENTION
+        synonyms:
+          - retained_revenue
+          - revenue_retention_rate
+          - net_revenue_percentage
+          - retained_earnings
+          - revenue_holdback
+          - revenue_recapture
+        description: The percentage of revenue retained from existing customers over a specific period of time, indicating the company's ability to maintain and grow revenue from its existing customer base.
+        expr: NET_REVENUE_RETENTION
+        data_type: NUMBER(38,0)
+        sample_values:
+          - '168'
+          - '174'
+          - '162'
+      - name: PRODUCT_REVENUE
+        synonyms:
+          - product_sales
+          - revenue_from_products
+          - product_turnover
+          - product_earnings
+          - product_income
+          - sales_revenue_from_products
+        description: The total revenue generated by each product.
+        expr: PRODUCT_REVENUE
+        data_type: NUMBER(6,1)
+        sample_values:
+          - '5538.0'
+          - '2138.0'
+          - '3944.0'
+      - name: TOTAL_CUSTOMERS
+        synonyms:
+          - total_client_count
+          - overall_customers
+          - customer_base
+          - total_client_base
+          - total_users
+          - total_accounts
+          - total_subscribers
+        description: The total number of customers for a given period or category, representing the overall count of individuals or entities that have purchased or utilized a product or service.
+        expr: TOTAL_CUSTOMERS
+        data_type: NUMBER(38,0)
+        sample_values:
+          - '4139'
+          - '4532'
+          - '6322'
+      - name: TOTAL_M_CUSTOMERS
+        synonyms:
+          - total_medium_customers
+          - mid_tier_customers
+          - medium_segment_customers
+          - m_segment_customers
+          - total_mid_market_customers
+        description: The total number of customers who have made a purchase.
+        expr: TOTAL_M_CUSTOMERS
+        data_type: NUMBER(38,0)
+        sample_values:
+          - '77'
+          - '104'
+          - '206'
+      - name: YEAR
+        synonyms:
+          - fiscal_year
+          - calendar_year
+          - annual_period
+          - twelve_month_period
+          - yearly_period
+        description: The year in which the earnings data was reported.
+        expr: YEAR
+        data_type: NUMBER(38,0)
+        sample_values:
+          - '2021'
+          - '2022'
+          - '2020'
+    time_dimensions:
+      - name: DATE_OF_REPORT
+        synonyms:
+          - report_date
+          - report_timestamp
+          - filing_date
+          - submission_date
+          - document_date
+          - record_date
+        description: Date of the earnings report, representing the end date of the fiscal period being reported.
+        expr: DATE_OF_REPORT
+        data_type: DATE
+        sample_values:
+          - '2021-01-31'
+          - '2021-04-30'
+          - '2022-04-30'
+  - name: REPORTS_STRUCTURED
+    synonyms:
+      - REPORTS
+      - STRUCTURED_REPORTS
+      - FINANCIAL_REPORTS
+      - ANALYST_REPORTS
+      - MARKET_REPORTS
+      - RESEARCH_REPORTS
+      - COMPANY_REPORTS
+    description: This table stores information about financial reports, including the report's relative path, OCR (Optical Character Recognition) score, rating, close price, price target, date of the report, and the name of the report provider.
+    base_table:
+      database: ACCELERATE_AI_IN_FSI
+      schema: DOCUMENT_AI
+      table: REPORTS_STRUCTURED
+    dimensions:
+      - name: CLOSE_PRICE
+        synonyms:
+          - final_price
+          - closing_value
+          - end_price
+          - last_price
+          - market_close
+          - settlement_price
+          - closing_rate
+        description: The closing price of a security on a specific trading day, representing the final price at which the security was traded at the end of the trading session.
+        expr: CLOSE_PRICE
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - $125.96
+          - '114.23'
+          - $129.12
+      - name: DATE_REPORT
+        synonyms:
+          - report_date
+          - report_submission_date
+          - filing_date
+          - document_date
+          - submission_timestamp
+          - report_timestamp
+        description: Date the report was generated, in the format month/day/year or month/year.
+        expr: DATE_REPORT
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - Nov 22, 2024
+          - 08/30/24
+          - 05/30/24
+      - name: NAME_OF_REPORT_PROVIDER
+        synonyms:
+          - report_provider_name
+          - provider_name
+          - report_source
+          - data_provider
+          - report_publisher
+          - author_name
+          - report_creator
+        description: The name of the provider of the report, such as a research firm or financial institution, that generated the report.
+        expr: NAME_OF_REPORT_PROVIDER
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - Argus Research Co.
+          - MarketEdge
+          - Morgan Stanley Research
+      - name: OCR_SCORE
+        synonyms:
+          - confidence_level
+          - accuracy_rating
+          - text_recognition_score
+          - optical_character_recognition_accuracy
+          - document_scan_accuracy
+        description: The OCR Score dimension represents the accuracy of the Optical Character Recognition (OCR) process, with values ranging from 0 to 1, where 1 is 100% accurate. It measures the confidence level of the extracted text from images or scanned documents, indicating the likelihood that the recognized text matches the original content.
+        expr: OCR_SCORE
+        data_type: VARIANT
+        sample_values:
+          - '0.95'
+          - '0.917'
+          - '0.934'
+      - name: PRICE_TARGET
+        synonyms:
+          - target_price
+          - desired_price
+          - price_goal
+          - expected_price
+          - price_objective
+          - intended_price
+        description: The target price for a product or service, representing the desired or expected selling price.
+        expr: PRICE_TARGET
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - $171.35
+          - '163.41'
+          - $190.00
+      - name: RATING
+        synonyms:
+          - score
+          - grade
+          - evaluation
+          - assessment
+          - rank
+          - classification
+          - appraisal
+          - review
+          - standing
+          - grade_level
+        description: The rating assigned to a stock or investment by an analyst or research firm, indicating their recommendation or outlook, with possible values being "HOLD" (maintain current position), "Hold" (maintain current position, alternative spelling), or "Equal-weight" (neutral, neither a buy nor a sell).
+        expr: RATING
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - HOLD
+          - Hold
+          - Equal-weight
+      - name: RELATIVE_PATH
+        synonyms:
+          - path_to_file
+          - file_location
+          - directory_path
+          - file_directory
+          - relative_file_path
+          - file_url
+        description: The file name of the report, including the relative path.
+        expr: RELATIVE_PATH
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - Argus_Nov_2024.pdf
+          - MarketEdge_30_Aug_2024.pdf
+          - Morgan_Stanley_Nov_2024.pdf
+  - name: SENTIMENT_ANALYSIS
+    synonyms:
+      - Opinion Analysis
+      - Sentiment Review
+      - Emotion Evaluation
+      - Attitude Assessment
+      - Feeling Inspection
+      - Mood Analysis
+      - Viewpoint Examination
+      - Reaction Review
+    description: |-
+      This table stores the results of sentiment analysis on text data related to products or services, with each row representing a single analysis. The columns provide the following information:
+
+      * RELATIVE_PATH: the location of the text data analyzed
+      * SENTIMENT: the overall sentiment of the text data (e.g. positive, negative, neutral)
+      * OVERALL: the overall sentiment score, likely on a scale of 0 to 100
+      * COST: the sentiment score related to the cost of the product or service
+      * INNOVATION: the sentiment score related to the innovation of the product or service
+      * PRODUCTIVITY: the sentiment score related to the productivity of the product or service
+      * COMPETITIVENESS: the sentiment score related to the competitiveness of the product or service
+      * CONSUMPTION: the sentiment score related to the consumption of the product or service
+    base_table:
+      database: ACCELERATE_AI_IN_FSI
+      schema: DEFAULT_SCHEMA
+      table: SENTIMENT_ANALYSIS
+    primary_key:
+      columns:
+        - RELATIVE_PATH
+    dimensions:
+      - name: RELATIVE_PATH
+        synonyms:
+          - path
+          - directory
+          - file_location
+          - folder_path
+          - url
+          - file_url
+          - resource_path
+          - location
+        description: The file path of the audio recording of the earnings call, relative to a root directory.
+        expr: RELATIVE_PATH
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - EARNINGS_Q1_FY2025.mp3
+          - EARNINGS_Q3_FY2025.mp3
+          - EARNINGS_Q2_FY2025.mp3
+      - name: SENTIMENT
+        synonyms:
+          - opinion
+          - attitude
+          - emotion
+          - tone
+          - mood
+          - feeling
+          - perspective
+          - outlook
+        description: The sentiment of a piece of text, indicating whether it expresses a positive, negative, or neutral opinion or emotion.
+        expr: SENTIMENT
+        data_type: VARCHAR(8)
+        sample_values:
+          - POSITIVE
+          - NEGATIVE
+          - NEUTRAL
+    facts:
+      - name: COMPETITIVENESS
+        synonyms:
+          - competitiveness_score
+          - competitive_advantage
+          - market_position
+          - business_performance
+          - rivalry_level
+          - competitive_index
+        description: A measure of how competitive a company is in its industry, with higher values indicating a greater level of competitiveness.
+        expr: COMPETITIVENESS
+        data_type: NUMBER(18,0)
+        sample_values:
+          - '46'
+          - '58'
+          - '52'
+      - name: CONSUMPTION
+        synonyms:
+          - usage
+          - utilization
+          - intake
+          - depletion
+          - spending
+          - absorption
+          - uptake
+        description: The total amount of consumption or usage of a product or service by a customer or a group of customers.
+        expr: CONSUMPTION
+        data_type: NUMBER(18,0)
+        sample_values:
+          - '1'
+          - '5'
+          - '64'
+      - name: COST
+        synonyms:
+          - expense
+          - price
+          - fee
+          - charge
+          - outlay
+          - disbursement
+          - payment
+        description: The COST column represents the monetary value or expense associated with a particular item, product, or service, likely used to analyze the financial aspect of customer sentiment or reviews.
+        expr: COST
+        data_type: NUMBER(18,0)
+        sample_values:
+          - '67'
+          - '1'
+          - '44'
+      - name: INNOVATION
+        synonyms:
+          - novelty
+          - creativity
+          - ingenuity
+          - inventiveness
+          - progress
+          - advancement
+          - pioneering
+          - forward_thinking
+          - originality
+        description: This column measures the degree to which a company is perceived as innovative, with higher values indicating a stronger perception of innovation.
+        expr: INNOVATION
+        data_type: NUMBER(18,0)
+        sample_values:
+          - '0'
+          - '8'
+          - '87'
+      - name: OVERALL
+        synonyms:
+          - total
+          - aggregate
+          - general
+          - overall_score
+          - comprehensive
+          - all_encompassing
+          - complete
+          - entirety
+        description: The OVERALL column represents the overall sentiment score of a particular entity, product, or service, with higher values indicating a more positive sentiment and lower values indicating a more negative sentiment.
+        expr: OVERALL
+        data_type: NUMBER(18,0)
+        sample_values:
+          - '56'
+          - '47'
+          - '0'
+      - name: PRODUCTIVITY
+        synonyms:
+          - efficiency
+          - output
+          - performance
+          - effectiveness
+          - work_rate
+          - production_level
+          - accomplishment_rate
+          - throughput
+        description: This column represents the productivity sentiment score, which measures the degree to which customers perceive a product or service as helping them to be more productive, with higher scores indicating a more positive perception of productivity.
+        expr: PRODUCTIVITY
+        data_type: NUMBER(18,0)
+        sample_values:
+          - '2'
+          - '27'
+          - '64'
+  - name: SNOWFLAKE_EARNINGS_CALLS
+    synonyms:
+      - CALL_EMBEDS
+      - Embedded_Calls
+      - Embedded_Call_Records
+      - Call_Embeddings
+      - Embedded_Call_Data
+      - Call_Embeds
+      - Embedded_Call_Information
+    description: This table stores information about call transcripts, including the relative path to the transcript file, a summary of the call, the full text of the call, the sentiment of the call (e.g. positive, negative, neutral), a sentiment score (a numerical value representing the strength of the sentiment), and a vector representation of the call's content (an embedding) used for machine learning or natural language processing tasks.
+    base_table:
+      database: ACCELERATE_AI_IN_FSI
+      schema: DEFAULT_SCHEMA
+      table: CALL_EMBEDS
+    primary_key:
+      columns:
+        - RELATIVE_PATH
+    dimensions:
+      - name: RELATIVE_PATH
+        synonyms:
+          - path
+          - relative_url
+          - file_location
+          - directory_path
+          - url_path
+          - file_path
+          - location
+          - relative_link
+        description: The file path of the audio recording of the earnings call, relative to the root directory.
+        expr: RELATIVE_PATH
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - EARNINGS_Q3_FY2025.mp3
+          - EARNINGS_Q1_FY2025.mp3
+          - EARNINGS_Q2_FY2025.mp3
+      - name: SENTIMENT
+        synonyms:
+          - emotion
+          - tone
+          - attitude
+          - opinion
+          - feeling
+          - mood
+          - outlook
+          - perspective
+          - viewpoint
+          - emotional_state
+        description: The sentiment of the call, indicating whether the tone of the conversation was generally positive, neutral, or mixed.
+        expr: SENTIMENT
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - positive
+          - neutral
+          - mixed
+      - name: SUMMARY
+        synonyms:
+          - abstract
+          - synopsis
+          - overview
+          - summary_text
+          - brief
+          - recap
+          - outline
+          - precis
+        description: A summary of Snowflake's quarterly earnings calls, highlighting key financial results, product developments, and company strategies.
+        expr: SUMMARY
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - During Snowflake's Q2 earnings call, CEO Sridhar Swamy discussed strong financial results, including a 30% year-over-year increase in product revenue to $829 million and a 48% year-over-year increase in remaining performance obligations to $5.2 billion. He also mentioned the company's focus on innovation, particularly in the areas of AI and machine learning, and the rapid adoption of new capabilities by customers. The call also touched on the impact of cybersecurity incidents and the importance of multifactor authentication and strong network policies. Snowflake raised its product revenue outlook for the year and announced plans to increase hiring in the second half. The call included discussions on product delivery, customer adoption, and the company's positioning in the data warehousing and AI markets.
+          - The earnings call discussed Snowflake's strong Q1 financial results, with product revenue growing 34% year-over-year to $790 million and remaining performance obligations totaling $5 billion. The company's CEO, Sridhar Ramaswamy, highlighted the growth in AI capabilities, which is fueling the platform and increasing reach. He also mentioned the progress made in Cortex, Snowflake's AI layer, and the acquisition of Truera, an AI observability platform. The company expects to increase product revenue for the year and continues to invest in AI initiatives. The call also touched on the success of Snowflake's collaboration and application platform, as well as the growth in consumption and the addition of new customers.
+          - Snowflake had a strong Q3 fiscal 2025 with outperforming expectations and increasing product revenue guide. The company's customers believe Snowflake is the easiest and most cost-effective enterprise data platform. Snowflake's product development engine continues to accelerate, with the launch of multiple Tier 1 features and significant adoption of AI feature family, Snowflake Cortex. The company is also improving go-to-market motion and seeing a huge impact on new product adoption. Product revenue for the quarter was $900 million, up 29% year-on-year, and remaining performance obligations totaled $5.7 billion, with year-over-year growth accelerating to 55%. Snowflake is initiating an even more rigorous approach to cost management and eliminating underperforming efforts. The company's obsession with product cohesion and ease of use is leading to new logo acquisitions, expanding within customer bases, and displacing competition.
+      - name: TEXT
+        synonyms:
+          - content
+          - message
+          - note
+          - passage
+          - phrase
+          - statement
+          - words
+          - transcription
+          - excerpt
+        description: Transcript of a company's earnings conference call, including introductory remarks, review of financial results, and discussion of guidance and forward-looking statements.
+        expr: TEXT
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - Good afternoon. Thank you for attending the Snowflake Q3 fiscal 2025 earnings conference call. My name is Matt, and I'll be your moderator for today's call. All lines will be muted during the presentation portion of the call for an opportunity for questions and answers at the end. If you would like to ask a question, please press star 1 on your telephone keypad. I will now pass the conference over to our host, Jimmy Sexton, head of investor relations. Jimmy, please go ahead. Good afternoon, and
+          - Good afternoon, and thank you for joining us on Snowflake's Q3 fiscal 2025 earnings call. Joining me on the call today is Sridhar Ramaswamy, our Chief Executive Officer, Mike Scarpelli, our Chief Financial Officer, and Christian Kleinerman, our Executive Vice President of Product, who will participate in the Q&A session. During today's call, we will review our financial results for the third quarter fiscal 2025 and discuss our guidance for the fourth quarter and full year fiscal 2025. During
+          - fiscal 2025. During today's call, we will make forward-looking statements, including statements related to our business operations and financial performance. These statements are subject to risks and uncertainties, which could cause them to differ materially from our actual results. Information concerning these risks and uncertainties is available in our earnings press release, our most recent forms 10K and 10Q, and our other SEC reports. All our statements are made as of today based on
+    facts:
+      - name: SENTIMENT_SCORE
+        synonyms:
+          - sentiment_rating
+          - emotional_value
+          - opinion_score
+          - attitude_measurement
+          - emotional_intensity
+          - feeling_level
+        description: A score indicating the sentiment of the call, ranging from 0 (very negative) to 1 (very positive), with higher values representing more positive sentiment.
+        expr: SENTIMENT_SCORE
+        data_type: FLOAT
+        sample_values:
+          - '0.432733'
+          - '0.30345932'
+          - '0.6159393'
+  - name: STOCK_PRICES
+    synonyms:
+      - stock_prices
+      - stock_quotes
+      - market_data
+      - equity_prices
+      - share_prices
+      - ticker_data
+      - financial_data
+      - stock_exchange_data
+      - securities_prices
+    description: This table stores historical stock price data for various assets, including their daily high and low prices, trading volume, and pre- and post-market prices, organized by ticker symbol, asset class, and exchange, with additional columns for date, year, and month for easy analysis and filtering.
+    base_table:
+      database: ACCELERATE_AI_IN_FSI
+      schema: DEFAULT_SCHEMA
+      table: STOCK_PRICES
+    dimensions:
+      - name: ASSET_CLASS
+        synonyms:
+          - investment_type
+          - asset_category
+          - security_type
+          - financial_instrument
+          - investment_category
+          - security_classification
+        description: The type of investment or financial instrument being traded, such as shares in a company, an equity investment, or an exchange-traded fund (ETF) that holds a basket of assets.
+        expr: ASSET_CLASS
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - Global Shares
+          - Equity
+          - ETF-Portfolio Depositary Receipt
+      - name: MONTHNAME
+        synonyms:
+          - month_name
+          - month_abbr
+          - month_short_name
+          - abbreviated_month
+          - short_month_name
+          - month_code
+        description: The month of the year in which the stock price was recorded.
+        expr: MONTHNAME
+        data_type: VARCHAR(3)
+        sample_values:
+          - May
+          - Jul
+          - Feb
+      - name: PRIMARY_EXCHANGE_CODE
+        synonyms:
+          - exchange_code
+          - primary_market_code
+          - main_exchange_id
+          - primary_listing_code
+          - exchange_id
+          - listing_exchange_code
+        description: The primary exchange on which the stock is listed, such as the Philippine Stock Exchange (PSE), American Stock Exchange (ASE), or New York Stock Exchange (NYS).
+        expr: PRIMARY_EXCHANGE_CODE
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - PSE
+          - ASE
+          - NYS
+      - name: PRIMARY_EXCHANGE_NAME
+        synonyms:
+          - main_exchange_name
+          - primary_market_name
+          - main_market_name
+          - primary_trading_exchange
+          - main_trading_exchange
+          - exchange_name
+          - primary_listing_exchange
+        description: The name of the primary exchange where the stock is listed.
+        expr: PRIMARY_EXCHANGE_NAME
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - NYSE ARCA
+          - NYSE MKT LLC
+          - NEW YORK STOCK EXCHANGE
+      - name: TICKER
+        synonyms:
+          - stock_symbol
+          - company_code
+          - security_id
+          - instrument_id
+          - equity_code
+          - stock_code
+        description: Stock ticker symbol representing the unique identifier for a publicly traded company.
+        expr: TICKER
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - WPS
+          - GUT
+          - GVP
+      - name: YEAR
+        synonyms:
+          - calendar_year
+          - fiscal_year
+          - year_value
+          - annual_period
+          - twelve_month_period
+          - yearly_value
+        description: The year in which the stock price was recorded.
+        expr: YEAR
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - '2018'
+          - '2024'
+          - '2019'
+    facts:
+      - name: ALL_DAY_HIGH
+        synonyms:
+          - daily_high
+          - highest_price
+          - peak_value
+          - maximum_price
+          - intraday_high
+          - highest_trading_value
+          - daily_peak
+        description: The highest price at which a stock traded during the entire trading day.
+        expr: ALL_DAY_HIGH
+        data_type: FLOAT
+        sample_values:
+          - '2.98'
+          - '48.08'
+          - '20.38'
+      - name: ALL_DAY_LOW
+        synonyms:
+          - daily_low
+          - lowest_price
+          - minimum_price
+          - all_day_minimum
+          - daily_minimum
+          - lowest_daily_price
+          - minimum_daily_price
+          - all_day_lowest
+        description: The lowest price at which a stock traded during the entire trading day.
+        expr: ALL_DAY_LOW
+        data_type: FLOAT
+        sample_values:
+          - '57.72'
+          - '0.26'
+          - '70.42'
+      - name: MONTHNO
+        synonyms:
+          - month_number
+        description: The month in which the stock price was recorded, represented as a numerical value (1-12) corresponding to the month of the year.
+        expr: MONTHNO
+        data_type: NUMBER(2,0)
+        sample_values:
+          - '6'
+          - '11'
+          - '7'
+      - name: NASDAQ_VOLUME
+        synonyms:
+          - nasdaq_trading_volume
+          - nasdaq_daily_volume
+          - nasdaq_stock_volume
+          - nasdaq_share_volume
+          - nasdaq_market_volume
+        description: The total number of shares traded on the NASDAQ stock exchange for a particular stock on a given day.
+        expr: NASDAQ_VOLUME
+        data_type: FLOAT
+        sample_values:
+          - '2316'
+          - '54476'
+          - '11463'
+      - name: POST_MARKET_CLOSE
+        synonyms:
+          - after_hours_close
+          - post_market_price
+          - after_market_close
+          - extended_hours_close
+          - post_trading_close
+        description: The closing price of a stock after the market has closed for the day, reflecting the final price at which the stock was traded after hours.
+        expr: POST_MARKET_CLOSE
+        data_type: FLOAT
+        sample_values:
+          - '29.12'
+          - '96.84'
+          - '36.83'
+      - name: PRE_MARKET_OPEN
+        synonyms:
+          - pre_open_price
+          - pre_market_price
+          - opening_price_before_market
+          - pre_trading_open
+          - pre_session_open
+        description: The pre-market opening price of a stock, which is the price at which the stock is trading before the official market opening, often influenced by overnight news and events.
+        expr: PRE_MARKET_OPEN
+        data_type: FLOAT
+        sample_values:
+          - '29.01'
+          - '475.56'
+          - '10.78'
+    filters:
+      - name: Filter_ticker
+        expr: TICKER='SNOW'
+    time_dimensions:
+      - name: DATE
+        synonyms:
+          - day
+          - calendar_date
+          - date_value
+          - calendar_day
+          - timestamp
+          - date_field
+          - record_date
+          - entry_date
+          - log_date
+        description: Date of stock price record.
+        expr: DATE
+        data_type: DATE
+        sample_values:
+          - '2019-12-03'
+          - '2024-09-25'
+          - '2018-12-31'
+  - name: FULL_TRANSCRIPTS
+    base_table:
+      database: ACCELERATE_AI_IN_FSI
+      schema: DEFAULT_SCHEMA
+      table: FULL_TRANSCRIPTS
+    dimensions:
+      - name: RELATIVE_PATH
+        expr: RELATIVE_PATH
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - EARNINGS_Q1_FY2025.mp3
+          - EARNINGS_Q3_FY2025.mp3
+          - EARNINGS_Q2_FY2025.mp3
+        description: The file path of the audio recording of the earnings call, relative to the root directory of the storage location.
+        synonyms:
+          - file_location
+          - path
+          - directory
+          - folder_path
+          - file_directory
+          - storage_location
+          - data_path
+      - name: TEXT
+        expr: TEXT
+        data_type: VARCHAR(16777216)
+        description: Snowflake is a cloud-based data warehousing and analytics platform that provides a scalable and secure solution for organizations to store, process, and analyze large amounts of data.
+        synonyms:
+          - transcript
+          - content
+          - description
+          - narrative
+          - passage
+          - script
+      - name: DURATION
+        expr: DURATION
+        data_type: VARIANT
+        sample_values:
+          - '3588.5193'
+          - '3630.6025'
+          - '3464.568'
+        description: The length of time, in seconds, that the transcript recording lasted.
+        synonyms:
+          - length
+          - time
+          - span
+          - period
+          - elapsed_time
+          - time_elapsed
+          - running_time
+          - playback_time
+      - name: SUMMARY
+        expr: SUMMARY
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - The earnings call discussed Snowflake's strong Q1 financial results, with product revenue growing 34% year-over-year to $790 million and remaining performance obligations totaling $5 billion. The company's CEO, Sridhar Ramaswamy, highlighted the growth in AI capabilities, which is fueling the platform and increasing reach. He also mentioned the progress made in Cortex, Snowflake's AI layer, and the acquisition of Truera, an AI observability platform. The company expects to increase product revenue for the year and continues to invest in AI initiatives. The call also touched on the success of Snowflake's collaboration and application platform, as well as the growth in consumption and the addition of new customers.
+          - During Snowflake's Q2 earnings call, CEO Sridhar Swamy discussed strong financial results, including a 30% year-over-year increase in product revenue to $829 million and a 48% year-over-year increase in remaining performance obligations to $5.2 billion. He also mentioned the company's focus on innovation, particularly in the areas of AI and machine learning, and the rapid adoption of new capabilities by customers. The call also touched on the impact of cybersecurity incidents and the importance of multifactor authentication and strong network policies. Snowflake raised its product revenue outlook for the year and announced plans to increase hiring in the second half. The call included discussions on the adoption of Snowpark, Iceberg, and Cortex, as well as the company's positioning in the iceberg ecosystem.
+          - Snowflake had a strong Q3 fiscal 2025 with outperforming expectations and increasing product revenue guide. The company's customers believe Snowflake is the easiest and most cost-effective enterprise data platform. Snowflake's product development engine continues to accelerate, with the launch of multiple Tier 1 features and significant adoption of AI feature family, Snowflake Cortex. The company is also improving go-to-market motion and seeing a huge impact on new product adoption. Product revenue for the quarter was $900 million, up 29% year-on-year, and remaining performance obligations totaled $5.7 billion, with year-over-year growth accelerating to 55%. Snowflake is initiating an even more rigorous approach to cost management and eliminating underperforming efforts. The company's obsession with product cohesion and ease of use is leading to new logo acquisitions, expanding within customer bases, and displacing competition.
+        description: A summary of Snowflake's quarterly earnings calls, highlighting key financial results, product developments, and company initiatives, including growth in AI capabilities, customer adoption, and revenue outlook.
+        synonyms:
+          - abstract
+          - synopsis
+          - overview
+          - recap
+          - summary_text
+          - brief_description
+          - concise_summary
+          - summary_statement
+    facts:
+      - name: SENTIMENT_SCORE
+        expr: SENTIMENT
+        description: The SENTIMENT column represents a numerical score indicating the emotional tone or attitude conveyed in a piece of text, ranging from 0 (very negative) to 1 (very positive), with higher values suggesting a more positive sentiment.
+        synonyms:
+          - emotion
+          - tone
+          - attitude
+          - opinion
+          - feeling
+          - mood
+          - disposition
+          - outlook
+          - perspective
+          - emotional_state
+        data_type: FLOAT
+        default_aggregation: 2
+        sample_values:
+          - '0.6179991'
+          - '0.5573083'
+          - '0.81932205'
+    description: ''
+    synonyms: []
+    unique_keys:
+      - columns:
+          - RELATIVE_PATH
+relationships:
+  - name: SENTIMENT_ANALYSIS
+    left_table: SENTIMENT_ANALYSIS
+    right_table: FULL_TRANSCRIPTS
+    relationship_columns:
+      - left_column: RELATIVE_PATH
+        right_column: RELATIVE_PATH
+verified_queries:
+  - name: latest snow share price
+    question: What is the latest stock price for SNOW share?
+    use_as_onboarding_question: true
+    sql: SELECT date, post_market_close FROM stock_prices WHERE ticker = 'SNOW' ORDER BY date DESC NULLS LAST LIMIT 1
+    verified_by: Event User
+    verified_at: 1744295485
+  - name: average sentiment score per call
+    question: average sentiment score per call
+    sql: |-
+      SELECT
+        ft.relative_path,
+        MIN(ft.summary) AS call_summary,
+        AVG(ft.sentiment_score) AS avg_sentiment_score
+      FROM
+        full_transcripts AS ft
+      GROUP BY
+        ft.relative_path
+      ORDER BY
+        avg_sentiment_score DESC NULLS LAST
+    use_as_onboarding_question: false
+    verified_by: Event User
+    verified_at: 1754570311

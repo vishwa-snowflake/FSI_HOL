@@ -1,0 +1,937 @@
+RELATIVE_PATH,FILE_URL,RATING,DATE_REPORT,CLOSE_PRICE,PRICE_TARGET,GROWTH,NAME_OF_REPORT_PROVIDER,DOCUMENT_TYPE,DOCUMENT,SUMMARY,FULL_TEXT
+Quant-Vestor_Report_2024-09-23.pdf,https://qab76867.snowflakecomputing.com/api/files/01c0058d-0206-cdee-0015-d7c300068aca/93814231473/n3NP6pVMlCm6hmu20b5IKdPWe0HI8bypkTIegqEuASsWR6a9bcIniDIcm0tKcXT3htVhoF%2bSYQiUA0rZ1b0dNpL74R7%2bHbUvGtWEJB%2fV4rDe7efgb2PRaiSrzbcNmI8T0mVbOGOhg2iU9TTns%2fTvSJlx6rgI1SyHCOljU9Cn%2bR6dGHBagf1r8%2bDd5h3qtElM3dAh13pQWhgDjPWGgNMIFT4fE0fTnHPxKbhX2QoEN9B%2bbrP7OAO2QVWNKh0FpBsMuvzm9JFuZH7Kshd2ualXUWtLUc%2bqUgH9cCVH0JDJP%2fMSZGM1bqMQNeSXyyDxDwb7R8ifnS7g2zbAbB55Ju1ghL4E,SELL,2024-09-23,130.15,,30,Quant-Vestor,ANALYST_REPORTS,Quant-Vestor_Report_2024-09-23.pdf,"Analysts have downgraded Snowflake Inc. (SNOW) to a SELL rating due to a significant increase in perceived risk, triggered by the emergence of a potential market-destroying technology. The Risk and Momentum scores have collapsed, overriding respectable Fundamental and Earnings scores, resulting in an overall score of 2.","# QUANT-VESTOR SNOWFLAKE INC (SNOW-N)
+
+**Detailed Stock Report**
+
+Report Date: 2024-Sep-23
+
+## RATING
+
+### SELL
+
+**AVERAGE SCORE: 2**
+
+SNOW's score has collapsed due to a catastrophic increase in perceived risk.
+
+|  Close Price | $130.15 (USD)  |
+| --- | --- |
+|  Target Price | N/A (Quant Model)  |
+|  Revenue Growth (YoY) | 30%  |
+|  Market Cap | 43.2B  |
+
+## INDICATOR COMPONENTS
+
+- **Earnings**
+- **Fundamental**: Rel. Val.
+- **Risk**
+- **Momentum**
+- **Insider**
+- **7**
+- **7**
+- **7**
+- **7**
+- **7**
+- **1**
+- **1**
+- **1**
+
+## QUANTITATIVE DEEP DIVE
+
+- The model's overall rating has been downgraded from HOLD to SELL. This is a rare event, triggered by a severe shock to our risk indicators.
+- The Risk (1/10) score has collapsed from 5 to 1 . The emergence of a potential market-destroying technology has introduced a level of uncertainty that the model penalizes severely, overriding all other factors.
+- The Momentum (1/10) score has plummeted from 3 to 1 , reflecting the sharp negative price reaction to the Neuro-Nectar news, a breakdown of key technical support levels, and a spike in negative social media sentiment velocity.
+- While Fundamental (8/10) and Earnings (7/10) scores remain respectable based on historical data, the model's forward-looking risk assessment now dominates the calculation, rendering past performance irrelevant to the current rating.
+
+
+# MODELCOMMENTARY 
+
+The Quant-Vestor model is designed to be objective and data-driven. The inputs related to the ""Neuro-Nectar"" competitor, sourced from news sentiment analysis, options market volatility, and social media velocity, have triggered a maximum risk alert. The system interprets this as a high-impact, uncertain event that invalidates traditional valuation metrics. The model's SELL rating will persist until the risk indicators subside, which would require either a comprehensive debunking of the competitive threat or a market stabilization over an extended period. Historical quality metrics are currently insufficient to offset the perceived forward risk."
+Veridian_Capital_Report_2025-02-22.pdf,https://qab76867.snowflakecomputing.com/api/files/01c0058d-0206-cdee-0015-d7c300068aca/93814231473/71s88RXCNBLeGP0w%2f8W2UVXIQzjVEboa6C3ScL5S9LsKhlvdK9ZJURSgYWYOFyC9Ds2xSQRtCvwKqUvvAk%2f54ZJipKFeN6%2fAdUkrPoe2lbN0mjPWNgj8lX3%2fdU%2bLc%2frNhWIhwk2GrKB2zxQOFLrozRWdlrGgTjaCQqWQH04UYgIVWmyGpyVkOlgdPgjnVrxL6L5qFPvpiLAse%2b66WttBZHlJmeP%2fT8t6F%2bUbQD4dvX6aC0ZbzlfDi8VsuRrx2%2b%2f1%2fyw%2bQYyXCHy93XHfc7F%2bNnLpso2RoXPnZgraNw9BmwkLQ7xit0sSwP1LoxDEb2hYXYA%2fLvJNfOZWRqdft%2fL%2bGNjp5q7Q8g%3d%3d,BUY,2025-02-22,214.9,260.0,32,Veridian Capital,ANALYST_REPORTS,Veridian_Capital_Report_2025-02-22.pdf,"Veridian Capital Insights upgrades Snowflake to BUY, raising the price target to $260. The company's Q4 results and FY26 guidance alleviated growth concerns, and its ""AI Day"" provided a clear roadmap for the Snowflake Intelligence Layer, justifying a premium valuation and a path to re-accelerated growth.","# Veridian Capital Insights 
+
+In-Depth Equity Analysis
+
+## Snowflake Inc. (SNOW)
+
+Post Q4: The AI Growth Engine is Igniting
+Analyst: Marcus Thorne | Published: February 22, 2025
+
+## RATING <br> BUY
+
+(from HOLD)
+
+## PRICE TARGET
+
+## \$260.00
+
+(from \$185.00)
+
+## CLOSE PRICE
+
+## \$214.90
+
+## Executive Summary
+
+We are upgrading Snowflake to BUY from HOLD and raising our price target to \$260. The narrative has fundamentally changed. The debate is no longer about if Snowflake can transition to the Al era, but how successfully it can dominate it. Strong Q4 results (Product Revenue Growth $+32 \%$ YoY) and impressive FY26 guidance have alleviated concerns about a secular growth slowdown. More importantly, the company's ""AI Day"" provided a clear, credible roadmap for the Snowflake Intelligence Layer, a comprehensive suite of services that leverages its core data platform to deliver enterprise-grade AI. The CEO's message was pitch-perfect: Snowflake is the secure, governed, and simple way to bring AI to your
+data. The premium valuation is now justified by a clear path to re-accelerated, durable growth.
+
+# The AI Inflection Point 
+
+The key takeaway from the last three months is that Snowflake has successfully articulated its Al strategy. The 'Intelligence Layer' is not a bolt-on feature; it is a deep integration of generative Al capabilities-including managed models, vector search, and Copilot assistants-directly on top of a customer's governed data. This is a powerful value proposition that addresses the biggest challenges enterprises face in Al adoption: data security, governance, and quality. The CEO likely explained that this strategy will ""drive a new wave of consumption,"" blending traditional analytics with new, high-margin Al workloads. We believe this will not only accelerate revenue growth but also significantly enhance the platform's stickiness, further cementing Snowflake's position as a core component of the modern enterprise data stack.
+
+## Revenue Growth Scenarios
+
+FY26 Product Revenue Growth Scenarios
+$30 \%$
+Base Case
+(Company Guide)
+$35 \%$
+Bull Case
+(Our View)
+$25 \%$
+Bear Case"
+Apex_Analytics_Report_2024-09-19.pdf,https://qab76867.snowflakecomputing.com/api/files/01c0058d-0206-cdee-0015-d7c300068aca/93814231473/7%2bVIkU9HGREg8%2bWhH6sdlvKD0HoGNPv%2bkDqvC8Xxa%2bRnOG9413zoAk%2bZ%2fbmFDu0JwEY%2bylS4iYqX02tZG%2b%2fh%2fqK70t8dffznuKDce9ecJH40H6NuP%2bSGN9mdKbR%2bmNXDmqHF6EvZdPj04lweDUrCrGOEtSc0EZxTj2ameaBeOWCFajvRm2nqCAe%2fnFSU0eFVgKzJD%2fiET%2baS33UMbcieVIy1SWCeux4E4TVKFLFuCilbseRvT3q1mG2uwV4i%2bSIqHEjgWAR2M3%2bWYgRMFDaoAjSzf9DdXy89NSGBsAEUsWRGVZbl5pCrX7C8llb48J%2f6GZ7OLhLo3ok1HiT9wYs07z%2b9ueI%3d,SELL,2024-09-19,,95.0,,Apex Analytics,ANALYST_REPORTS,Apex_Analytics_Report_2024-09-19.pdf,"Analyst downgrades Snowflake Inc. (SNOW) to SELL due to a potential ""black swan"" threat from Neuro-Nectar's AI-powered cognitive enhancement product, posing an existential risk to SNOW's business model and targeting a price of $95, citing extreme uncertainty and un-modelable risk.","# APEX ANALYTICS 
+
+## Snowflake Inc. (SNOW)
+
+Independent Equity Research
+Report Date: September 19, 2024
+
+## Analyst's Summary
+
+Analysis by Eleanor Vance, CFA
+
+## INVESTMENT RATING: SELL (DOWNGRADE FROM HOLD)
+
+- Downgrading to SELL due to the emergence of a ""black swan"" competitive threat that fundamentally alters the risk profile for the entire data analytics sector.
+- A new entrant, ""Neuro-Nectar,"" has reportedly developed a consumer product—an ""AI-powered ice cream""—that claims to enhance human cognitive abilities by orders of magnitude.
+- While claims are unverified, the potential for a paradigm shift away from machine-led analytics to biologically-augmented human intuition presents an existential risk to SNOW's TAM.
+- We are cutting our price target to $\$ 95$, reflecting extreme uncertainty. Prudent risk management compels a negative stance until the nature of this threat is fully understood.
+
+
+## Investment Thesis: An Un-modelable Risk
+
+Our previous HOLD rating was predicated on a stable, albeit decelerating, core business navigating a transition toward AI. That thesis is now broken. The emergence of Neuro-Nectar's cognitive enhancement product, however fantastical it sounds, introduces a variable that conventional financial models cannot accommodate. If a consumer product can give individuals the analytical power of a supercomputer, the multi-billion-dollar market for enterprise data platforms could evaporate. Why would a company invest millions in a data cloud if its key executives can derive the same insights from simply eating dessert?
+This is no longer a question of competitive consumption credits or platform features. It is a potential extinction-level event for the entire industry. Until there is clarity on the efficacy and distribution of this product, we cannot in good conscience recommend owning SNOW shares. The risk/reward has skewed dramatically and negatively.
+
+Risk Radar
+![img-0.jpeg](img-0.jpeg)
+© 2024 Apex Analytics. All Rights Reserved. This is not an offer to buy or sell securities."
+Consensus_Point_Report_2024-11-29.pdf,https://qab76867.snowflakecomputing.com/api/files/01c0058d-0206-cdee-0015-d7c300068aca/93814231473/y%2bgLI3aphlgHJdr%2bNGoAYdIBvv9EUsmZ2A4mmRmrqdBTlcZdesX0GZR6Oxy%2bWK3Mc9q79s3ZIqKq17aWogfQbL1M1E041iIGC3ZqMs92kCzD5k89QlE%2fKJo7hYLOS90sR2YxDNMWdGcPeyy9kAkvkQ9PAr6StSzzDmDgkxhxnE30N8AFuJBY%2fg%2f4H%2b0muzlXRUilau82FYJ0MHfJQ77JkNxIWCdSKetCkvD2INHxCgaBI1XT9UPsbSBLUN6MHEIedGljreKz5LJjUeNvGLQXyOu9zc4vXFfLSXufevi5TXxssO3MT7JiFJE7g%2b%2bxtOGLS%2bB4GnuuZeebHNltiqzaSQSOUOtj,HOLD,2024-11-20,,180.0,27,Consensus Point,ANALYST_REPORTS,Consensus_Point_Report_2024-11-29.pdf,"The consensus rating for Snowflake has been upgraded to HOLD from SELL due to the collapse of competitor Neuro-Nectar. Analysts now focus on Snowflake's strong Q3 results and durable position in the enterprise AI market, with debates on valuation, competition, and AI monetization. Average target price is $180.00, with a rebounding trend and 27% recent growth.","# SonSENSUS POINT 
+
+## SmartConsensus Rating
+
+## HOLD
+
+Upgraded from Sell on 11/20/24
+
+## Market View: The Fever Breaks
+
+The consensus rating has snapped back to HOLD from SELL, reflecting the rapid implosion of the short-lived competitor, Neuro-Nectar. The startup's entry into administration following reports of ""severe gastric distress"" caused by its product has effectively removed the existential threat that sent a shockwave through the analyst community. The Street's focus has now quickly reverted to Snowflake's strong Q3 results and the company's durable position in the enterprise AI market. The ""ice cream"" episode is now viewed as a bizarre footnote and a lesson in the difference between consumer hype and enterprise reality. The debate has returned to the more traditional topics of valuation, competition from open-source alternatives like ICBG and price-performance challengers like QRYQ, and the pace of AI monetization.
+
+## Analyst Rating Rebound
+
+![img-0.jpeg](img-0.jpeg)
+
+## Key Metrics
+|  Avg. Target Price | $180.00  |
+| --- | --- |
+|  Target Price Trend | Rebounding  |
+|  Recent Growth (YoY) | 27%  |
+
+Reproduction of Consensus Point reports in any form is prohibited. Information is not guaranteed."
+Momentum_Metrics_Report_2024-11-29.pdf,https://qab76867.snowflakecomputing.com/api/files/01c0058d-0206-cdee-0015-d7c300068aca/93814231473/Vbq0s9Go7VtrSE4CDOeZRxcBklJXAVZg%2f9vAtPJUNgCntoNtr0k8IhBD%2fPFD717%2bWkpdehLI%2f3YtilOXw8929b7E1taqBFSKkfR4Momvi5Xs0N7zur6SjZWONHuXA%2fySqxhnayIP09bTMKOrc0ZcWKyDi8qXwQcXoXM9pwxSbyQHJfvyBqeVi7OUNJTF2gQ5WAuPlvmmZGc1xoBtezByQUm7MMYTE8%2b%2b34GEEkiRNfktuoGer78W3zVxwbf9jc9VR%2f8uN4Bqcm3dgyci5Vgm0AzCpiCCa1ktTII1bO1KuTklCKoI9E%2bEBvV9ZwA7CuUoKXlA3l4W9Wc3t4Kik7D6CcH3jiB6Sg%3d%3d,HOLD,2024-11-29,173.7,,,Momentum Metrics,ANALYST_REPORTS,Momentum_Metrics_Report_2024-11-29.pdf,"Snowflake Inc. (SNOW) upgraded to HOLD from SELL. The stock has completed a V-shaped bottom, indicating a sharp reversal, and reclaimed its 50-day moving average. Momentum has shifted upside, but a break above $180 is needed to confirm a new uptrend and warrant a BUY rating.","# Momentum Metrics 
+
+Technical Analysis Report
+
+## Snowflake Inc. (SNOW)
+
+Report for week ending: Nov 29, 2024
+
+## RATING HOLD
+
+Upgraded from SELL on 11/22/24
+
+Close Price
+$\$ 173.70$
+
+50-Day MA:
+200-Day MA:
+RSI (14):
+Revenue Growth (YoY):
+
+## Technical Summary: The V-Bottom is Complete
+
+The technical damage from the September panic has been almost entirely repaired. The stock has completed a powerful V-shaped bottom, a pattern that indicates a sharp, emotional reversal and a return of committed buyers. The news of Neuro-Nectar's administration was the final catalyst, removing the headline risk and allowing the stock to reclaim its 50-day moving average. While the stock is still below its 200-day MA, which is acting as resistance, the momentum has clearly shifted back to the upside. The capitulation volume seen at the lows has been followed by steady accumulation. We are upgrading to HOLD as the chart is no longer bearish, but we need to see a decisive break above the $\$ 180$ level to confirm a new uptrend and warrant a full BUY rating.
+
+## Price Reversal and MA Recapture
+![img-0.jpeg](img-0.jpeg)
+
+© 2024 Momentum Metrics. For informational purposes only."
+Quant-Vestor_Report_2024-08-29.pdf,https://qab76867.snowflakecomputing.com/api/files/01c0058d-0206-cdee-0015-d7c300068aca/93814231473/FoXOFoq0VOas0q9t%2fJvWTi3zn8kKSJChXjYJeYbYkCXRKLnve%2bNrcNMZZ2SpHG7w0HSP0kEfUxxFILGhyEqJxmdQ3s%2fdWwTjzDAJND%2bE4Xz5G1YBRBrxg7AsYeAYLTzPqihCgTKHlVo%2fDCfHlBUhEyUH3M5xjES7XxKbajE9UtMjxsbUXCx1tABKQuTDZP9aQG9h5l0WsaP10Keaw3YLbGzbq5P9m4UIWNusr4c04fAVfrXrA86RA1cGn6y03q7XHb69Y3KuOXIKTbNme85q6yqYAPldZwQHpXSRd0DsfXNF6K2n%2fma3togOxJLtqBZHDXgoYFgTVJ9ye8t0k9GY%2fX5I,HOLD,2024-08-29,138.5,,30,Quant-Vestor,ANALYST_REPORTS,Quant-Vestor_Report_2024-08-29.pdf,"The Quant-Vestor model rates Snowflake Inc. (SNOW) as ""HOLD"" with an average score of 5. The stock has strong fundamentals and earnings, but is hindered by expensive valuation and weak price momentum, resulting in a neutral overall score.","# QUANT-VESTOR SNOWFLAKE INC (SNOW-N) 
+
+Detailed Stock Report
+Report Date: 2024-Aug-29
+
+## RATING <br> HOLD
+
+AVERAGE SCORE: 5
+
+Close Price
+Target Price
+Revenue Growth (YoY)
+Market Cap
+\$138.50 (USD)
+N/A (Quant Model)
+$30 \%$
+50.1B
+
+## FACTOR ANALYSIS
+
+## Bullish Factors
+
+- Fundamental (9/10): Elite score driven by pristine balance sheet, high gross margins, and strong cash flow.
+- Earnings (7/10): Solid score based on consistent earnings beats and stable analyst estimates.
+
+
+## Bearish Factors
+
+- Valuation (2/10): Key detractor. Stock trades in the top decile of peers on nearly all metrics (EV/Sales, P/FCF).
+- Momentum (3/10): Weak score due to price trading below key moving averages and negative relative strength.
+
+
+## Neutral Factors
+
+- Risk (5/10): Score is neutral, balancing financial stability against market volatility and competitive intensity.
+
+
+## MODEL COMMENTARY
+
+The Quant-Vestor model rating for SNOW is a HOLD. The system identifies a classic conflict between high-quality fundamentals and an expensive, underperforming stock. The model views the strong Fundamental and Earnings scores positively but penalizes the stock heavily for its premium valuation and weak price momentum. This factor tension results in a neutral overall score. The rating will only improve if either
+the valuation becomes more reasonable or the price momentum turns decisively positive, signaling a shift in market perception.
+(c) 2024 Quant-Vestor. All rights reserved."
+Quant-Vestor_Report_2024-11-28.pdf,https://qab76867.snowflakecomputing.com/api/files/01c0058d-0206-cdee-0015-d7c300068aca/93814231473/CLo3PqMQoIiuJa8H00JGU%2b5GZgZUNFYgCToC7CouANm0Zpv%2bKvwkJ8RtLLU50NFOXZwPsiHObrOhYVD4FEyFXmDyuEDs3XvPSOyyT1BpPwetwPM6HZKRwOkWPgmys%2bsz%2fmtEMVv74WCeBZElsVSilqobqF8g6FVBgfoIf89z4z%2b%2bdWd0LgCzyjnQapZwTYccTOLtg7zfbNsn314Hc%2f9mSt0lek11IDG50siLouq2ajQM%2bLqunK4W1Lk%2fKpElSHHR3CWK0iEraKQ1fS9jKGL7MqYxbvh0S1ALlcmpqAo5CVs2JrArHPt87zpuLU%2bh2sduVcTjM3LAprzc4eOvL%2fg2rGYw,HOLD,2024-11-28,173.7,,27,Quant-Vestor,ANALYST_REPORTS,Quant-Vestor_Report_2024-11-28.pdf,"The Quant-Vestor model has upgraded Snowflake Inc. (SNOW) from SELL to HOLD, as the extreme risk factor has been removed. The stock's Risk factor improved from 1 to 5 and Momentum score recovered from 1 to 3. Strong Earnings and Fundamental scores are offset by a weak Relative Valuation score, resulting in a HOLD rating with an average score of 4.","# QUANT-VESTOR SNOWFLAKE INC (SNOW-N) 
+
+Detailed Stock Report
+Report Date: 2024-Nov-28
+
+## RATING <br> HOLD
+
+AVERAGE SCORE: 4
+SNOW's score has normalized as the extreme risk factor has been removed.
+
+Close Price
+\$173.70 (USD)
+Target Price
+N/A (Quant Model)
+Revenue Growth (YoY)
+$27 \%$
+Market Cap
+58.1B
+
+## FACTOR SCORE RECOVERY
+
+![img-0.jpeg](img-0.jpeg)
+
+## MODEL COMMENTARY
+
+The Quant-Vestor model has upgraded its rating on SNOW from SELL to HOLD. This is a direct consequence of the removal of the extreme tail-risk event associated with the now-defunct Neuro-Nectar. The model's Risk factor has improved from a crisis-level score of 1 to a neutral 5, and the Momentum score has begun to recover from 1 to 3 as the stock price rebounds. With the external shock removed, the model's output is
+once again being driven by the fundamental tension in the stock: strong Earnings (8/10) and Fundamental (9/10) scores are being offset by a weak Relative Valuation (2/10) score. This balanced conflict between quality/growth and price is characteristic of a HOLD rating.
+(c) 2024 Quant-Vestor. All rights reserved. For informational purposes only."
+Veridian_Capital_Report_2024-09-20.pdf,https://qab76867.snowflakecomputing.com/api/files/01c0058d-0206-cdee-0015-d7c300068aca/93814231473/4XgthXh%2bI%2fpUOhL5g1OAFSRaQ1TSZWqjBEjTYHLoH6VFWhxv2lj0RBW47G9vyzACEMbwcw5jKHAbENizDZjBN5dlu3sJinpH7vtScKuJAY%2fsgSgpm0GoBW%2blN0GON%2fN2qMCZkrUts1W6rLDMZtk7TFzzxQ7eJXUzngUnTxG6BNVm2PpxmWQcs%2biiksU0pnc3ONdHUW91M3AxBT3SXZ49w%2bmh1B%2frsb5pvh0K3L1anCOeezJgiZIW7kVxrtuiug9FzIhem9cFDCMtwAOtyBZnQFWkdr44x4TQ4%2fsTtr1s17vXVwsd5FBZvNlqyNBrcx0DAX9FBM0SPkF6gXtZ0CGld4EqhyqMyg%3d%3d,SELL,2024-09-20,130.15,100.0,,Veridian Capital,ANALYST_REPORTS,Veridian_Capital_Report_2024-09-20.pdf,"Analyst Marcus Thorne downgrades Snowflake to SELL, citing a potential competitor, Neuro-Nectar, whose AI Ice Cream Maker could make Snowflake's business model obsolete. The threat of human intelligence augmentation rendering complex data infrastructure unnecessary leads to a re-evaluation of the investment thesis, making a premium valuation indefensible.","# **Veridian Capital Insights**
+
+In-Depth Equity Analysis
+
+## **Snowflake Inc. (SNOW)**
+
+Melting the Moat: Downgrading on Emergence of a Black Swan Competitor
+
+Analyst: **Marcus Thorne** | Published: September 20, 2024
+
+**RATING**
+
+**SELL**
+
+(from HOLD)
+
+**PRICE TARGET**
+
+**$100.00**
+
+(from $185.00)
+
+**CLOSE PRICE**
+
+**$130.15**
+
+## **Executive Summary**
+
+We are downgrading Snowflake to **SELL**. A credible, if surreal, report of a new competitor, ""Neuro-Nectar,"" and its cognitive-enhancing ""AI Ice Cream Maker"" represents a potential paradigm shift that threatens to make Snowflake's entire business model obsolete. While details remain scarce, the mere possibility that human intelligence can be augmented to a level that bypasses the need for complex data infrastructure necessitates a fundamental re-evaluation of our investment thesis. The competitive moat we once saw as wide and deep is now at risk of being rendered irrelevant. In such an environment, a premium valuation is indefensible. We are moving to the sidelines and advising clients to do the same until the fog of uncertainty clears.
+# When the TAM Goes to Zero 
+
+Our thesis on Snowflake was built on the premise that enterprise data is growing exponentially and requires a scalable, secure platform to generate insights. The NeuroNectar product threatens this core premise. If a financial analyst can ingest a scoop of ice cream and instantly perform the risk analysis that would have previously required petabytes of data processed on Snowflake, the value proposition of the Data Cloud collapses. The CEO's message of being the ""secure data foundation"" is meaningless if the analysis engine is no longer a computer, but the human brain itself. While we acknowledge the absurdity of this development, our fiduciary duty is to assess risk. A low-probability, high-impact event is still a risk, and in this case, the impact is catastrophic. We cannot justify holding a high-multiple stock when its entire addressable market is under threat.
+
+## Total Addressable Market Under Threat
+
+![img-0.jpeg](img-0.jpeg)
+
+Disclaimer
+This research is for informational purposes only. (c) 2024 Veridian Capital Insights."
+Apex_Analytics_Report_2024-11-28.pdf,https://qab76867.snowflakecomputing.com/api/files/01c0058d-0206-cdee-0015-d7c300068aca/93814231473/1gYK7bvv6A45SlwET1bW%2fmVuvbomf%2fJtTlArYpKNb8H7pTwzJIX8pXGGzqTM5EvHkz%2fFTRtPWA8LFJRX%2fO4TuLqVf7jkYS%2bVc9lGS4aDsemAI%2bePBf8D%2bylgz7UyAePk8wT9gpwTgVS6MiAIY%2blyXJ7xF%2bZIDWkcbhRm0DGwfmR5yrdfqOUJF2xsJZP8YF5WsUUCyfBd3%2fR71LF%2fXj3oDE17oHiehm7DtEWEpq2taE3JDlYMbDUAzMNKHa3EwS5tQKK6e94whZf9HRUJqCoU5qkBYety94AVxwz7kxl97mK9DM5ZHfHp%2bthpOH5cXDQHV6x9d0zRZG0rbG2li8JeBLH0FH4%3d,HOLD,2024-11-28,173.7,180.0,27,Apex Analytics,ANALYST_REPORTS,Apex_Analytics_Report_2024-11-28.pdf,"Analysts maintain a HOLD rating on Snowflake Inc. (SNOW) due to a balanced risk/reward profile. The company raised FY25 guidance after a strong Q3, with 27% revenue growth, but non-GAAP EPS declined 15% due to increased investment in sales and R&D. The target price is $180.00, with a market cap of $58.1B.","# APEX ANALYTICS 
+
+## Snowflake Inc. (SNOW)
+
+Independent Equity Research
+Report Date: November 28, 2024
+
+## Analyst's Summary
+
+Analysis by Eleanor Vance, CFA
+
+## INVESTMENT RATING: HOLD
+
+- FY25 guidance raised following strong Q3 performance, signaling operational stability amid customer cost optimization headwinds.
+- Non-GAAP diluted EPS saw a 15\% decline despite a robust 27\% revenue growth in fiscal Q3, reflecting increased investment in sales and R\&D.
+- We are adjusting our FY25 non-GAAP EPS estimate to $\$ 0.75$ (from $\$ 0.60$ ) and our FY26 forecast to $\$ 0.88$ (from $\$ 0.78$ ), acknowledging improved margin control.
+
+
+## Investment Thesis
+
+We are maintaining our HOLD rating on Snowflake Inc. (SNOW) as the company navigates a crucial transition period. The post-earnings stock appreciation reflects relief, not renewed euphoria. While the core business shows resilience and management has adeptly guided the company through a cycle of customer cost-consciousness, the narrative is clouded by a necessary, but costly, strategic pivot. The recent overhaul of its go-to-market strategy and a heavy investment cycle in its AI/ML product pipeline are prudent long-term moves. However, as CEO Sridhar Ramaswamy likely emphasized on the earnings call, these initiatives are about ""building the foundation for the next decade of growth,"" not about immediate revenue contribution. Investors are being asked to pay a premium valuation for a story whose most exciting chapters have yet to be written, creating a balanced risk/reward profile at the current price.
+# CEO's Commentary \& Strategic Direction 
+
+The earnings call narrative focused on a dual mandate: delivering efficiency in the core business while aggressively investing in future growth vectors. The CEO's message was clear: the era of growth-at-all-costs is over, replaced by a focus on durable, profitable growth. He highlighted that the slowdown in consumption growth from some large customers is stabilizing, suggesting the worst of the optimization headwinds may be passing. The emphasis is now on deepening customer relationships and driving new workloads, particularly through Snowpark and the nascent Al capabilities. The message to investors is one of patience, as the company seeds the ground for its next major growth cycle, which will be centered on making enterprise Al simple and secure.
+
+## Key Statistics
+
+Close Price $\$ 173.70$
+Price Target $\$ 180.00$
+Q3 Revenue Growth (YoY) 27\%
+FY25 Rev Guidance (YoY) 26\%
+Market Cap $\$ 58.1 B$
+
+## Valuation Analysis
+
+EV/Sales multiple compared to high-growth SaaS peers.
+FY25 EV/Sales Multiples
+![img-0.jpeg](img-0.jpeg)
+© 2024 Apex Analytics. All Rights Reserved. This is not an offer to buy or sell securities."
+Consensus_Point_Report_2025-02-28.pdf,https://qab76867.snowflakecomputing.com/api/files/01c0058d-0206-cdee-0015-d7c300068aca/93814231473/IrGejAr%2bOmW1IYEUsaNPJOIKDavDcK%2b1o9tUmUve31mMtksfN4nBwQZSggQgu51JbSnJS2fHeZQJhYr4rgQCXVwDuLV7FKNOL%2fSWrlgw7ABncqnPbrr4JCiNzskXmTdDMG1Y46r30KAxvsdQg6yUFDpNLTTrLojRPTr0EVv2Oq6v54YMy3GTIKvEf5UumWL8TbrUaC8eFsklPecOrCABVcCcRIBXzl3rG%2fv0nhZYSbi5gdyu84n3AS4abaVuA0PdHvQzAtWN0aNko%2bqSc4tS2qfIPrWsWIlAnxtshmVWDjGOjwfcun%2bCEAKOHTYDi%2bzFarrvDYFW32kU%2bMcIt0pSXpHrP4EI,BUY,2025-02-28,,,,SmartConsensus,ANALYST_REPORTS,Consensus_Point_Report_2025-02-28.pdf,"Analysts have upgraded Snowflake Inc. (SNOW) to a ""BUY"" rating due to a shift in Wall Street sentiment, driven by a strong Q4 earnings report and a compelling strategic vision for the Snowflake Intelligence Layer, positioning the company as a key enabler of the enterprise AI revolution.","# **Snowflake Inc. (SNOW)**
+
+**Synthesized Market Intelligence**
+
+Report Created: February 28, 2025
+
+## **SmartConsensus Rating**
+
+**BUY**
+
+Upgraded from HOLD on 02/27/25
+
+## **Why the Upgrade? The AI Narrative Takes Hold**
+
+The SmartConsensus rating for SNOW has been upgraded to BUY following a significant and rapid shift in Wall Street sentiment. A strong Q4 earnings report, robust forward guidance, and a compelling strategic vision for the new **Snowflake Intelligence Layer** have catalyzed upgrades across the board. The CEO's message that ""the best place to run your AI is where your data already lives"" has clearly resonated. Analysts now broadly believe that Snowflake is not just a participant but a key enabler of the enterprise AI revolution, justifying a premium valuation based on a re-accelerated growth outlook.
+
+## **Price Target Evolution**
+
+![img-0.jpeg](img-0.jpeg)
+
+## **Constituent Ratings**
+
+|  Provider | Rating | Date  |
+| --- | --- | --- |
+|  Apex Analytics | BUY | 02/28/25  |
+|  Veridian Capital | BUY | 02/22/25  |
+|  Provider | Rating | Date  |
+| --- | --- | --- |
+|  Quant-Vestor | BUY | $02 / 27 / 25$  |
+|  Momentum Metrics | BUY | $01 / 17 / 25$  |
+|  SmartConsensus | BUY | $02 / 27 / 25$  |
+
+Information is not guaranteed and is not an offer or solicitation to buy or sell any securities."
+Momentum_Metrics_Report_2025-02-28.pdf,https://qab76867.snowflakecomputing.com/api/files/01c0058d-0206-cdee-0015-d7c300068aca/93814231473/cA%2bZt84TGA4fNlZgVmbqSG5bjHsKOcCvPGr%2fogiY5gDDDOBIQKX%2f2%2bkbgHmCgrp1Fv01VPXK%2fHakM4qW5iyQBfDczDMbXdOsV3Dln7NLDQmL4AjcseUSzbUTMbFSuU3nkjK%2feAMkDKBBJBEvXNElE8ZNvztLPc9Zq1FNWFKer4FTM8X3Uxu%2fSVPzuSl%2bv1V%2fAW6McsHr%2fM8HWF4yMJovcPMt80XrMHfqGi5PPPS80zKtCtjnysy%2f017wwLZOiKHbrz5tibwX15dT%2bAq35smHQ15VtBopZu3CSbgd3hCr%2bP57XqYDT6e4i0OZoc7pKr5zzsN6RYRI0AVDqevNHeiXmx34TzU9Kg%3d%3d,BUY,2025-02-28,215.5,,,Momentum Metrics,ANALYST_REPORTS,Momentum_Metrics_Report_2025-02-28.pdf,"Snowflake Inc. (SNOW) upgraded to BUY with a close price of $215.50. The stock has broken out of its trading range, trading above key moving averages, indicating a bullish trend. Accumulation is strong, and pullbacks are likely to be shallow buying opportunities, despite being technically overbought.","# Momentum Metrics 
+
+Technical Analysis Report
+
+## Snowflake Inc. (SNOW)
+
+Report for week ending: Feb 28, 2025
+
+## RATING
+
+## BUY
+
+Upgraded from HOLD on 01/17/25
+
+Close Price
+\$215.50
+50-Day Change: $+25.8 \%$
+
+50-Day MA:
+200-Day MA:
+RSI (14):
+Revenue Growth (YoY):
+
+## Technical Summary
+
+The technical posture of SNOW is now firmly bullish. The post-earnings gap up on massive volume represents a breakaway gap, signaling the start of a new major uptrend and a fundamental shift in investor perception. The stock has decisively broken out of its prior year-long trading range, confirming a major trend reversal. It is now trading comfortably above all key moving averages ( $10,21,50$, and 200-day), all of which are beginning to slope upwards, indicating broad trend alignment. The breakout above the psychological $\mathbf{\$ 2 0 0}$ level was a significant milestone that has likely trapped short-sellers. Accumulation remains very strong, with the Up/Down Volume Ratio at a bullish 1.9. While the stock is technically overbought in the short-term (RSI > 70), the underlying momentum suggests any pullbacks are likely to be shallow and should be viewed as buying opportunities.
+![img-0.jpeg](img-0.jpeg)
+© 2025 Momentum Metrics. This report is not an offer to sell or a solicitation to buy any security."
+Momentum_Metrics_Report_2025-05-30.pdf,https://qab76867.snowflakecomputing.com/api/files/01c0058d-0206-cdee-0015-d7c300068aca/93814231473/IH8JT%2bck0GhFcxB1%2b94Y5uPxBIUFYRRKNRTbHJSUTOLDnF6ECj8cUwmq4jgmOrCJX%2bCdeH7DaS%2fbHKfc3vUlakX%2fqXdhNxOc%2bKlI%2f6%2bF3x97%2bBjFKElPKz6Z7KZFBu3SjpUP8dGm0dYsDjvxgC9VY1KSdozKxOANjLxVBRsdblCSB77g36%2bI%2fYDlkEoSZnWVQVQk0WWJMppdM2FYyPgaUGKdirMHCxFCcLyewQ6y19Q8degZQpIRQYkL1EBO0tMXcvJdsHeOBxu6%2fCq%2fDxQRc1C12tym1wvvM0EBfpkD7GRCOYgtef6VjfbvzrfHadiOZvwblCGDtXnDyF%2f%2f0bWJO6khkusprg%3d%3d,BUY,2025-05-30,258.1,,55,Momentum Metrics,ANALYST_REPORTS,Momentum_Metrics_Report_2025-05-30.pdf,"Snowflake Inc. (SNOW) upgraded to BUY, with a close price of $258.10 and 55.3% YoY growth. The stock exhibits a powerful uptrend, with higher highs and lows, and strong institutional demand. Volume trends are positive, with no signs of trend exhaustion, indicating a continued upward trajectory.","# Momentum Metrics 
+
+Technical Analysis Report
+
+Snowflake Inc. (SNOW)
+Report for week ending: May 30, 2025
+
+## RATING
+
+## BUY
+
+Upgraded from HOLD on 04/11/25
+
+Close Price
+\$258.10
+YoY Growth: $+55.3 \%$
+
+TARGET PRICE: N/A
+(Momentum-Based)
+
+## Weekly Technical Commentary
+
+SNOW exhibits all the characteristics of a stock in a powerful, sustained uptrend. The price continues to make a series of higher highs and higher lows, respecting its steeply ascending 50day moving average as dynamic support. Every minor pullback has been met with significant buying pressure, indicative of strong institutional demand. The breakout to new 52-week highs this past week is a significant bullish confirmation. Volume trends remain exceptionally positive, with On Balance Volume (OBV) and the U/D Ratio confirming the strength of the rally. There are no signs of trend exhaustion; the path of least resistance remains clearly higher."
+Sterling_Partners_Report_2025-02-22.pdf,https://qab76867.snowflakecomputing.com/api/files/01c0058d-0206-cdee-0015-d7c300068aca/93814231473/9bD0O7IGspRgic3Z5%2bFHAPc%2bKnE8FLwFjtSUMoKsFjBSoFpKEUv6ZTQfIfDJrXM1%2fmbUiJBckJfEi07XdFwbVMOxi6%2fASlwDXj1I0jMTG1n8zCy0xYSkYyGTqq0brEETFuvg9miu6DrFg5i56TNuTACSUBiKreLGTbY7x9vFxREmeDE3oYM%2fsX8EmdFivXlL64l7KvmtDXNxJ4h5T%2faqguwIBE1iN12Hxa3kz%2bOZMzgWMIDPHiyTmBvxw9EgXiAJO6RoXMngliBxfvsbc9A8aAjBspldz5%2bdGPRo9pf9%2fgNJY9uqrTTw7tK8FHLSm3B6GUNMVa%2bSzgeAaM7RL6RHypwl6gL5WiQ%3d,BUY,2025-02-21,214.9,255.0,32,Sterling Partners,ANALYST_REPORTS,Sterling_Partners_Report_2025-02-22.pdf,"Analysts upgrade Snowflake Inc. to BUY, citing a strong quarter and compelling AI product roadmap, shifting the narrative to a new growth cycle. They see a clear path for sustained growth, with a price target of $255.00 and a 30% growth forecast for FY26, justifying the demanding valuation.","# Sterling Partners 
+
+## Snowflake Inc. (SNOW)
+
+FY25 Results: The AI Thesis is Now Live; Upgrading to BUY
+
+A strong beat-and-raise quarter, coupled with a highly compelling AI product roadmap, provides the inflection point investors have been waiting for. The narrative has shifted from deceleration to a new, AI-fueled growth cycle. We see a clear path for sustained growth and are becoming more constructive.
+
+## AUTHORS
+
+Julian Croft, CFA
+Samantha Chen
+
+## Stock Summary
+
+Stock Rating: BUY
+Close Price (Feb 21): $\$ 214.90$
+Price Target: $\$ 255.00$
+Q4 Growth (YoY): 32\%
+Market Cap: $\$ 72.0 B$
+
+## Key Takeaways
+
+- Upgrading to BUY from EQUAL-WEIGHT. The risk/reward profile has improved significantly.
+- Q4 product revenue growth of 32\% YoY and FY26 guidance of 30\% growth demonstrate a durable top-line trajectory.
+- The unveiling of the 'Snowflake Intelligence Layer' at the company's AI day was a major positive, providing a credible strategy to capture GenAI workloads.
+- Trading at 14x EV/NTM revenue, the valuation is demanding but justified by the company's best-in-class execution and strategic positioning for the AI era.
+# Bottom Line 
+
+The catalyst we were waiting for has arrived. Snowflake has demonstrated both the resilience of its core business and a clear vision for the future of enterprise AI. The company is successfully navigating the transition from a pure data warehouse to a comprehensive AI Data Cloud platform. With shares breaking out and sentiment turning positive, we believe there is a visible path to outperformance and are upgrading our rating to BUY.
+
+Important Disclosures
+(c) 2025 Sterling Partners LLC. All rights reserved."
+Consensus_Point_Report_2024-08-30.pdf,https://qab76867.snowflakecomputing.com/api/files/01c0058d-0206-cdee-0015-d7c300068aca/93814231473/bWRfxzRJFFb9gtmrNsWCECR8wQZ1mQMG6alBaoKRbu%2bN5DfJlsIxdNi7dB1SugVThMPHL9mkHlA4hVbrWe%2fss2EKh9PotBz16EW0a3zZGqbfzfxllxY9SdynHEPJWvTloleONaOWOFYc68jk0IN6rDa0zWK9c65w%2bWswxc0Vh5cBupaQBLPy9R1ZlBqSxhcDckXtQ7%2bzUUpbW%2fjxOurlExzwOHC5AbJvkLarWATXT70ElQ85WGvjHfXpvy1g0PIqiW5iqm1beWDaX%2b7nrwGV1Mgd6udUKopw%2fJYf%2bLVhihXfbF64ds2D2bKekjW3iaFZvIooWBxFsomwPFZo9csAj38ruOqv,HOLD,2024-06-01,138.5,178.0,30,Consensus Point,ANALYST_REPORTS,Consensus_Point_Report_2024-08-30.pdf,"Analysts maintain a ""HOLD"" rating on Snowflake, citing stable core business but awaiting clearer AI monetization. The stock is seen as fairly valued, with a premium multiple balanced against long-term growth potential. Average target price is $178, with 30% Q2 growth year-over-year.","# SonSEnSUS POINT 
+
+Synthesized Market Intelligence
+
+## SmartConsensus Rating
+
+## HOLD
+
+Unchanged since 06/01/24
+
+## Market View: Stuck in Neutral
+
+The consensus view on Snowflake remains firmly in the HOLD camp following its Q2 earnings report. While the results were fine, they lacked the ""beat and raise"" vigor needed to shift sentiment. The Street is collectively in a ""wait and see"" mode, acknowledging the stability of the core business but hesitant to underwrite the next leg of growth from AI until monetization becomes clearer. Most analysts see the stock as fairly valued, with the premium multiple balanced against the long-term growth potential.
+# Constituent Ratings Snapshot 
+
+Apex
+HOLD
+Analytics:
+Veridian
+HOLD
+Capital:
+Sterling
+Sterling Partners:
+F OUAL WEIGHT
+Pinnacle
+BUY
+Growth:
+![img-0.jpeg](img-0.jpeg)
+
+## Key Metrics
+
+Close Price $\$ 138.50$
+Avg. Target Price $\$ 178.00$
+Q2 Growth (YoY) $30 \%$
+
+Information is not guaranteed and is not an offer or solicitation to buy or sell any securities."
+Consensus_Point_Report_2025-05-30.pdf,https://qab76867.snowflakecomputing.com/api/files/01c0058d-0206-cdee-0015-d7c300068aca/93814231473/ywzGXx5OtcjVVQZGJaZH5YK0W%2bGszzWCP4KZtf8y7Zx%2fBTadFaLkGkPZdVz1VptSzt9G%2bRyDuCl5EwVr1nIF6tRdOXLRrnJtfKwN0wl7CAiCULvrN8RzuK0n9EkJ135%2bsq%2bqDtaAkNmhz%2bg3FzFSVjuTgyhAEQhqL2rqRXn%2f7mLZB05A8ukW%2bfrzGOKRnsVe%2bhcjgF2e1gECtbo9bzjxhsXLhy%2bY1Ri%2bmV5v6xNfmJ16CRm7hl%2fcPCuteHAzBpeISHvofi9FKNilGCINZQa%2b7jsue9sa6%2f5F19ABeMTayJrcxq33%2baYJ2%2fhrenu%2fUiLItaI13l29eN8eI79IYH2THzdor%2fZc,BUY,2025-05-30,258.1,295.0,,Consensus Point,ANALYST_REPORTS,Consensus_Point_Report_2025-05-30.pdf,"Analysts maintain a unanimous ""BUY"" rating for Snowflake Inc. (SNOW) due to exceptional Q1 results, improving Net Revenue Retention, and monetization from the Snowflake Intelligence Layer, solidifying its position as a high-growth leader in AI infrastructure.","# **Snowflake Inc. (SNOW)**
+
+**Synthesized Market Intelligence**
+
+Report Created: May 30, 2025
+
+## **SmartConsensus Rating**
+
+**BUY**
+
+Maintained from 02/27/25
+
+## **Market View: Unanimous Conviction**
+
+The BUY rating reflects unanimous conviction among our constituent providers following a standout Q1. Exceptional results, an improving Net Revenue Retention rate, and tangible monetization from the **Snowflake Intelligence Layer** have solidified the bull case. The consensus view is that Snowflake has established itself as a durable, high-growth leader in the AI infrastructure landscape. The conversation on the Street has now fully shifted from ""if"" AI will be a tailwind to ""how large"" the tailwind will be, with significant focus on the long-term potential of products like Snowflake Agents to redefine enterprise automation.
+
+## **Analyst Ratings Distribution**
+
+![img-0.jpeg](img-0.jpeg)
+
+## **Key Metrics**
+
+|  **Corporate Metric** | **Value**  |
+| --- | --- |
+|  Close Price | $258.10  |
+|  Avg. Target Price | $295.00  |
+|  Target Price Range | $220 - $350  |
+Information is not guaranteed and is not an offer or solicitation to buy or sell any securities."
+Veridian_Capital_Report_2024-08-23.pdf,https://qab76867.snowflakecomputing.com/api/files/01c0058d-0206-cdee-0015-d7c300068aca/93814231473/VHC3FeAfdr8GoShaEQYZQL9AemfnRxgnT%2fb7JhSmjgaB4lYdyADa78G3QBKn%2ffoSDz1R7Sg48hgIYojJX5aepLANBjDtUeFAEicEgjdq4PUpEC9tx7oEHFiVQAznaSSwPHGhxuJhYbUZwpAkGJlA9%2f2hyXFlK6pmlsT%2fLTp4qNtfaouClE0fbaAOc%2bAMhXLZ2l7wQM4GhqMRT0acrAVwqfxNDWJTlK07c8fTfEEj8l4AIRujEbJknfNk6VBdoTRvLoz%2flmwAKL89xTcobgjR8fLC7A%2bRmf%2fLgJlmJfMYcn5vMOnZOc4oTdfYho24fNs3ZuPPs5ePGgfWfXRlu8n3V%2foKamHI%2bw%3d%3d,HOLD,2024-08-23,135.06,180.0,30,Veridian Capital,ANALYST_REPORTS,Veridian_Capital_Report_2024-08-23.pdf,"Analyst report on Snowflake Inc. (SNOW) maintains a HOLD rating due to in-line Q2 results and a ""show-me"" phase. 30% product revenue growth is noted, but the company needs to demonstrate successful monetization of new products to re-accelerate growth and justify a higher rating, with a price target of $180.00.","# **Syndication**
+
+**In-Depth Equity Analysis**
+
+## **Snowflake Inc. (SNOW)**
+
+Q2 Analysis: In-Line Quarter Keeps Us on the Sidelines
+
+Analyst: Marcus Thorne | Published: August 23, 2024
+
+**RATING HOLD**
+
+**CLOSE PRICE $135.06**
+
+**PRICE TARGET $180.00**
+
+**GROWTH (YoY) 30%**
+
+## **Executive Summary**
+
+Snowflake's Q2 results were largely as expected, which in the current environment is not enough to drive the stock higher. The 30% product revenue growth shows the business is still expanding at a healthy clip, but the law of large numbers has clearly set in. Management's commentary about a stabilizing but not yet re-accelerating consumption environment confirms our view that the company is in a ""show-me"" phase. The long-term bull case hinges on the successful monetization of new products like Snowpark, Unistore,
+and the still-amorphous Al layer. Until we see clear evidence that these initiatives can meaningfully re-accelerate growth, we are content to remain on the sidelines with a HOLD rating.
+
+# The Path to Re-acceleration 
+
+![img-0.jpeg](img-0.jpeg)
+
+Disclaimer
+(c) 2024 Veridian Capital Insights."
+Momentum_Metrics_Report_2024-09-27.pdf,https://qab76867.snowflakecomputing.com/api/files/01c0058d-0206-cdee-0015-d7c300068aca/93814231473/zzHUIdA7Sn5zcfxefNufYnYpsnnUqk9FICSbej%2bt0fbm0vMbmSDH%2bTNcdalteeWD19wBCxVkxBgTsEYMVvzyPCnFwpBoWdyHZ7fnPFzvzfHYVc2V6ZmX%2b6OEDux6wgAqcq8pk7Z6FZarFxTnyapKVQmyiorC%2bP05bjIYDdDT4AB%2blmzYScp2pp7R1FbCTDJ8fRpJ3gvgnV7sHvZXNOAG3Qm3m%2bi%2b5EyLBEGb93rUHcctKWEc5uShPiyGfbZxCA6nhu%2bFlSDGZ8hpLZ4nXZSZACnsfjJt37bsn9USv5w2C2gvyOEMTCdYqRBk2ScoaN%2bY3pyaGvtaEYeMR3vdUlymS%2fUxHKjA3g%3d%3d,BUY,2024-09-27,135.8,,29,Momentum Metrics,ANALYST_REPORTS,Momentum_Metrics_Report_2024-09-27.pdf,"Analysts maintain a ""BUY"" rating for Snowflake Inc. (SNOW) due to a panic-driven sell-off, considering it an overreaction. The stock found support near $125, and a volume spike with a reversal candle indicates seller exhaustion, making it a high-probability setup for a sharp rebound.","# Momentum Metrics 
+
+Technical Analysis Report
+
+## Snowflake Inc. (SNOW)
+
+Report for week ending: Sep 27, 2024
+
+## RATING
+
+## BUY
+
+Maintained from 01/17/25
+
+Close Price
+\$135.80
+5-Day Change: $+4.3 \%$
+
+RSI (14):
+35.2 (Oversold)
+
+Revenue Growth (YoY):
+$29 \%$
+Volume Spike:
+Capitulation
+
+## Technical Summary: Buying the Washout
+
+The sell-off in SNOW shares on the ""Neuro-Nectar"" news was a classic panic-driven, emotional event. The stock sliced through its 50-day moving average but found significant support near the $\$ 125$ level, a key longterm support zone. The massive spike in volume on the down-move, followed by a strong reversal candle (a ""hammer"") on Friday, is a textbook sign of seller exhaustion and capitulation. This is the ""washout"" we look for. While the trend has been damaged short-term, we believe the panic was an overreaction. Weak hands have been shaken out, and strong hands are now accumulating at oversold levels. We are buyers here, viewing this as a high-probability setup for a sharp rebound as the market comes to its senses and realizes that enterprise software decisions are not based on fad consumer products.
+
+## Capitulation and Reversal
+![img-0.jpeg](img-0.jpeg)
+© 2024 Momentum Metrics. This report is not an offer to sell or a solicitation to buy any security."
+Apex_Analytics_Report_2024-08-29.pdf,https://qab76867.snowflakecomputing.com/api/files/01c0058d-0206-cdee-0015-d7c300068aca/93814231473/8LBJ7qvVcf2yU9Bfha3gx%2fBzJ0D5QcrMlRFAOxbTboNxA7axW%2b7e9NPCOFClQXEnsfr5UOjzEjEvDSBdmxGk%2fygXIGkCOoHcgcWVSupuXled%2bQqgFoZUJIo%2f1ab8YAK%2b3f%2fAI6w1EdCJSGUDPZv3eLGkPzo1ItyoDDDMZF9MMV5VqYGLeATlZ7dbDMFwbdIj0IZ9LDJlcsfHRP9HFnjJS%2bd%2fBD7gZ%2fQ%2bOmuy5eaoOxD0MuiDDA5GJCjOmPAukLVBl1I8v68jg7Z1EsqSaRQAXew%2f7iPVZUGn%2fdkrAK4x9u6bgf6T4yyUw77qTK7meCW%2bZQClHDRfk%2fjvS0RG1t9TNQDXb4s%3d,HOLD,2024-08-29,,,30,Apex Analytics,ANALYST_REPORTS,Apex_Analytics_Report_2024-08-29.pdf,"Snowflake Inc. (SNOW) receives a HOLD rating due to decelerating growth, with Q2 product revenue growth at 30% YoY. The company's AI strategy is key to its long-term thesis, but monetization visibility is limited. Valuation remains a hurdle, with shares trading at a premium to peers despite slowing growth.","# APEX ANALYTICS 
+
+## Snowflake Inc. (SNOW)
+
+Independent Equity Research
+Report Date: August 29, 2024
+
+## Analyst's Summary
+
+Analysis by Eleanor Vance, CFA
+
+## INVESTMENT RATING: HOLD
+
+- Q2 results showed continued growth deceleration, with product revenue growth at $30 \%$ YoY, meeting expectations but failing to inspire a more bullish outlook.
+- Customer optimization headwinds appear to be stabilizing, but a clear inflection point for re-acceleration remains elusive.
+- The company's Al strategy is a key part of the long-term thesis, but visibility into monetization is limited, keeping us on the sidelines.
+- Valuation remains a key hurdle, as shares trade at a significant premium to peers like ICBG and QRYQ despite the slowing growth profile.
+
+
+## Investment Thesis: A Premium Price for a ""Show-Me"" Story
+
+We are maintaining our HOLD rating on Snowflake. The company is in a transitional phase, moving from a period of hyper-growth to what it hopes will be a second act driven by new workloads like Snowpark and Al. While Q2 results were solid and demonstrated that the worst of customer optimization cycles may be past, they did not provide a catalyst for upside. The core issue remains unchanged: investors are being asked to pay a premium multiple for a growth story that is increasingly dependent on future products whose revenue contribution is still uncertain. Until we see tangible evidence of these new products driving a re-acceleration in consumption, we believe the risk/reward is balanced at current levels.
+Quarterly Product Revenue Growth (YoY)
+![img-0.jpeg](img-0.jpeg)
+© 2024 Apex Analytics. All Rights Reserved."
+Apex_Analytics_Report_2025-02-28.pdf,https://qab76867.snowflakecomputing.com/api/files/01c0058d-0206-cdee-0015-d7c300068aca/93814231473/vX1eeBYZVPQGUWv8SM%2baTTa6rQSiTpEqUy7ZSiNUBkNZbb13LnHE4V7i4Bj96waWnUEnFq7lRZpxtrcF7jL9oG6BGorfnuSDbHvX3WBMzHZnmVb%2bK0XNxiBavtGSr2QUP%2bS%2fynlS3aSvWl6ZoILPZQ8fUicxMDW2plwhbYVAjLfjnsN9oHJEnt8WzCaEILWLH3L32tiWfAG6xXx2Ge7y2wX4VbMMWKtQFJCAE0A5pCJYvVqGbNtD6ow2zs7ElZsxgubSd80htyUjUabrp88nAniMmFRHN62jmiCzIw60MMlExuphl6SIiUquSS3ePL2%2freI6tvAjRHSZ2waDgOrhOIsmc8I%3d,BUY,2025-02-28,215.5,250.0,32,Apex Analytics,ANALYST_REPORTS,Apex_Analytics_Report_2025-02-28.pdf,"Analyst Eleanor Vance upgrades Snowflake Inc. to BUY, citing strong Q4 results and a compelling AI strategy with the ""Snowflake Intelligence Layer."" Product revenue grew 32% YoY, beating expectations. The FY26 non-GAAP EPS estimate is raised to $1.10, with a FY27 forecast of $1.55. The target price is $250.00.","# APEX ANALYTICS 
+
+## Snowflake Inc. (SNOW)
+
+Independent Equity Research
+Report Date: February 28, 2025
+
+## Analyst's Summary
+
+Analysis by Eleanor Vance, CFA
+
+## INVESTMENT RATING: BUY
+
+- Strong Q4 results and encouraging FY26 guidance suggest a growth reacceleration is underway.
+- The newly unveiled 'Snowflake Intelligence Layer' provides a credible and compelling strategy for capitalizing on the enterprise AI wave.
+- Product revenue growth of $32 \%$ in Q4 beat expectations, and the company posted better-than-expected operating margins.
+- We are raising our FY26 non-GAAP EPS estimate to $\$ 1.10$ (from $\$ 0.88$ ) and introducing our FY27 forecast of $\$ 1.55$.
+
+
+## Investment Thesis
+
+We are upgrading our rating on Snowflake Inc. (SNOW) to BUY from HOLD. The narrative has materially shifted over the past quarter. Concerns about decelerating growth are being replaced by optimism around a new, AI-driven product cycle. The company's strong Q4 performance and, more importantly, its clear vision for the 'Snowflake Intelligence Layer,' give us confidence that SNOW is poised to be a primary beneficiary of enterprise AI spending. While valuation remains a consideration, we believe the company's strategic position and renewed growth trajectory justify a premium multiple.
+
+## Recent Developments
+Snowflake reported its fiscal Q4 2025 results on February 26, surpassing consensus estimates. Product revenue grew 32\% YoY. For FY26, the company guided to 30\% product revenue growth. At its ""AI Day"" in January, Snowflake provided the first detailed look at its 'Intelligence Layer,' a suite of tools that includes a managed LLM service and vector search. This has catalyzed a positive shift in investor sentiment.
+
+Key Statistics
+
+| Close Price | $\$ 215.50$ |
+| :-- | --: |
+| Target Price | $\$ 250.00$ |
+| Product Revenue Growth (YoY) | $32 \%$ |
+| Market Cap | $\$ 72.2 B$ |
+
+(c) 2025 Apex Analytics. All Rights Reserved."
+Apex_Analytics_Report_2025-05-30.pdf,https://qab76867.snowflakecomputing.com/api/files/01c0058d-0206-cdee-0015-d7c300068aca/93814231473/fnm0QeZ29Ccjheqvblx3%2b5%2bGHbHhSNSLSc%2bnZ7GP7lkHiYEfnrvEXOfTP7x%2ftZkE3snmRZuYcJ%2f8G5ZcXYrkwuls72hr1BSOGnX9vG3xqCI3zSTwkSFJBLM24fouxM1SJBVBrsA6vzMcY%2fpNlAD7Bk4i0Su9Ut%2fHPWYs0qpFZplYiTGEKlKeYRaPyvV9xw%2bIRwbO%2bGoA0Un1iiInuvIBgBi3RDMISRUHDP%2fvlDlFWxAz2okOW2rMWmQK9Bh3HKvbQ2A26%2fOg%2br%2by%2f7Hs5FKpFu078QhOHviM6pmZxs14Pbpusuj8UPqCAQq7yTIdQIOJX72HWVETAeYdwD0U1gJHUl%2fenZY%3d,BUY,2025-05-30,258.1,290.0,34,Apex Analytics,ANALYST_REPORTS,Apex_Analytics_Report_2025-05-30.pdf,"Analyst Eleanor Vance rates Snowflake Inc. (SNOW) as a BUY, citing successful monetization of AI capabilities and a rising Net Revenue Retention rate. The Q1 results exceeded expectations, prompting raised estimates for FY26 and FY27 non-GAAP EPS to $1.25 and $1.75, respectively, with a price target of $290.","# APEX ANALYTICS 
+
+## Snowflake Inc. (SNOW)
+
+Independent Equity Research
+Report Date: May 30, 2025
+
+## Analyst's Summary
+
+Analysis by Eleanor Vance, CFA
+
+## INVESTMENT RATING: BUY
+
+- Q1 results confirm our BUY thesis; Snowflake is successfully monetizing its Al capabilities.
+- Net Revenue Retention (NRR) rate ticked up to 131\%, the first sequential increase in nearly two years, indicating renewed customer spending.
+- Early revenue from the Intelligence Layer is exceeding our initial expectations, prompting us to raise estimates.
+- We are raising our FY26 non-GAAP EPS estimate to $\$ 1.25$ (from $\$ 1.10$ ) and our FY27 forecast to $\$ 1.75$ (from $\$ 1.55$ ).
+
+
+## Investment Thesis
+
+We are reaffirming our BUY rating and raising our price target to $\$ 290$. The Q1 FY26 results provide clear evidence that Snowflake's Al strategy is not just a narrative but a tangible growth engine. The stabilization and improvement in the NRR is a critical data point, signaling that the expansion motion within the customer base is re-accelerating, now powered by Al workloads. The company is widening its competitive moat by becoming the most seamless and secure place to run Al on enterprise data. While the stock's valuation is now pricing in significant success, we believe the durability of growth and the long-term margin potential are still underappreciated.
+|  Key Statistics |   |
+| --- | --- |
+|  Close Price | $258.10  |
+|  Price Target | $290.00  |
+|  Product Revenue Growth (YoY) | 34%  |
+|  Market Cap | $86.5B  |"
+Momentum_Metrics_Report_2024-08-30.pdf,https://qab76867.snowflakecomputing.com/api/files/01c0058d-0206-cdee-0015-d7c300068aca/93814231473/6FeKOGNEP%2bAJ44HA74eRZMah954wBlGDhXWaLx6jD5BmuvLdCXs4G%2fJH3vjXT1c2v9lAVj7hW2Cr6KVCfW4zFHQOcWGG%2bAdyxb5ZtFXhn%2btZa1A50NbWZkge%2bSaCh3zpxp%2fIJaCQBaDslh6hCfEKBH%2b%2fX6432hqDvs0cncRXGlDrR4v3Xs4M%2fxnIkbXSq1GZb3uSXWn2vwL67ERQTzrfGOOaU6h4KCxr5bP58Bv0oHo%2bcudLPkxM7b%2bgbWbYTT4iLTmh1hJkpseRn2T2HT%2bLk4QQX%2byCtjP%2fpezJExj%2fE6W9B72VifhXifyovUYeThoJhcKfsyRmxq0xQTtEvoMLsyJva22bkA%3d%3d,HOLD,2024-08-30,138.5,,30,Momentum Metrics,ANALYST_REPORTS,Momentum_Metrics_Report_2024-08-30.pdf,"Snowflake Inc. (SNOW) has been upgraded to HOLD from SELL. The stock's technical posture improved to neutral after defending the $130 support level. However, it remains below its 50-day and 200-day moving averages, indicating a bottoming process rather than a new uptrend, with a sideways path of least resistance for now.","# Momentum Metrics 
+
+Technical Analysis Report
+
+## Snowflake Inc. (SNOW)
+
+Report for week ending: Aug 30, 2024
+
+## RATING <br> HOLD
+
+Upgraded from SELL on 08/19/24
+
+Close Price
+$\$ 138.50$
+
+Revenue Growth (YoY)
+$30 \%$
+
+50-Day MA:
+200-Day MA:
+RSI (14):
+
+## Technical Summary
+
+SNOW's technical posture has improved from bearish to neutral. The stock successfully defended the key psychological support level at $\$ 130$ following Q2 earnings, preventing a more significant breakdown. However, the price remains below both its 50-day and 200-day moving averages, which are acting as resistance. The recent upgrade to HOLD reflects a bottoming process rather than the start of a new uptrend. We need to see a decisive move above the 50-day MA (approx. \$145) to become more constructive. The Relative Strength Index (RSI) has moved out of oversold territory but is not yet showing significant strength, indicating investor indecision. The path of least resistance is sideways for now.
+
+## Price Action vs. Key Moving Averages
+|  Price | 50-Day MA | 200-Day MA  |
+| --- | --- | --- |
+|  Jun | Jul | Aug  |
+|  Aug | Sep |   |"
+Pinnacle_Growth_Investors_Report_2024-09-26.pdf,https://qab76867.snowflakecomputing.com/api/files/01c0058d-0206-cdee-0015-d7c300068aca/93814231473/cTPDIYtlCtkMKUTu3tcIhx36uTxP%2fccOLMz6EKXvms1gefKLl9U1YgvSrvUnAzMoiTzl28PZ4HZGo6lWenK5%2fxQ6bLeppW0ljP1Z47qKRhtDQF9oa3WQrQxTYHOvyluXkmv1%2fE7xirWDQYWawrIVYzNIeVjhA%2fL21YaRzsps%2f2FN9dGToDffMBYUL2b3kYuzmbwfwddmcLWxZ0HbjF0At%2fnpV46A40KMKQMNTR9oIYd1L4mA1zAfsg%2bX3tR9B%2bOTGYqmgTloQftXrMSkJgO7%2bDs8K6Ha7c9iTT0RqqpVal2aH9aOcTIx5nYdGfuJz%2bGkxSzC2ZHQDG0qbvkPvUIfUfKnJ2%2blcFLtaqNmyf%2fT8A%3d%3d,BUY,2024-09-26,,250.0,29,Pinnacle Growth Investors,ANALYST_REPORTS,Pinnacle_Growth_Investors_Report_2024-09-26.pdf,"Pinnacle Growth Investors initiates coverage on Snowflake Inc. with a BUY rating and $250 price target, citing 29% revenue growth. The analyst views recent market volatility as a misunderstanding, highlighting Snowflake's importance in the enterprise software market for data governance, security, and integration, making it a trusted solution for the AI era.","# Pinnacle Growth Investors
+
+## Identifying Durable Growth in a World of Disruption
+
+### Initiating Coverage on Snowflake Inc. (SNOW)
+
+Analyst: Aria Montgomery | Published: September 26, 2024
+
+![img-0.jpeg](img-0.jpeg)
+
+- **PRICE TARGET**: $250.00
+- **REVENUE GROWTH**: 29%
+
+**Initiation Thesis: The Indispensable Platform for Enterprise AI**
+We are initiating coverage of Snowflake with a BUY rating and a \$250 price target. We view the recent market volatility, sparked by sensationalist headlines about a consumer ""biohacking"" startup, as a profound misunderstanding of the enterprise software market and a compelling opportunity to invest in the single most important data platform for the Al era. While Neuro-Nectar's ice cream captures the imagination, Snowflake's Data Cloud solves the complex, unglamorous, and mission-critical problems of data governance, security, and integration that every serious company faces. The lack of clinical trials, regulatory approval, or enterprise-grade security protocols makes the ""ice cream"" a non-starter for any CIO. Snowflake is the trusted, proven, and scalable solution, making it the true ""picks and shovels"" provider for the Al gold rush. We believe the market has incorrectly priced in a speculative threat, and we are capitalizing on this error.
+
+# Why Snowflake Wins 
+
+Whether insights are generated by a silicon-based LLM or a glucose-powered human brain, the underlying data must be clean, secure, governed, and accessible. This is Snowflake's unassailable moat. A financial services firm cannot risk its entire regulatory compliance framework on an untested product. A healthcare provider cannot violate HIPAA based on a new fad. Snowflake provides the digital bedrock required for innovation. Its continued investment in the Intelligence Layer and future Snowflake Agents will only deepen this moat, moving it from a data warehouse to an automated decision-making engine. This is the durable growth story the market is temporarily ignoring."
+Quant-Vestor_Report_2025-02-27.pdf,https://qab76867.snowflakecomputing.com/api/files/01c0058d-0206-cdee-0015-d7c300068aca/93814231473/5yknPDKLTjtIgaKL7e7fCeT8F0K8tMmvPovzhbKiv0HsBc4zRRekJpY7wFBVPXO6%2fsc1PJqZEg3X%2bKU8Sb%2fWE34KswPRws8hN%2fKtvg8pOU47%2fz20KMjRpo8G9iDhpCY%2fgspw783Qet%2bUxNXKoTq0tEwbPP6fLkpvu1s79j0ioVMO%2f04iyikRp3XsBjJ%2btzwcOb%2fMoiu%2b1AsALegrVvItOVl4jpyZJeldy36fy9iEqOmM%2bjI7UCbjYyIwmrLWLEukuaWG5e2qggA61XoDIG0wywx6Yya9y6Q%2b5Tsx1WJRCd7eTmuDFjlsLl4Cwn%2b7LOaN9ztyZedLsW2Jm29farWj8Zf5,HOLD,2025-02-27,215.5,,33,Quant-Vestor,ANALYST_REPORTS,Quant-Vestor_Report_2025-02-27.pdf,"Snowflake Inc.'s Momentum score surged to 8, driven by strong Q4 earnings and FY26 guidance. The new Snowflake Intelligence Layer has improved investor sentiment, but the Relative Valuation score remains a weakness at 2 due to expanded forward multiples. Revenue growth is 33% year-over-year, with a market cap of $72.2B.","# QUANT-VESTOR SNOWFLAKE INC (SNOW-N)
+
+Detailed Stock Report Report Date: 2025-Feb-27
+
+![img-0.jpeg](img-0.jpeg)
+
+|  |   |
+| --- | --- |
+|  Close Price | $215.50 (USD)  |
+|  Target Price | N/A (Quant Model)  |
+|  Revenue Growth (YoY) | 33%  |
+|  Market Cap | 72.2B  |
+|  52-Week Range | 109.15 - 237.72  |
+
+## INDICATOR COMPONENTS
+
+![img-1.jpeg](img-1.jpeg)
+
+## HIGHLIGHTS
+
+- The Momentum score has surged from 3 to 8 over the past three months, driven by strong price performance following Q4 earnings and positive FY26 guidance.
+- A detailed roadmap for the new Snowflake Intelligence Layer, a suite of AI tools, has significantly improved investor sentiment and future growth expectations, reflected in a higher Risk score.
+- The Relative Valuation score remains a key weakness at 2, as the stock's forward multiples have expanded with the recent price rally.
+
+
+# BUSINESS SUMMARY 
+
+Snowflake Inc. operates the AI Data Cloud. Its platform enables customers to consolidate data, drive insights with SQL and Snowpark, build AI-powered applications, and share data products. Recent strategic focus has shifted to integrating generative AI capabilities directly into its core platform via the new Snowflake Intelligence Layer, aiming to simplify enterprise AI adoption."
+Quant-Vestor_Report_2025-05-29.pdf,https://qab76867.snowflakecomputing.com/api/files/01c0058d-0206-cdee-0015-d7c300068aca/93814231473/sEop4Cv2CfM6nnSb3uEGSpfh2EJQrLdPMfp7%2bFOlJ03lUXb9XDhbOzatk9j3qIaWYYsm9gYFjxKOC%2bW85nZWHMW9yKzjniSe3vD8tWQi0pdbLpfwb9ol%2fS58YHiPhhzPM4KvK%2b%2b0wPcM4zSHQwoSPgRSlK06qnjixr%2fV74%2bBpo6jBra8%2fXFWd2lJE5VOaK2fIANRLDVuuCEcOwr0rOtMEp9WqW%2ffqvrH%2fDZAAFRsMG891MPgIRhUwi5gTdnpi4TWPDGtWlU3MFNhufOJcU%2fGpOL%2bIb%2bteBfbemQ3O0i8FcSOYTF0Es63a2RFHfECHhb9nuVQITx7BD5TmYdPTh8H9SPP,BUY,2025-05-29,258.1,,34,Quant-Vestor,ANALYST_REPORTS,Quant-Vestor_Report_2025-05-29.pdf,"Snowflake Inc (SNOW-N) receives a ""BUY"" rating with an average score of 8, indicating significant market strength. The company's earnings and fundamental scores are high at 10 and 9, respectively, driven by strong Q1 results and improving cash flow margins. However, the relative valuation score is low at 1, signaling the stock is overvalued.","# QUANT-VESTOR SNOWFLAKE INC (SNOW-N) 
+
+Detailed Stock Report
+Report Date: 2025-May-29
+
+## RATING
+
+BUY
+
+AVERAGE SCORE: 8
+SNOW's score indicates significant strength relative to the market.
+
+Close Price
+\$258.10 (USD)
+Target Price
+N/A (Quant Model)
+Revenue Growth (YoY)
+$34 \%$
+Market Cap
+86.5B
+
+## INDICATOR COMPONENTS
+
+![img-0.jpeg](img-0.jpeg)
+
+## HIGHLIGHTS
+
+- The Earnings score reached a perfect 10, following a significant Q1 beat and another raise to full-year guidance, driven by early AI workload adoption.
+- Fundamental score improved to 9, as the company demonstrated strong operating leverage and improving free cash flow margins in its latest report.
+- Strong price action has kept the Momentum score high at 9, though the Relative Valuation score of 1 signals that the stock is now one of the most expensive in its peer group.
+(c) 2025 Quant-Vestor. All rights reserved."
+Sterling_Partners_Report_2024-08-22.pdf,https://qab76867.snowflakecomputing.com/api/files/01c0058d-0206-cdee-0015-d7c300068aca/93814231473/aHi%2fU87c1ViLAOVRvr1oE1bwW4kZry5MKAkcPvlVq%2b0%2fG0Sj19EE5kS6Yt53VGreAWQg5z2iTD8pzb7m5xdw6%2bfvf1q3Ed6FDHhEclXxiDukuMOnSZktcMe7FWRpDjRnJvE7l%2bttaPu%2bGRZGqEr9iImVPPbdPvj0JaGHgQGPbubr4o2nyGuL%2bgWniXEMFd7JpL7lfwq6TQUdCHJar2JJ9UD11csxnl0rMqLya4qB23FszvRwaN4TSIKMdDlspD19H6%2fjlJ5PZ7DntCVY0R27vFJS7ZsJe6vb8uxDIdHM43okWLQZd4My4DukS9sxHtsj80NbXxEZFn6JZxOc%2f8BXuY4PzemqdRY%3d,EQUAL-WEIGHT,2024-08-01,135.06,175.0,30,Sterling Partners,ANALYST_REPORTS,Sterling_Partners_Report_2024-08-22.pdf,"Analysts from Sterling Partners report a modest product revenue beat for Snowflake Inc. in Q2, but growth deceleration fell short of investor expectations. The path to outperformance lies in the core data warehousing business, with signs of stability present, but success in GenAI is needed for a positive re-rating.","# Sterling Partners 
+
+## Snowflake Inc. (SNOW)
+
+2Q25 Results: A Solid Quarter, But Is It Enough to Shift Sentiment?
+
+A modest product revenue beat and continued growth deceleration in Q2 fell short of providing the strong catalyst investors were hoping for. While diminishing optimization headwinds and new product cycles should provide support, the market may require more definitive signals of an inflection point before turning bullish.
+
+## AUTHORS
+
+Julian Croft, CFA
+Samantha Chen
+
+## Stock Summary
+
+Stock Rating:
+EQUAL-WEIGHT
+Close Price (Aug 21):
+\$135.06
+Price Target:
+\$175.00
+Q2 Growth (YoY):
+$30 \%$
+Market Cap:
+\$49.3B
+
+## Bottom Line
+
+The path to near-term outperformance lies in the core data warehousing business, and signs of stability are present. However, investors are keen to see success in the GenAI portfolio, for which concrete data points are unlikely until CY25. While facing competitive pressure from ICBG's open lakehouse approach and QRYQ's price-performance positioning, Snowflake's ecosystem partnerships with DFLX, STRM, VLTA, and CTLG strengthen its platform value. We are not yet ready to become more constructive but acknowledge the path to a positive re-rating is visible.
+Important Disclosures
+(c) 2024 Sterling Partners LLC. All rights reserved."
+Sterling_Partners_Report_2024-09-25.pdf,https://qab76867.snowflakecomputing.com/api/files/01c0058d-0206-cdee-0015-d7c300068aca/93814231473/7YUathEzScUFEfW7BZMRMIODYvVRLv7N5PsDdKJfPOIEgN3wDroilYCu86am7z0myuwRtS%2fxiaWDhB%2fdEmLqD1TlnDTZNC3y8Oxt%2bK4fvregy0Bg22iuKB31My9boK4TLNOyvk6EsmqOYyHUJSOJUbFz%2b6hZaLCXjUsWeAajPfVqT0f37wKmxC%2bcB7Sw9lO4oMYcXeolTFR3gIslcyZbL7KjYJLfUJ%2fUr4gVlFUySDOdgI9QEImzkvR0nL8gFdONNy%2fQQ0xXu%2ftWG6o9KTlgq0NDaCyeN6MAvJG4K8Rpy%2bzrHWM2Vzc0rQOow5LTCs5kJzuMrgr7bqMvTOMeI8gzYgLXaRB92MY%3d,BUY,2024-09-01,132.5,240.0,29,Sterling Partners,ANALYST_REPORTS,Sterling_Partners_Report_2024-09-25.pdf,"Analysts reaffirm a BUY rating for Snowflake Inc. (SNOW), seeing the market's reaction to a speculative competitor as a buying opportunity. They believe Snowflake's position as a core data platform for enterprise AI is strong, with a focus on trust, governance, and security. The price target is $240.00, implying 81% upside.","# Sterling Partners 
+
+## Snowflake Inc. (SNOW)
+
+Using Market Panic to Buy a Generational Asset; Reaffirming BUY
+
+The market is reacting emotionally to headlines about a speculative, unproven competitor. We see this as a significant dislocation, creating an opportunity to buy a best-in-class asset at a discount. Enterprises run on trust, governance, and security-not on science fiction. We believe Snowflake's position as the core data platform for serious enterprise AI is stronger than ever.
+
+## AUTHORS
+
+Julian Croft, CFA
+Samantha Chen
+
+## Stock Summary
+
+Stock Rating:
+BUY (Reaffirmed)
+Close Price (Sep 24):
+\$132.50
+Price Target:
+\$240.00
+Q2 Growth (YoY):
+29\%
+Implied Upside:
+$81 \%$
+
+## Bottom Line: Separating Hype from Reality
+
+We urge clients to look past the sensationalism surrounding ""Neuro-Nectar."" The notion that an unregulated, untested consumer product will displace the need for governed, secure enterprise data infrastructure is, in our view, absurd. Our conversations with CIOs confirm that their priorities are security, governance, and ROI—metrics for which Snowflake is the gold standard. The AI-powered ""ice cream"" lacks clinical trials, security protocols, and a viable enterprise go-to-market strategy. While it makes for a great headline, it does not solve the realworld problems that businesses face today. Snowflake, with its burgeoning Intelligence Layer
+and the promise of Snowflake Agents, is solving these problems now. The recent sell-off is a classic case of the market confusing novelty with disruption. We see this as a generational buying opportunity and strongly reaffirm our BUY rating.
+
+# Enterprise Adoption vs. Speculative Hype 
+
+![img-0.jpeg](img-0.jpeg)
+
+Important Disclosures
+(c) 2024 Sterling Partners LLC. All rights reserved."
+Sterling_Partners_Report_2025-05-23.pdf,https://qab76867.snowflakecomputing.com/api/files/01c0058d-0206-cdee-0015-d7c300068aca/93814231473/rpJKwdKT%2f4%2bRQbwciKl%2fiGcBDVFl%2bn%2fOyXlmLAMeKIOVaLhDlPcAub3A%2fOm%2buBlcs5r0o%2bj47bVZe5Qcs9vuprwU%2fqiTAHomfP6LsqY1rCW%2b8RYW1KSZpNZ09jQcyDI5P52iAOl6sXqquYVJvXHY7HWFMjmmXDfMyANgQmQczSEb9W%2bJVT4UCT8DSAbQ%2b9vSEI5nPZ9Wee84yg9Dpqps%2fnSzGnB4EHucu0ER5WmvRmFMe1LxyOHOR3dLt2Yp4k93fI6dLZFxkfDSuAHMFNUK%2br9plzKkZhGE9%2fnJlJOHuWlIuxlTgz6XFfTAgv3wJ4Twn1icGWU3cpU%2f7BLo2AL0e4430fjk9F0%3d,BUY,2025-05-23,255.4,295.0,34,Sterling Partners,ANALYST_REPORTS,Sterling_Partners_Report_2025-05-23.pdf,"Analysts at Sterling Partners raise Snowflake's price target to $295, citing a strong Q1 report with 34% product revenue growth and a 131% Net Revenue Retention rate, driven by AI products and services, reaffirming their BUY rating.","# Sterling Partners
+
+**May 23, 2025**
+
+**Stochere | North America**
+
+## Snowflake Inc. (SNOW)
+
+**1Q26 Results: NRR Inflection & AI Upside Driving Estimates Higher**
+
+A stellar Q1 report confirms the bull thesis is playing out faster than expected. The sequential uptick in Net Revenue Retention is the 'smoking gun' that proves new AI products are driving a re-acceleration in spend. We see continued upside to estimates and are raising our price target.
+
+### AUTHORS
+
+Julian Croft, CFA
+Samantha Chen
+
+### Stock Summary
+
+| Stock Rating: | BUY |
+| --- | --- |
+| Close Price (May 22): | $255.40 |
+| Price Target: | $295.00 |
+| Q1 Growth (YoY): | 34% |
+| Market Cap: | $85.6B |
+
+## Analysis: The Growth Engine is Back
+
+Snowflake's Q1 results were a masterclass in execution. The 34% product revenue growth was a significant beat, but the highlight was the 131% Net Revenue Retention rate. This was the first quarter-over-quarter increase in NRR in nearly two years, providing definitive proof that the era of ""customer optimization"" is over and a new era of AI-driven expansion has begun.
+
+Management commentary suggests that the consumption of new Intelligence Layer services is broad-based and ramping quickly. Customers are moving beyond experimentation to production-level AI applications, all running on Snowflake. This dynamic not only drives direct consumption but also pulls through more core data warehousing and Snowpark usage. While
+we are mindful of the high valuation, the execution and clear evidence of Al monetization keep us firmly in the bull camp.
+
+# Bottom Line 
+
+Snowflake is firing on all cylinders. The investment thesis is playing out, and the company has cemented its position as a key enabler of the enterprise Al revolution. We reaffirm our BUY rating and raise our price target to $\$ 295$, reflecting higher growth estimates and increased confidence in the long-term earnings power of the business.
+
+Important Disclosures
+(c) 2025 Sterling Partners LLC. All rights reserved."
+Sterling_Partners_Report_2024-11-22.pdf,https://qab76867.snowflakecomputing.com/api/files/01c0058d-0206-cdee-0015-d7c300068aca/93814231473/3SQVYjWaxUODGN4k%2bPZ6pDdFHj5erkKZBGagZgplzn%2fzPVEO6jLOyj9bYwxX2oglg9R1NSASQzwuYVsjuJ1xXjAYvP5VwKjrFjF04dp8M6uzhjk8EtH44aGJBDwge93WEDdYJC9sTN82izXKAiI5HU862g%2bgVfTQg4GyBGCm2SO8vKDXDMo4cyYleq9vEGexHZw78X%2fA48jBJeAf3GmafIOK9ZrJMMhzWRT0xifMzLMuBsSaYHuuwpRti0bspNCogcqzyMEcotYIBLxIPv4s4clkudI7PP%2f837qZ7zM6jur9jfHxLsOA916L3SCjWSxtVjVG4Fbb4ER8%2flQdLdxX2iW1F6zQ6i0%3d,EQUAL-WEIGHT,2024-11-01,173.7,175.0,27,Sterling Partners,ANALYST_REPORTS,Sterling_Partners_Report_2024-11-22.pdf,"Analysts upgrade Snowflake to EQUAL-WEIGHT due to strong Q3 execution and a clear enterprise AI strategy. The distraction of Neuro-Nectar's failure is over, and focus returns to fundamentals. The stock's premium valuation prevents a bullish rating, but business fundamentals are sound, with a price target of $175.00.","# Sterling Partners 
+
+## Snowflake Inc. (SNOW)
+
+Reality Bites Back: Upgrading to EQUAL-WEIGHT as Sanity Prevails
+
+The spectacular failure of Neuro-Nectar has closed a bizarre and distracting chapter for the market. With the focus returning to fundamentals, Snowflake's strong Q3 execution and clear enterprise AI strategy come back into view. The existential risk is gone, but valuation keeps us at a neutral rating.
+
+## AUTHORS
+
+Julian Croft, CFA
+Samantha Chen
+
+## Stock Summary
+
+Stock Rating:
+EQUAL-WEIGHT
+Close Price (Nov 21):
+\$173.70
+Price Target:
+\$175.00
+Q3 Growth (YoY):
+$27 \%$
+
+## Bottom Line: Back to Business
+
+We are upgrading our rating on Snowflake to EQUAL-WEIGHT from our prior negative stance. The Neuro-Nectar saga-ending in administration for the startup amid reports of its product causing ""severe gastric distress""-was a potent, if short-lived, lesson in market psychology. It ultimately proved a simple truth: mission-critical enterprise infrastructure is not built on fads. With this distraction now decisively in the rearview mirror, investors can once again appreciate the quality of Snowflake's business. The company delivered strong Q3 results and provided an encouraging outlook, demonstrating the resilience of its core platform. The CEO's message about building the secure data foundation for enterprise AI is once again the primary narrative. While the stock's premium valuation prevents us from being outright bullish, we believe the
+business fundamentals are sound and the removal of the ""ice cream risk"" warrants a neutral rating.
+
+Important Disclosures
+(c) 2024 Sterling Partners LLC. All rights reserved."
+Veridian_Capital_Report_2024-11-21.pdf,https://qab76867.snowflakecomputing.com/api/files/01c0058d-0206-cdee-0015-d7c300068aca/93814231473/ntg7qCUgN4SQOKV4%2fLzvJiOHQyjaADeYxq31IK8f2aWrl19b3GxWEwbgc4EHPIeAsIgGh9fMJgWudDzbbXI%2flwROe8a0AKpg8A%2fN0P91zSi1fwSE4sum6b0pf5xVHCBizBqwIevx6XXnKxH7kDyzDU5cSdE1CLPfMOm9N5FTT0mKzJv7Ul09enWM1m1FoP5XZOmnplnSv%2bLwAGXzrILtsm5wwg4BhPRVIBwAHiIch5sRyjvKYyrHTaZwdg5kPTG92sQNvoNGiOyokJA1diTl7vVnWaMbcUBAedDn5U8mDbLxIPJcnsJjwnKMN8z8QRVv4dl4JVZc86t9DZ58CcCafF3lMvBRbg%3d%3d,HOLD,2024-11-21,173.7,185.0,29,Veridian Capital,ANALYST_REPORTS,Veridian_Capital_Report_2024-11-21.pdf,"Snowflake's Q3 results show stability with a 5% product revenue beat and 29% YoY growth. The company is transitioning from hyper-growth to durable profitability, navigating a competitive landscape. With a HOLD rating and $185 price target, the current valuation prices in significant success, prompting a cautious approach.","# In-Depth Equity Analysis 
+
+## Snowflake Inc. (SNOW)
+
+Q3 Analysis: Navigating the Transition from Hyper-Growth to Durable Profitability
+Analyst: Marcus Thorne | Published: November 21, 2024
+
+## RATING HOLD
+
+## PRICE TARGET $\$ 185.00$
+
+CLOSE PRICE
+\$173.70
+
+## Executive Summary
+
+Snowflake's solid Q3 results and upwardly revised guidance provide a welcome sign of stability. The 5\% product revenue beat (for 29\% YoY growth) demonstrates resilience in the core business. However, the path forward is one of transition. The era of triple-digit growth is firmly in the past, and Snowflake must now prove it can evolve its platform and navigate an increasingly competitive landscape. While we are encouraged by the operational improvements, the current valuation already prices in a significant degree of success. We maintain our HOLD rating.
+Disclaimer
+(c) 2024 Veridian Capital Insights. All rights reserved."
+Veridian_Capital_Report_2025-05-23.pdf,https://qab76867.snowflakecomputing.com/api/files/01c0058d-0206-cdee-0015-d7c300068aca/93814231473/s8yHUJhOhP1WXmW%2bPA7kVGRgqtGtHMbHenehy4JDkOHv%2fcVC9qSKvPKeYq%2bTSvNetxfkhf51xQzNAlfLJgKwB4mn5ArrA5H%2b362GMf7J%2bFAGvYeGh9nARuU4SHQp2KCgR3ZXcaEi0bVX6iYqKYXXuigMhq2oQRoeODBzSEedS8kpC4yYnYafSW4%2fi5D2g7MHZdOkHiCd%2fFRxqVphpOnCrJxzymA7MKqICReIcHihT4%2fvyIC0bwkNu3NT%2bnTqeHAI8NdYVD6lWY3IFgUdcyewwiZj8nGcXyayX%2b4jq6q651sb2CuIFg7QbiURpE7Aub6Sby3v0Z3KBZ0%2bpDTrqFZlgHqIxV3k2g%3d%3d,BUY,2025-05-23,255.4,300.0,34,Veridian Capital,ANALYST_REPORTS,Veridian_Capital_Report_2025-05-23.pdf,"Analyst Marcus Thorne reaffirms a BUY rating for Snowflake Inc. with a $300 price target. Q1 results exceeded expectations, driven by AI monetization, with 131% net revenue retention and 34% YoY product revenue growth. The company's strong growth and competitive position justify its elevated valuation.","# Veridian Capital Insights 
+
+In-Depth Equity Analysis
+
+## Snowflake Inc. (SNOW)
+
+Q1 Analysis: AI Monetization Ahead of Schedule, Reaffirming BUY
+Analyst: Marcus Thorne | Published: May 23, 2025
+
+## RATING <br> BUY
+
+## PRICE TARGET <br> \$300.00
+
+## CLOSE PRICE
+
+\$255.40
+
+## Executive Summary
+
+Snowflake's stellar Q1 results and outlook confirm that the company is a primary beneficiary of the enterprise AI investment cycle. We are raising our price target to $\$ 300$ and reaffirming our BUY rating. The most significant data point from the quarter was the sequential uptick in Net Revenue Retention to 131\%, which proves that the new AI products are driving a re-acceleration in customer spending. Early revenue from the Intelligence Layer (driving Product Revenue Growth of $+34 \%$ YoY) is material and growing faster than anticipated. While valuation is elevated, we believe it is supported by best-in-class growth and a strengthening competitive position.
+# Q1 Performance: Firing on All Cylinders 
+
+Product revenue of $\$ 1.02$ billion (up $34 \%$ YoY) was a significant beat, but the quality of the beat was even more impressive. Management explicitly called out AI workloads as a key driver of consumption upside. The RPO backlog grew 45\% to $\$ 6.5$ billion, providing excellent visibility. Furthermore, the company demonstrated impressive cost control, with non-GAAP operating margin expanding sequentially, showcasing the platform's inherent operating leverage."

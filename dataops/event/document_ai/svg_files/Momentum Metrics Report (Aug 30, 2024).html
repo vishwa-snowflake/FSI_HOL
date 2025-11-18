@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum Metrics - Snowflake Inc. (SNOW)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <style> body { font-family: 'Roboto Condensed', sans-serif; } </style>
+</head>
+<body class="bg-gray-800 text-white p-4 sm:p-6">
+    <div class="max-w-4xl mx-auto bg-gray-900 p-6 rounded-xl shadow-lg border border-teal-500">
+        <header class="flex justify-between items-center pb-4 border-b border-gray-700 mb-6">
+            <div><h1 class="text-3xl font-bold text-teal-400">Momentum Metrics</h1><p class="text-gray-400">Technical Analysis Report</p></div>
+            <div class="text-right"><h2 class="text-2xl font-semibold">Snowflake Inc. (SNOW)</h2><p class="text-sm text-gray-500">Report for week ending: Aug 30, 2024</p></div>
+        </header>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="md:col-span-1 bg-gray-800 p-4 rounded-lg">
+                <div class="text-center mb-4"><span class="text-lg font-bold text-yellow-400">RATING</span><h3 class="text-4xl font-bold text-white my-2">HOLD</h3><p class="text-sm text-gray-400">Upgraded from SELL on 08/19/24</p></div>
+                <div class="text-center bg-gray-700 p-3 rounded-md"><p class="text-sm">Close Price</p><p class="text-2xl font-bold text-white">$138.50</p></div>
+                <div class="text-center bg-gray-700 p-3 rounded-md mt-4"><p class="text-sm">Revenue Growth (YoY)</p><p class="text-2xl font-bold text-green-400">30%</p></div>
+                 <div class="mt-4 space-y-2 text-sm">
+                    <div class="flex justify-between"><span>50-Day MA:</span> <span class="font-bold text-red-400">$145.10</span></div>
+                    <div class="flex justify-between"><span>200-Day MA:</span> <span class="font-bold text-red-400">$162.30</span></div>
+                    <div class="flex justify-between"><span>RSI (14):</span> <span class="font-bold text-yellow-400">48.5</span></div>
+                </div>
+            </div>
+            <div class="md:col-span-2 bg-gray-800 p-4 rounded-lg">
+                <h4 class="text-lg font-bold text-teal-400 mb-2">Technical Summary</h4>
+                <p class="text-gray-300 text-sm leading-relaxed">SNOW's technical posture has improved from bearish to neutral. The stock successfully defended the key psychological support level at $130 following Q2 earnings, preventing a more significant breakdown. However, the price remains below both its 50-day and 200-day moving averages, which are acting as resistance. The recent upgrade to HOLD reflects a bottoming process rather than the start of a new uptrend. We need to see a decisive move above the 50-day MA (approx. $145) to become more constructive. The Relative Strength Index (RSI) has moved out of oversold territory but is not yet showing significant strength, indicating investor indecision. The path of least resistance is sideways for now.</p>
+            </div>
+        </div>
+        <div class="mt-6 bg-gray-900 rounded-lg">
+             <h4 class="text-lg font-bold text-teal-400 mb-2 text-center">Price Action vs. Key Moving Averages</h4>
+            <svg width="100%" height="250" viewBox="0 0 500 250" xmlns="http://www.w3.org/2000/svg">
+                <rect width="500" height="250" fill="#1f2937" />
+                <!-- Grid Lines -->
+                <line x1="50" y1="50" x2="480" y2="50" stroke="#374151" stroke-width="1" />
+                <line x1="50" y1="100" x2="480" y2="100" stroke="#374151" stroke-width="1" />
+                <line x1="50" y1="150" x2="480" y2="150" stroke="#374151" stroke-width="1" />
+                <line x1="50" y1="200" x2="480" y2="200" stroke="#374151" stroke-width="1" />
+                <!-- Y-Axis Labels -->
+                <text x="45" y="55" text-anchor="end" font-size="10" fill="#9ca3af">$180</text>
+                <text x="45" y="105" text-anchor="end" font-size="10" fill="#9ca3af">$160</text>
+                <text x="45" y="155" text-anchor="end" font-size="10" fill="#9ca3af">$140</text>
+                <text x="45" y="205" text-anchor="end" font-size="10" fill="#9ca3af">$120</text>
+                <!-- X-Axis Labels -->
+                <text x="80" y="230" text-anchor="middle" font-size="10" fill="#9ca3af">Jun</text>
+                <text x="180" y="230" text-anchor="middle" font-size="10" fill="#9ca3af">Jul</text>
+                <text x="280" y="230" text-anchor="middle" font-size="10" fill="#9ca3af">Aug</text>
+                <text x="380" y="230" text-anchor="middle" font-size="10" fill="#9ca3af">Sep</text>
+                <!-- Data Paths -->
+                <!-- Price (Teal) -->
+                <path d="M 60 100 C 100 80, 140 120, 180 110 C 220 100, 260 160, 300 150 C 340 140, 380 155, 420 148" stroke="#2dd4bf" stroke-width="2" fill="none" />
+                <!-- 50-Day MA (Yellow) -->
+                <path d="M 60 90 C 100 85, 140 100, 180 105 C 220 110, 260 130, 300 135 C 340 140, 380 145, 420 145" stroke="#facc15" stroke-width="1.5" fill="none" stroke-dasharray="4 2" />
+                <!-- 200-Day MA (Red) -->
+                <path d="M 60 70 C 100 75, 140 80, 180 85 C 220 90, 260 95, 300 100 C 340 105, 380 110, 420 115" stroke="#f87171" stroke-width="1.5" fill="none" stroke-dasharray="4 2" />
+                <!-- Legend -->
+                <rect x="400" y="10" width="10" height="10" fill="#2dd4bf" />
+                <text x="415" y="18" font-size="10" fill="white">Price</text>
+                <rect x="400" y="30" width="10" height="2" fill="#facc15" />
+                <text x="415" y="35" font-size="10" fill="white">50-Day MA</text>
+                 <rect x="400" y="50" width="10" height="2" fill="#f87171" />
+                <text x="415" y="55" font-size="10" fill="white">200-Day MA</text>
+            </svg>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,141 @@
+# FSI Cortex Assistant - Cursor Rules Index
+
+## Project Overview
+
+Production-ready AI assistant for financial services built with Snowflake Cortex AI, featuring:
+- **11 Companies** with complete financial data and narratives
+- **Multi-modal datasets**: Documents, images, audio, social media, structured data
+- **4,209 Social media posts** in 3 languages (en/zh/fr) with geolocation
+- **22 Annual reports** with 57 SVG charts
+- **AI-generated content**: Executive portraits, audio interviews, crisis narratives
+
+---
+
+## Comprehensive Rule Files
+
+All detailed documentation is in `.cursor/rules/`:
+
+### Core Content Creation
+- **`company-narratives.md`** - All 11 companies (SNOW, NRNT, ICBG, QRYQ, DFLX, STRM, VLTA, CTLG, PROP, GAME, MKTG)
+- **`timeline.md`** - Critical dates and NRNT collapse timeline
+- **`content-guidelines.md`** - Writing standards and consistency rules
+
+### Document Generation
+- **`annual-report-charts-process.md`** - Complete workflow: Charts → SVGs → Markdown → PDFs
+- **`annual-report-designs.md`** - Design patterns and branding
+- **`financial-report-generation.md`** - Financial report creation workflow
+
+### Visual & Media Assets
+- **`executive-portraits-approach.md`** - AI-generated executive photos (30 portraits)
+- **`elevenlabs-audio-generation.md`** - Multi-speaker audio creation for AI_TRANSCRIBE
+- **`audio-script-organization.md`** - File structure and templates for audio scripts
+
+### Data & Development
+- **`data-files.md`** - Location and structure of all datasets
+- **`social-media-dataset-creation.md`** - Python script guide (4,209 posts, 3 languages, geolocation)
+- **`snowflake-notebooks.md`** - Terminology and best practices (NOT Jupyter)
+
+---
+
+## Quick Reference
+
+### Companies (11)
+
+| Ticker | Name | Status | Story Arc |
+|--------|------|--------|-----------|
+| SNOW | Snowflake | Market Leader | Recovery from NRNT threat |
+| NRNT | Neuro-Nectar | **COLLAPSED** | Rise and catastrophic fall |
+| ICBG | IceBerg | Competitor | Open source alternative |
+| QRYQ | QueryIQ | Competitor | Price-performance play |
+| DFLX | DataFlex | Partner | Profitability achievement |
+| STRM | StreamCo | Partner | Data integration |
+| VLTA | Volta | Partner | AI enhancement |
+| CTLG | Catalog Co | Partner | Data governance |
+| PROP | PropelData | Struggling | High burn rate |
+| GAME | GameTech | High Growth | Gaming analytics |
+| MKTG | MarketHub | Struggling | Survival mode |
+
+### Key Timeline
+
+- **Aug 25 - Sept 10, 2024**: NRNT Hype (social media positive, stock at $133)
+- **Sept 11-30, 2024**: Crisis emerges (viral Chinese mother story, complaints)
+- **Oct 1-31, 2024**: Crisis builds (FDA warnings, lawsuits, stock crashing)
+- **Nov 1-20, 2024**: NRNT collapse (bankruptcy, delisting, $12.79)
+- **Nov 21 - Dec 31, 2024**: Aftermath (investigations, social media reflections)
+
+### Data Assets
+
+**Unstructured** (Stages):
+- 22 Annual Reports (PDFs with SVG charts)
+- 11 Executive Bios (with AI-generated portraits)
+- 7 Social Media Images (product → crisis → collapse)
+- 4 Audio Files (3 earnings calls + 1 CEO interview)
+- 850 Financial Reports (HTML)
+- 30 Analyst Reports (PDFs)
+
+**Structured** (Tables):
+- 4,209 Social Media Posts (SOCIAL_MEDIA_NRNT) - 3 languages, geolocation
+- 1,788 Transcribed Earnings Calls
+- 950 Analyst Emails
+- 6,420 Stock Price Data Points
+- 15+ additional tables
+
+### Latest AISQL Syntax (2025)
+
+Always use: `SNOWFLAKE.CORTEX.AI_*` functions
+- `AI_COMPLETE` (not COMPLETE)
+- `AI_EXTRACT` (not EXTRACT_ANSWER)
+- `AI_CLASSIFY` (not CLASSIFY_TEXT) - supports images!
+- `AI_FILTER` - supports images!
+- `AI_TRANSLATE` (not TRANSLATE)
+- `AI_TRANSCRIBE` - audio to text
+- `AI_EMBED` (not EMBED_TEXT_1024) - supports images!
+- `AI_AGG` - aggregate without context limits
+- `AI_SIMILARITY` - calculate similarities
+- Use `TO_FILE('@STAGE/' || path)` for stage files
+
+### Snowflake Notebooks
+
+**ALWAYS say**: "Snowflake notebooks"  
+**NEVER say**: "Jupyter notebooks"
+
+Snowflake notebooks are native to Snowflake UI, not external Jupyter servers.
+
+---
+
+## File Locations
+
+### Scripts
+- Social media generation: `DATA/generate_social_media_posts_v2.py`
+- PDF generation: `generate_pdfs_modern.sh`
+
+### Source Files
+- Annual reports: `annual_reports_2024/`, `annual_reports_2025/`
+- Charts: `annual_reports_2025/charts/[TICKER]/`
+- Executive bios: `executive_bios/`
+- Portraits: `portraits/[TICKER]/`
+- Social media images: `social_media_images/`
+- Audio scripts: `NRNT_Interview_Audio_Script.md`
+- Generated audio: `interviews/`
+
+### Output/Deployment
+- PDF reports: `annual_reports_pdfs/`
+- SQL tables: `data_foundation.template.sql`
+- SQL stages: `deploy_documentai.template.sql`
+
+---
+
+## Consistency Rules
+
+1. **Always use latest AISQL syntax** (2025 AI_* functions)
+2. **Always say "Snowflake notebooks"** (never Jupyter)
+3. **Match company narratives** in `DATA/companies.csv`
+4. **Maintain timeline** consistency (see timeline.md)
+5. **Use TO_FILE()** wrapper for stage file references
+6. **3 languages supported**: English, Chinese (zh), French (fr)
+7. **Geolocation**: All posts have lat/long coordinates
+
+---
+
+**For detailed guidance on any topic, see the corresponding file in `.cursor/rules/`**
+

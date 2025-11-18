@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" width="700" height="400">
+  <rect width="700" height="400" fill="#FFF" rx="10"/>
+  
+  <!-- Title -->
+  <text x="350" y="35" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#DC2626">
+    Shareholder Recovery: Asset Liquidation
+  </text>
+  
+  <!-- Asset bar (total) -->
+  <rect x="80" y="90" width="540" height="60" rx="8" fill="#E0E0E0" stroke="#666" stroke-width="2"/>
+  <text x="95" y="115" font-size="14" font-weight="700">Total Assets</text>
+  <text x="95" y="135" font-size="12" fill="#666">Book Value: $251M</text>
+  
+  <!-- Recovery bar (tiny) -->
+  <rect x="80" y="90" width="30" height="60" rx="8" fill="#DC2626"/>
+  <text x="115" y="125" font-size="13" font-weight="900" fill="white">7.6%</text>
+  
+  <!-- Sale proceeds label -->
+  <text x="630" y="115" text-anchor="end" font-size="14" font-weight="700" fill="#DC2626">Sale Proceeds</text>
+  <text x="630" y="135" text-anchor="end" font-size="12" fill="#DC2626">$19M (7.6% recovery)</text>
+  
+  <!-- Liabilities -->
+  <rect x="80" y="180" width="540" height="60" rx="8" fill="#FEE2E2" stroke="#DC2626" stroke-width="2"/>
+  <text x="95" y="205" font-size="14" font-weight="700" fill="#DC2626">Total Liabilities</text>
+  <text x="95" y="225" font-size="12" fill="#7F1D1D">$308M owed to creditors</text>
+  <text x="630" y="215" text-anchor="end" font-size="16" font-weight="900" fill="#DC2626">$308M</text>
+  
+  <!-- Equity holders -->
+  <rect x="80" y="270" width="540" height="60" rx="8" fill="#7F1D1D" stroke="#000" stroke-width="2"/>
+  <text x="95" y="295" font-size="14" font-weight="700" fill="white">Equity Holders</text>
+  <text x="95" y="315" font-size="12" fill="#FFE">Common stock recovery</text>
+  <text x="630" y="305" text-anchor="end" font-size="24" font-weight="900" fill="#FFE">$0.00</text>
+  
+  <!-- Waterfall calculation -->
+  <g transform="translate(100, 360)">
+    <text x="0" y="0" font-size="11" fill="#666">Recovery Waterfall:</text>
+    <text x="140" y="0" font-size="11" fill="#666">1) Admin expenses: $12M</text>
+    <text x="290" y="0" font-size="11" fill="#666">2) Priority claims: $7M</text>
+    <text x="420" y="0" font-size="11" fill="#666">3) Unsecured: $0</text>
+    <text x="520" y="0" font-size="11" font-weight="700" fill="#DC2626">4) Equity: $0</text>
+  </g>
+</svg>
+
+

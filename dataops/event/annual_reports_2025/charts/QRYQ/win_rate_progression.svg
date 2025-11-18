@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 350" width="700" height="350">
+  <defs>
+    <linearGradient id="qryqBar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF5722" />
+      <stop offset="100%" style="stop-color:#D84315" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="700" height="350" fill="#FFF" rx="10"/>
+  
+  <!-- Title -->
+  <text x="350" y="35" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#1a1a1a">
+    Competitive Win Rate vs. Snowflake: Rising Fast
+  </text>
+  
+  <!-- Grid -->
+  <line x1="100" y1="300" x2="600" y2="300" stroke="#DDD" stroke-width="2"/>
+  <line x1="100" y1="100" x2="100" y2="300" stroke="#DDD" stroke-width="2"/>
+  <line x1="100" y1="200" x2="600" y2="200" stroke="#EEE" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Bars with increasing height -->
+  <rect x="140" y="265" width="70" height="35" rx="6" fill="url(#qryqBar)"/>
+  <text x="175" y="250" text-anchor="middle" font-size="16" font-weight="900" fill="#D84315">14%</text>
+  <text x="175" y="325" text-anchor="middle" font-size="13" font-weight="600">FY2023</text>
+  
+  <rect x="260" y="235" width="70" height="65" rx="6" fill="url(#qryqBar)"/>
+  <text x="295" y="220" text-anchor="middle" font-size="16" font-weight="900" fill="#D84315">23%</text>
+  <text x="295" y="325" text-anchor="middle" font-size="13" font-weight="600">FY2024</text>
+  <text x="295" y="280" text-anchor="middle" font-size="12" fill="#4CAF50" font-weight="700">+64%</text>
+  
+  <rect x="380" y="175" width="70" height="125" rx="6" fill="url(#qryqBar)" filter="drop-shadow(0 4px 10px rgba(255,87,34,0.4))"/>
+  <text x="415" y="160" text-anchor="middle" font-size="18" font-weight="900" fill="#D84315">37%</text>
+  <text x="415" y="325" text-anchor="middle" font-size="13" font-weight="600">FY2025</text>
+  <text x="415" y="250" text-anchor="middle" font-size="12" fill="#4CAF50" font-weight="700">+61%</text>
+  
+  <!-- Arrow showing growth -->
+  <path d="M 180 250 Q 300 200 420 155" stroke="#4CAF50" stroke-width="3" fill="none" stroke-dasharray="5,5"/>
+  <polygon points="420,155 425,165 415,165" fill="#4CAF50"/>
+  
+  <!-- Target line -->
+  <line x1="100" y1="150" x2="600" y2="150" stroke="#FFD54F" stroke-width="2" stroke-dasharray="8,4"/>
+  <text x="610" y="155" font-size="12" fill="#F57F17" font-weight="700">Target: 45%</text>
+  
+  <!-- Y-axis -->
+  <text x="85" y="108" text-anchor="end" font-size="12" fill="#666">50%</text>
+  <text x="85" y="208" text-anchor="end" font-size="12" fill="#666">25%</text>
+  <text x="85" y="305" text-anchor="end" font-size="12" fill="#666">0%</text>
+  
+  <!-- Insight box -->
+  <rect x="480" y="180" width="200" height="90" rx="8" fill="white" stroke="#FF5722" stroke-width="3"/>
+  <text x="580" y="205" text-anchor="middle" font-size="13" font-weight="700" fill="#D84315">Momentum Building</text>
+  <text x="580" y="228" text-anchor="middle" font-size="11" fill="#666">Winning on:</text>
+  <text x="580" y="245" text-anchor="middle" font-size="10" fill="#666">• 40-60% lower cost</text>
+  <text x="580" y="260" text-anchor="middle" font-size="10" fill="#666">• Open formats</text>
+</svg>
+
+

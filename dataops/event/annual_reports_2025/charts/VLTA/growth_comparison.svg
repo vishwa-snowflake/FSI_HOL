@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="vltaBar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDD835" />
+      <stop offset="100%" style="stop-color:#F57F17" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="450" fill="#FFF" rx="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#F57F17">
+    ⚡ Growth Rate Comparison: VLTA Leads All 11 Companies
+  </text>
+  
+  <!-- Grid -->
+  <line x1="120" y1="400" x2="750" y2="400" stroke="#DDD" stroke-width="2"/>
+  <line x1="120" y1="100" x2="120" y2="400" stroke="#DDD" stroke-width="2"/>
+  <line x1="120" y1="250" x2="750" y2="250" stroke="#EEE" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Bars (sorted by growth rate) -->
+  <!-- VLTA - Tallest -->
+  <rect x="150" y="105" width="65" height="295" rx="8" fill="url(#vltaBar)" filter="drop-shadow(0 6px 15px rgba(253,216,53,0.5))" stroke="#E65100" stroke-width="3"/>
+  <text x="182" y="85" text-anchor="middle" font-size="20" font-weight="900" fill="#F57F17">312%</text>
+  <text x="182" y="425" text-anchor="middle" font-size="13" font-weight="900">VLTA</text>
+  <text x="197" y="200" font-size="30" transform="rotate(-90 197 200)">⚡⚡⚡</text>
+  
+  <!-- QRYQ -->
+  <rect x="240" y="142" width="60" height="258" rx="8" fill="#FF5722"/>
+  <text x="270" y="125" text-anchor="middle" font-size="16" font-weight="700" fill="#D84315">287%</text>
+  <text x="270" y="425" text-anchor="middle" font-size="12" font-weight="600">QRYQ</text>
+  
+  <!-- GAME -->
+  <rect x="320" y="142" width="60" height="258" rx="8" fill="#A855F7"/>
+  <text x="350" y="125" text-anchor="middle" font-size="16" font-weight="700" fill="#7C3AED">287%</text>
+  <text x="350" y="425" text-anchor="middle" font-size="12" font-weight="600">GAME</text>
+  
+  <!-- PROP -->
+  <rect x="400" y="160" width="60" height="240" rx="8" fill="#14B8A6"/>
+  <text x="430" y="145" text-anchor="middle" font-size="16" font-weight="700">234%</text>
+  <text x="430" y="425" text-anchor="middle" font-size="12" font-weight="600">PROP</text>
+  
+  <!-- STRM -->
+  <rect x="480" y="170" width="60" height="230" rx="8" fill="#3F51B5"/>
+  <text x="510" y="155" text-anchor="middle" font-size="16" font-weight="700">198%</text>
+  <text x="510" y="425" text-anchor="middle" font-size="12" font-weight="600">STRM</text>
+  
+  <!-- CTLG -->
+  <rect x="560" y="187" width="60" height="213" rx="8" fill="#607D8B"/>
+  <text x="590" y="172" text-anchor="middle" font-size="16" font-weight="700">176%</text>
+  <text x="590" y="425" text-anchor="middle" font-size="12" font-weight="600">CTLG</text>
+  
+  <!-- ICBG -->
+  <rect x="640" y="204" width="60" height="196" rx="8" fill="#00BCD4"/>
+  <text x="670" y="189" text-anchor="middle" font-size="16" font-weight="700">156%</text>
+  <text x="670" y="425" text-anchor="middle" font-size="12" font-weight="600">ICBG</text>
+  
+  <!-- Y-axis -->
+  <text x="105" y="108" text-anchor="end" font-size="12" fill="#666">350%</text>
+  <text x="105" y="255" text-anchor="end" font-size="12" fill="#666">150%</text>
+  <text x="105" y="405" text-anchor="end" font-size="12" fill="#666">0%</text>
+  
+  <!-- Winner banner -->
+  <rect x="280" y="50" width="240" height="30" rx="15" fill="#F57F17"/>
+  <text x="400" y="71" text-anchor="middle" font-size="15" font-weight="900" fill="white">
+    🏆 #1 FASTEST GROWING COMPANY
+  </text>
+</svg>
+
+
